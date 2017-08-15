@@ -33,7 +33,6 @@ function amendJsonLoader(configurator, options) {
     });
 }
 
-
 function amendXMLLoader(configurator, options) {
   return configurator
     .loader('xml', {
