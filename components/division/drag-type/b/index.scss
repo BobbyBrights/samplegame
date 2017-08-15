@@ -1,0 +1,128 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-division-game-layout {
+  .banner {
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.division-page {
+  .drag-type-page {
+
+    .herculus-moth {
+      position: absolute;
+      width: 15%;
+      height: 24%;
+      left: 2%;
+      top: 3%;
+    }
+
+    .herculus-text {
+    position: absolute;
+    width: 8%;
+    height: 13.5%;
+    left: 5%;
+    top: 29%;
+    font-size: 1.1vw;
+    color: #d96e4c;
+    cursor: default;
+    bottom: 1.5%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+    .caterpillar-box {
+      flex-direction: row;
+      flex-wrap: wrap;
+      height: 25%;
+      width: 68%;
+      margin-left: 17%;
+
+      .drag-box {
+        width: 5.5vw;
+        height: 3vw;
+        margin-top: 2%;
+        text-align: center;
+      }
+
+      .caterpillar {
+        height: 1.3vw;
+      }
+    }
+
+    .leaf-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      width: 96%;
+      margin-top: 7%;
+      margin-left: 2%;
+
+      .leaf {
+        width: 26%;
+        position: relative;
+      }
+    }
+
+    .base-line {
+      position: absolute;
+      left: 3%;
+      top: 65.5%;
+      width: 93%;
+    }
+
+    .drop-area {
+      width: 27%;
+      height: 17%;
+      position: absolute;
+    }
+
+    .drop-zone-5 {
+      left: 34%;
+      top: 69%;
+    }
+    .drop-zone-4 {
+      left: 41%;
+      top: 5%;
+    }
+    .drop-zone-3 {
+      left: 19%;
+      top: 48%;
+    }
+    .drop-zone-2 {
+      left: 52%;
+      top: 46%;
+    }
+    .drop-zone-1 {
+      left: 59%;
+      top: 25%;
+    }
+    .drop-zone-0 {
+      left: 25%;
+      top: 26%;
+    }
+
+    .check-btns {
+      position: absolute;
+      top: 75%;
+      left: 85.4%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 75%;
+      left: 85.4%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+}

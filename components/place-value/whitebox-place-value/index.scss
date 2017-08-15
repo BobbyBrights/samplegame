@@ -1,0 +1,109 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-place-value-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.place-value-page {
+  .whitebox-place-value-page {
+
+    // Game specific styles
+
+    .group-of-blocks {
+      display: flex;
+      position: absolute;
+      width: 44%;
+      height: 65%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+      left: 3.9%;
+      top: 9%;
+    }
+
+    .block-container {
+      height: 87%;
+      width: 10%;
+    }
+
+    .block {
+      width: 100%;
+      height: 100%;
+    }
+
+    .blocks {
+      display: flex;
+      position: absolute;
+      width: 43%;
+      height: 8%;
+      flex-wrap: wrap-reverse;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .container-block {
+      height: 100%;
+      width: 11%;
+    }
+
+    .question-container {
+      position: relative;
+      border-radius: 6px;
+      background-color: #c0de94;
+      box-shadow: 3px 0 5px 0 rgba(0, 0, 0, .21);
+      left: 30.7%;
+      top: 74.5%;
+      width: 31%;
+      line-height: 3.6vw;
+      height: 3.6vw;
+    }
+
+    .question-text {
+      position: absolute;
+      margin-top: -0.5%;
+      width: 100%;
+    }
+
+    #input-0 {
+      position: absolute;
+      left: 0.41%;
+      top: 3.1%;
+    }
+
+    #input-1 {
+      position: absolute;
+      left: 45.41%;
+      top: 3.1%;
+    }
+
+    #input-2 {
+      position: absolute;
+      left: 93.41%;
+      top: 3.1%;
+      visibility: hidden;
+    }
+
+    .number-question-0 {
+      width: 13%;
+      text-align: center;
+      color: #1b4123;
+      font-size: 1.6vw;
+      margin-left: 22%;
+      line-height: 4vw;
+    }
+
+    .number-question-1 {
+      width: 13%;
+      text-align: center;
+      color: #1b4123;
+      font-size: 1.6vw;
+      margin-left: 67%;
+      line-height: 4vw;
+    }
+  }
+}

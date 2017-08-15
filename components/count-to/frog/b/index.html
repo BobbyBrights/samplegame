@@ -1,0 +1,31 @@
+<div class="frog-page">
+
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard" onnumberclick="onNumberClick">
+
+        <!--Display jar image-->
+        <game-images images="jarIcon"></game-images>
+
+        <!--Display frogs-->
+        <div class="frog" ng-repeat="frog in frogs">
+            <game-images
+                    images="(frog >= 10 && frog < 20 || frog >= 30 && frog < 40) ? frogLeft: frogRight">
+            </game-images>
+        </div>
+
+        <!--Tick and Cross-->
+        <div class="center-content">
+            <img ng-repeat="signs in sign"
+                 ng-src="{{signs.path}}"
+                 class="sign answer-sign {{checkClass[signs.name]}}"
+                 ng-class="checkClass[signs.name]">
+        </div>
+
+        <div class="reset-check-btn">
+            <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+            <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+        </div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

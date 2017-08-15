@@ -1,0 +1,39 @@
+<div class="in-order-page">
+    <work-area menu="menu" next="next" check="check" reset="reset"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick" header="header">
+        <!-- Add images -->
+        <game-images images="images"></game-images>
+        <!--Table chart-->
+        <table class="chart">
+            <tr ng-repeat="item in columns">
+                <td ng-repeat="item in rows"
+                    ng-click="activeButton($parent.$id+'-'+$index)"
+                    id="{{$parent.$id+'-'+$index}}"
+                    class="row-chart">{{($parent.$index * 10) + item + 1}}
+                </td>
+            </tr>
+        </table>
+
+        <div class="chart-help">{{chartHelp}}</div>
+        <!-- Game specific elements -->
+        <input ng-repeat="i in 3 | range track by $index"
+               class="input-box"
+               id="input-{{$index}}"
+               position="{{($index*9)+61}},33"
+               ng-focus="inputClick($index)"
+               ng-model="inputs[$index]"
+               maxlength="3"/>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <div ng-repeat="i in digits  track by $index"
+             class="number" position="{{($index*9)+61}},16">
+            {{i}}
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+    </work-area>
+</div>

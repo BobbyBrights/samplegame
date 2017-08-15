@@ -1,0 +1,57 @@
+@import './halves/index.scss';
+@import './quarters/index.scss';
+
+/* Game main namespace */
+.fractions-page {
+  // Page title image
+
+  .question-text {
+    font-size: 1.6vw;
+    color: #d96e4c;
+  }
+
+  .more {
+    width: 6.3vw;
+    height: 2.8vw;
+    position: absolute;
+    top: 85%;
+    left: 84.4%;
+    z-index: 1;
+  }
+
+  .check-btns {
+    position: absolute;
+    left: 85.5%;
+    top: 72%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .input-box {
+    height: 4.4vw;
+    width: 4.4vw;
+  }
+
+  .redo-btns {
+    position: absolute;
+    left: 85.5%;
+    top: 72%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .question-container {
+    position: absolute;
+    left: 52%;
+    top: 40%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+}

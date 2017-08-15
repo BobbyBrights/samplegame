@@ -1,0 +1,224 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "trace": {
+                  "home": {
+                    "header": {
+                      "text": "Trace 2D Shapes"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Trace the shapes.",
+                        "cls": ""
+                      },
+                      "choose-shape-label": "Choose Shape",
+                      "images": {
+                        "dotted-square": {
+                          "path": "trace/images/square-icon.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "20%",
+                          "top": "3%",
+                          "left": "88%",
+                          "id": "square"
+                        },
+                        "dotted-rectangle": {
+                          "path": "trace/images/rectangle-icon.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%",
+                          "height": "20%",
+                          "top": "28%",
+                          "left": "87%",
+                          "id": "rectangle"
+                        },
+                        "dotted-circle": {
+                          "path": "trace/images/circle-icon.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "20%",
+                          "top": "52%",
+                          "left": "88%",
+                          "id": "circle"
+                        },
+                        "dotted-triangle": {
+                          "path": "trace/images/triangle-icon.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "20%",
+                          "top": "75%",
+                          "left": "88%",
+                          "id": "triangle"
+                        }
+                      },
+                      "blue-images": {
+                        "dotted-square": {
+                          "path": "trace/images/square-icon-sel.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "20%",
+                          "top": "3%",
+                          "left": "88%",
+                          "id": "blue-square"
+                        },
+                        "dotted-rectangle": {
+                          "path": "trace/images/rectangle-icon-sel.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%",
+                          "height": "20%",
+                          "top": "28%",
+                          "left": "87%",
+                          "id": "blue-rectangle"
+                        },
+                        "dotted-circle": {
+                          "path": "trace/images/circle-icon-sel.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "20%",
+                          "top": "52%",
+                          "left": "88%",
+                          "id": "blue-circle"
+                        },
+                        "dotted-triangle": {
+                          "path": "trace/images/triangle-icon-sel.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "20%",
+                          "top": "75%",
+                          "left": "88%",
+                          "id": "blue-triangle"
+                        }
+                      },
+                      "shapes": {
+                        "rectangle-box": {
+                          "path": "trace/images/trace-box.svg",
+                          "cls": "pos-absolute visible",
+                          "width": "67.5%",
+                          "height": "77%",
+                          "top": "-3.5%",
+                          "left": "16.5%",
+                          "name": "rectangle-box"
+                        },
+                        "dotted-big-circle": {
+                          "path": "trace/images/trace-circle.svg",
+                          "cls": "pos-absolute invisible",
+                          "width": "30%",
+                          "height": "53.5%",
+                          "top": "8%",
+                          "left": "35.5%",
+                          "name": "circle"
+                        },
+                        "dotted-big-triangle": {
+                          "path": "trace/images/trace-triangle.svg",
+                          "cls": "pos-absolute invisible",
+                          "width": "30%",
+                          "height": "53.5%",
+                          "top": "8%",
+                          "left": "35.5%",
+                          "name": "triangle"
+                        },
+                        "dotted-big-rectangle": {
+                          "path": "trace/images/trace-rectangle.svg",
+                          "cls": "pos-absolute invisible",
+                          "width": "42%",
+                          "height": "53.5%",
+                          "top": "8%",
+                          "left": "29.5%",
+                          "name": "rectangle"
+                        },
+                        "dotted-big-square": {
+                          "path": "trace/images/trace-square.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "height": "53.5%",
+                          "top": "8%",
+                          "left": "35.5%",
+                          "name": "square"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "find": {
+                          "path": "images/menu/find.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'find', level :  'a'}"
+                        },
+                        "match": {
+                          "path": "images/menu/match.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'match', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "dotted-square": {
+                        "path": "trace/images/square-icon.svg"
+                      },
+                      "dotted-rectangle": {
+                        "path": "trace/images/rectangle-icon.svg"
+                      },
+                      "dotted-circle": {
+                        "path": "trace/images/circle-icon.svg"
+                      },
+                      "dotted-triangle": {
+                        "path": "trace/images/triangle-icon.svg"
+                      },
+                      "square-icon-sel": {
+                        "path": "trace/images/square-icon-sel.svg"
+                      },
+                      "rectangle-icon-sel": {
+                        "path": "trace/images/rectangle-icon-sel.svg"
+                      },
+                      "circle-icon-sel": {
+                        "path": "trace/images/circle-icon-sel.svg"
+                      },
+                      "triangle-icon-sel": {
+                        "path": "trace/images/triangle-icon-sel.svg"
+                      },
+                      "rectangle-box": {
+                        "path": "trace/images/trace-box.svg"
+                      },
+                      "dotted-big-circle": {
+                        "path": "trace/images/trace-circle.svg"
+                      },
+                      "dotted-big-triangle": {
+                        "path": "trace/images/trace-triangle.svg"
+                      },
+                      "dotted-big-rectangle": {
+                        "path": "trace/images/trace-rectangle.svg"
+                      },
+                      "dotted-big-square": {
+                        "path": "trace/images/trace-square.svg"
+                      },
+                      "find": {
+                        "path": "images/menu/find.svg"
+                      },
+                      "match": {
+                        "path": "images/menu/match.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

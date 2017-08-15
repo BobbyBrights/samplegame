@@ -1,0 +1,253 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "types": {
+                "half-kg": {
+                  "home": {
+                    "header": {
+                      "text": "Mass ... Kilogram, 1/2 kilogram"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards"
+                      },
+                      "displayImages": {
+                        "screen-0": {
+                          "path": "drag-type/c/half-kg/images/screen1.svg",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-1": {
+                          "path": "drag-type/c/half-kg/images/screen2.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-2": {
+                          "path": "drag-type/c/half-kg/images/screen3.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-3": {
+                          "path": "drag-type/c/half-kg/images/screen4.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-4": {
+                          "path": "drag-type/c/half-kg/images/screen5.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-5": {
+                          "path": "drag-type/c/half-kg/images/screen6.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-6": {
+                          "path": "drag-type/c/half-kg/images/screen7.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-7": {
+                          "path": "drag-type/c/half-kg/images/screen8.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-8": {
+                          "path": "drag-type/c/half-kg/images/screen9.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        },
+                        "screen-9": {
+                          "path": "drag-type/c/half-kg/images/screen10.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "18.8%"
+                        }
+                      },
+                      "drag-group-values": [
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ]
+                      ],
+                      "drag-items": [
+                        "1 kilogram",
+                        "1/2 kilogram"
+                      ],
+                      "positionOfDropArea":[
+                        "right",
+                        "left",
+                        "left",
+                        "right",
+                        "right",
+                        "right",
+                        "left",
+                        "left",
+                        "right",
+                        "right"
+                      ],
+                      "dragItemLeftPositions": [
+                        "30.6",
+                        "50.9"
+                      ],
+                      "dragItemTopPositions": [
+                        "112.4",
+                        "112.4"
+                      ],
+                      "drop-zone-left-positions": [
+                        "19.5"
+                      ],
+                      "drop-zone-top-positions": [
+                        "73"
+                      ],
+                      "sign-images": {
+                        "tick": {
+                          "path": "images/tick.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "one-kg": {
+                          "path": "images/menu/one-kg.svg",
+                          "state": "^.mass-game",
+                          "params": "{category : 'measurement', game : 'one-kg', level :  'c'}"
+                        },
+                        "input-type": {
+                          "path": "images/menu/left-input.svg",
+                          "state": "^.mass-game",
+                          "params": "{category : 'measurement', game : 'input-type', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "screen-0": {
+                        "path": "drag-type/c/half-kg/images/screen1.svg"
+                      },
+                      "screen-1": {
+                        "path": "drag-type/c/half-kg/images/screen2.svg"
+                      },
+                      "screen-2": {
+                        "path": "drag-type/c/half-kg/images/screen3.svg"
+                      },
+                      "screen-3": {
+                        "path": "drag-type/c/half-kg/images/screen4.svg"
+                      },
+                      "screen-4": {
+                        "path": "drag-type/c/half-kg/images/screen5.svg"
+                      },
+                      "screen-5": {
+                        "path": "drag-type/c/half-kg/images/screen6.svg"
+                      },
+                      "screen-6": {
+                        "path": "drag-type/c/half-kg/images/screen7.svg"
+                      },
+                      "screen-7": {
+                        "path": "drag-type/c/half-kg/images/screen8.svg"
+                      },
+                      "screen-8": {
+                        "path": "drag-type/c/half-kg/images/screen9.svg"
+                      },
+                      "screen-9": {
+                        "path": "drag-type/c/half-kg/images/screen10.svg"
+                      },
+                      "one-kg": {
+                        "path": "images/menu/one-kg.svg"
+                      },
+                      "input-type": {
+                        "path": "images/menu/left-input.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

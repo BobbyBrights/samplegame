@@ -1,0 +1,102 @@
+/* Sub game namespace */
+.two-d-shapes-page {
+  .side-corners-page {
+
+    .flex-container {
+      border: 0.2vw solid #525731;
+      height: 83%;
+      width: 63%;
+      margin-left: 3%;
+      margin-top: 1%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #81885e;
+
+      .img-content {
+        height: 100%;
+      }
+    }
+    .question-container {
+      position: absolute;
+      top: 1%;
+      left: 69%;
+      width: 22%;
+      height: 13.5%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      border-radius: 6px;
+      background-color: #c0de94;
+      box-shadow: 3px 0 5px 0 rgba(0, 0, 0, .21);
+      line-height: 3.4vw;
+    }
+
+    .box-container {
+      top: 22%;
+    }
+
+    .second-txt {
+      position: absolute;
+      text-align: center;
+      font-size: 1.6vw;
+      color: #1b4123;
+      left: 40%;
+    }
+
+    .input-field {
+      position: absolute;
+      width: 3vw;
+      height: 2.8vw;
+      left: 2%;
+      top: 3%;
+      &:focus {
+        outline: none;
+        border: .15vw solid #707070;
+        color: #1b4123;
+      }
+    }
+
+    .question-box {
+      position: absolute;
+      text-align: center;
+      font-size: 1.6vw;
+      color: #1b4123;
+      left: 46%;
+      .second-txt {
+        left: 40%;
+      }
+    }
+
+    .check-btns {
+      position: absolute;
+      top: 82%;
+      left: 85.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 82%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    #inputs1 {
+      position: absolute;
+      top: 3.6%;
+    }
+
+    .hint-text {
+      bottom: 3.5%;
+    }
+  }
+}

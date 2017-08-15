@@ -1,0 +1,137 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "possum-patterns": {
+              "home": {
+                "header": {
+                  "text": "Possum Number Patterns"
+                },
+                "footer": {},
+                "question": {
+                  "circles": 6,
+                  "stars": [
+                    "green",
+                    "blue",
+                    "orange",
+                    "purple",
+                    "yellow",
+                    "pink"
+                  ],
+                  "min-value": 1,
+                  "max-value": 15,
+                  "image-count": [
+                    1,
+                    2,
+                    3
+                  ],
+                  "star-holder": {
+                    "green-star": {
+                      "path": "images/green_star.svg"
+                    },
+                    "blue-star": {
+                      "path": "images/blue_star.svg"
+                    },
+                    "orange-star": {
+                      "path": "images/orange_star.svg"
+                    }
+                  },
+                  "circle": {
+                    "path": "images/circle.svg",
+                    "cls": "circle-holder"
+                  },
+                  "tick": {
+                    "path": "images/tick.svg",
+                    "cls": "tick"
+                  },
+                  "possum": {
+                    "path": "images/possum.svg",
+                    "cls": "pos-absolute",
+                    "width": "15%",
+                    "height": "35%",
+                    "top": "60%",
+                    "left": "1.8%"
+                  },
+                  "drag-images": {
+                    "0": {
+                      "path": "images/purplestr.svg"
+                    },
+                    "1": {
+                      "path": "images/orgstr.svg"
+                    },
+                    "2": {
+                      "path": "images/pinkstr.svg"
+                    }
+                  },
+                  "drag-stars": {
+                    "0": {
+                      "path": "images/star-purple-shadow.svg"
+                    },
+                    "1": {
+                      "path": "images/star-yellow-shadow.svg"
+                    },
+                    "2": {
+                      "path": "images/star-pink-shadow.svg"
+                    }
+                  },
+                  "question-text": {
+                    "text": "Complete the number pattern."
+                  },
+                  "hint": {
+                    "text": "Drag the stars."
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true
+              },
+              "preload": {
+                "images": {
+                  "green-star": {
+                    "path": "images/star-blue.svg"
+                  },
+                  "blue-star": {
+                    "path": "images/star-green.svg"
+                  },
+                  "orange-star": {
+                    "path": "images/star-orange.svg"
+                  },
+                  "star-pink": {
+                    "path": "images/star-pink.svg"
+                  },
+                  "pink-shadow": {
+                    "path": "images/star-pink-shadow.svg"
+                  },
+                  "star-purple": {
+                    "path": "images/star-purple.svg"
+                  },
+                  "purple-shadow": {
+                    "path": "images/star-purple-shadow.svg"
+                  },
+                  "violet": {
+                    "path": "images/star-violet.svg"
+                  },
+                  "yellow": {
+                    "path": "images/star-yellow.svg"
+                  },
+                  "yellow-shadow": {
+                    "path": "images/star-yellow-shadow.svg"
+                  },
+                  "possum": {
+                    "path": "images/possum.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

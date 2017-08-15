@@ -1,0 +1,27 @@
+
+<div class="frog-page">
+
+    <work-area menu="menu" id="workArea" next="next" onnumberclick="checkClick" header="header">
+
+        <!--Display jar image-->
+        <game-images images="images"></game-images>
+
+        <!--Display frogs-->
+        <div class="frog-container">
+            <div class="frog" ng-repeat="frog in frogs">
+                <game-images images="frogImages"></game-images>
+            </div>
+        </div>
+        
+        <!--Display tick and cross-->
+        <div class="tick-cross">
+            <img class="tick" ng-class="checkClass['tick']" ng-src="{{sign.tick.path}}">
+            <img class="cross" ng-class="checkClass['cross']" ng-src="{{sign.cross.path}}">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+
+</div>

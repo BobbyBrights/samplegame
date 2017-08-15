@@ -1,0 +1,69 @@
+.info-panel.add-bug-game {
+  .action-btn.close {
+    top: 1%;
+  }
+}
+
+/* Game main namespace */
+.add-bugs-page {
+
+  .btn {
+    position: absolute;
+    cursor: pointer;
+    margin-top: 25%;
+  }
+
+  .small {
+    position: absolute;
+    margin-top: 20%;
+    width: 10%;
+    margin-left: 101%;
+  }
+
+  .sign {
+    position: absolute;
+    width: 8%;
+    top: 70%;
+    left: 46%;
+  }
+
+  .hint-text {
+    top: 0;
+    bottom: initial;
+  }
+
+  .bug-btn {
+    position: absolute;
+    width: 26%;
+  }
+
+  .number {
+    position: absolute;
+    width: 11%;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  .big-bug {
+    position: absolute;
+    margin-top: 1%;
+    margin-left: -75%;
+  }
+
+  .left-side-big-leaf,
+  .right-side-big-leaf {
+    position: absolute;
+    width: 42%;
+    margin-top: 5%;
+    left: 3%;
+  }
+
+  .right-side-big-leaf {
+    left: inherit;
+    right: 3%;
+  }
+}

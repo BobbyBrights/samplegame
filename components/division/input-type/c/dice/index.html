@@ -1,0 +1,30 @@
+<div class="input-type-page">
+    <work-area menu="menu" next="next" header="header" onnumberclick="onNumberClick"
+               getscoreboard="getScoreboard">
+
+        <!-- Game specific elements -->
+
+        <img class="diceImage" ng-src="{{diceContainer.path}}"/>
+
+        <div class="dice-container">
+            <img class="dice-item" ng-repeat="box in secondNumber| range track by getUniqueId()"
+                 ng-src="{{diceImage.path}}"/>
+        </div>
+
+        <div class="input-container">
+            <div class="number" position="4,3">{{firstNumber}}</div>
+            <div class="number-text hint-text" position="-1,72">Spots</div>
+            <div class="symbol" position="25,-23">÷</div>
+            <div class="number-text hint-text" position="20,72">Divide By</div>
+            <div class="number" position="47,3">{{secondNumber}}</div>
+            <div class="number-text hint-text" position="42,72">Dice</div>
+            <div class="symbol" position="66,-18">=</div>
+            <input position="85,10" class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

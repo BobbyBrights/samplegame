@@ -1,0 +1,137 @@
+/* Game main namespace */
+.subtract-skinks-page {
+
+  // Game specific styles
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;    
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .reset-btn {
+    position: absolute;    
+    top: 69%;
+    left: 84.3%;
+  }
+
+  .subtract-bg {
+    position: absolute;
+    width: 90%;
+    top: 1%;
+    left: 3%;
+  }
+
+  .question-container {
+    position: relative;
+    border-radius: 6px;
+    background-color: #c0de94;
+    box-shadow: 3px 0 5px 0 rgba(0,0,0,.21);
+    left: 30.7%;
+    top: 24.5%;
+    width: 39%;
+    line-height: 3.6vw;
+    height: 3.6vw;
+  }
+
+  .number-question {
+    width: 13%;
+    text-align: center;
+    color: #1b4123;
+    font-size: 1.6vw;
+    margin-left: 4%;
+    line-height: 4vw;
+  }
+
+  .number-count {
+    position: absolute;
+    width: 10%;
+    top: -3.9%;
+    left: 50%;
+    color: #1b4123;
+    font-size: 1.6vw;
+    text-align: center;
+    line-height: 4vw;
+  }
+
+  .middle-hint {
+    position: absolute;
+    top:64.7%;
+    left: 35%;
+    width: 30%;
+    color: #d96e4c;
+    font-size: 1.6vw;
+  }
+
+  .end-text {
+    position: absolute;
+    left: 60%;
+    font-size: 1.6vw;
+    color: #1b4123;
+    line-height: 4vw;
+  }
+
+  .question-text {
+    position: absolute;
+    margin-top: -0.5%;
+    width: 100%;
+  }
+  
+  #input-1 {
+    position: absolute;
+    left: 85.41%;
+    top: 3.1%;
+  }
+
+  .lizard-count {
+    display: flex;
+    position: relative;
+    width: 83%;
+    height: 50%;
+    left: 12%;
+    top: 10%;
+  }
+
+  .lizard-result {
+    width: 7.2%;
+    height: 0;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+
+  .gone-lizard {
+    margin-right: 4%;
+    width: 6%;
+    position: absolute;
+    animation: move-top 1.5s forwards;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  @keyframes move-top {
+    to {
+      transform: rotate(90deg) scale(0.65);
+      margin-top: -10%;
+      width: 4.5%;
+    }
+  }
+
+  .right-panel-menu .image-0 {
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 8%;
+  }  
+}

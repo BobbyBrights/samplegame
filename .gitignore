@@ -1,0 +1,17 @@
+.idea/
+node_modules
+npm-debug.log
+build/
+lab/
+notes
+.babel/
+app-build/
+app-test/
+2/
+Project_Default.xml
+web-storm-settings-for-rainforest.jar
+.DS_Store
+graphics
+
+.idea/workspace.xml
+

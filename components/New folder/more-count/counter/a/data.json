@@ -1,0 +1,137 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "more-count": {
+              "types": {
+                "counter": {
+
+                  "home": {
+                    "header": {
+                      "text": "How many counters?"
+                    },
+                    "footer": {},
+                    "images": {
+                      "counter": {
+                        "path": "counter/images/active-counter-jar.svg",
+                        "width": "6.5%",
+                        "cls": "pos-absolute",
+                        "top": "-16.3%",
+                        "left": "4.5%"
+                      }
+                    },
+                    "question": {
+                      "kind": "buttons",
+                      "count": 3,
+                      "max-value": 100,
+                      "row-range": 10,
+                      "hint": {
+                        "text": "Select a number card."
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      },
+                      "chart-text": {
+                        "text": {
+                          "show": "Show grid",
+                          "hide": "Hide grid"
+                        }
+                      },
+                      "show-hide-button": {
+                        "path": "counter/images/show-hide-button.svg",
+                        "cls": "show-hide-button"
+                      },
+                      "colors": [
+                        "#F5ee30",
+                        "#ffc926",
+                        "#ff9d1f",
+                        "#ff7a7a",
+                        "#e28cff",
+                        "#60c5ff",
+                        "#09ddbd",
+                        "#4aff4a",
+                        "#84ff00",
+                        "#9fca0a"
+                      ],
+                      "shadow-colors": [
+                        "0 0.1vw 0 0 #6b6307",
+                        "0 0.1vw 0 0 #60470a",
+                        "0 0.1vw 0 0 #56300a",
+                        "0 0.1vw 0 0 #660e0e",
+                        "0 0.1vw 0 0 #621582",
+                        "0 0.1vw 0 0 #195b75",
+                        "0 0.1vw 0 0 #0b5b4d",
+                        "0 0.1vw 0 0 #147214",
+                        "0 0.1vw 0 0 #334f0f",
+                        "0 0.1vw 0 0 #38420f"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "frog": {
+                          "path": "images/menu/frog.svg",
+                          "state": "^.more-count-game",
+                          "params": "{category : 'number', game : 'frog', level :  'a'}"
+                        },
+                        "block": {
+                          "path": "images/menu/block.svg",
+                          "state": "^.more-count-game",
+                          "params": "{category : 'number', game : 'block', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "pad-type": "card-pad", 
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "active-counter-jar": {
+                        "path": "counter/images/active-counter-jar.svg"
+                      },
+                      "show-hide-button": {
+                        "path": "counter/images/show-hide-button.svg"
+                      },
+                      "frog": {
+                        "path": "images/menu/frog.svg"
+                      },
+                      "block": {
+                        "path": "images/menu/block.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

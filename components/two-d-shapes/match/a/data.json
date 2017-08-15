@@ -1,0 +1,306 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "match": {
+                  "home": {
+                    "header": {
+                      "text": "Match 2D Shapes"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "shapes": {
+                        "square": {
+                          "path": "match/images/squares.svg",
+                          "width": "20%",
+                          "height": "43%",
+                          "top": "1%",
+                          "left": "3%"
+                        },
+                        "rectangle": {
+                          "path": "match/images/rectangles.svg",
+                          "width": "27%",
+                          "height": "40%",
+                          "top": "5%",
+                          "left": "29%"
+                        },
+                        "triangle": {
+                          "path": "match/images/triangles.svg",
+                          "width": "20%",
+                          "height": "42%",
+                          "top": "2%",
+                          "left": "56%"
+                        },
+                        "circle": {
+                          "path": "match/images/circles.svg",
+                          "width": "20%",
+                          "height": "44%",
+                          "top": "0%",
+                          "left": "77.5%"
+                        }
+                      },
+                      "dragImages": {
+                        "image0": {
+                          "path": "match/images/blue-triangle.svg",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "76%",
+                          "left": "88%",
+                          "group": "2"
+                        },
+                        "image1": {
+                          "path": "match/images/green-triangle.svg",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "54%",
+                          "left": "67%",
+                          "group": "2"
+                        },
+                        "image3": {
+                          "path": "match/images/orange-triangle.svg",
+                          "width": "10%",
+                          "height": "20%",
+                          "top": "74%",
+                          "left": "54%",
+                          "group": "2"
+                        },
+                        "image4": {
+                          "path": "match/images/yellow-triangle.svg",
+                          "width": "7%",
+                          "height": "18%",
+                          "top": "76%",
+                          "left": "15%",
+                          "group": "2"
+                        },
+                        "image5": {
+                          "path": "match/images/orange-rectangle.svg",
+                          "width": "7%",
+                          "height": "17%",
+                          "top": "76%",
+                          "left": "30%",
+                          "group": "1"
+                        },
+                        "image6": {
+                          "path": "match/images/blue-rectangle.svg",
+                          "width": "8%",
+                          "height": "15%",
+                          "top": "55%",
+                          "left": "56%",
+                          "group": "1"
+                        },
+                        "image7": {
+                          "path": "match/images/green-rectangle.svg",
+                          "width": "7%",
+                          "height": "17%",
+                          "top": "76%",
+                          "left": "3%",
+                          "group": "1"
+                        },
+                        "image8": {
+                          "path": "match/images/red-rectangle.svg",
+                          "width": "8%",
+                          "height": "15%",
+                          "top": "75%",
+                          "left": "67%",
+                          "group": "1"
+                        },
+                        "image9": {
+                          "path": "match/images/blue-circle.svg",
+                          "width": "6.5%",
+                          "height": "16%",
+                          "top": "55%",
+                          "left": "78%",
+                          "group": "3"
+                        },
+                        "image10": {
+                          "path": "match/images/pink-circle.svg",
+                          "width": "6.5%",
+                          "height": "16%",
+                          "top": "76%",
+                          "left": "43%",
+                          "group": "3"
+                        },
+                        "image11": {
+                          "path": "match/images/green-circle.svg",
+                          "width": "6.5%",
+                          "height": "16%",
+                          "top": "55%",
+                          "left": "43%",
+                          "group": "3"
+                        },
+                        "image12": {
+                          "path": "match/images/red-circle.svg",
+                          "width": "6.5%",
+                          "height": "16%",
+                          "top": "55%",
+                          "left": "15%",
+                          "group": "3"
+                        },
+                        "image13": {
+                          "path": "match/images/yellow-square.svg",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "76%",
+                          "left": "78%",
+                          "group": "0"
+                        },
+                        "image14": {
+                          "path": "match/images/red-square.svg",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "55%",
+                          "left": "88%",
+                          "group": "0"
+                        },
+                        "image15": {
+                          "path": "match/images/pink-square.svg",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "55%",
+                          "left": "30%",
+                          "group": "0"
+                        },
+                        "image16": {
+                          "path": "match/images/blue-square.svg",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "55%",
+                          "left": "3%",
+                          "group": "0"
+                        }
+                      },
+                      "shapes-name": [
+                        "Squares",
+                        "Rectangles",
+                        "Triangles",
+                        "Circles"
+                      ],
+                      "positions": [
+                        "61,4",
+                        "57,26",
+                        "60,19",
+                        "67,25",
+                        "44.3,25.3",
+                        "43,9.5",
+                        "30,25",
+                        "30,9.5",
+                        "82.5,22",
+                        "83.6,6.5",
+                        "88.9,24.3",
+                        "90.9,10",
+                        "4.8,6",
+                        "13,6",
+                        "4.8,24.5",
+                        "13,24.5"
+                      ],
+                      "hint": {
+                        "text": "Drag the shapes."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "find": {
+                          "path": "images/menu/find.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'find', level :  'a'}"
+                        },
+                        "trace": {
+                          "path": "images/menu/trace.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'trace', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "square": {
+                        "path": "match/images/squares.svg"
+                      },
+                      "rectangle": {
+                        "path": "match/images/rectangles.svg"
+                      },
+                      "triangle": {
+                        "path": "match/images/triangles.svg"
+                      },
+                      "circle": {
+                        "path": "match/images/circles.svg"
+                      }
+                    },
+                    "dragImages": {
+                      "image0": {
+                        "path": "match/images/blue-triangle.svg"
+                      },
+                      "image1": {
+                        "path": "match/images/green-triangle.svg"
+                      },
+                      "image3": {
+                        "path": "match/images/orange-triangle.svg"
+                      },
+                      "image4": {
+                        "path": "match/images/yellow-triangle.svg"
+                      },
+                      "image5": {
+                        "path": "match/images/orange-rectangle.svg"
+                      },
+                      "image6": {
+                        "path": "match/images/blue-rectangle.svg"
+                      },
+                      "image7": {
+                        "path": "match/images/green-rectangle.svg"
+                      },
+                      "image8": {
+                        "path": "match/images/red-rectangle.svg"
+                      },
+                      "image9": {
+                        "path": "match/images/blue-circle.svg"
+                      },
+                      "image10": {
+                        "path": "match/images/pink-circle.svg"
+                      },
+                      "image11": {
+                        "path": "match/images/green-circle.svg"
+                      },
+                      "image12": {
+                        "path": "match/images/red-circle.svg"
+                      },
+                      "image13": {
+                        "path": "match/images/yellow-square.svg"
+                      },
+                      "image14": {
+                        "path": "match/images/red-square.svg"
+                      },
+                      "image15": {
+                        "path": "match/images/pink-square.svg"
+                      },
+                      "image16": {
+                        "path": "match/images/blue-square.svg"
+                      },
+                      "find": {
+                        "path": "images/menu/find.svg"
+                      },
+                      "trace": {
+                        "path": "images/menu/trace.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

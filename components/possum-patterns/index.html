@@ -1,0 +1,46 @@
+<div class="possum-patterns-page">
+    <work-area menu="menu" next="next" getscoreboard="getScoreboard" header="header">
+
+        <div class="header-text" ng-bind-html="headerText"></div>
+
+        <div class="circles center-content">
+            <div ng-repeat="circle in circles | range track by getUniqueId()" class="circle">
+                <div ng-if="!isDropZone($index)" class="star {{stars[$index]}}" id="drop-zone-{{$index}}">
+                    <div class="number move-cursor" data-number="{{numbers[$index]}}">
+                        {{numbers[$index]}}
+                    </div>
+                </div>
+                <div ng-if="isDropZone($index)"
+                     class="star drop-zone {{stars[$index]}}"
+                     drop-zone
+                     data-number="{{numbers[$index]}}"
+                     id="drop-zone1-{{$index}}">
+                    <div class="number" data-number="{{numbers[$index]}}">
+                        {{numbers[$index]}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="drag-stars center-content">
+            <div ng-repeat="num in dragNumbers track by getUniqueId()" class="drag-parent">
+                <div drag-item
+                     data-color="{{$index + 3}}"
+                     id="drag-item-{{$index}}"
+                     class="drag-star {{stars[$index + 3]}}">
+                    <div class="number">
+                        {{num}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Display tick -->
+        <game-images images="signImage" id="tick" ng-class="checkClass['tick']" class="tick invisible"></game-images>
+
+        <game-images images="possum"></game-images>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="hintText"></div>
+    </work-area>
+</div>

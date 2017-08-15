@@ -1,0 +1,235 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "capacity": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Measuring Capacity Using a Coffee Mug"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                      "mug-image": {
+                        "path": "drag-type/b/images/center-cup.svg",
+                        "cls": "pos-absolute",
+                        "width": "14%",
+                        "height": "32%",
+                        "left": "45%",
+                        "top": "10%"
+                      }
+                    },
+                    "question": {
+                      "question-label": "How much can each container hold compared to the coffee mug?",
+                      "baseline": {
+                        "orientation": "horizontal"
+                      },
+                      "container-images": {
+                        "container0": {
+                          "path": "drag-type/b/images/container.svg",
+                          "width": "50%"
+                        },
+                        "container1": {
+                          "path": "drag-type/b/images/spoon.svg",
+                          "width": "20%"
+                        },
+                        "container2": {
+                          "path": "drag-type/b/images/left-cup.svg",
+                          "width": "25%"
+                        },
+                        "container3": {
+                          "path": "drag-type/b/images/big-mug.svg",
+                          "width": "56%"
+                        },
+                        "container4": {
+                          "path": "drag-type/b/images/big-jar.svg",
+                          "width": "42%"
+                        },
+                        "container5": {
+                          "path": "drag-type/b/images/small-jar.svg",
+                          "width": "25%"
+                        },
+                        "container6": {
+                          "path": "drag-type/b/images/left-container.svg",
+                          "width": "20%"
+                        },
+                        "container7": {
+                          "path": "drag-type/b/images/right-container.svg",
+                          "width": "43%"
+                        },
+                        "container8": {
+                          "path": "drag-type/b/images/left-big-tub.svg",
+                          "width": "65%"
+                        },
+                        "container9": {
+                          "path": "drag-type/b/images/right-mug.svg",
+                          "width": "25%"
+                        },
+                        "container10": {
+                          "path": "drag-type/b/images/small-container.svg",
+                          "width": "15%"
+                        },
+                        "container11": {
+                          "path": "drag-type/b/images/big-container.svg",
+                          "width": "31%"
+                        },
+                        "container12": {
+                          "path": "drag-type/b/images/big-bowl.svg",
+                          "width": "65%"
+                        },
+                        "container13": {
+                          "path": "drag-type/b/images/small-glass.svg",
+                          "width": "17%"
+                        },
+                        "container14": {
+                          "path": "drag-type/b/images/left-small-tub.svg",
+                          "width": "25%"
+                        },
+                        "container15": {
+                          "path": "drag-type/b/images/big-glass.svg",
+                          "width": "40%"
+                        },
+                        "container16": {
+                          "path": "drag-type/b/images/bucket.svg",
+                          "width": "35%"
+                        },
+                        "container17": {
+                          "path": "drag-type/b/images/small-tub.svg",
+                          "width": "25%"
+                        },
+                        "container18": {
+                          "path": "drag-type/b/images/small-cup.svg",
+                          "width": "25%"
+                        },
+                        "container19": {
+                          "path": "drag-type/b/images/big-tub.svg",
+                          "width": "50%"
+                        }
+                      },
+                      "sign": {
+                        "path": "drag-type/b/images/tick.svg",
+                        "cls": "pos-absolute invisible"
+                      },
+                      "drag-items": [
+                        "holds more",
+                        "holds less"
+                      ],
+                      "drag-positions": [
+                        "30.6,112.5",
+                        "50.3,112.5"
+                      ],
+                      "min-value": 0,
+                      "max-value": 2,
+                      "hint": {
+                        "text": "Drag the cards.",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "input-type": {
+                          "path": "images/menu/input-type.svg",
+                          "state": "^.capacity-game",
+                          "params": "{category : 'measurement', game : 'input-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "container0": {
+                        "path": "drag-type/b/images/container.svg"
+                      },
+                      "container1": {
+                        "path": "drag-type/b/images/spoon.svg"
+                      },
+                      "container2": {
+                        "path": "drag-type/b/images/left-cup.svg"
+                      },
+                      "container3": {
+                        "path": "drag-type/b/images/big-mug.svg"
+                      },
+                      "container4": {
+                        "path": "drag-type/b/images/big-jar.svg"
+                      },
+                      "container5": {
+                        "path": "drag-type/b/images/small-jar.svg"
+                      },
+                      "container6": {
+                        "path": "drag-type/b/images/left-container.svg"
+                      },
+                      "container7": {
+                        "path": "drag-type/b/images/right-container.svg"
+                      },
+                      "container8": {
+                        "path": "drag-type/b/images/left-big-tub.svg"
+                      },
+                      "container9": {
+                        "path": "drag-type/b/images/right-mug.svg"
+                      },
+                      "container10": {
+                        "path": "drag-type/b/images/small-container.svg"
+                      },
+                      "container11": {
+                        "path": "drag-type/b/images/big-container.svg"
+                      },
+                      "container12": {
+                        "path": "drag-type/b/images/big-bowl.svg"
+                      },
+                      "container13": {
+                        "path": "drag-type/b/images/small-glass.svg"
+                      },
+                      "container14": {
+                        "path": "drag-type/b/images/left-small-tub.svg"
+                      },
+                      "container15": {
+                        "path": "drag-type/b/images/big-glass.svg"
+                      },
+                      "container16": {
+                        "path": "drag-type/b/images/bucket.svg"
+                      },
+                      "container17": {
+                        "path": "drag-type/b/images/small-tub.svg"
+                      },
+                      "container18": {
+                        "path": "drag-type/b/images/small-cup.svg"
+                      },
+                      "container19": {
+                        "path": "drag-type/b/images/big-tub.svg"
+                      },
+                      "mug-image": {
+                        "path": "drag-type/b/images/center-cup.svg"
+                      },
+                      "sign": {
+                        "path": "drag-type/b/images/tick.svg"
+                      },
+                      "input-type": {
+                        "path": "images/menu/input-type.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

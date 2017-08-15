@@ -1,0 +1,57 @@
+{
+  "name": "rainforest",
+  "version": "1.0.0",
+  "description": "Interactive mathematics activities K-6",
+  "private": true,
+  "tags": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install-globals": "npm install --global cross-env http-server",
+    "build": "webpack -d --progress",
+    "build-u": "cross-env UNMINIFIED=true webpack -d --progress",
+    "watch": "webpack -d --watch --progress",
+    "watch-u": "cross-env UNMINIFIED=true webpack --watch --progress",
+    "release": "cross-env MODE=release webpack -d --progress",
+    "ci": "cross-env NAMES=release* MODE='test,release' webpack"
+  },
+  "keywords": [
+    "Rain Forest",
+    "game"
+  ],
+  "author": "Mathletics",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.5.3",
+    "angular-sanitize": "^1.5.8",
+    "angular-ui-router": "^0.2.18",
+    "bowser": "^1.6.0",
+    "flexboxgrid": "^6.3.1",
+    "handjs": "^1.3.11",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "browser-sync": "^2.14.0",
+    "core-js": "^2.4.1",
+    "cross-env": "^2.0.0",
+    "css-loader": "^0.23.1",
+    "data-json-optimizer": "^1.0.6",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "lodash": "^4.14.1",
+    "node-sass": "^4.5.0",
+    "opener-for-webpack": "^0.1.5",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-angularity-solution": "^1.6.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-notifier": "^1.3.2",
+    "xml-loader": "^1.1.0"
+  }
+}

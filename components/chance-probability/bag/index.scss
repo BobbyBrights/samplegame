@@ -1,0 +1,83 @@
+/* Sub game namespace */
+.chance-probability-page {
+  .bag-page {
+    .data-holder {
+      width: 45%;
+      height: 76.5%;
+      display: flex;
+      left: 44%;
+      top: 6.8%;
+      flex-direction: column;
+      position: absolute;
+      justify-content: flex-start;
+
+      .box-items {
+        font-size: 1.6vw;
+        color: #d96e4c;
+        cursor: default;
+        width: 80%;
+        align-self: center;
+        text-align: center;
+      }
+      .answer-label {
+        font-size: 1.6vw;
+        color: #d96e4c;
+        position: absolute;
+        left: 24.5%;
+        top: 69%;
+      }
+
+    }
+
+    .input-container {
+      position: relative;
+      border-radius: 6px;
+      background-color: #c0de94;
+      box-shadow: 3px 0 5px 0 rgba(0, 0, 0, .21);
+      left: 52.4%;
+      top: 0.2%;
+      width: 45%;
+      line-height: 3.6vw;
+      height: 3.2vw;
+
+      .drop-btn {
+        align-self: center;
+        position: relative;
+        text-align: center;
+        color: #d96e4c;
+        border: 2px solid #c0de94;
+        font-size: 1.6vw;
+        line-height: 2.7vw;
+        top: 7.2%;
+        left: 3.8%;
+      }
+    }
+    .action-btn {
+      height: 1.4vw;
+      width: 6.8vw;
+      font-size: .9vw;
+      line-height: 1.7vw;
+      border-radius: .3vw;
+      background-color: #ce3319;
+      padding: 0.2vw 0.27vw;
+    }
+    .num-card {
+      height: 100%;
+      width: 100%;
+      border-radius: .5vw;
+      background-color: #ffd0b6;
+      color: #230c0c;
+      align-content: center;
+    }
+
+    .beetles {
+      align-self: center;
+      width: 5vw;
+      height: 4.6vw;
+    }
+
+    .signs {
+      position: absolute;
+    }
+  }
+}

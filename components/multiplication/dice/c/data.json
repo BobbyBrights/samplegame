@@ -1,0 +1,102 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "dice": {
+                  "home": {
+                    "header": {
+                      "text": "Dice Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "1": {
+                        "path": "dice/images/dice-2.svg",
+                        "width": "10%"
+                      },
+                      "2": {
+                        "path": "dice/images/dice-6.svg",
+                        "width": "10%"
+                      },
+                      "3": {
+                        "path": "dice/images/dice-1.svg",
+                        "width": "10%"
+                      },
+                      "4": {
+                        "path": "dice/images/dice-3.svg",
+                        "width": "10%"
+                      },
+                      "5": {
+                        "path": "dice/images/dice-4.svg",
+                        "width": "10%"
+                      },
+                      "6": {
+                        "path": "dice/images/dice-5.svg",
+                        "width": "10%"
+                      }
+                    },
+                    "container": {
+                      "path": "dice/images/dice-container.svg"
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter number in the box.",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "box": {
+                          "path": "images/menu/box.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'box', level :  'c'}"
+                        }
+                          ,
+                        "bug": {
+                          "path": "images/menu/bug.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'bug', level :  'c'}"
+                        }
+                          ,
+                        "curve": {
+                          "path": "images/menu/curve.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'curve', level :  'c'}"
+                        }
+                          ,
+                        "commutative": {
+                          "path": "images/menu/commutative.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'commutative', level :  'c'}"
+                        }
+                          ,
+                        "tables": {
+                          "path": "images/menu/tables.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'tables', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

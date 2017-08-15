@@ -1,0 +1,455 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "group-tadpoles": {
+              "home": {
+                "header": {
+                  "text": "Tadpole Groups"
+                },
+                "footer": {},
+                "question": {
+                  "hint": {
+                    "text": "Select a card."
+                  },
+                  "variations": {
+                    "type0": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type1": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 3,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 3,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type2": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 4,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 4,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type3": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 5,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 5,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type4": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 1,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 1,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type5": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 2,
+                          "rotate-by": 15,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type6": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 3,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 3,
+                          "rotate-by": -15,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 3,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type7": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 4,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 4,
+                          "rotate-by": 15,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 4,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type8": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 5,
+                          "rotate-by": 0,
+                          "flip-by": 1
+                        },
+                        "circle2": {
+                          "tadpoles": 5,
+                          "rotate-by": 15,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 5,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type9": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 1,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 1,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 1,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type10": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle3": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle4": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type11": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 3,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 3,
+                          "rotate-by": 0
+                        },
+                        "circle3": {
+                          "tadpoles": 3,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle4": {
+                          "tadpoles": 3,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type12": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 4,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 4,
+                          "rotate-by": 0
+                        },
+                        "circle3": {
+                          "tadpoles": 4,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle4": {
+                          "tadpoles": 4,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type13": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 5,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 5,
+                          "rotate-by": 0
+                        },
+                        "circle3": {
+                          "tadpoles": 5,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle4": {
+                          "tadpoles": 5,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type14": {
+                      "input": false,
+                      "buttons": 5,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 1,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 1,
+                          "rotate-by": 0
+                        },
+                        "circle3": {
+                          "tadpoles": 1,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle4": {
+                          "tadpoles": 1,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type15": {
+                      "input": true,
+                      "buttons": 12,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 3,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 3,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type16": {
+                      "input": true,
+                      "buttons": 12,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 3,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 3,
+                          "rotate-by": -15,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 3,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type17": {
+                      "input": true,
+                      "buttons": 12,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 2,
+                          "rotate-by": 15,
+                          "flip-by": -1
+                        },
+                        "circle3": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type18": {
+                      "input": true,
+                      "buttons": 12,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 4,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 4,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    },
+                    "type19": {
+                      "input": true,
+                      "buttons": 12,
+                      "circles": {
+                        "circle1": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle2": {
+                          "tadpoles": 2,
+                          "rotate-by": 0
+                        },
+                        "circle3": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        },
+                        "circle4": {
+                          "tadpoles": 2,
+                          "rotate-by": 0,
+                          "flip-by": -1
+                        }
+                      }
+                    }
+                  },
+                  "images": {
+                    "tadpole": {
+                      "path": "images/tadpole.svg"
+                    },
+                    "frog": {
+                      "path": "images/frog.svg"
+                    },
+                    "circle": {
+                      "path": "images/circle.svg"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "pad-type": "card-pad",
+                    "no-of-buttons":[],
+                    "start-number": 1
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "tadpole": {
+                    "path": "images/tadpole.svg"
+                  },
+                  "frog": {
+                    "path": "images/frog.svg"
+                  },
+                  "circle": {
+                    "path": "images/circle.svg"
+                  }
+                },
+                "ahead":{
+                  "next-path":"game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

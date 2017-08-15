@@ -1,0 +1,131 @@
+// Add background layout
+.app-home-level-menu-ones-patterns-layout {
+  .banner {
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.ones-patterns-page {
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .more-button {
+    position: absolute;
+    left: 84.4%;
+    top: 69%;
+  }
+
+  .reset-button {
+    position: absolute;
+    left: 49.7%;
+    top: 20.7%;
+  }
+
+  .first-text {
+    position: absolute;
+    left: 51%;
+    top: 0.5%;
+    color: #d96e4c;
+    font-size: 1.2vw;
+  }
+
+  .second-text {
+    position: absolute;
+    left: 51%;
+    top: 7%;
+    color: #d96e4c;
+    font-size: 1.06vw;
+  }
+
+  .third-text {
+    position: absolute;
+    left: 51%;
+    top: 13%;
+    color: #d96e4c;
+    font-size: 1.06vw;
+  }
+
+  .bottom-text {
+    position: absolute;
+    left: 51%;
+    top: 68%;
+    color: #d96e4c;
+    font-size: 1.2vw;
+  }
+
+  .chart {
+    position: absolute;
+    left: 16.5%;
+    top: 2.3%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 34%;
+    z-index: 1;
+    .row-chart {
+      width: 4%;
+      border: 0.15vw solid #000;
+      color: #000000;
+      font-weight: bold;
+      text-align: center;
+      font-size: 1vw;
+      z-index: 3;
+      cursor: pointer;
+    }
+  }
+
+  .green-bg {
+    background-color: #80e680 !important;
+  }
+
+  .input-flex {
+    position: absolute;
+    top: 77%;
+    left: 13.5%;
+    width: 100%;
+    height: 20%;
+    .input-item {
+      color: #fff;
+      text-align: center;
+      background-color: #c46702;
+      border: 2px solid #7a410e;
+      box-shadow: inset 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, .35);
+      border-radius: .9vw;
+      z-index: 1;
+      margin-top: 1%;
+      width: 4vw;
+      height: 4vw;
+      font-size: 1.6vw;
+      margin-left: 0.7vw;
+      line-height: 6vw;
+      &:focus {
+        border: 2px solid #000;
+      }
+    }
+  }
+
+  .python {
+    left: 11%;
+    top: 41%;
+    width: 73%;
+    cursor: default;
+  }
+}

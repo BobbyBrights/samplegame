@@ -1,0 +1,122 @@
+
+/* Sub game namespace */
+.more-count-page {
+
+  .counter-page {
+
+    .game-body {
+      padding-left: 0.5%;
+    }
+
+    .counter-container {
+      position: relative;
+      left: 29.3%;
+      margin-top: 2.3%;
+      width: 24vw;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .circle-container:nth-child(10n){
+      border-right-width: 0.1vw;
+    }
+    .circle-container:nth-child(1n+91) {
+      border-bottom-width: 0.1vw;
+    }
+
+    .circle-image {
+      width: 1.8vw;
+      padding: 0.1vw;
+      padding-top: 0.15vw;
+    }
+
+    .circle-container {
+      display: block;
+      width: 2.2vw;
+      position: relative;
+      height: 2vw;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 0.1vw 0 0 0.1vw;
+
+      &.circle-border {
+        border-color: #3f3d3e;
+      }
+
+      .count {
+        position: absolute;
+        bottom: 5.2%;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1vw;
+        line-height: 1.7vw;
+
+        span {
+          line-height: 1vw;
+          display: inline-block;
+          padding: 0 2%;
+        }
+      }
+    }
+
+    .circle {
+      height: 80%;
+      position: absolute;
+      width: 80%;
+      top: 5.7%;
+      left: 9.9%;
+      border-radius: 50%;
+      margin: auto;
+    }
+
+    .hide-show {
+      font-size: .81vw;
+      text-align: center;
+      cursor: pointer;
+      display: block;
+      top: 95.2%;
+      width: 100%;
+      color: #fff;
+      position: absolute;
+      left: 0%;
+    }
+
+    .show-hide-button {
+      cursor: pointer;
+    }
+
+    .action-bar {
+      margin: 0 0;
+    }
+
+    .grid-btn {
+      position: absolute;
+      width: 8%;
+      height: 18%;
+      top: -16%;
+      left: 87.5%;
+      z-index: 3;
+    }  
+
+    .tick-cross {
+      position: absolute;
+      width: 8%;
+      top: 78%;
+      left: 81.2%;
+    }
+
+    .cross {
+      position: absolute;
+      top:8%;
+    }
+
+  }
+  /*.bottom-panel-menu {         
+    bottom: -20.6%;   
+  }*/
+
+}

@@ -1,0 +1,38 @@
+<div class="drag-type-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+        <!-- Game specific elements -->
+
+        <div>
+            <img ng-repeat="image in imageCount"
+                 class="display-images"
+                 ng-src="{{displayImages['screen'+image].path}}"
+                 width="{{displayImages['screen'+image].width}}"
+                 height="{{displayImages['screen'+image].height}}"
+                 ng-style="{top: displayImages['screen'+image].top, left:displayImages['screen'+image].left}"/>
+        </div>
+
+        <div ng-repeat="pos in dropZoneLeftPositions track by ($index + groups)"
+             id="dropZone{{$index}}"
+             class="pos-absolute drop-btn"
+             group="{{$index}}"
+             ng-style="{left:dropZoneLeftPositions[$index]+'%', top: dropZoneTopPositions[$index]+'%'}"
+             drop-zone>
+        </div>
+
+        <div ng-repeat="name in groups track by ($index + groups)"
+             group="{{name}}"
+             id="drag{{name}}"
+             class="pos-absolute drag-btn drag invisible"
+             drag-item
+             ng-style="{left: dragItemLeftPositions[$index]+'%', top: dragItemTopPositions[$index]+'%'}">
+            {{dragItems[$index]}}
+        </div>
+
+        <div class="tick invisible">
+            <img ng-src="{{signImages.tick.path}}">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

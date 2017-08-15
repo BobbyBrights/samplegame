@@ -1,0 +1,243 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "types": {
+                "names": {
+                  "home": {
+                    "header": {
+                      "text": "3D Shape Names"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                      "0": {
+                        "path": "click-type/b/names/images/blue-cone.svg",
+                        "width": "100%"
+                      },
+                      "1": {
+                        "path": "click-type/b/names/images/blue-cylinder.svg",
+                        "width": "100%"
+                      },
+                      "2": {
+                        "path": "click-type/b/names/images/cassowary-cube.svg",
+                        "width": "100%"
+                      },
+                      "3": {
+                        "path": "click-type/b/names/images/cone.svg",
+                        "width": "100%"
+                      },
+                      "4": {
+                        "path": "click-type/b/names/images/cylinder.svg",
+                        "width": "100%"
+                      },
+                      "5": {
+                        "path": "click-type/b/names/images/dice.svg",
+                        "width": "100%"
+                      },
+                      "6": {
+                        "path": "click-type/b/names/images/frog-mug.svg",
+                        "width": "100%"
+                      },
+                      "7": {
+                        "path": "click-type/b/names/images/green-cone.svg",
+                        "width": "100%"
+                      },
+                      "8": {
+                        "path": "click-type/b/names/images/green-rectangular-prism.svg",
+                        "width": "100%"
+                      },
+                      "9": {
+                        "path": "click-type/b/names/images/orange-sphere.svg",
+                        "width": "100%"
+                      },
+                      "10": {
+                        "path": "click-type/b/names/images/pentagon-pyramid.svg",
+                        "width": "100%"
+                      },
+                      "11": {
+                        "path": "click-type/b/names/images/pyramid.svg",
+                        "width": "100%"
+                      },
+                      "12": {
+                        "path": "click-type/b/names/images/rectangular-prism.svg",
+                        "width": "100%"
+                      },
+                      "13": {
+                        "path": "click-type/b/names/images/sphere.svg",
+                        "width": "100%"
+                      },
+                      "14": {
+                        "path": "click-type/b/names/images/sphere-ball.svg",
+                        "width": "100%"
+                      },
+                      "15": {
+                        "path": "click-type/b/names/images/square-prism.svg",
+                        "width": "100%"
+                      },
+                      "16": {
+                        "path": "click-type/b/names/images/tadpol-cube.svg",
+                        "width": "100%"
+                      },
+                      "17": {
+                        "path": "click-type/b/names/images/triangular-pyramid.svg",
+                        "width": "100%"
+                      }
+                    },
+                    "question": {
+                      "buttons":[
+                        "Cube","Cone","Cylinder","Pyramid","Rectangular Prism","Sphere"
+                      ],
+                      "correct-answer":["Cone","Cylinder","Rectangular Prism","Cone","Cylinder","Cube","Cylinder",
+                        "Cone","Rectangular Prism","Sphere","Pyramid","Pyramid","Rectangular Prism","Sphere","Sphere",
+                        "Cube","Cube","Pyramid"],
+                      "hint": {
+                        "text": "Select the correct name.",
+                        "cls": ""
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick",
+                          "width": "8%",
+                          "top": "77.5%",
+                          "left": "82%"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross",
+                          "width": "8%",
+                          "top": "82.5%",
+                          "left": "82.2%"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "sorting": {
+                          "path": "images/menu/Bsorting-icon.svg",
+                          "state":  "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'sorting', level :  'b'}"
+                        },
+                        "quiz": {
+                          "path": "images/menu/quiz-icon.svg",
+                          "state":  "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'quiz', level :  'b'}"
+                        },
+                        "view": {
+                          "path": "images/menu/view-icon.svg",
+                          "state":  "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'view', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "0": {
+                        "path": "click-type/b/names/images/blue-cone.svg"
+
+                      },
+                      "1": {
+                        "path": "click-type/b/names/images/blue-cylinder.svg"
+
+                      },
+                      "2": {
+                        "path": "click-type/b/names/images/cassowary-cube.svg"
+
+                      },
+                      "3": {
+                        "path": "click-type/b/names/images/cone.svg"
+
+                      },
+                      "4": {
+                        "path": "click-type/b/names/images/cylinder.svg"
+
+                      },
+                      "5": {
+                        "path": "click-type/b/names/images/dice.svg"
+
+                      },
+                      "6": {
+                        "path": "click-type/b/names/images/frog-mug.svg"
+
+                      },
+                      "7": {
+                        "path": "click-type/b/names/images/green-cone.svg"
+
+                      },
+                      "8": {
+                        "path": "click-type/b/names/images/green-rectangular-prism.svg"
+
+                      },
+                      "9": {
+                        "path": "click-type/b/names/images/orange-sphere.svg"
+
+                      },
+                      "10": {
+                        "path": "click-type/b/names/images/pentagon-pyramid.svg"
+
+                      },
+                      "11": {
+                        "path": "click-type/b/names/images/pyramid.svg"
+
+                      },
+                      "12": {
+                        "path": "click-type/b/names/images/rectangular-prism.svg"
+
+                      },
+                      "13": {
+                        "path": "click-type/b/names/images/sphere.svg"
+
+                      },
+                      "14": {
+                        "path": "click-type/b/names/images/sphere-ball.svg"
+
+                      },
+                      "15": {
+                        "path": "click-type/b/names/images/square-prism.svg"
+
+                      },
+                      "16": {
+                        "path": "click-type/b/names/images/tadpol-cube.svg"
+
+                      },
+                      "17": {
+                        "path": "click-type/b/names/images/triangular-pyramid.svg"
+
+                      },
+                      "sorting": {
+                        "path": "images/menu/Bsorting-icon.svg"
+                      },
+                      "quiz": {
+                        "path": "images/menu/quiz-icon.svg"
+                      },
+                      "view": {
+                        "path": "images/menu/view-icon.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

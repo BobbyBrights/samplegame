@@ -1,0 +1,391 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "position": {
+              "types": {
+                "grids": {
+                  "home": {
+                    "header": {
+                      "text": "Position ... grids"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the pictures.",
+                        "cls": ""
+                      }
+                    },
+                    "grid-image": {
+                      "path": "grids/images/grid.svg"
+                    },
+                    "grid-one-bug": {
+                      "bug0": {
+                        "path": "grids/images/bug-one.svg",
+                        "cls": "pos-absolute",
+                        "width": "9%",
+                        "height": "13%",
+                        "top": "1%",
+                        "left": "7%",
+                        "margin": "1%"
+                      },
+                      "bug1": {
+                        "path": "grids/images/bug-three.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "height": "8%",
+                        "top": "1%",
+                        "left": "7%",
+                        "margin": "2%"
+                      },
+                      "bug2": {
+                        "path": "grids/images/bug-two.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "height": "8%",
+                        "top": "0%",
+                        "left": "7%",
+                        "margin": "2%"
+                      },
+                      "bug3": {
+                        "path": "grids/images/frog.svg",
+                        "cls": "pos-absolute",
+                        "width": "11%",
+                        "height": "11%",
+                        "top": "-1%",
+                        "left": "6%",
+                        "margin": "2%"
+                      },
+                      "bug4": {
+                        "path": "grids/images/tadpole.svg",
+                        "cls": "pos-absolute",
+                        "width": "7%",
+                        "height": "7%",
+                        "top": "1%",
+                        "left": "8%",
+                        "margin": "2%"
+                      },
+                      "bug5": {
+                        "path": "grids/images/caterpillar.svg",
+                        "cls": "pos-absolute",
+                        "width": "7%",
+                        "height": "7%",
+                        "top": "0%",
+                        "left": "8%",
+                        "margin": "2%"
+                      },
+                      "bug6": {
+                        "path": "grids/images/butterfly.svg",
+                        "cls": "pos-absolute",
+                        "width": "10%",
+                        "height": "10%",
+                        "top": "-1%",
+                        "left": "6%",
+                        "margin": "2%"
+                      }
+                    },
+                    "grid-two-bug": {
+                      "bug0": {
+                        "path": "grids/images/grid-crayfish.svg",
+                        "cls": "pos-absolute",
+                        "width": "7%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      },
+                      "bug1": {
+                        "path": "grids/images/grid-parrot.svg",
+                        "cls": "pos-absolute",
+                        "width": "12%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      },
+                      "bug2": {
+                        "path": "grids/images/grid-bug-one.svg",
+                        "cls": "pos-absolute",
+                        "width": "12%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      },
+                      "bug3": {
+                        "path": "grids/images/grid-lizard.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      },
+                      "bug4": {
+                        "path": "grids/images/grid-cassowary.svg",
+                        "cls": "pos-absolute",
+                        "width": "12%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      },
+                      "bug5": {
+                        "path": "grids/images/grid-snake.svg",
+                        "cls": "pos-absolute",
+                        "width": "12%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      },
+                      "bug6": {
+                        "path": "grids/images/grid-bug-two.svg",
+                        "cls": "pos-absolute",
+                        "width": "10%",
+                        "height": "15%",
+                        "top": "39%",
+                        "left": "8%"
+                      }
+                    },
+                    "PathValues": {
+                      "0": [
+                        7,
+                        22,
+                        10,
+                        19,
+                        20,
+                        14,
+                        15
+                      ]
+                    },
+                    "path-images": {
+                      "0": {
+                        "pos": "7"
+                      },
+                      "1": {
+                        "pos": "22"
+                      },
+                      "2": {
+                        "pos": "10"
+                      },
+                      "3": {
+                        "pos": "19"
+                      },
+                      "4": {
+                        "pos": "20"
+                      },
+                      "5": {
+                        "pos": "14"
+                      },
+                      "6": {
+                        "pos": "15"
+                      }
+                    },
+                    "drag-image-data": {
+                      "hint-text": "Put",
+                      "cls": "",
+                      "screens": [
+                        {
+                          "heading": "Put on the top row,",
+                          "hint": "first from the left.",
+                          "startpotion": {
+                            "left": "387px",
+                            "top": "264px"
+                          }
+                        },
+                        {
+                          "heading": "Put on the top row,",
+                          "hint": "second from the right.",
+                          "startpotion": {
+                            "left": "280px",
+                            "top": "170px"
+                          }
+                        },
+                        {
+                          "heading": "Put on the middle row,",
+                          "hint": "second from the left.",
+                          "startpotion": {
+                            "left": "534px",
+                            "top": "261px"
+                          }
+                        },
+                        {
+                          "heading": "Put on the middle row,",
+                          "hint": "first from the right.",
+                          "startpotion": {
+                            "left": "235px",
+                            "top": "275px"
+                          }
+                        },
+                        {
+                          "heading": "Put on the bottom row,",
+                          "hint": "first from left.",
+                          "startpotion": {
+                            "left": "483px",
+                            "top": "207px"
+                          }
+                        },
+                        {
+                          "heading": "Put on the bottom row,",
+                          "hint": "second from the right.",
+                          "startpotion": {
+                            "left": "525px",
+                            "top": "157px"
+                          }
+                        },
+                        {
+                          "heading": "Put on the bottom row,",
+                          "hint": "at the right.",
+                          "startpotion": {
+                            "left": "538px",
+                            "top": "290px"
+                          }
+                        }
+                      ]
+                    },
+                    "plain-grid-image-data": {
+                      "hint-text": "Put",
+                      "hint-at": "at",
+                      "screens": [
+                        {
+                          "hint": "A3"
+                        },
+                        {
+                          "hint": "D1"
+                        },
+                        {
+                          "hint": "D3"
+                        },
+                        {
+                          "hint": "A1"
+                        },
+                        {
+                          "hint": "B1"
+                        },
+                        {
+                          "hint": "B2"
+                        },
+                        {
+                          "hint": "C2"
+                        }
+                      ]
+                    },
+                    "drag-image-positions": [
+                      "33,21",
+                      "58,62",
+                      "58,25",
+                      "32,60",
+                      "42,63",
+                      "42,43",
+                      "49,42"
+                    ],
+                    "drag-image-positions-two": [
+                      "34,20",
+                      "48,22",
+                      "40,40",
+                      "58,40",
+                      "32,59",
+                      "48,59",
+                      "57,58"
+                    ],
+                    "dummy-div-positions-one": [
+                      "33,21",
+                      "58,57",
+                      "58,20",
+                      "32,57",
+                      "42,58",
+                      "42,38",
+                      "49,38"
+                    ],
+                    "dummy-div-positions-two": [
+                      "34,21",
+                      "48,22",
+                      "40,40",
+                      "58,39",
+                      "32,59",
+                      "48,59",
+                      "59,57"
+                    ]
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "words": {
+                          "path": "images/menu/word-icon.svg",
+                          "state": "^.position-game",
+                          "params": "{category : 'space', game : 'words', level :  'b'}"
+                        },
+                        "paths": {
+                          "path": "images/menu/paths-icon.svg",
+                          "state": "^.position-game",
+                          "params": "{category : 'space', game : 'paths', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "bug0": {
+                        "path": "grids/images/grid-crayfish.svg"
+                      },
+                      "bug1": {
+                        "path": "grids/images/grid-parrot.svg"
+                      },
+                      "bug2": {
+                        "path": "grids/images/grid-bug-one.svg"
+                      },
+                      "bug3": {
+                        "path": "grids/images/grid-lizard.svg"
+                      },
+                      "bug4": {
+                        "path": "grids/images/grid-cassowary.svg"
+                      },
+                      "bug5": {
+                        "path": "grids/images/grid-snake.svg"
+                      },
+                      "bug6": {
+                        "path": "grids/images/grid-bug-two.svg"
+                      },
+                      "bug7": {
+                        "path": "grids/images/bug-one.svg"
+                      },
+                      "bug8": {
+                        "path": "grids/images/bug-three.svg"
+                      },
+                      "bug9": {
+                        "path": "grids/images/bug-two.svg"
+                      },
+                      "bug10": {
+                        "path": "grids/images/frog.svg"
+                      },
+                      "bug11": {
+                        "path": "grids/images/tadpole.svg"
+                      },
+                      "bug12": {
+                        "path": "grids/images/caterpillar.svg"
+                      },
+                      "bug13": {
+                        "path": "grids/images/butterfly.svg"
+                      },
+                      "words": {
+                        "path": "images/menu/word-icon.svg"
+                      },
+                      "paths": {
+                        "path": "images/menu/paths-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+<div class="butterfly-page">
+    <work-area menu="menu" next="next" check="check"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+
+        <!-- Display two lines grren -->
+        <div class="pinkline"></div>
+        <div class="greenline"></div>
+
+
+        <!--Display butterflies -->
+
+        <div ng-repeat="num in count" id="butterfly-{{num}}" class="butterfly move-enable"
+             position="{{leftPositions[$index]}},13" ng-click="butterfly($event,num)"></div>
+
+         <div ng-repeat="num in count" id="butterfly-anim-{{num}}" class="invisible"
+             position="{{leftPositions[$index]}},13"></div>
+
+
+        <!--Display butterfly mirror image on top-->
+        <div ng-repeat="num in count" id="flyleft-{{num}}" class="butterfly-anim invisible"
+             position="{{leftPositions[$index]}},-6" ></div>
+
+
+        <!--Display numbers and inputs-->
+            <div class="data-content">
+                <div class="input-data">{{firstNumber}}</div>
+                <div class="sign-box">-</div>
+                <div class="input-data">{{secondNumber}}</div>
+                <div class="sign-box">=</div>
+                <input id="input-value" maxlength="2" class="input-data " ng-model="inputVal"/>
+            </div>
+
+
+        <!--Check button -->
+        <check-button class="check-btns" ng-click="check($event)" param="flag" >
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+        <div class="subhint-text" ng-bind-html="questionHintText"></div>
+        <div class="sub-hint-minus" ng-bind-html="questionSubminus"></div>
+        <div class="sub-hint-equal" ng-bind-html="questionSubequal"></div>
+    </work-area>
+</div>

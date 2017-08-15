@@ -1,0 +1,703 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "fractions": {
+              "types": {
+                "halves": {
+                  "home": {
+                    "header": {
+                      "text": "Fractions by Halves"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "path": "halves/images/right-panel-icon.svg"
+                    },
+                    "question": {
+                      "sub-title": {
+                        "text": "2 halves = 1 whole"
+                      },
+                      "icon": {
+                        "game-icon": {
+                          "path": "halves/images/half-oranges.svg",
+                          "cls": "pos-absolute",
+                          "width": "50%",
+                          "top": "18%",
+                          "left": "-1%"
+                        },
+                        "orange": {
+                          "path": "halves/images/orange.svg",
+                          "cls": "pos-absolute",
+                          "width": "24%",
+                          "left": "66%"
+                        }
+                      },
+                      "hint": {
+                        "0": "Select one half of each butterfly.",
+                        "1": "Select the shape divided in half.",
+                        "2": "Select the butterfly showing one half."
+                      },
+                      "image": {
+                        "one-half": {
+                          "path": "halves/images/one-half.svg"
+                        },
+                        "next-butterfly": {
+                          "path": "halves/images/next-butterfly.svg"
+                        },
+                        "sign": {
+                          "tick": {
+                            "path": "halves/images/tick.svg",
+                            "name": "tick",
+                            "cls": "pos-absolute",
+                            "width": "8%",
+                            "left": "81.6%",
+                            "top": "81%"
+                          },
+                          "cross": {
+                            "path": "halves/images/cross.svg",
+                            "name": "cross",
+                            "cls": "pos-absolute",
+                            "width": "8%",
+                            "left": "81.7%",
+                            "top": "81%"
+                          }
+                        },
+                        "second-game": {
+                          "vertical-half-yellow": {
+                            "path": "halves/images/vertical-half-yellow.svg",
+                            "width": "35%"
+                          },
+                          "vertical-quarter-yellow": {
+                            "path": "halves/images/vertical-quarter-yellow.svg",
+                            "width": "35%"
+                          },
+                          "horizontal-half-yellow": {
+                            "path": "halves/images/horizontal-half-yellow.svg",
+                            "width": "35%"
+                          },
+                          "horizontal-quarter-yellow": {
+                            "path": "halves/images/horizontal-quarter-yellow.svg",
+                            "width": "35%"
+                          },
+                          "diagonal-half-yellow": {
+                            "path": "halves/images/diagonal-half-yellow.svg",
+                            "width": "35%"
+                          },
+                          "diagonal-quarter-yellow": {
+                            "path": "halves/images/diagonal-quarter-yellow.svg",
+                            "width": "35%"
+                          },
+                          "cube-quarter-green": {
+                            "path": "halves/images/cube-quarter-green.svg",
+                            "width": "25%"
+                          },
+                          "cube-half-green": {
+                            "path": "halves/images/cube-half-green.svg",
+                            "width": "25%"
+                          },
+                          "tilted-cube-half-green": {
+                            "path": "halves/images/tilted-cube-half-green.svg",
+                            "width": "25%"
+                          },
+                          "tilted-cube-quarter-green": {
+                            "path": "halves/images/tilted-cube-quarter-green.svg",
+                            "width": "25%"
+                          },
+                          "diagonal-cube-half": {
+                            "path": "halves/images/diagonal-cube-half.svg",
+                            "width": "25%"
+                          },
+                          "diagonal-cube-quarter": {
+                            "path": "halves/images/diagonal-cube-quarter.svg",
+                            "width": "25%"
+                          },
+                          "green-quarter-square": {
+                            "path": "halves/images/green-quarter-square.svg",
+                            "width": "25%"
+                          },
+                          "green-diagonal-square": {
+                            "path": "halves/images/green-diagonal-square.svg",
+                            "width": "25%"
+                          },
+                          "vertical-half-circle": {
+                            "path": "halves/images/vertical-half-circle.svg",
+                            "width": "25%"
+                          },
+                          "vertical-quarter-circle": {
+                            "path": "halves/images/vertical-quarter-circle.svg",
+                            "width": "25%"
+                          },
+                          "diagonal-half-circle": {
+                            "path": "halves/images/diagonal-half-circle.svg",
+                            "width": "25%"
+                          },
+                          "quarter-color-circle": {
+                            "path": "halves/images/quarter-color-circle.svg",
+                            "width": "25%"
+                          },
+                          "3-vertical-dashed-circle": {
+                            "path": "halves/images/3-vertical-dashed-circle.svg",
+                            "width": "25%"
+                          },
+                          "half-vertical-dashed-circle": {
+                            "path": "halves/images/half-vertical-dashed-circle.svg",
+                            "width": "25%"
+                          },
+                          "diagonal-dash-cube": {
+                            "path": "halves/images/diagonal-dash-cube.svg",
+                            "width": "25%"
+                          },
+                          "half-dash-cube": {
+                            "path": "halves/images/half-dash-cube.svg",
+                            "width": "25%"
+                          },
+                          "half-dashed-rectangle": {
+                            "path": "halves/images/half-dashed-rectangle.svg",
+                            "width": "35%"
+                          },
+                          "double-dashed-rectangle": {
+                            "path": "halves/images/double-dashed-rectangle.svg",
+                            "width": "35%"
+                          },
+                          "3-dashed-circle": {
+                            "path": "halves/images/3-dashed-circle.svg",
+                            "width": "25%"
+                          },
+                          "half-dashed-circle": {
+                            "path": "halves/images/half-dashed-circle.svg",
+                            "width": "25%"
+                          }
+                        },
+                        "third-game": {
+                          "mango-two": {
+                            "path": "halves/images/mango-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-three": {
+                            "path": "halves/images/mango-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-six": {
+                            "path": "halves/images/mango-six.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-four": {
+                            "path": "halves/images/mango-four.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-half-three": {
+                            "path": "halves/images/mango-half-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-nine": {
+                            "path": "halves/images/mango-nine.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-half-eight": {
+                            "path": "halves/images/mango-half-eight.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "mango-twelve": {
+                            "path": "halves/images/mango-twelve.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-half-one": {
+                            "path": "halves/images/dot-half-one.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-one": {
+                            "path": "halves/images/dot-one.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-half-two": {
+                            "path": "halves/images/dot-half-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-two": {
+                            "path": "halves/images/dot-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-half-three": {
+                            "path": "halves/images/dot-half-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-three": {
+                            "path": "halves/images/dot-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-half-four": {
+                            "path": "halves/images/dot-half-four.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-four": {
+                            "path": "halves/images/dot-four.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-half-five": {
+                            "path": "halves/images/dot-half-five.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "dot-five": {
+                            "path": "halves/images/dot-five.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "orange-half-one": {
+                            "path": "halves/images/orange-half-one.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "orange-one": {
+                            "path": "halves/images/orange-one.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "orange-half-two": {
+                            "path": "halves/images/orange-half-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "orange-two": {
+                            "path": "halves/images/orange-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "orange-half-three": {
+                            "path": "halves/images/orange-half-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "orange-three": {
+                            "path": "halves/images/orange-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "pineapple-half-one": {
+                            "path": "halves/images/pineapple-half-one.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "pineapple-one": {
+                            "path": "halves/images/pineapple-one.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "pineapple-half-two": {
+                            "path": "halves/images/pineapple-half-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "pineapple-two": {
+                            "path": "halves/images/pineapple-two.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "pineapple-half-three": {
+                            "path": "halves/images/pineapple-half-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          },
+                          "pineapple-three": {
+                            "path": "halves/images/pineapple-three.svg",
+                            "cls": "pos-absolute",
+                            "width": "30%"
+                          }
+                        }
+                      },
+                      "halve-second-subtype": {
+                        "0": [
+                          "verticalQuarterYellow",
+                          "verticalHalfYellow"
+                        ],
+                        "1": [
+                          "horizontalHalfYellow",
+                          "horizontalQuarterYellow"
+                        ],
+                        "2": [
+                          "diagonalHalfYellow",
+                          "diagonalQuarterYellow"
+                        ],
+                        "3": [
+                          "cubeQuarterGreen",
+                          "cubeHalfGreen"
+                        ],
+                        "4": [
+                          "tiltedCubeHalfGreen",
+                          "tiltedCubeQuarterGreen"
+                        ],
+                        "5": [
+                          "diagonalCubeHalf",
+                          "diagonalCubeQuarter"
+                        ],
+                        "6": [
+                          "greenQuarterSquare",
+                          "greenDiagonalSquare"
+                        ],
+                        "7": [
+                          "verticalHalfCircle",
+                          "verticalQuarterCircle"
+                        ],
+                        "8": [
+                          "diagonalHalfCircle",
+                          "quarterColorCircle"
+                        ],
+                        "9": [
+                          "3VerticalDashedCircle",
+                          "halfVerticalDashedCircle"
+                        ],
+                        "10": [
+                          "diagonalDashCube",
+                          "halfDashCube"
+                        ],
+                        "11": [
+                          "halfDashedRectangle",
+                          "doubleDashedRectangle"
+                        ],
+                        "12": [
+                          "3DashedCircle",
+                          "halfDashedCircle"
+                        ]
+                      },
+                      "halve-third-subtype": {
+                        "0": [
+                          "mangoTwo",
+                          "mangoThree"
+                        ],
+                        "1": [
+                          "mangoSix",
+                          "mangoFour"
+                        ],
+                        "2": [
+                          "mangoHalfThree",
+                          "mangoNine"
+                        ],
+                        "3": [
+                          "mangoHalfEight",
+                          "mangoTwelve"
+                        ],
+                        "4": [
+                          "dotOne",
+                          "dotHalfOne"
+                        ],
+                        "5": [
+                          "dotHalfTwo",
+                          "dotTwo"
+                        ],
+                        "6": [
+                          "dotThree",
+                          "dotHalfThree"
+                        ],
+                        "7": [
+                          "dotHalfFour",
+                          "dotFour"
+                        ],
+                        "8": [
+                          "dotFive",
+                          "dotHalfFive"
+                        ],
+                        "9": [
+                          "orangeHalfOne",
+                          "orangeOne"
+                        ],
+                        "10": [
+                          "orangeTwo",
+                          "orangeHalfTwo"
+                        ],
+                        "11": [
+                          "orangeHalfThree",
+                          "orangeThree"
+                        ],
+                        "12": [
+                          "pineappleOne",
+                          "pineappleHalfOne"
+                        ],
+                        "13": [
+                          "pineappleHalfTwo",
+                          "pineappleTwo"
+                        ],
+                        "14": [
+                          "pineappleThree",
+                          "pineappleHalfThree"
+                        ]
+                      },
+                      "answers": {
+                        "1": [
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          0,
+                          1,
+                          1,
+                          0,
+                          1
+                        ],
+                        "2": [
+                          0,
+                          1,
+                          0,
+                          0,
+                          1,
+                          0,
+                          1,
+                          0,
+                          1,
+                          0,
+                          1,
+                          0,
+                          1,
+                          0,
+                          1
+                        ]
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "quarters": {
+                          "path": "images/menu/quarters.svg",
+                          "state": "^.fractions-game",
+                          "params": "{category : 'number', game : 'quarters', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path": "halves/images/right-panel-icon.svg"
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "halves": {
+                        "path": "images/menu/halves.svg"
+                      },
+                      "quarters": {
+                        "path": "images/menu/quarters.svg"
+                      },
+                      "game-icon": {
+                        "path": "halves/images/half-oranges.svg"
+                      },
+                      "orange": {
+                        "path": "halves/images/orange.svg"
+                      },
+                      "one-half": {
+                        "path": "halves/images/one-half.svg"
+                      },
+                      "next-butterfly": {
+                        "path": "halves/images/next-butterfly.svg"
+                      },
+                      "tick": {
+                        "path": "halves/images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "halves/images/cross.svg"
+                      },
+                      "vertical-half-yellow": {
+                        "path": "halves/images/vertical-half-yellow.svg"
+                      },
+                      "vertical-quarter-yellow": {
+                        "path": "halves/images/vertical-quarter-yellow.svg"
+                      },
+                      "horizontal-half-yellow": {
+                        "path": "halves/images/horizontal-half-yellow.svg"
+                      },
+                      "horizontal-quarter-yellow": {
+                        "path": "halves/images/horizontal-quarter-yellow.svg"
+                      },
+                      "diagonal-half-yellow": {
+                        "path": "halves/images/diagonal-half-yellow.svg"
+                      },
+                      "diagonal-quarter-yellow": {
+                        "path": "halves/images/diagonal-quarter-yellow.svg"
+                      },
+                      "cube-quarter-green": {
+                        "path": "halves/images/cube-quarter-green.svg"
+                      },
+                      "cube-half-green": {
+                        "path": "halves/images/cube-half-green.svg"
+                      },
+                      "tilted-cube-half-green": {
+                        "path": "halves/images/tilted-cube-half-green.svg"
+                      },
+                      "tilted-cube-quarter-green": {
+                        "path": "halves/images/tilted-cube-quarter-green.svg"
+                      },
+                      "diagonal-cube-half": {
+                        "path": "halves/images/diagonal-cube-half.svg"
+                      },
+                      "diagonal-cube-quarter": {
+                        "path": "halves/images/diagonal-cube-quarter.svg"
+                      },
+                      "green-quarter-square": {
+                        "path": "halves/images/green-quarter-square.svg"
+                      },
+                      "green-diagonal-square": {
+                        "path": "halves/images/green-diagonal-square.svg"
+                      },
+                      "vertical-half-circle": {
+                        "path": "halves/images/vertical-half-circle.svg"
+                      },
+                      "vertical-quarter-circle": {
+                        "path": "halves/images/vertical-quarter-circle.svg"
+                      },
+                      "diagonal-half-circle": {
+                        "path": "halves/images/diagonal-half-circle.svg"
+                      },
+                      "quarter-color-circle": {
+                        "path": "halves/images/quarter-color-circle.svg"
+                      },
+                      "3-vertical-dashed-circle": {
+                        "path": "halves/images/3-vertical-dashed-circle.svg"
+                      },
+                      "half-vertical-dashed-circle": {
+                        "path": "halves/images/half-vertical-dashed-circle.svg"
+                      },
+                      "diagonal-dash-cube": {
+                        "path": "halves/images/diagonal-dash-cube.svg"
+                      },
+                      "half-dash-cube": {
+                        "path": "halves/images/half-dash-cube.svg"
+                      },
+                      "half-dashed-rectangle": {
+                        "path": "halves/images/half-dashed-rectangle.svg"
+                      },
+                      "double-dashed-rectangle": {
+                        "path": "halves/images/double-dashed-rectangle.svg"
+                      },
+                      "3-dashed-circle": {
+                        "path": "halves/images/3-dashed-circle.svg"
+                      },
+                      "half-dashed-circle": {
+                        "path": "halves/images/half-dashed-circle.svg"
+                      },
+                      "mango-two": {
+                        "path": "halves/images/mango-two.svg"
+                      },
+                      "mango-three": {
+                        "path": "halves/images/mango-three.svg"
+                      },
+                      "mango-six": {
+                        "path": "halves/images/mango-six.svg"
+                      },
+                      "mango-four": {
+                        "path": "halves/images/mango-four.svg"
+                      },
+                      "mango-half-three": {
+                        "path": "halves/images/mango-half-three.svg"
+                      },
+                      "mango-nine": {
+                        "path": "halves/images/mango-nine.svg"
+                      },
+                      "mango-half-eight": {
+                        "path": "halves/images/mango-half-eight.svg"
+                      },
+                      "mango-twelve": {
+                        "path": "halves/images/mango-twelve.svg"
+                      },
+                      "dot-half-one": {
+                        "path": "halves/images/dot-half-one.svg"
+                      },
+                      "dot-one": {
+                        "path": "halves/images/dot-one.svg"
+                      },
+                      "dot-half-two": {
+                        "path": "halves/images/dot-half-two.svg"
+                      },
+                      "dot-two": {
+                        "path": "halves/images/dot-two.svg"
+                      },
+                      "dot-half-three": {
+                        "path": "halves/images/dot-half-three.svg"
+                      },
+                      "dot-three": {
+                        "path": "halves/images/dot-three.svg"
+                      },
+                      "dot-half-four": {
+                        "path": "halves/images/dot-half-four.svg"
+                      },
+                      "dot-four": {
+                        "path": "halves/images/dot-four.svg"
+                      },
+                      "dot-half-five": {
+                        "path": "halves/images/dot-half-five.svg"
+                      },
+                      "dot-five": {
+                        "path": "halves/images/dot-five.svg"
+                      },
+                      "orange-half-one": {
+                        "path": "halves/images/orange-half-one.svg"
+                      },
+                      "orange-one": {
+                        "path": "halves/images/orange-one.svg"
+                      },
+                      "orange-half-two": {
+                        "path": "halves/images/orange-half-two.svg"
+                      },
+                      "orange-two": {
+                        "path": "halves/images/orange-two.svg"
+                      },
+                      "orange-half-three": {
+                        "path": "halves/images/orange-half-three.svg"
+                      },
+                      "orange-three": {
+                        "path": "halves/images/orange-three.svg"
+                      },
+                      "pineapple-half-one": {
+                        "path": "halves/images/pineapple-half-one.svg"
+                      },
+                      "pineapple-one": {
+                        "path": "halves/images/pineapple-one.svg"
+                      },
+                      "pineapple-half-two": {
+                        "path": "halves/images/pineapple-half-two.svg"
+                      },
+                      "pineapple-two": {
+                        "path": "halves/images/pineapple-two.svg"
+                      },
+                      "pineapple-half-three": {
+                        "path": "halves/images/pineapple-half-three.svg"
+                      },
+                      "pineapple-three": {
+                        "path": "halves/images/pineapple-three.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

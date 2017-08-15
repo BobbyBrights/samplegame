@@ -1,0 +1,159 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "types": {
+                "multi-square-drag": {
+                  "home": {
+                    "header": {
+                      "text": "Area"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter the number"
+                      },
+                      "stamp-hint": {
+                        "text": "How many squares?"
+                      },
+                      "square-hint": {
+                        "text": "Drag the squares to cover the stamp "
+                      },
+                      "stamp-images": {
+                        "stamp-0": {
+                          "path": "multi-square-drag/c/images/1c-frog.svg",
+                          "width": "19%",
+                          "height": "51%",
+                          "top": "4.9%",
+                          "left": "25.9%"
+                        },
+                        "stamp-1": {
+                          "path": "multi-square-drag/c/images/2c-butterfly.svg",
+                          "width": "31.3%",
+                          "height": "40%",
+                          "top": "9%",
+                          "left": "21.5%"
+                        },
+                        "stamp-2": {
+                          "path": "multi-square-drag/c/images/5c-butterfly.svg",
+                          "width": "26%",
+                          "height": "39%",
+                          "top": "8%",
+                          "left": "25.9%"
+                        },
+                        "stamp-3": {
+                          "path": "multi-square-drag/c/images/10c-butterfly.svg",
+                          "width": "31.7%",
+                          "height": "52%",
+                          "top": "4.9%",
+                          "left": "21.9%"
+                        },
+                        "stamp-4": {
+                          "path": "multi-square-drag/c/images/20c-grasshopper.svg",
+                          "width": "27%",
+                          "height": "50%",
+                          "top": "4.9%",
+                          "left": "25.7%"
+                        },
+                        "stamp-5": {
+                          "path": "multi-square-drag/c/images/50c-butterfly.svg",
+                          "width": "26.5%",
+                          "height": "39.5%",
+                          "top": "9%",
+                          "left": "24.5%"
+                        }
+                      },
+                      "colors": [
+                        "#FD3843",
+                        "#FA42A9",
+                        "#F3A529",
+                        "#E26C66",
+                        "#B629FF",
+                        "#E066FF",
+                        "#3A7AE1",
+                        "#914BB3",
+                        "#85BB43",
+                        "#66A2A9",
+                        "#DA355A",
+                        "#A23BE2",
+                        "#6493B6",
+                        "#DA624E",
+                        "#A3AAC2",
+                        "#FFC266",
+                        "#66AF29",
+                        "#FF8466",
+                        "#F9894A",
+                        "#F027B8"
+                      ],
+                      "input-values": [
+                        12,
+                        15,
+                        12,
+                        20,
+                        12,
+                        16
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "grid-drag": {
+                          "path": "images/menu/grid-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'grid-drag', level :  'c'}"
+                        },
+                        "sketchpad": {
+                          "path": "images/menu/sketchpad.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'sketchpad', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10,
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "stamp-0": {
+                        "path": "multi-square-drag/c/images/1c-frog.svg"
+                      },
+                      "stamp-1": {
+                        "path": "multi-square-drag/c/images/2c-butterfly.svg"
+                      },
+                      "stamp-2": {
+                        "path": "multi-square-drag/c/images/5c-butterfly.svg"
+                      },
+                      "stamp-3": {
+                        "path": "multi-square-drag/c/images/10c-butterfly.svg"
+                      },
+                      "stamp-4": {
+                        "path": "multi-square-drag/c/images/20c-grasshopper.svg"
+                      },
+                      "stamp-5": {
+                        "path": "multi-square-drag/c/images/50c-butterfly.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

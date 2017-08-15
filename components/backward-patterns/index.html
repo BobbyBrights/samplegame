@@ -1,0 +1,55 @@
+<div class="backward-patterns-page">
+  <work-area menu="menu" next="next" getscoreboard="getScoreboard" onnumberclick="onNumberClick" header="header">
+
+    <!-- Add images -->
+    <!-- Game specific elements -->
+    <span class="first-label">Choose</span>
+    <span class="second-label">Backwards by {{variation}}.</span>
+
+    <!--Display chart -->
+    <table class="chart">
+      <tr ng-repeat="item in columns">
+        <td ng-repeat="item in rows"
+            ng-click="chartNumClick($parent.$id+'-'+$index)"
+            id="{{$parent.$id+'-'+$index}}"
+            class="row-chart">{{($parent.$index * 10) + $index + 1}}
+        </td>
+      </tr>
+    </table>
+
+    <img ng-src="{{iconImages.tree.path}}" class="{{iconImages.tree.cls}}"
+         ng-style="{left:iconImages.tree.left,top:iconImages.tree.top,width:iconImages.tree.width}"/>
+
+    <img ng-repeat="i in [1,2,5,10]" ng-src="{{iconImages[i].path}}" class="{{iconImages[i].cls}} move-enable"
+         ng-style="{left:iconImages[i].left,top:iconImages[i].top,width:iconImages[i].width}"
+         ng-click="patterns(i)"/>
+
+    <img id="lizard" ng-src="{{iconImages.lizard.path}}" class="{{iconImages.lizard.cls}}"
+         ng-style="{left:iconImages.lizard.left,top:iconImages.lizard.top,width:iconImages.lizard.width}"/>
+
+    <div ng-repeat="num in numbers.left track by getUniqueId()"
+         class="text-label"
+         position="{{($index*8)+58}},55">{{num}}
+    </div>
+
+    <input ng-repeat="num in numbers.right track by getUniqueId()"
+           id="input-{{$index}}"
+           class="input-box"
+           ng-click="inputClick($index)"
+           ng-focus="currentInput=$index"
+           data-count="{{num}}"
+           maxlength="2"
+           position="{{($index*8)+62}},72"
+           ng-disabled="inputDisabled"/>
+
+    <!--display reset and check buttons-->
+    <check-button class="check-btns" ng-click="check($event)" param="flag">
+    </check-button>
+    <div ng-if="!flag" class="redo-btns" ng-click="redo($event)">
+    </div>
+
+    <!-- Display hint text -->
+    <div class="hint-text" ng-bind="questionText"></div>
+
+  </work-area>
+</div>

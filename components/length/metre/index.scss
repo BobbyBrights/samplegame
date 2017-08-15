@@ -1,0 +1,61 @@
+/* Sub game namespace */
+.length-page{
+  .metre-page{
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      margin-top: 2%;
+      width: 76%;
+      height: 55%;
+    }
+
+    .scale {
+      position: absolute;
+      width: 12%;
+      height: 92%;
+      left: -1.5%;
+    }
+
+    .drop-images {
+      width: 50%;
+      height: 100%;
+    }
+
+    .text-left {
+      position: absolute;
+      font-size: 1.2vw;
+      color: #FFFFFF;
+      top: 1%;
+      width: 26%;
+    }
+
+    .left-side {
+      left:19%;
+    }
+
+    .right-side {
+      left:57%;
+    }
+
+    .display-box{
+      position: absolute;
+      top: -19%;
+    }
+
+    .display-chair {
+      position: absolute;
+      width: 9%;
+      left: 6.5%;
+      top: -19%;
+    }
+
+    .tick-sign {
+      position: absolute;
+      top: 68%;
+      width: 7%;
+      left: 90%;
+    }
+  }
+}

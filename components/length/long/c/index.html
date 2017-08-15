@@ -1,0 +1,36 @@
+<div class="long-page">
+    <work-area menu="menu" next="next" getscoreboard="getScoreboard" header="header" onnumberclick="onNumberClick">
+        <!-- Add images -->
+        <div class="question-label">{{questionLabel}}</div>
+        <div class="container">
+            <img ng-repeat="block in flyImages"
+                 class="image-item"
+                 height="{{longImages['play'+block].height}}"
+                 width="{{longImages['play'+block].width}}"
+                 ng-style="{top: longImages['play'+block].top, left:longImages['play'+block].left}"
+                 ng-src="{{longImages['play'+block].path}}">
+
+            <img class="drag-scale"
+                 id="pin"
+                 drag-item
+                 group="{{$index}}"
+                 position="23,60"
+                 ng-src="{{dragImage.path}}">
+        </div>
+
+        <div class="question-container">
+            <div class="question-box">
+                <span class="float-left"><span class="text-left left-side">This bug is </span> </span>
+                <input type="text" maxlength="2" id="input-1" value="{{inputValue}}" class="input-field"/>
+                <span class="float-right"><span class="text-left right-side">centimetre long</span></span>
+            </div>
+        </div>
+
+        <!--display check buttons-->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

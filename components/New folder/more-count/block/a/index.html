@@ -1,0 +1,32 @@
+
+<div class="block-page">
+
+    <work-area menu="menu" id="workArea" next="next" onnumberclick="checkClick" header="header">
+
+        <!--Display jar image-->
+        <game-images images="images"></game-images>
+
+        <!--Display random blocks-->
+        <div ng-repeat="block in randomBlocks">
+            <img class="{{randomBlockImages['block'+($index % 10)].cls}} block-image"
+                 ng-src="{{randomBlockImages['block'+($index % 10)].path}}"
+                 ng-style="{
+                     position:'absolute','top': $index < 10 ? '20%' : '48%',
+                     left:16.8 + (($index % 10) * 6.4) +'%',
+                     width:'8.5%',
+                     'z-index': 40 - $index
+                 }">
+        </div>
+
+        <!--Display tick and cross-->
+        <div class="tick-cross">
+            <img class="tick" ng-class="checkClass['tick']" ng-src="{{sign.tick.path}}">
+            <img class="cross" ng-class="checkClass['cross']" ng-src="{{sign.cross.path}}">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+
+</div>

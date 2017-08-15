@@ -1,0 +1,107 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-twos-patterns-layout {
+  .banner {
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.twos-patterns-page {
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.5%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.5%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .more-button {
+    position: absolute;
+    left: 84%;
+    top: 71%;
+  }
+
+  .reset-button {
+    position: absolute;
+    left: 74%;
+    top: 2%;
+  }
+
+  .input-container {
+    position: absolute;
+    display: flex;
+    left: 22%;
+    top: 77%;
+    width: 56%;
+    height: 12%;
+    justify-content: center;
+    border-radius: 1vw;
+    background-color: #c0de94;
+    box-shadow: 0.3vw 0 0.5vw -0.2vw hsla(0,0%,53%,.6);
+    .input-box {
+      width: 10%;
+      height:80%;
+      margin: 2%;
+    }
+  }
+
+  .chart-help {
+    position: absolute;
+    left: 10%;
+    top: 68%;
+    color: #d96e4c;
+    font-size: 1.38vw;
+  }
+
+  .chart {
+    position: absolute;
+    left: 27%;
+    top: 0;
+    border-collapse: collapse;
+    border: 0.1vw solid #717842;
+    width: 46%;
+    height: 50%;
+    z-index: 1;
+    .row-chart {
+      width: 9%;
+      border: .15vw solid #717842;
+      background-color: #b9c76a;
+      color: #000;
+      font-weight: 700;
+      text-align: center;
+      font-size: 0.9vw;
+      z-index: 3;
+      cursor: pointer;
+    }
+  }
+  .even-odd {
+    position: absolute;
+    left: 87%;
+    top: -12.6%;
+    width: 10%;
+    line-height: 1.3vw;
+    text-align: center;
+    z-index: 2;
+    font-size: 1vw;
+    color: #ffffff;
+  }
+
+  .on-focus {
+    background-color: #ffe680 !important;
+  }
+}

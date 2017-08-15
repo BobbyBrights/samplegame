@@ -1,0 +1,36 @@
+/* Sub game namespace */
+.two-d-shapes-page {
+  .find-page {
+
+    .shapes {
+      cursor: pointer;
+      width: 8%;
+      margin: 2%;
+      height: 31%;
+    }
+
+    .shapes-container {
+      display: flex;
+      position: absolute;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      align-items: center;
+      height: 15vw;
+      width: 58vw;
+      left: 1%;
+      top: 20%;
+    }
+
+    .hint-shape-text {
+      bottom: initial;
+      top: 0%;
+    }
+    .answer-sign {
+      position: absolute;
+      width: 8%;
+      height: 20%;
+      top: 77.2%;
+      left: 88.8%;
+    }
+  }
+}

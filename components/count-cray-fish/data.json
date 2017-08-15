@@ -1,0 +1,54 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "count-cray-fish": {
+              "home": {
+                "header": {
+                  "text": "Count Crayfish"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                },
+                "question": {
+                  "min-value": 1,
+                  "max-value": 30,
+                  "cray-fish-image": {
+                    "path": "images/cray-fish.svg",
+                    "cls":"fish-image",
+                    "width": "100%",
+                    "height":"86%",
+                    "padding-top":"1%"
+                  },
+                  "hint": {
+                    "text": "Select and count.",
+                    "cls": ""
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": true
+              },
+              "preload": {
+                "images": {
+                  "cray-fish": {
+                    "path": "images/cray-fish.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

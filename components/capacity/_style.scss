@@ -1,0 +1,28 @@
+.capacity-page {
+  * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+  }
+  img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .game-header, .game-footer {
+    background-color: #FF9900;
+  }
+
+}
+
+.game-body {
+  position: absolute;
+  top: 75px;
+  height: 490px;
+  width: 820px;
+}

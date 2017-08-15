@@ -1,0 +1,41 @@
+<div class="shapes-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+
+        <div class="hint-text question-label" ng-bind-html="questionLabel"></div>
+
+        <div class="band"></div>
+
+        <!-- Add images -->
+        <game-images images="images"></game-images>
+
+        <div ng-repeat="i in [0,1]" class="shape-count">
+            <img ng-repeat="img in count track by $index"
+                 class="shape" ng-class="{'left-gap': $parent.$index === 0 && $index === 0}"
+                 ng-src="{{randomImages['shapes'+img].path}}"/>
+        </div>
+
+        <div ng-repeat="blank in drop track by $index"
+             class="shape-blank"
+             id="drop{{$index}}"
+             drop-zone group="{{blank}}"
+             ng-style="{left:(65.4 + ($index * 10.50))+'%'}">
+            <img class="drop-images" ng-src="{{dropImage.drop.path}}"/>
+        </div>
+
+        <img class="drag-items"
+             ng-repeat="img in drop track by $index"
+             drag-item group="{{img}}"
+             ng-style="{left:(35 +($index * 10.5))+'%'}"
+             id="drag{{$index}}"
+             ng-src="{{randomImages['shapes'+img].path}}"/>
+
+
+        <img ng-src="{{signImage.tick.path}}"
+             id="tick" ng-class="checkClass['tick']"
+             class="{{signImage.tick.cls}}">
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

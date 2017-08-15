@@ -1,0 +1,49 @@
+{
+  "levels": {
+    "d": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "capacity": {
+              "types": {
+                "input-type": {
+                  "home": {
+                    "header": {
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.capacity-game",
+                          "params": "{category : 'measurement', game : 'drag-type', level :  'd'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "input-type/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

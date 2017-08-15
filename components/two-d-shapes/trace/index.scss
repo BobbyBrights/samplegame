@@ -1,0 +1,76 @@
+/* Sub game namespace */
+.two-d-shapes-page {
+  .trace-page {
+
+    .choose-label {
+      width: 13%;
+      top: -14%;
+      left: 85.5%;
+      line-height: 1.5vw;
+      position: absolute;
+      text-align: center;
+      font-size: 1.5vw;
+      color: #d96e4c;
+    }
+    .shape-text {
+      position: absolute;
+      text-align: center;
+      font-size: 1.5vw;
+      color: #d96e4c;
+    }
+
+    .hint-images {
+      cursor: pointer;
+    }
+
+    .clear-button {
+      position: absolute;
+      width: 10%;
+      left: 1.7%;
+      top: 78%;
+    }
+
+    .draw-own-shapes {
+      position: absolute;
+      top: 72%;
+      left: 36%;
+      width: 26%;
+    }
+
+    #content {
+      .sketch-pad-base {
+        position: absolute;
+        width: 67.5%;
+        height: 63%;
+        top: 3.5%;
+        left: 16.5%;
+      }
+    }
+
+    .color-palette {
+      left: 3%;
+      top: -16%;
+      .color{
+        width:35%;
+      }
+    }
+
+    .flex-box {
+      width: 12%;
+      height: 75%;
+      left: 2%;
+      top: -10%;
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      border: 2px solid red;
+    }
+
+    .flex-items {
+      margin: 0.3vw;
+      width: 40%;
+      height: 12%;
+      cursor: pointer;
+    }
+  }
+}

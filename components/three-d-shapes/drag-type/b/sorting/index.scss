@@ -1,0 +1,71 @@
+// Add background layout
+.app-home-level-menu-three-d-shapes-game-layout{
+  .banner{
+    //background-image: url('./../../assets/images/space/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.three-d-shapes-page{
+
+  .sorting-page{
+
+    .display-drop-box {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+      height: 68%;
+      width: 72%;
+      margin-left: 14%;
+
+      .drop-box{
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        border: .2vw solid #525731;
+        height: 80%;
+        width: 35%;
+        background-color: #81885e;
+    }
+    }
+    .triangle-text,
+    .circle-text,
+    .cube-text,
+    .sphere-text,
+    .cylinder-text {
+      position: absolute;
+      color: #d96e4c;
+      top: 28%;
+      font-size: 1.8vw;
+      transform: rotate(-90deg);
+    }
+
+    .triangle-text {
+      left: 5%;
+      width: 20%;
+      top: 27%;
+      text-align: center;
+      line-height: 100%;
+    }
+
+    .circle-text {
+      left: 45%;
+    }
+
+    .cube-text {
+      left: 12%;
+    }
+
+    .sphere-text {
+      left: 46%;
+    }
+
+    .cylinder-text {
+      left: 45%;
+    }
+
+    .drag-elements{
+     top:71%;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import './c/index.scss';
+
+/* Sub game namespace */
+.mass-page {
+  // Game specific styles
+  .display-images {
+    position: absolute;
+  }
+
+  .tick {
+    position: absolute;
+    right: 9.7%;
+    top: 65.8%;
+    width: 8%;
+  }
+
+  .move-disable {
+    pointer-events: none;
+  }
+
+  .display-none{
+    display: none;
+  }
+}

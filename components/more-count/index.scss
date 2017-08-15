@@ -1,0 +1,34 @@
+
+@import './frog/index.scss';
+@import './block/index.scss';
+@import './counter/index.scss';
+
+/* Game main namespace */
+.more-count-page {
+
+  .bowl {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 88%;
+    height: 60%;
+  }
+
+  .button-frog {
+    position: absolute;
+    cursor: pointer;
+    width: 23%;
+    height: 113%;
+  }
+
+  .button-jar {
+    position: absolute;
+    cursor: pointer;
+    width: 23%;
+    height: 111%;
+  }
+
+  .left-panel-menu .panel-buttons {
+    justify-content: space-around;
+  } 
+}

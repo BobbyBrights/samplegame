@@ -1,0 +1,43 @@
+
+/* Sub game namespace */
+.more-count-page {
+    .frog-page {
+
+    // Game specific styles
+    .game-body {
+      padding-left: 0.5%;
+    }
+
+    .frog-container {
+      position: absolute;
+      left: 16.5%;
+      top: 15%;
+      width: 68.5%;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .frog {
+      display: block;
+      width: 7.79vw;
+      height: 7vw;
+      position: relative;
+      margin-bottom: 0;
+    }
+
+  }
+  
+  .tick-cross {
+      position: absolute;
+      width: 8%;
+      top: 68%;
+      left: 45.5%;
+    }
+
+  .cross {
+    position: absolute;
+    top:8%;
+  }
+}

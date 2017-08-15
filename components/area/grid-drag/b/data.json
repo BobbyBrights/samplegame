@@ -1,0 +1,141 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "types": {
+                "grid-drag": {
+                  "home": {
+                    "header": {
+                      "text": "Measuring Area with Grid"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Enter the number in the box."
+                      },
+                      "stamp-hint": {
+                        "text": "How many squares?"
+                      },
+                      "grid-hint": {
+                        "text": "Drag the grid."
+                      },
+                      "grid-image": {
+                        "path": "grid-drag/b/images/grid.svg",
+                        "width": "35%",
+                        "left": "61%",
+                        "top": "3.3%"
+                      },
+                      "stamp-images": {
+                        "stamp-0": {
+                          "path": "grid-drag/b/images/1c-frog.svg",
+                          "width": "18.1%"
+                        },
+                        "stamp-1": {
+                          "path": "grid-drag/b/images/2c-snake.svg",
+                          "width": "23.6%"
+                        },
+                        "stamp-2": {
+                          "path": "grid-drag/b/images/5c-lizard.svg",
+                          "width": "29%"
+                        },
+                        "stamp-3": {
+                          "path": "grid-drag/b/images/10c-parrot.svg",
+                          "width": "35%"
+                        },
+                        "stamp-4": {
+                          "path": "grid-drag/b/images/20c-bug.svg",
+                          "width": "23%"
+                        },
+                        "stamp-5": {
+                          "path": "grid-drag/b/images/50c-butterfly.svg",
+                          "width": "28.8%"
+                        }
+                      },
+                      "signs": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      },
+                      "input-values": [
+                        12,
+                        12,
+                        20,
+                        24,
+                        20,
+                        25
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "multi-square-drag": {
+                          "path": "images/menu/multi-square-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'multi-square-drag', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons":10,
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "grid-image": {
+                        "path": "grid-drag/b/images/grid.svg"
+                      },
+                      "stamp-0": {
+                        "path": "grid-drag/b/images/1c-frog.svg"
+                      },
+                      "stamp-1": {
+                        "path": "grid-drag/b/images/2c-snake.svg"
+                      },
+                      "stamp-2": {
+                        "path": "grid-drag/b/images/5c-lizard.svg"
+                      },
+                      "stamp-3": {
+                        "path": "grid-drag/b/images/10c-parrot.svg"
+                      },
+                      "stamp-4": {
+                        "path": "grid-drag/b/images/20c-bug.svg"
+                      },
+                      "stamp-5": {
+                        "path": "grid-drag/b/images/50c-butterfly.svg"
+                      },
+                      "multi-square-drag": {
+                        "path": "images/menu/multi-square-drag.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

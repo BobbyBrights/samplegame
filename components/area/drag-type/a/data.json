@@ -1,0 +1,277 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Which one covers more?"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Drag stamps to check, match cards to labels."
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "stamp-images": {
+                        "stamp-0": {
+                          "path": "drag-type/images/1c-frog.svg",
+                          "width": "12.5%",
+                          "top": "16.1%",
+                          "left": "26.5%"
+                        },
+                        "stamp-1": {
+                          "path": "drag-type/images/20c-bug.svg",
+                          "width": "16.9%",
+                          "top": "7.9%",
+                          "left": "56.1%"
+                        },
+                        "stamp-2": {
+                          "path": "drag-type/images/2c-snake.svg",
+                          "width": "16.85%",
+                          "top": "16%",
+                          "left": "26.55%"
+                        },
+                        "stamp-3": {
+                          "path": "drag-type/images/5c-lizard.svg",
+                          "width": "21.3%",
+                          "top": "15.8%",
+                          "left": "56.1%"
+                        },
+                        "stamp-4": {
+                          "path": "drag-type/images/20c-bug.svg",
+                          "width": "16.5%",
+                          "top": "8%",
+                          "left": "26.5%"
+                        },
+                        "stamp-5": {
+                          "path": "drag-type/images/50c-butterfly.svg",
+                          "width": "21.3%",
+                          "top": "8%",
+                          "left": "56%"
+                        },
+                        "stamp-6": {
+                          "path": "drag-type/images/2c-snake.svg",
+                          "width": "16.85%",
+                          "top": "16%",
+                          "left": "26.55%"
+                        },
+                        "stamp-7": {
+                          "path": "drag-type/images/10c-parrot.svg",
+                          "width": "25.4%",
+                          "top": "16%",
+                          "left": "51.9%"
+                        },
+                        "stamp-8": {
+                          "path": "drag-type/images/5c-lizard.svg",
+                          "width": "21%",
+                          "top": "16%",
+                          "left": "26.5%"
+                        },
+                        "stamp-9": {
+                          "path": "drag-type/images/1c-frog.svg",
+                          "width": "12.7%",
+                          "top": "16%",
+                          "left": "60.3%"
+                        },
+                        "stamp-10": {
+                          "path": "drag-type/images/10c-parrot.svg",
+                          "width": "25.3%",
+                          "top": "16%",
+                          "left": "22.2%"
+                        },
+                        "stamp-11": {
+                          "path": "drag-type/images/5c-lizard.svg",
+                          "width": "21.3%",
+                          "top": "15.8%",
+                          "left": "56.1%"
+                        },
+                        "stamp-12": {
+                          "path": "drag-type/images/20c-bug.svg",
+                          "width": "16.7%",
+                          "top": "8%",
+                          "left": "26.5%"
+                        },
+                        "stamp-13": {
+                          "path": "drag-type/images/50c-butterfly.svg",
+                          "width": "21.2%",
+                          "top": "7.9%",
+                          "left": "56.1%"
+                        },
+                        "stamp-14": {
+                          "path": "drag-type/images/2c-snake.svg",
+                          "width": "16.85%",
+                          "top": "16%",
+                          "left": "26.55%"
+                        },
+                        "stamp-15": {
+                          "path": "drag-type/images/20c-bug.svg",
+                          "width": "17%",
+                          "top": "7.9%",
+                          "left": "56.1%"
+                        },
+                        "stamp-16": {
+                          "path": "drag-type/images/5c-lizard.svg",
+                          "width": "21%",
+                          "top": "16%",
+                          "left": "26.5%"
+                        },
+                        "stamp-17": {
+                          "path": "drag-type/images/10c-parrot.svg",
+                          "width": "25.3%",
+                          "top": "16%",
+                          "left": "51.9%"
+                        },
+                        "stamp-18": {
+                          "path": "drag-type/images/10c-parrot.svg",
+                          "width": "25.3%",
+                          "top": "16%",
+                          "left": "22.1%"
+                        },
+                        "stamp-19": {
+                          "path": "drag-type/images/50c-butterfly.svg",
+                          "width": "21.3%",
+                          "top": "7.9%",
+                          "left": "56%"
+                        }
+                      },
+                      "left-small-stamp-size": [
+                        [
+                          "28",
+                          "34"
+                        ],
+                        [
+                          "35",
+                          "42"
+                        ],
+                        [
+                          "34",
+                          "42"
+                        ],
+                        [
+                          "35",
+                          "45"
+                        ],
+                        [
+                          "42",
+                          "28"
+                        ],
+                        [
+                          "45",
+                          "37"
+                        ],
+                        [
+                          "34",
+                          "42"
+                        ],
+                        [
+                          "35",
+                          "34"
+                        ],
+                        [
+                          "37",
+                          "45"
+                        ],
+                        [
+                          "45",
+                          "42"
+                        ]
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": null,
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "stamp-0": {
+                        "path": "drag-type/images/1c-frog.svg"
+                      },
+                      "stamp-1": {
+                        "path": "drag-type/images/20c-bug.svg"
+                      },
+                      "stamp-2": {
+                        "path": "drag-type/images/2c-snake.svg"
+                      },
+                      "stamp-3": {
+                        "path": "drag-type/images/5c-lizard.svg"
+                      },
+                      "stamp-4": {
+                        "path": "drag-type/images/20c-bug.svg"
+                      },
+                      "stamp-5": {
+                        "path": "drag-type/images/50c-butterfly.svg"
+                      },
+                      "stamp-6": {
+                        "path": "drag-type/images/2c-snake.svg"
+                      },
+                      "stamp-7": {
+                        "path": "drag-type/images/10c-parrot.svg"
+                      },
+                      "stamp-8": {
+                        "path": "drag-type/images/5c-lizard.svg"
+                      },
+                      "stamp-9": {
+                        "path": "drag-type/images/1c-frog.svg"
+                      },
+                      "stamp-10": {
+                        "path": "drag-type/images/10c-parrot.svg"
+                      },
+                      "stamp-11": {
+                        "path": "drag-type/images/5c-lizard.svg"
+                      },
+                      "stamp-12": {
+                        "path": "drag-type/images/20c-bug.svg"
+                      },
+                      "stamp-13": {
+                        "path": "drag-type/images/50c-butterfly.svg"
+                      },
+                      "stamp-14": {
+                        "path": "drag-type/images/2c-snake.svg"
+                      },
+                      "stamp-15": {
+                        "path": "drag-type/images/20c-bug.svg"
+                      },
+                      "stamp-16": {
+                        "path": "drag-type/images/5c-lizard.svg"
+                      },
+                      "stamp-17": {
+                        "path": "drag-type/images/10c-parrot.svg"
+                      },
+                      "stamp-18": {
+                        "path": "drag-type/images/10c-parrot.svg"
+                      },
+                      "stamp-19": {
+                        "path": "drag-type/images/50c-butterfly.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

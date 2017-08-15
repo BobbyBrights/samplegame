@@ -1,0 +1,134 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "addition": {
+              "types": {
+                "to-twenty": {
+                  "home": {
+                    "header": {
+                      "text":"Colour Grids Addition"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the box.",
+                        "cls": ""
+                      },
+                      "sign":{
+                        "plus-text": "Plus",
+                        "equal-text": "Equals"
+                      },
+                      "circle-images": {
+                        "green-circle": {
+                          "path": "to-twenty/b/images/green-circle.svg",
+                          "width": "2vw",
+                          "height": "72%"
+                        },
+                        "yellow-circle": {
+                          "path": "to-twenty/b/images/yellow-circle.svg",
+                          "width": "2vw",
+                          "height": "72%"
+                        }
+                      },
+                      "sign-images":{
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "cls": "pos-absolute",
+                          "width": "9%",
+                          "height": "26%",
+                          "top": "55%",
+                          "left": "82%"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "cls": "pos-absolute",
+                          "width": "12%",
+                          "height": "26%",
+                          "top": "59%",
+                          "left": "82%"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "one-dice": {
+                          "path": "images/menu/one-dice.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'one-dice', level :  'b'}"
+                        }
+                          ,
+                        "two-dice": {
+                          "path": "images/menu/two-dice.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'two-dice', level :  'b'}"
+                        }
+                          ,
+                        "number-line": {
+                          "path": "images/menu/number-line.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'number-line', level :  'b'}"
+                        }
+                          ,
+                        "balance": {
+                          "path": "images/menu/balance.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'balance', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      },
+                      "green-circle": {
+                        "path": "to-twenty/b/images/green-circle.svg"
+                      },
+                      "yellow-circle": {
+                        "path": "to-twenty/b/images/yellow-circle.svg"
+                      },
+                      "one-dice": {
+                        "path": "images/menu/one-dice.svg"
+                      },
+                      "two-dice": {
+                        "path": "images/menu/two-dice.svg"
+                      },
+                      "number-line": {
+                        "path": "images/menu/number-line.svg"
+                      },
+                      "balance": {
+                        "path": "images/menu/balance.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

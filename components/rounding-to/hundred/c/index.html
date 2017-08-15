@@ -1,0 +1,32 @@
+<div class="hundred-page">
+    <work-area menu="menu" next="next" reset="reset" check="check" header="header">
+
+        <game-images images="hundredImages.hundredImage"></game-images>
+
+        <!-- Display question text -->
+        <div class="question-text hint-text" ng-bind-html="questionText"></div>
+
+        <!-- Display question text -->
+        <div class="middle-text" ng-bind-html="middleText"></div>
+
+
+        <div class="yellow-circle circle " id="drag-circle" group="0" drag-item>
+            <span class="pos-absolute yellow-circle-text" ng-bind-html="randomNumber"></span>
+        </div>
+
+        <div class="num-range">
+            <span class="num"
+                  ng-repeat="nums in numberRange | orderBy:'-'"
+                  ng-style="{'color': ($index == 0 || $index == 10) ? '#d96e4c' : '#1b4123' }">{{nums}}
+            </span>
+        </div>
+
+        <!--Drop zone-->
+        <div id="drop-zone-{{$index}}" class="circle green-circle"
+             ng-repeat="dropZone in dropGroup track by getUniqueId()"
+             drop-zone group="{{dropZone}}"
+             position="75.8,{{dropZonesTop[$index]}}">
+        </div>
+
+    </work-area>
+</div>

@@ -1,0 +1,91 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "division": {
+              "types": {
+                "beetal": {
+                  "home": {
+                    "header": {
+                      "text": "Division ... sharing"
+                    },
+                    "footer": {
+                      "text": ""
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "dragon": {
+                        "path": "images/dragon.svg"
+                      },
+                      "beetle": {
+                        "path": "images/beetles.svg"
+                      },
+                      "horizontalLine": {
+                        "path": "images/horizontal-line.svg"
+                      },
+                      "hint": {
+                        "text": "Enter the missing number.",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "dice": {
+                          "path": "images/menu/dice-icon.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'dice', level :  'c'}"
+                        },
+                        "reverse-inverse": {
+                          "path": "images/menu/reverse-inverse.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'reverse-inverse', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path": "input-type/images/right-panel-icon.svg"
+                      }
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "dragon": {
+                        "path": "images/dragon.svg"
+                      },
+                      "beetle": {
+                        "path": "images/beetles.svg"
+                      },
+                      "horizontalLine": {
+                        "path": "images/horizontal-line.svg"
+                      },
+                      "dice": {
+                        "path": "images/menu/dice-icon.svg"
+                      },
+                      "reverse-inverse": {
+                        "path": "images/menu/reverse-inverse.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

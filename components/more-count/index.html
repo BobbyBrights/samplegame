@@ -1,0 +1,34 @@
+
+<div class="more-count-page">
+
+    <work-area menu="menu" id="workArea" header="header">
+
+        <div class="bowl">
+            <!--Display landing page jar images-->
+            <div ng-if="!isGamePage">
+                <a href="#" ui-sref="app.home.level.menu.more-count-game({category: category, game: 'frog'})">
+                    <img class="{{buttonImages.frog.cls}}" ng-src="{{buttonImages.frog.path}}"
+                         ng-style="{top: buttonImages.frog.top, left: buttonImages.frog.left}">
+                </a>
+                <br>
+                <a href="#" ui-sref="app.home.level.menu.more-count-game({category: category, game: 'block'})">
+                    <img class="{{buttonImages.block.cls}}" ng-src="{{buttonImages.block.path}}"
+                         ng-style="{top: buttonImages.block.top, left: buttonImages.block.left}">
+                </a>
+                <br>
+                <a href="#"
+                   ui-sref="app.home.level.menu.more-count-game({category: category, game: 'counter'})">
+                    <img class="{{buttonImages.counter.cls}}" ng-src="{{buttonImages.counter.path}}"
+                         ng-style="{top: buttonImages.counter.top, left: buttonImages.counter.left}">
+                </a>
+            </div>
+        </div>
+
+        <!--Display hint text-->
+        <div class="hint-text" ng-bind-html="hint"></div>
+
+    </work-area>
+
+    <div ui-view="{{gamePageView}}"></div>
+
+</div>

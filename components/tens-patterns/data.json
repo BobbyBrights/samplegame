@@ -1,0 +1,125 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "tens-patterns": {
+              "home": {
+                "header": {
+                  "0": {
+                    "text": "Count Forward by 10s"
+                  },
+                  "1": {
+                    "text": "Count Backward by 10s"
+                  },
+                  "2": {
+                    "text": "Count Between by 10s"
+                  }
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                },
+                "question": {
+                  "sign": {
+                    "tick": {
+                      "path": "images/tick.svg",
+                      "name": "tick",
+                      "width": "10%"
+                    },
+                    "cross": {
+                      "path": "images/cross.svg",
+                      "name": "cross",
+                      "width": "10%"
+                    }
+                  },
+                  "hint": {
+                    "text": "Enter the missing numbers.",
+                    "cls": ""
+                  },
+                  "disability": [
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      false,
+                      true,
+                      false,
+                      true,
+                      false,
+                      true
+                    ]
+                  ],
+                  "label":["Hide","Show"],
+                  "hint-label": "Use the number line to help,Draw or trace jumps.",
+                  "line-images":{
+                    "number-line":{
+                      "path": "images/number-line.svg",
+                      "cls":"pos-absolute",
+                      "width":"82%",
+                      "left":"15%",
+                      "top":"7%"
+                    },
+                    "dotted-line":{
+                      "path": "images/dotted-line.svg",
+                      "cls":"pos-absolute",
+                      "width":"82%",
+                      "left":"15%",
+                      "top":"1.5%"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "number-line":{
+                    "path": "images/number-line.svg"
+                  },
+                  "dotted-line":{
+                    "path": "images/dotted-line.svg"
+                  },
+                  "tick": {
+                    "path": "images/tick.svg"
+                  },
+                  "cross": {
+                    "path": "images/cross.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

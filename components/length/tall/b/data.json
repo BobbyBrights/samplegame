@@ -1,0 +1,154 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "tall": {
+                  "home": {
+                    "header":{
+                      "text":"Tall"
+                    },
+                    "footer": {
+                      "text": "How many blocks tall is the butterfly?",
+                      "cls": ""
+                    },
+                    "images": {
+                      "block": {
+                        "path": "tall/images/blocks.svg"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the blocks.",
+                        "cls": ""
+                      },
+                      "baseline": {
+                        "orientation": "horizontal"
+                      },
+                      "tall-images": {
+                        "tall-0": {
+                          "path": "tall/images/butterfly-1.svg",
+                          "height":"50%",
+                          "left":"23.8%",
+                          "top":"9%"
+                        },
+                        "tall-1": {
+                          "path": "tall/images/butterfly-2.svg",
+                          "height":"30%",
+                          "left":"41%",
+                          "top":"29%"
+                        },
+                        "tall-2": {
+                          "path": "tall/images/butterfly-3.svg",
+                          "height":"25%",
+                          "left":"43%",
+                          "top":"34%"
+                        },
+                        "tall-3": {
+                          "path": "tall/images/butterfly-4.svg",
+                          "height":"55%",
+                          "left":"32%",
+                          "top":"4%"
+                        },
+                        "tall-4": {
+                          "path": "tall/images/butterfly-5.svg",
+                          "height":"40%",
+                          "left":"39%",
+                          "top":"19%"
+                        },
+                        "tall-5": {
+                          "path": "tall/images/butterfly-6.svg",
+                          "height":"40%",
+                          "left":"38.8%",
+                          "top":"19%"
+                        },
+                        "tall-6": {
+                          "path": "tall/images/butterfly-7.svg",
+                          "height":"40%",
+                          "left":"39%",
+                          "top":"19%"
+                        }
+                      },
+                      "correct-answer": [
+                        9,
+                        6,
+                        5,
+                        10,
+                        8,
+                        8,
+                        7
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "long": {
+                          "path": "images/menu/long.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'long', level :  'b'}"
+                        }
+                          ,
+                        "metre": {
+                          "path": "images/menu/metre.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'metre', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "block": {
+                        "path": "tall/images/blocks.svg"
+                      },
+                      "tall-0": {
+                        "path":"tall/images/butterfly-1.svg"
+                      },
+                      "tall-1": {
+                        "path": "tall/images/butterfly-2.svg"
+                      },
+                      "tall-2": {
+                        "path": "tall/images/butterfly-3.svg"
+                      },
+                      "tall-3": {
+                        "path": "tall/images/butterfly-4.svg"
+                      },
+                      "tall-4": {
+                        "path": "tall/images/butterfly-5.svg"
+                      },
+                      "tall-5": {
+                        "path": "tall/images/butterfly-6.svg"
+                      },
+                      "tall-6": {
+                        "path": "tall/images/butterfly-7.svg"
+                      },
+                      "metre": {
+                        "path": "images/menu/metre.svg"
+                      },
+                      "long": {
+                        "path": "images/menu/long.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

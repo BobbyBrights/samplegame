@@ -1,0 +1,97 @@
+.time-page {
+
+  .clocks-page {
+
+    .check-btns {
+      position: absolute;
+      top: 84%;
+      left: 84.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .input-area{
+      position: absolute;
+      width: 30.8%;
+      height: 18.8%;
+      background-color: #c0de94;
+      border-radius:0.5vw ;
+    }
+    .first-label {
+      left: 64%;
+      top: 28%;
+    }
+
+    .second-label {
+      left: 63.8%;
+      top: 50%;
+    }
+
+    .third-label {
+      left: 66%;
+      top: 51%;
+    }
+
+    .input-box {
+      font-size: 3vw;
+    }
+
+    .question-text {
+      position: absolute;
+      width: 100%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      top: 0;
+      text-align: center;
+    }
+
+    .time-label {
+      position: absolute;
+      width: 18%;
+      height: 18%;
+      font-size: 3vw;
+      color: #da6e4c;
+      text-align: left;
+    }
+
+    .question {
+      position: absolute;
+      left: 0;
+      top: 107%;
+      width: 100%;
+      height: 12%;
+      text-align: center;
+      color: #da835d;
+    }
+
+    .hour-needle {
+      width: 0.8%;
+      height: 12%;
+      top: 36.9%;
+      left: 31.6%;
+      -moz-transform-origin: bottom;
+      -ms-transform-origin: bottom;
+      -webkit-transform-origin: bottom;
+      transform-origin: bottom;
+    }
+
+    .input-box {
+      width: 8%;
+      height: 15%;
+    }
+
+  }
+}

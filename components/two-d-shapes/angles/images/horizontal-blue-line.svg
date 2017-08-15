@@ -1,0 +1,19 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 126.2 14.96">
+    <defs>
+        <style>.cls-1{fill:url(#linear-gradient);}.cls-2{fill:#004266;}</style>
+        <linearGradient id="linear-gradient" x1="-147.97" y1="-184.7" x2="-133.01" y2="-184.7"
+                        gradientTransform="translate(-121.6 147.97) rotate(90)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#00e1ff"/>
+            <stop offset="1" stop-color="#004369"/>
+        </linearGradient>
+    </defs>
+    <title>blue-vertical-line</title>
+    <rect class="cls-1" width="126.2" height="14.96" rx="7.48" ry="7.48"/>
+    <circle class="cls-2" cx="7.12" cy="7.48" r="3.56"/>
+    <circle class="cls-2" cx="119.08" cy="7.48" r="3.56"/>
+    <circle class="cls-2" cx="96.69" cy="7.48" r="3.56"/>
+    <circle class="cls-2" cx="74.29" cy="7.48" r="3.56"/>
+    <circle class="cls-2" cx="51.9" cy="7.48" r="3.56"/>
+    <circle class="cls-2" cx="29.51" cy="7.48" r="3.56"/>
+</svg>

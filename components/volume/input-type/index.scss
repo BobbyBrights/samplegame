@@ -1,0 +1,81 @@
+/* Sub game namespace */
+.volume-page{
+  .input-type-page{
+    // Game specific styles
+
+    .image-item {
+      position: absolute;
+    }
+
+
+    .question-box {
+      position: absolute;
+      width: 53%;
+      height: 15%;
+      top: 72%;
+      left: 22%;
+      border-radius: 1vh;
+      background-color: #c0de94;
+
+      .left-side {
+        left: 3.5%;
+      }
+      .right-side {
+        right: 1.5%;
+      }
+
+      .text-left {
+        position: absolute;
+        height: 5%;
+        color: #1b4123;
+        text-align: center;
+        line-height: 4vw;
+        font-size: 1.5vw;
+      }
+
+      .input-field {
+        position: absolute;
+        align-self: center;
+        width: 2.99vw;
+        font-size: 1.8vw;
+        color: #1b4123;
+        top: 4%;
+        left: 72%;
+        text-align: center;
+        height: 2.95vw;
+        border-radius: 6px;
+        border: .15vw solid #9e9a9a;
+        z-index: 1;
+        outline: none;
+        &:focus {
+          outline: none;
+          border: .15vw solid #707070;
+          color: #1b4123;
+        }
+      }
+
+      .left {
+        left: 2.5%;
+      }
+
+      .right {
+        right: 6.5%;
+      }
+    }
+
+    .question-label {
+      top: 2%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      left: 27%;
+      position: absolute;
+    }
+
+    .display-box{
+      position: absolute;
+      width: 12%;
+      right: 3%;
+      top: -15%;
+    }
+  }
+}

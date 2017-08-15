@@ -1,0 +1,171 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "place-value": {
+              "types": {
+                "whitebox-place-value": {
+                  "home": {
+                    "header": {
+                      "text": "Place Value with Blocks"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the boxes, and then select check."
+                      },
+                      "tens-text": {
+                        "text": "Tens"
+                      },
+                      "ones-text":{
+                        "text": "Ones"
+                      },
+                      "whiteBoxBunch": {
+                        "path": "whitebox-place-value/images/vertical-blocks.svg"
+                      },
+                      "whiteBox":{
+                        "box0": {
+                          "path": "whitebox-place-value/images/orange-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box1": {
+                          "path": "whitebox-place-value/images/green-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box2": {
+                          "path": "whitebox-place-value/images/blue-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box3": {
+                          "path": "whitebox-place-value/images/magenta-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box4": {
+                          "path": "whitebox-place-value/images/red-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box5": {
+                          "path": "whitebox-place-value/images/yellow-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box6": {
+                          "path": "whitebox-place-value/images/orange-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box7": {
+                          "path": "whitebox-place-value/images/blue-cube.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "box8": {
+                          "path": "whitebox-place-value/images/green-cube.svg",
+                          "cls": "pos-absolute"
+                        }
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "pencile-place-value": {
+                          "path": "images/menu/left-pencil-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'pencile-place-value', level :  'b'}"
+                        }
+                          ,
+                        "circlebox-place-value": {
+                          "path": "images/menu/left-grid-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'circlebox-place-value', level :  'b'}"
+                        }
+                          ,
+                        "circle-place-value": {
+                          "path": "images/menu/left-circle-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'circle-place-value', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right":true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "whiteBoxBunch": {
+                        "path": "whitebox-place-value/images/vertical-blocks.svg"
+                      },
+                      "box0": {
+                        "path": "whitebox-place-value/images/orange-cube.svg"
+                      },
+                      "box1": {
+                        "path": "whitebox-place-value/images/green-cube.svg"
+                      },
+                      "box2": {
+                        "path": "whitebox-place-value/images/blue-cube.svg"
+                      },
+                      "box3": {
+                        "path": "whitebox-place-value/images/magenta-cube.svg"
+                      },
+                      "box4": {
+                        "path": "whitebox-place-value/images/red-cube.svg"
+                      },
+                      "box5": {
+                        "path": "whitebox-place-value/images/yellow-cube.svg"
+                      },
+                      "box6": {
+                        "path": "whitebox-place-value/images/orange-cube.svg"
+                      },
+                      "box7": {
+                        "path": "whitebox-place-value/images/blue-cube.svg"
+                      },
+                      "box8": {
+                        "path": "whitebox-place-value/images/green-cube.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      },
+                      "pencile-place-value": {
+                        "path": "images/menu/left-pencil-icon.svg"
+                      },
+                      "circlebox-place-value": {
+                        "path": "images/menu/left-grid-icon.svg"
+                      },
+                      "circle-place-value": {
+                        "path": "images/menu/left-circle-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

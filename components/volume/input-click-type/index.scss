@@ -1,0 +1,105 @@
+/* Sub game namespace */
+.volume-page{
+  .count-blocks-page{
+
+    .baseline {
+      .horizontal {
+        top: 62.1%;
+        width: 93.7%;
+        left: 3.1%;
+        background-color: #525731;
+        height: 4.3%;
+      }
+    }
+
+    .check-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .question-container {
+      position: relative;
+      border-radius: 6px;
+      background-color: #c0de94;
+      box-shadow: 3px 0 5px 0 rgba(0,0,0,.21);
+      left: 39.9%;
+      top: 72.5%;
+      width: 19.5%;
+      line-height: 3.6vw;
+      height: 3.5vw;
+    }
+
+    .question-center{
+      position: absolute;
+      width: 100%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      top: 2%;
+      text-align: center;
+    }
+
+    .question-text {
+      position: absolute;
+      margin-top: -.5%;
+      font-size: 1.6vw;
+      left: 39.5%;
+      color: #1b4123;
+      width: 44%;
+    }
+
+    #input-1 {
+      position: absolute;
+      left: 1.5%;
+      top: 3.1%;
+    }
+
+    .play-button {
+      position: absolute;
+      width: 6%;
+      left: 38.5%;
+      top: 37%;
+      cursor: pointer;
+    }
+
+    .text-container {
+      position: absolute;
+      width: 56%;
+      top: 72%;
+      left: 22%;
+      height: 15%;
+    }
+
+    .text-left {
+      position: absolute;
+      top: 5%;
+      text-align: center;
+      border-radius: 1vw;
+      line-height: 4vw;
+      color: orange;
+      font-size: 1.7vw;
+    }
+
+    .left-side {
+      left: 5.5%;
+    }
+    .right-side {
+      left: 70%;
+    }
+  }
+}

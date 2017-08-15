@@ -1,0 +1,226 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "volume": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "More or Less Space?"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "baseline": {
+                        "orientation": "horizontal"
+                      },
+                      "box-images": {
+                        "box0": {
+                          "path": "drag-type/a/images/left-image-one.svg",
+                          "width": "40%",
+                          "margin":"-0.9%"
+                        },
+                        "box1": {
+                          "path": "drag-type/a/images/right-image-one.svg",
+                          "width": "60%",
+                          "margin":"-0.1%"
+                        },
+                        "box2": {
+                          "path": "drag-type/a/images/left-image-two.svg",
+                          "width": "60%",
+                          "margin":"-1%"
+                        },
+                        "box3": {
+                          "path": "drag-type/a/images/right-image-two.svg",
+                          "width": "40%",
+                          "margin":"-0.3%"
+                        },
+                        "box4": {
+                          "path": "drag-type/a/images/left-image-three.svg",
+                          "width": "40%",
+                          "margin":"-1%"
+                        },
+                        "box5": {
+                          "path": "drag-type/a/images/right-image-three.svg",
+                          "width": "60%",
+                          "margin":"-0.3%"
+                        },
+                        "box6": {
+                          "path": "drag-type/a/images/left-image-four.svg",
+                          "width": "60%",
+                          "margin":"-1.2%"
+                        },
+                        "box7": {
+                          "path": "drag-type/a/images/right-image-four.svg",
+                          "width": "40%",
+                          "margin":"-0.3%"
+                        },
+                        "box8": {
+                          "path": "drag-type/a/images/left-image-five.svg",
+                          "width": "35%",
+                          "margin":"-1%"
+                        },
+                        "box9": {
+                          "path": "drag-type/a/images/right-image-five.svg",
+                          "width": "47%",
+                          "margin":"0%"
+                        },
+                        "box10": {
+                          "path": "drag-type/a/images/left-image-six.svg",
+                          "width": "60%",
+                          "margin":"-0.8%"
+                        },
+                        "box11": {
+                          "path": "drag-type/a/images/right-image-six.svg",
+                          "width": "60%",
+                          "margin":"-0.30%"
+                        },
+                        "box12": {
+                          "path": "drag-type/a/images/left-image-seven.svg",
+                          "width": "60%",
+                          "margin":"-1%"
+                        },
+                        "box13": {
+                          "path": "drag-type/a/images/right-image-seven.svg",
+                          "width": "61%",
+                          "margin":"-0.3%"
+                        },
+                        "box14": {
+                          "path": "drag-type/a/images/left-image-eight.svg",
+                          "width": "60%",
+                          "margin":"-1%"
+                        },
+                        "box15": {
+                          "path": "drag-type/a/images/right-image-eight.svg",
+                          "width": "63%",
+                          "margin":"-0.3%"
+                        },
+                        "box16": {
+                          "path": "drag-type/a/images/left-image-nine.svg",
+                          "width": "46%",
+                          "margin":"-1%"
+                        },
+                        "box17": {
+                          "path": "drag-type/a/images/right-image-nine.svg",
+                          "width": "46%",
+                          "margin":"-0.6%"
+                        },
+                        "box18": {
+                          "path": "drag-type/a/images/left-image-ten.svg",
+                          "width": "46%",
+                          "margin":"-1%"
+                        },
+                        "box19": {
+                          "path": "drag-type/a/images/right-image-ten.svg",
+                          "width": "46%",
+                          "margin":"-0.3%"
+                        }
+                      },
+                      "sign": {
+                        "path": "drag-type/a/images/tick.svg",
+                        "cls": "pos-absolute invisible"
+                      },
+                      "drag-items": [
+                        "More Space",
+                        "Less Space"
+                      ],
+                      "drag-positions": [
+                        "30.6,112.4",
+                        "50.9,112.4"
+                      ],
+                      "min-value": 0,
+                      "max-value": 2,
+                      "hint": {
+                        "text": "Drag the cards."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": null,
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "box0": {
+                        "path": "drag-type/a/images/left-image-one.svg"
+                      },
+                      "box1": {
+                        "path": "drag-type/a/images/right-image-one.svg"
+                      },
+                      "box2": {
+                        "path": "drag-type/a/images/left-image-two.svg"
+                      },
+                      "box3": {
+                        "path": "drag-type/a/images/right-image-two.svg"
+                      },
+                      "box4": {
+                        "path": "drag-type/a/images/left-image-three.svg"
+                      },
+                      "box5": {
+                        "path": "drag-type/a/images/right-image-three.svg"
+                      },
+                      "box6": {
+                        "path": "drag-type/a/images/left-image-four.svg"
+                      },
+                      "box7": {
+                        "path": "drag-type/a/images/right-image-four.svg"
+                      },
+                      "box8": {
+                        "path": "drag-type/a/images/left-image-five.svg"
+                      },
+                      "box9": {
+                        "path": "drag-type/a/images/right-image-five.svg"
+                      },
+                      "box10": {
+                        "path": "drag-type/a/images/left-image-six.svg"
+                      },
+                      "box11": {
+                        "path": "drag-type/a/images/right-image-six.svg"
+                      },
+                      "box12": {
+                        "path": "drag-type/a/images/left-image-seven.svg"
+                      },
+                      "box13": {
+                        "path": "drag-type/a/images/right-image-seven.svg"
+                      },
+                      "box14": {
+                        "path": "drag-type/a/images/left-image-eight.svg"
+                      },
+                      "box15": {
+                        "path": "drag-type/a/images/right-image-eight.svg"
+                      },
+                      "box16": {
+                        "path": "drag-type/a/images/left-image-nine.svg"
+                      },
+                      "box17": {
+                        "path": "drag-type/a/images/right-image-nine.svg"
+                      },
+                      "box18": {
+                        "path": "drag-type/a/images/left-image-ten.svg"
+                      },
+                      "box19": {
+                        "path": "drag-type/a/images/right-image-ten.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "next-game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

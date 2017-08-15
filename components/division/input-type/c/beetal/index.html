@@ -1,0 +1,40 @@
+<div class="input-type-page">
+    <work-area menu="menu" next="next" check="check" header="header" onnumberclick="onNumberClick"
+               getscoreboard="getScoreboard">
+
+        <img class="horizontalLine" ng-src="{{horizontalLine.path}}"/>
+
+        <div class="beetal-outer-container">
+            <div ng-repeat="i in secondNumberRange"
+                 ng-class=$index%2==0?"beetal-inner-container":"flip-beetal-inner-container";>
+                <img class="beetal"
+                     ng-repeat="i in answerRange"
+                     ng-src="{{beetle.path}}"/>
+            </div>
+        </div>
+
+        <div class="dragon-container">
+            <img ng-class=$index%2==0?"dragon":"flip-dragon";
+                 ng-repeat="i in secondNumberRange"
+                 ng-src="{{dragon.path}}"/>
+        </div>
+
+        <div class="input-container">
+            <div class="number" position="4,3">{{firstNumber}}</div>
+            <div class="number-text hint-text" position="1,75">Beetals</div>
+            <div class="symbol" position="25,-23">÷</div>
+            <div class="number-text hint-text" position="20,68" style="font-size: 1.1vw">Shared between</div>
+            <div class="number" position="47,3">{{secondNumber}}</div>
+            <div class="number-text hint-text" position="42,75">Dragons</div>
+            <div class="symbol" position="66,-18">=</div>
+            <input position="85,10" class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

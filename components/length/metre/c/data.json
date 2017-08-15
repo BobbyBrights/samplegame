@@ -1,0 +1,216 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "metre": {
+                  "home": {
+                    "header": {
+                      "text": "Metre"
+                    },
+                    "footer": {},
+                    "images": {
+
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the pictures.",
+                        "cls": ""
+                      },
+                      "drop-images":{
+                        "longer":{
+                          "path":"metre/images/square.svg"
+                        },
+                        "shorter":{
+                          "path":"metre/images/square.svg"
+                        }
+                      },
+                      "drag-images":{
+                        "1":{
+                          "path":"metre/images/longer-1.svg",
+                          "width": "15%",
+                          "height": "20%",
+                          "top": "60%",
+                          "left": "5%",
+                          "group":"0"
+
+                        },
+                        "2":{
+                          "path":"metre/images/longer-2.svg",
+                          "width": "15%",
+                          "height": "20%",
+                          "top": "60%",
+                          "left": "16%",
+                          "group":"0"
+                        },
+                        "3":{
+                          "path":"metre/images/object-first.svg",
+                          "width": "5%",
+                          "height": "10%",
+                          "top": "70%",
+                          "left": "30%",
+                          "group":"1"
+                        },
+                        "4":{
+                          "path":"metre/images/longer-4.svg",
+                          "width": "15%",
+                          "height": "20%",
+                          "top": "60%",
+                          "left": "38%",
+                          "group":"0"
+                        },
+                        "5":{
+                          "path":"metre/images/object-second.svg",
+                          "width": "5%",
+                          "height": "10%",
+                          "top": "70%",
+                          "left": "55%",
+                          "group":"1"
+                        },
+                        "6":{
+                          "path":"metre/images/shorter-2.svg",
+                          "width": "5%",
+                          "height": "10%",
+                          "top": "70%",
+                          "left": "64%",
+                          "group":"1"
+                        },
+                        "7":{
+                          "path":"metre/images/longer-3.svg",
+                          "width": "15%",
+                          "height": "20%",
+                          "top": "60%",
+                          "left": "73%",
+                          "group":"0"
+                        },
+                        "8":{
+                          "path":"metre/images/shorter-4.svg",
+                          "width": "5%",
+                          "height": "10%",
+                          "top": "70%",
+                          "left": "91.5%",
+                          "group":"1"
+                        }
+                      },
+                      "image":{
+                        "scale":{
+                          "path":"metre/images/scale.svg"
+                        }
+                      },
+                      "display": {
+                        "path": "metre/images/display-board.svg"
+                      },
+                      "chair": {
+                        "path": "metre/images/chair.svg"
+                      },
+                      "positions": [
+                        "32,10",
+                        "15,31",
+                        "58,11",
+                        "18,9",
+                        "58,40",
+                        "74,40",
+                        "28,32",
+                        "74,11"
+                      ],
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "metres": {
+                          "path": "images/menu/metres-icon.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'metres', level :  'c'}"
+                        }
+                          ,
+                        "long": {
+                          "path": "images/menu/centimetres-icon-one.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'long', level :  'c'}"
+                        }
+                          ,
+                        "tall": {
+                          "path": "images/menu/centimetres-icon-two.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'tall', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "longer":{
+                        "path":"metre/images/square.svg"
+                      },
+                      "shorter": {
+                        "path": "metre/images/square.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "scale": {
+                        "path": "metre/images/scale.svg"
+                      },
+                      "chair": {
+                        "path": "metre/images/chair.svg"
+                      },
+                      "display": {
+                        "path": "metre/images/display-board.svg"
+                      },
+                      "1": {
+                        "path":"metre/images/longer-1.svg"
+                      },
+                      "2": {
+                        "path":"metre/images/longer-2.svg"
+                      },
+                      "3": {
+                        "path": "metre/images/shorter-3.svg"
+                      },
+                      "4": {
+                        "path":"metre/images/longer-4.svg"
+                      },
+                      "5": {
+                        "path": "metre/images/shorter-1.svg"
+                      },
+                      "6": {
+                        "path": "metre/images/shorter-2.svg"
+                      },
+                      "7": {
+                        "path":"metre/images/longer-3.svg"
+                      },
+                      "8": {
+                        "path": "metre/images/shorter-4.svg"
+                      },
+                      "tall": {
+                        "path": "images/menu/centimetres-icon-two.svg"
+                      },
+                      "long": {
+                        "path": "images/menu/centimetres-icon-one.svg"
+                      },
+                      "metres": {
+                        "path": "images/menu/metres-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "subtract-skinks": {
+              "home": {
+                "header": {
+                  "text": "Skinks Subtraction"
+                },
+                "footer": {},
+                "images": {
+                  "lizard": {
+                    "path": "images/lizard.svg"
+                  }
+                },
+                "question": {
+                  "background": {
+                    "path": "images/background.svg",
+                    "width": "105%",
+                    "margin-left": "-2%"
+                  },
+                  "questions-box": {
+                    "text": "<span class='number-question'>10 take away </span><span class='end-text'>leaves</span>"
+                  },
+                  "hint": {
+                    "text": "Enter the answer."
+                  },
+                  "middle-hint": {
+                    "text": "Select the skinks first."
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "lizard": {
+                    "path": "images/lizard.svg"
+                  },
+                  "background": {
+                    "path": "images/background.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

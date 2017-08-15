@@ -1,0 +1,56 @@
+<div class="multi-square-page">
+
+    <work-area menu="menu" next="next"
+               check="check"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+
+        <!-- Display table-->
+        <div class="table-container" drop-zone group="0"></div>
+
+        <!-- Display stamp images-->
+        <img id="image-box{{$index}}" ng-repeat="image in imageCount track by $index" class="pos-absolute"
+             ng-src="{{stampImages['stamp'+image].path}}"
+             ng-style="{top: stampImages['stamp'+image].top, left:stampImages['stamp'+image].left}"
+             height="{{stampImages['stamp'+image].height}}"
+             width="{{stampImages['stamp'+image].width}}"/>
+
+
+        <!--Display draggable squares-->
+        <div ng-repeat="item in [0,1,2,3,4,5,6] track by $index"
+             ng-style="{'background-color': Colors[firstCubeColors[$index]],'z-index':($index+2)}"
+             class="square square-one" drag-item></div>
+
+        <div ng-repeat="item in [0,1,2,3,4,5,6] track by $index"
+             ng-style="{'background-color': Colors[secondCubeColors[$index]],'z-index':($index+2)}"
+             class="square square-two" drag-item></div>
+
+        <div ng-repeat="item in [0,1,2,3,4,5,6] track by $index"
+             ng-style="{'background-color': Colors[thiredCubeColors[$index]],'z-index':($index+2)}"
+             class="square square-three" drag-item></div>
+
+        <!-- Display square hint text -->
+        <div class="square-hint-text common-hint-text" ng-bind-html="squareHint"></div>
+
+        <!-- Display stamp hint text -->
+        <div class="stamp-hint-text common-hint-text" ng-bind-html="stampHint"></div>
+
+        <!--display question text with input box -->
+        <div class="question-container">
+            <span class="question-text text-left">The stamps equals</span>
+            <input class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+            <span class=" question-text text-right">Squares</span>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+    </work-area>
+
+</div>

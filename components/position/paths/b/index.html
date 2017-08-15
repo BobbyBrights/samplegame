@@ -1,0 +1,62 @@
+<div class="paths-page" >
+  <work-area menu="menu"
+             next="next"
+             reset="reset"
+             check="check"
+             plus="plus"
+             minus="minus"
+             header="header">
+
+      <div id="grid-top">
+          <img ng-src="{{images['image2'].path}}"  class="tree-top"/>
+      </div>
+
+
+      <div class="counter-container" id="grid-middle">
+          <div class="circle-container circle-border"
+               ng-repeat="val in gridBox track by $index" ng-click="pathClick(val);" id="{{val}}" >
+
+          </div>
+      </div>
+      <div id="grid-bottom5">
+          <img ng-src="{{images['image5'].path}}" width="{{images['image5'].width}}"
+               height="{{images['image5'].height}}" position="46,2"/>
+      </div>
+      <div id="grid-bottom4" style="display: none;">
+          <img ng-src="{{images['image4'].path}}" width="{{images['image4'].width}}"
+               height="{{images['image4'].height}}" position="86,-7"/>
+      </div>
+      <div id="grid-bottom10">
+          <img ng-src="{{images['image10'].path}}" width="{{images['image10'].width}}"
+               height="{{images['image10'].height}}" position="46,12"/>
+      </div>
+      <div id="grid-bottom9" style="display: none;">
+          <img ng-src="{{images['image9'].path}}" width="{{images['image9'].width}}"
+               height="{{images['image9'].height}}" position="3,1"/>
+      </div>
+      <div id="grid-bottom1" >
+          <img ng-src="{{images['image1'].path}}" position="37,75" class="tree-bottom"/>
+      </div>
+      <div id="grid-bottom8">
+          <img ng-src="{{images['image8'].path}}" width="{{images['image8'].width}}"
+               height="{{images['image8'].height}}" position="6,83"/>
+      </div>
+
+      <div id="grid-bottom7" style="display: none;">
+          <img ng-src="{{images['image7'].path}}" width="{{images['image7'].width}}"
+               height="{{images['image7'].height}}" position="81,-1"/>
+      </div>
+
+      <div id="grid-bottom6">
+          <img ng-src="{{images['image6'].path}}" width="{{images['image6'].width}}"
+               height="{{images['image6'].height}}" position="6,78"/>
+      </div>
+
+      <div id="grid-bottom3" style="display:none;">
+          <img ng-src="{{images['image3'].path}}" width="{{images['image3'].width}}"
+               height="{{images['image3'].height}}" position="57,84"/>
+      </div>
+      <div class="path-start" id="grid-bottom-start" >{{start}}</div>
+      <div class="path-text" id="grid-bottom-direction">{{hint}}</div>
+  </work-area>
+</div>

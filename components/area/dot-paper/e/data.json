@@ -1,0 +1,74 @@
+{
+  "levels": {
+    "e": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "types": {
+                "dot-paper": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'drag-type', level :  'e'}"
+                        }
+                          ,
+                        "grid-drag": {
+                          "path": "images/menu/grid-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'grid-drag', level :  'e'}"
+                        }
+                          ,
+                        "multi-square-drag": {
+                          "path": "images/menu/multi-square-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'multi-square-drag', level :  'e'}"
+                        }
+                          ,
+                        "sketchpad": {
+                          "path": "images/menu/sketchpad.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'sketchpad', level :  'e'}"
+                        }
+                          ,
+                        "square-grid": {
+                          "path": "images/menu/square-grid.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'square-grid', level :  'e'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "dot-paper/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

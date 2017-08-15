@@ -1,0 +1,184 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "position": {
+              "types": {
+                "words": {
+                  "home": {
+                    "header": {
+                      "text": "Position ... words"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards.",
+                        "cls": ""
+                      },
+                      "label": {
+                        "text": "Where is caterpillar?",
+                        "cls": ""
+                      },
+                      "min-value": 0,
+                      "max-value": 2,
+                      "drag-items": [
+                        "More Space",
+                        "Less Space"
+                      ],
+                      "drag-positions": [
+                        "2,59",
+                        "2,75"
+                      ],
+                      "sign": {
+                        "path": "words/images/tick.svg",
+                        "visibility":"hidden",
+                        "cls":"pos-absolute",
+                        "width":"10%",
+                        "height":"15%",
+                        "left":"81%",
+                        "top":"67%"
+                      },
+                      "cross": {
+                        "path": "words/images/cross.svg",
+                        "visibility": "hidden",
+                        "cls":"pos-absolute",
+                        "width":"10%",
+                        "height":"15%",
+                        "left":"81%",
+                        "top":"67%"
+                      }
+                    },
+                    "word-images": {
+                      "word0": {
+                        "path": "words/images/butterfly.svg",
+                        "width": "40%"
+                      },
+                      "word1": {
+                        "path": "words/images/grid-icon.svg",
+                        "width": "40%"
+                      },
+                      "word2": {
+                        "path": "words/images/path-icon.svg",
+                        "width": "40%"
+                      }
+
+                    },
+                    "caterpillar-images": {
+                      "caterpillar0": {
+                        "path": "words/images/caterpillar-above-below.svg",
+                        "width": "100%",
+                        "height": "100%"
+                      },
+                      "caterpillar1": {
+                        "path": "words/images/caterpillar-beside-between.svg",
+                        "width": "100%",
+                        "height": "100%"
+                      },
+                      "caterpillar2": {
+                        "path": "words/images/caterpillar-infront-behind.svg",
+                        "width": "100%",
+                        "height": "100%"
+                      },
+                      "caterpillar3": {
+                        "path": "words/images/caterpillar-over-under.svg",
+                        "width": "100%",
+                        "height": "100%"
+                      },
+                      "caterpillar4": {
+                        "path": "words/images/caterpillar-left-right.svg",
+                        "width": "100%",
+                        "height": "100%"
+                      },
+                      "caterpillar5": {
+                        "path": "words/images/caterpillar-inside-outside.svg",
+                        "width": "100%",
+                        "height": "100%"
+                      }
+                    },
+                    "drag-items": {
+                      "caterpillar0": {
+                        "position":["Above","Below"]
+                      },
+                      "caterpillar1": {
+                        "position": ["Between","Beside"]
+                      },
+                      "caterpillar2": {
+                        "position": ["Behind","Front"]
+                      },
+                      "caterpillar3": {
+                        "position": ["Under","over"]
+                      },
+                      "caterpillar4": {
+                        "position":[ "Left","Right"]
+                      },
+                      "caterpillar5": {
+                        "position":[ "Inside","Outside"]
+                      }
+                    }
+                  },
+
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "grids": {
+                          "path": "images/menu/grids-icon.svg",
+                          "state": "^.position-game",
+                          "params": "{category : 'space', game : 'grids', level :  'b'}"
+                        }
+                          ,
+                        "paths": {
+                          "path": "images/menu/paths-icon.svg",
+                          "state": "^.position-game",
+                          "params": "{category : 'space', game : 'paths', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "caterpillar0": {
+                        "path": "words/images/caterpillar-above-below.svg"
+                      },
+                      "caterpillar1": {
+                        "path": "words/images/caterpillar-beside-between.svg"
+                      },
+                      "caterpillar2": {
+                        "path": "words/images/caterpillar-infront-behind.svg"
+                      },
+                      "caterpillar3": {
+                        "path": "words/images/caterpillar-over-under.svg"
+                      },
+                      "caterpillar4": {
+                        "path": "words/images/caterpillar-left-right.svg"
+                      },
+                      "caterpillar5": {
+                        "path": "words/images/caterpillar-inside-outside.svg"
+                      },
+                      "grids": {
+                        "path": "images/menu/grids-icon.svg"
+                      },
+                      "paths": {
+                        "path": "images/menu/paths-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

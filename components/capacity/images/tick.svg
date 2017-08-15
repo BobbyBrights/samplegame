@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1"  xmlns="http://www.w3.org/2000/svg"
+	 x="0px" y="0px" viewBox="0 0 100 100" enable-background="new -0.5 -0.5 100 100" xml:space="preserve">
+   <g id="tick">
+	<g id="Scene_1_f6_1_">
+		<g id="MovieClip_sprite_49">
+			<path id="tickColor" fill="#009900" d="M59.7,44.5C71.9,28.1,85.2,14.6,100,4.3L97.8,0C84.1,8.6,70.8,19.9,58.5,33.7
+				C45.9,47,35.4,62,26.9,78.2l-3-6.1c-4.7-11.3-9.3-16.9-13.3-16.9c-3.2,0-6.8,2-10.6,5.8c2.8,0.2,5.6,2.1,8.3,5.8l9.5,19.9
+				l4.5,13.4L33,92C38.5,76.1,47.4,60.4,59.7,44.5"/>
+		</g>
+	</g>
+</g>
+</svg>

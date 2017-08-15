@@ -1,0 +1,201 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "place-value": {
+              "types": {
+                "circlebox-place-value": {
+                  "home": {
+                    "header": {
+                      "text": "Place Value with Counters"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the boxes, and then select check."
+                      },
+                      "tens-text": {
+                        "text": "Tens"
+                      },
+                      "ones-text":{
+                        "text": "Ones"
+                      },
+                      "groupOfCircle": {
+                        "circleGrid0": {
+                          "path": "circlebox-place-value/images/green-grid-circle.svg"
+                        },
+                        "circleGrid1": {
+                          "path": "circlebox-place-value/images/blue-grid-circle.svg"
+                        },
+                        "circleGrid2": {
+                          "path": "circlebox-place-value/images/yellow-grid-circle.svg"
+                        },
+                        "circleGrid3": {
+                          "path": "circlebox-place-value/images/orange-grid-circle.svg"
+                        },
+                        "circleGrid4": {
+                          "path": "circlebox-place-value/images/red-grid-circle.svg"
+                        },
+                        "circleGrid5": {
+                          "path": "circlebox-place-value/images/mediumspringGreen-grid-circle.svg"
+                        },
+                        "circleGrid6": {
+                          "path": "circlebox-place-value/images/syan-grid-circle.svg"
+                        },
+                        "circleGrid7": {
+                          "path": "circlebox-place-value/images/darkGolden-grid-circle.svg"
+                        },
+                        "circleGrid8": {
+                          "path": "circlebox-place-value/images/magenta-grid-circle.svg"
+                        }
+                      },
+                      "circles": {
+                        "circle1": {
+                          "path": "circlebox-place-value/images/aqua-circle.svg"
+                        },
+                        "circle2": {
+                          "path": "circlebox-place-value/images/blue-circle.svg"
+                        },
+                        "circle3": {
+                          "path": "circlebox-place-value/images/darkorchid-circle.svg"
+                        },
+                        "circle4": {
+                          "path": "circlebox-place-value/images/goldenrod-circle.svg"
+                        },
+                        "circle5": {
+                          "path": "circlebox-place-value/images/lawngreen-circle.svg"
+                        },
+                        "circle6": {
+                          "path": "circlebox-place-value/images/mediumspringgreen-circle.svg"
+                        },
+                        "circle7": {
+                          "path": "circlebox-place-value/images/orange-circle.svg"
+                        },
+                        "circle8": {
+                          "path": "circlebox-place-value/images/orangered-circle.svg"
+                        },
+                        "circle9": {
+                          "path": "circlebox-place-value/images/red-circle.svg"
+                        }
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "pencile-place-value": {
+                          "path": "images/menu/left-pencil-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'pencile-place-value', level :  'b'}"
+                        },
+                        "whitebox-place-value": {
+                          "path": "images/menu/left-blocks-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'whitebox-place-value', level :  'b'}"
+                        },
+                        "circle-place-value": {
+                          "path": "images/menu/left-circle-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'circle-place-value', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right":true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "circleGrid0": {
+                        "path": "circlebox-place-value/images/green-grid-circle.svg"
+                      },
+                      "circleGrid1": {
+                        "path": "circlebox-place-value/images/blue-grid-circle.svg"
+                      },
+                      "circleGrid2": {
+                        "path": "circlebox-place-value/images/yellow-grid-circle.svg"
+                      },
+                      "circleGrid3": {
+                        "path": "circlebox-place-value/images/orange-grid-circle.svg"
+                      },
+                      "circleGrid4": {
+                        "path": "circlebox-place-value/images/red-grid-circle.svg"
+                      },
+                      "circleGrid5": {
+                        "path": "circlebox-place-value/images/mediumspringGreen-grid-circle.svg"
+                      },
+                      "circleGrid6": {
+                        "path": "circlebox-place-value/images/syan-grid-circle.svg"
+                      },
+                      "circleGrid7": {
+                        "path": "circlebox-place-value/images/darkGolden-grid-circle.svg"
+                      },
+                      "circleGrid8": {
+                        "path": "circlebox-place-value/images/magenta-grid-circle.svg"
+                      },
+                      "circle1": {
+                        "path": "circlebox-place-value/images/aqua-circle.svg"
+                      },
+                      "circle2": {
+                        "path": "circlebox-place-value/images/blue-circle.svg"
+                      },
+                      "circle3": {
+                        "path": "circlebox-place-value/images/darkorchid-circle.svg"
+                      },
+                      "circle4": {
+                        "path": "circlebox-place-value/images/goldenrod-circle.svg"
+                      },
+                      "circle5": {
+                        "path": "circlebox-place-value/images/lawngreen-circle.svg"
+                      },
+                      "circle6": {
+                        "path": "circlebox-place-value/images/mediumspringgreen-circle.svg"
+                      },
+                      "circle7": {
+                        "path": "circlebox-place-value/images/orange-circle.svg"
+                      },
+                      "circle8": {
+                        "path": "circlebox-place-value/images/orangered-circle.svg"
+                      },
+                      "circle9": {
+                        "path": "circlebox-place-value/images/red-circle.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

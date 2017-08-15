@@ -1,0 +1,36 @@
+/* Sub game namespace */
+.length-page {
+  .tall-page {
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      width: 94%;
+      height: 65%;
+    }
+
+    .image-item-0 {
+      position: absolute;
+      top: 1%;
+      z-index: 1;
+      width: 3.3%;
+    }
+
+    .image-item-1 {
+      position: absolute;
+    }
+
+    .horizontal {
+      top: 59%;
+    }
+
+    .footer-text {
+      bottom: 28%;
+    }
+
+    .hint-text {
+      bottom: 1%;
+    }
+  }
+}

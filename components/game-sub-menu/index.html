@@ -1,0 +1,5 @@
+<div class="game-sub-menu">
+  <img ng-repeat="(key, icon) in $ctrl.menu" class="sub-menu-image {{icon.cls}}" ng-src="{{icon.path}}"
+       ng-style="{top: icon.top, left: icon.left}"
+       height="{{icon.height}}" width="{{icon.width}}" ui-sref="{{icon.state + '(' + icon.params + ')'}}">
+</div>

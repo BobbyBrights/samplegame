@@ -1,0 +1,73 @@
+/* Game main namespace */
+.shapes-page {
+
+  // Game specific styles
+  .band {
+    position: absolute;
+    height: 28%;
+    width: 100%;
+    top: 14%;
+    background-color: black;
+    border-radius: 3px;
+  }
+
+  .hen {
+    position: absolute;
+  }
+
+  .shape-count {
+    display: inline;
+  }
+
+  .shape {
+    position: relative;
+    margin-left: -1.5%;
+    top: 18%;
+    width: 12%;
+    height: 20%;
+
+    &.left-gap {
+      margin-left: 1%;
+    }
+  }
+
+  .shape-blank {
+    position: absolute;
+    width: 12%;
+    height: 14%;
+    top: 18.2%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .drop-images {
+    position: absolute;
+    width: 30%;
+    top: 40%;
+    align-self: flex-end;
+  }
+
+  .drag-items {
+    position: absolute;
+    height: 20%;
+    width: 12%;
+    top: 65%;
+  }
+
+  .tick {
+    position: absolute;
+    width: 8%;
+    top: 46%;
+    left: 88.8%;
+  }
+
+  .question-label {
+    top: 0;
+    bottom: initial;
+  }
+
+  .move-disable {
+    pointer-events: none;
+  }
+
+}

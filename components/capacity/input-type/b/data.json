@@ -1,0 +1,181 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "capacity": {
+              "types": {
+                "input-type": {
+                  "home": {
+                    "header": {
+                      "text": "Capacity-II"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "9%",
+                        "height": "26%",
+                        "top": "43%",
+                        "left": "88%"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg",
+                        "cls": "pos-absolute",
+                        "width": "12%",
+                        "height": "23%",
+                        "top": "43%",
+                        "left": "88%"
+                      }
+                    },
+                    "question": {
+                      "question-label": "How many containers will the jug fill?",
+                      "answer": [3, 5, 4],
+                      "images": {
+                        "empty-glass": {
+                          "index":0,
+                          "path": "input-type/b/images/empty-glass.svg",
+                          "cls": "glass-image",
+                          "left": 28,
+                          "top": 40,
+                          "diff": 7,
+                          "dropGap":7,
+                          "droptStarting":8.5
+                        },
+                        "fill-glass": {
+                          "index":0,
+                          "path": "input-type/b/images/fill-glass.svg",
+                          "cls": "glass-image",
+                          "left": 28,
+                          "top": 40,
+                          "diff": 7
+                        },
+                        "empty-bowl": {
+                          "index":1,
+                          "path": "input-type/b/images/empty-bowl.svg",
+                          "cls": "bowl-image",
+                          "left": 28,
+                          "top": 34,
+                          "diff": 10,
+                          "dropGap":10,
+                          "droptStarting":8
+                        },
+                        "fill-bowl": {
+                          "index":2,
+                          "path": "input-type/b/images/fill-bowl.svg",
+                          "cls": "bowl-image",
+                          "left": 28,
+                          "top": 34,
+                          "diff":10
+                        },
+                        "empty-cup": {
+                          "index":2,
+                          "path": "input-type/b/images/empty-cup.svg",
+                          "cls": "cup-image",
+                          "left": 28,
+                          "top": 36.5,
+                          "diff": 8,
+                          "dropGap":8,
+                          "droptStarting":11
+                        },
+                        "fill-cup": {
+                          "index":1,
+                          "path": "input-type/b/images/fill-cup.svg",
+                          "cls": "cup-image",
+                          "left": 28,
+                          "top": 36.5,
+                          "diff": 8
+                        },
+
+                        "empty-jug": {
+                          "path": "input-type/b/images/empty-mug.svg",
+                          "left": 28,
+                          "top": 40,
+                          "diff": 15
+                        }
+                      },
+                      "sign": {
+                        "path": "drag-type/b/images/tick.svg",
+                        "cls": "pos-absolute invisible",
+                        "left": 28,
+                        "top": 40,
+                        "diff": 8
+                      },
+                      "empty-images": ["emptyGlass", "emptyCup", "emptyBowl"],
+                      "fill-images": ["fillGlass", "fillCup", "fillBowl"],
+                      "hint": {
+                        "text": ["Enter estimate first, click fill.", "Enter real measure,click check."],
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.capacity-game",
+                          "params": "{category : 'measurement', game : 'drag-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "empty-glass": {
+                        "index":0,
+                        "path": "input-type/b/images/empty-glass.svg"
+                      },
+                      "fill-glass": {
+                        "index":0,
+                        "path": "input-type/b/images/fill-glass.svg"
+                      },
+                      "empty-bowl": {
+                        "index":1,
+                        "path": "input-type/b/images/empty-bowl.svg"
+                      },
+                      "fill-bowl": {
+                        "index":2,
+                        "path": "input-type/b/images/fill-bowl.svg"
+                      },
+                      "empty-cup": {
+                        "index":2,
+                        "path": "input-type/b/images/empty-cup.svg"
+                      },
+                      "fill-cup": {
+                        "index":1,
+                        "path": "input-type/b/images/fill-cup.svg"
+                      },
+                      "empty-jug": {
+                        "path": "input-type/b/images/empty-mug.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

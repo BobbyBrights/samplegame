@@ -1,0 +1,152 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "addition": {
+              "types": {
+                "one-dice": {
+                  "home": {
+                    "header": {
+                      "text":"Dice Addition"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "9%",
+                        "height": "26%",
+                        "top": "54%",
+                        "left": "82%"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg",
+                        "cls": "pos-absolute",
+                        "width": "12%",
+                        "height": "23%",
+                        "top": "60%",
+                        "left": "82%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the box.",
+                        "cls": ""
+                      },
+                      "sign":{
+                        "plus-text": "Plus",
+                        "equal-text": "Equals"
+                      },
+                      "dice-images":{
+                        "1":{
+                          "path": "one-dice/b/images/dice-one.svg"
+                        },
+                        "2":{
+                          "path": "one-dice/b/images/dice-two.svg"
+                        },
+                        "3":{
+                          "path": "one-dice/b/images/dice-three.svg"
+                        },
+                        "4":{
+                          "path": "one-dice/b/images/dice-four.svg"
+                        },
+                        "5":{
+                          "path": "one-dice/b/images/dice-five.svg"
+                        },
+                        "6":{
+                          "path": "one-dice/b/images/dice-six.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "two-dice": {
+                          "path": "images/menu/two-dice.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'two-dice', level :  'b'}"
+                        }
+                          ,
+                        "number-line": {
+                          "path": "images/menu/number-line.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'number-line', level :  'b'}"
+                        }
+                          ,
+                        "to-twenty": {
+                          "path": "images/menu/to-twenty.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'to-twenty', level :  'b'}"
+                        }
+                          ,
+                        "balance": {
+                          "path": "images/menu/balance.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'balance', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      },
+                      "1":{
+                        "path": "one-dice/b/images/dice-one.svg"
+                      },
+                      "2":{
+                        "path": "one-dice/b/images/dice-two.svg"
+                      },
+                      "3":{
+                        "path": "one-dice/b/images/dice-three.svg"
+                      },
+                      "4":{
+                        "path": "one-dice/b/images/dice-four.svg"
+                      },
+                      "5":{
+                        "path": "one-dice/b/images/dice-five.svg"
+                      },
+                      "6":{
+                        "path": "one-dice/b/images/dice-six.svg"
+                      },
+                      "two-dice": {
+                        "path": "images/menu/two-dice.svg"
+                      },
+                      "number-line": {
+                        "path": "images/menu/number-line.svg"
+                      },
+                      "to-twenty": {
+                        "path": "images/menu/to-twenty.svg"
+                      },
+                      "balance": {
+                        "path": "images/menu/balance.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

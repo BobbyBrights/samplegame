@@ -1,0 +1,49 @@
+<div id="main-page" class="ones-patterns-page headerone">
+    <work-area menu="menu" next="next" onnumberclick="onNumberClick"
+               getscoreboard="getScoreboard" reset="reset" header="header">
+
+        <!-- Game specific elements -->
+
+        <game-images images="images"></game-images>
+
+        <!--Table chart-->
+        <table class="chart">
+            <tr ng-repeat="item in columns">
+                <td ng-repeat="item in rows"
+                    ng-click="chartNumClick($parent.$id+'-'+$index)"
+                    id="{{$parent.$id+'-'+$index}}"
+                    class="row-chart">{{($parent.$index * 10) + $index + 1}}
+                </td>
+            </tr>
+        </table>
+
+        <!--Chart help text-->
+        <div class="grid-text">
+            <div ng-bind-html="chartText.firstHint"></div>
+            <div ng-bind-html="chartText.secondHint"></div>
+            <div ng-bind-html="chartText.thirdHint"></div>
+            <div ng-bind-html="chartText.bottomHint"></div>
+        </div>
+
+        <div class="input-flex">
+            <input class="input-item"
+                   ng-repeat="num in numbers"
+                   ng-disabled="disability[counter][$index]"
+                   value="{{disability[counter][$index] ? numbers[$index] : ''}}"
+                   id="input-{{$index}}"
+                   ng-click="inputClick($index)"
+                   ng-focus="currentInput=$index"
+                   data-count="{{num}}"
+                   maxlength="2"/>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <div class="reset-button check-btn action-btn" ng-click="reset($event)">Reset</div>
+
+        <div class="more-button check-btn action-btn" ng-click="more()">More</div>
+
+    </work-area>
+</div>

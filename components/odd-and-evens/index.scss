@@ -1,0 +1,34 @@
+// Add background layout
+.app-home-level-menu-odd-and-evens-layout {
+  .banner {
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.odd-and-evens-page {
+  .drop-item {
+    width: 6.5%;
+    height: 21%;
+    z-index: 1;
+    position: absolute;
+  }
+  .drag-item {
+    left: 46.2%;
+    top: 58%;
+    width: 6.5%;
+    height: 21%;
+    position: absolute;
+  }
+  .drop-images {
+    width: 50%;
+    height: 142%;
+    align-self: center;
+  }
+  
+  .move-disable {
+    pointer-events: none;
+  }
+
+  // Game specific styles
+}

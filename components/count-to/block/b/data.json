@@ -1,0 +1,160 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "count-to": {
+              "types": {
+                "block": {
+                  "home": {
+                    "header": {
+                      "text": "How many blocks?"
+                    },
+                    "footer": {},
+                    "images": {
+                      "block": {
+                        "path": "block/images/active-block-jar.svg",
+                        "width": "6.5%",
+                        "cls": "pos-absolute",
+                        "top": "-18.3%",
+                        "left": "6.8%"
+                      }
+                    },
+                    "question": {
+                      "kind": "buttons",
+                      "count": 3,
+                      "min-limit": 10,
+                      "max-value": 11,
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      },
+                      "random-blocks": {
+                        "block-0": {
+                          "path": "block/images/block0.svg"
+                        },
+                        "block-1": {
+                          "path": "block/images/block1.svg"
+                        },
+                        "block-2": {
+                          "path": "block/images/block2.svg"
+                        },
+                        "block-3": {
+                          "path": "block/images/block3.svg"
+                        },
+                        "block-4": {
+                          "path": "block/images/block4.svg"
+                        },
+                        "block-5": {
+                          "path": "block/images/block5.svg"
+                        },
+                        "block-6": {
+                          "path": "block/images/block6.svg"
+                        },
+                        "block-7": {
+                          "path": "block/images/block7.svg"
+                        },
+                        "block-8": {
+                          "path": "block/images/block8.svg"
+                        },
+                        "block-9": {
+                          "path": "block/images/block9.svg"
+                        }
+                      },
+                      "hint": {
+                        "text": "Select a number card."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "frog": {
+                          "path": "images/menu/frog.svg",
+                          "state": "^.count-to-game",
+                          "params": "{category : 'number', game : 'frog', level :  'b'}"
+                        },
+                        "counter": {
+                          "path": "images/menu/counter.svg",
+                          "state": "^.count-to-game",
+                          "params": "{category : 'number', game : 'counter', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "pad-type": "card-pad",                    
+                        "no-of-buttons": 11,
+                        "start-number": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "active-block-jar": {
+                        "path": "block/images/active-block-jar.svg"
+                      },
+                      "frog": {
+                        "path": "images/menu/frog.svg"
+                      },
+                      "counter": {
+                        "path": "images/menu/counter.svg"
+                      },
+                      "block-0": {
+                        "path": "block/images/block0.svg"
+                      },
+                      "block-1": {
+                        "path": "block/images/block1.svg"
+                      },
+                      "block-2": {
+                        "path": "block/images/block2.svg"
+                      },
+                      "block-3": {
+                        "path": "block/images/block3.svg"
+                      },
+                      "block-4": {
+                        "path": "block/images/block4.svg"
+                      },
+                      "block-5": {
+                        "path": "block/images/block5.svg"
+                      },
+                      "block-6": {
+                        "path": "block/images/block6.svg"
+                      },
+                      "block-7": {
+                        "path": "block/images/block7.svg"
+                      },
+                      "block-8": {
+                        "path": "block/images/block8.svg"
+                      },
+                      "block-9": {
+                        "path": "block/images/block9.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

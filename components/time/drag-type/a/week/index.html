@@ -1,0 +1,39 @@
+<div class="week-page">
+    <work-area menu="menu" header="header">
+
+        <!--Drop zone-->
+        <div ng-repeat="dropZone in day"
+             id="drop-zone-{{$index}}"
+             class="drop-zones roll-over-text common-style"
+             drop-zone group="{{$index}}"
+             position="53, {{dropTop[$index]}}">
+            <span ng-show="flag">{{dropZone}}</span>
+        </div>
+
+        <!--Drag card-->
+        <div ng-repeat="dragItem in day"
+             id="drag-item-{{$index}}"
+             class="drag-items common-style"
+             position="31, {{dragTop[$index]}}"
+             ng-class="($index<5) ? 'red-gradient' : 'green-gradient'"
+             drag-item group="{{$index}}">{{dragItem}}
+        </div>
+
+        <!--Hint box-->
+        <div class="common-style"
+             ng-repeat="button in ['week','weekend']"
+             ng-class="($index==0)?'red-gradient' : 'green-gradient'"
+             ng-style="{left:'81%',top:(70+($index * 14))+'%'}">{{button}}
+        </div>
+
+        <!--tick-->
+        <game-images id="tick" images="weekImages.tick" ng-class="checkClass['tick']"></game-images>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <!--Sun image-->
+        <game-images images="weekImages.sun" ng-click="flag=!flag"></game-images>
+
+    </work-area>
+</div>

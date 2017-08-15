@@ -1,0 +1,29 @@
+<div class="fill-container-page">
+    <work-area menu="menu" next="next" header="header"  getscoreboard="getScoreboard" onnumberclick="onNumberClick">
+
+        <!-- Add images -->
+        <img ng-src="{{staticImage.path}}" class="static-image"/>
+        <img ng-src="{{playImage.path}}" class="play-button" ng-click="playAnimation()"/>
+
+
+        <!-- display cude box -->
+        <div svg-directive ng-repeat="image in randomImages track by $index" ng-if="$index == counter"
+             nodeName="{{currCube.node}}" svg-size="{{currCube.svgsize}}" game-svg="$cubes" size="{{currCube.size}}"
+             position="{{currCube.position}}">
+        </div>
+
+        <div class="question-center" ng-bind-html="questionsCenter"></div>
+
+        <div class="question-container">
+            <div class="question-text" ng-bind-html="questionsBox"></div>
+            <input class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+        <!--display check buttons-->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

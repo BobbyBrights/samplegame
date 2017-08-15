@@ -1,0 +1,171 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "more-count": {
+              "types": {
+                "frog": {
+                  "home": {
+                    "header": {
+
+                      "text": "How many frogs?"
+                    },
+                    "footer": {},
+                    "images": {
+                      "frog": {
+                        "path": "frog/images/active-frog-jar.svg",
+                        "width": "6.5%",
+                        "cls": "pos-absolute",
+                        "top": "-16.3%",
+                        "left": "4.5%"
+                      }
+                    },
+                    "question": {
+                      "kind": "buttons",
+                      "count": 3,
+                      "max-value": 10,
+                      "hint": {
+                        "text": "Select a number card."
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      },
+                      "frog-images": {
+                        "frog": {
+                          "path": "frog/images/frog.svg",
+                          "width": "86%",
+                          "height": "98%"
+                        }
+                      },
+                      "frog-value": [
+                        3,
+                        2,
+                        4,
+                        3,
+                        5,
+                        6,
+                        8,
+                        7,
+                        10,
+                        9
+                      ],
+                      "number-card-value": [
+                        [
+                          1,
+                          2,
+                          3
+                        ],
+                        [
+                          1,
+                          2,
+                          3
+                        ],
+                        [
+                          3,
+                          4,
+                          5
+                        ],
+                        [
+                          3,
+                          4,
+                          5
+                        ],
+                        [
+                          5,
+                          6,
+                          7
+                        ],
+                        [
+                          5,
+                          6,
+                          7
+                        ],
+                        [
+                          7,
+                          8,
+                          9
+                        ],
+                        [
+                          7,
+                          8,
+                          9
+                        ],
+                        [
+                          8,
+                          9,
+                          10
+                        ],
+                        [
+                          8,
+                          9,
+                          10
+                        ]
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "block": {
+                          "path": "images/menu/block.svg",
+                          "state": "^.more-count-game",
+                          "params": "{category : 'number', game : 'block', level :  'a'}"
+                        },
+                        "counter": {
+                          "path": "images/menu/counter.svg",
+                          "state": "^.more-count-game",
+                          "params": "{category : 'number', game : 'counter', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "pad-type": "card-pad",
+                        "no-of-buttons": []
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "active-frog-jar": {
+                        "path": "frog/images/active-frog-jar.svg"
+                      },
+                      "frog": {
+                        "path": "frog/images/frog.svg"
+                      },
+                      "block": {
+                        "path": "images/menu/block.svg"
+                      },
+                      "counter": {
+                        "path": "images/menu/counter.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

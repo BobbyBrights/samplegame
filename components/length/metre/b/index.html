@@ -1,0 +1,32 @@
+<div class="metre-page" >
+  <work-area menu="menu" header="header">
+    <!-- Add images -->
+    <div class="container">
+      <img class="scale" ng-src="{{image.scale.path}}">
+
+      <img  ng-repeat="img in dropZone"
+            class="drop-images"
+            drop-zone
+            id="dropItem"
+            group="{{$index}}"
+            ng-src="{{img.path}}">
+     <span class="text-left left-side">Longer than one metre </span>
+     <span class="text-left right-side">Shorter than one metre </span>
+    </div>
+
+    <img ng-repeat="drag in dragItem track by $index"
+         class="pos-absolute {{drag.cls}}"
+         id="{{$index}}"
+         group="{{drag.group}}"
+         drag-item
+         height="{{drag.height}}"
+         width="{{drag.width}}"
+         ng-src="{{drag.path}}"
+         ng-style="{top:drag.top,left:drag.left}">
+
+    <img class="tick-sign" ng-class="checkClass['tick']" ng-src="{{sign.tick.path}}">
+
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

@@ -1,0 +1,40 @@
+<div class="dice-page" >
+  <work-area menu="menu" next="next" reset="reset" check="check" header="header"  onnumberclick="onNumberClick" getscoreboard="getScoreboard">
+    <!-- Add images -->
+    <!--<game-images images="images"></game-images>-->
+
+    <!-- Game specific elements -->
+
+      <img ng-src="{{container.path}}" width="80%" style="margin-left: 4%; margin-top: 1%;" />
+
+      <div class="flex-container">
+          <img class="flex-item" ng-repeat="box in secondNumber| range track by getUniqueId()"
+               ng-src="{{diceImage.path}}"/>
+      </div>
+
+      <span  class="multiplication-text question-text " style="margin-top: 4%;"> x </span>
+      <div class="multiplication-text" style=" position: absolute; left: 92%; text-align: right">
+          <div class="question-text ">{{firstNumber }}</div>
+          <div class="question-text ">{{ secondNumber }}</div>
+      </div>
+
+      <div class="question flex-container">
+          <div class="question-text flex-item" style="color: #000;">{{firstNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 3.4vw; margin-top: -1%;"> x </div>
+          <div class="question-text flex-item" style="color: #000;">{{secondNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 4vw; margin-top: 1%"> = </div>
+
+          <input id="input" maxlength="2" class="input-box" ng-model="inputs"  ng-focus="inputClick(0)"
+                 ng-disabled="inputDisabled">
+      </div>
+
+
+
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

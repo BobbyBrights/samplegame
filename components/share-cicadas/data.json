@@ -1,0 +1,51 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "share-cicadas": {
+              "home": {
+                "header": {
+                  "text": "Share Cicadas"
+                },
+                "footer": {},
+                "images": {},
+                "question": {
+                  "hint": {
+                    "text": "Drag the cicadas to the trees."
+                  },
+                  "tree-image": {
+                    "path": "images/tree.svg",
+                    "width": "155%"
+                  },
+                  "cicadas-image": {
+                    "path": "images/cicadas.svg",
+                    "width": "15%"
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true
+              },
+              "preload": {
+                "images": {
+                  "tree": {
+                    "path": "images/tree.svg"
+                  },
+                  "cicadas": {
+                    "path": "images/cicadas.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

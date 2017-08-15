@@ -1,0 +1,294 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Heavier or Lighter?"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards to the boxes"
+                      },
+                      "displayImages": {
+                        "screen-0": {
+                          "path": "drag-type/images/screen-1.svg",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "19%"
+                        },
+                        "screen-1": {
+                          "path": "drag-type/images/screen-2.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "19%"
+                        },
+                        "screen-2": {
+                          "path": "drag-type/images/screen-3.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "19%"
+                        },
+                        "screen-3": {
+                          "path": "drag-type/images/screen-4.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "19%"
+                        },
+                        "screen-4": {
+                          "path": "drag-type/images/screen-5.svg",
+                          "cls": "pos-absolute",
+                          "width": "62%",
+                          "height": "76%",
+                          "top": "5%",
+                          "left": "19%"
+                        },
+                        "screen-5": {
+                          "path": "drag-type/images/screen-6.svg",
+                          "cls": "pos-absolute",
+                          "width": "22%",
+                          "height": "76%",
+                          "top": "2%",
+                          "left": "14%"
+                        },
+                        "screen-6": {
+                          "path": "drag-type/images/screen-7.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "height": "76%",
+                          "top": "-4%",
+                          "left": "63%"
+                        },
+                        "screen-7": {
+                          "path": "drag-type/images/screen-8.svg",
+                          "cls": "pos-absolute",
+                          "width": "25%",
+                          "height": "76%",
+                          "top": "-3%",
+                          "left": "16%"
+                        },
+                        "screen-8": {
+                          "path": "drag-type/images/screen-9.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "height": "76%",
+                          "top": "-4%",
+                          "left": "57%"
+                        },
+                        "screen-9": {
+                          "path": "drag-type/images/screen-10.svg",
+                          "cls": "pos-absolute",
+                          "width": "29%",
+                          "height": "76%",
+                          "top": "-3%",
+                          "left": "13%"
+                        },
+                        "screen-10": {
+                          "path": "drag-type/images/screen-11.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "height": "76%",
+                          "top": "-4%",
+                          "left": "63%"
+                        },
+                        "screen-11": {
+                          "path": "drag-type/images/screen-12.svg",
+                          "cls": "pos-absolute",
+                          "width": "22%",
+                          "height": "76%",
+                          "top": "-3%",
+                          "left": "14%"
+                        },
+                        "screen-12": {
+                          "path": "drag-type/images/screen-13.svg",
+                          "cls": "pos-absolute",
+                          "width": "32%",
+                          "height": "76%",
+                          "top": "4%",
+                          "left": "56%"
+                        },
+                        "screen-13": {
+                          "path": "drag-type/images/screen-14.svg",
+                          "cls": "pos-absolute",
+                          "width": "26%",
+                          "height": "76%",
+                          "top": "-3%",
+                          "left": "13%"
+                        },
+                        "screen-14": {
+                          "path": "drag-type/images/screen-15.svg",
+                          "cls": "pos-absolute",
+                          "width": "25%",
+                          "height": "76%",
+                          "top": "4%",
+                          "left": "60%"
+                        }
+                      },
+                      "drag-group-values": [
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ]
+                      ],
+                      "drag-items": [
+                        "Heavier",
+                        "Lighter"
+                      ],
+                      "dragItemLeftPositions": [
+                        "30.6",
+                        "50.9"
+                      ],
+                      "dragItemTopPositions": [
+                        "112.4",
+                        "112.4"
+                      ],
+                      "drop-zone-left-positions": [
+                        "19",
+                        "62.7"
+                      ],
+                      "drop-zone-top-positions": [
+                        "73",
+                        "73"
+                      ],
+                      "sign-images": {
+                        "tick": {
+                          "path": "images/tick.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "input-type": {
+                          "path": "images/menu/block-icon.svg",
+                          "state": "^.mass-game",
+                          "params": "{category : 'measurement', game : 'input-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "screen-0": {
+                        "path": "drag-type/images/screen-1.svg"
+                      },
+                      "screen-1": {
+                        "path": "drag-type/images/screen-2.svg"
+                      },
+                      "screen-2": {
+                        "path": "drag-type/images/screen-3.svg"
+                      },
+                      "screen-3": {
+                        "path": "drag-type/images/screen-4.svg"
+                      },
+                      "screen-4": {
+                        "path": "drag-type/images/screen-5.svg"
+                      },
+                      "screen-5": {
+                        "path": "drag-type/images/screen-6.svg"
+                      },
+                      "screen-6": {
+                        "path": "drag-type/images/screen-7.svg"
+                      },
+                      "screen-7": {
+                        "path": "drag-type/images/screen-8.svg"
+                      },
+                      "screen-8": {
+                        "path": "drag-type/images/screen-9.svg"
+                      },
+                      "screen-9": {
+                        "path": "drag-type/images/screen-10.svg"
+                      },
+                      "screen-10": {
+                        "path": "drag-type/images/screen-11.svg"
+                      },
+                      "screen-11": {
+                        "path": "drag-type/images/screen-12.svg"
+                      },
+                      "screen-12": {
+                        "path": "drag-type/images/screen-13.svg"
+                      },
+                      "screen-13": {
+                        "path": "drag-type/images/screen-14.svg"
+                      },
+                      "screen-14": {
+                        "path": "drag-type/images/screen-15.svg"
+                      },
+                      "input-type": {
+                        "path": "images/menu/input-type.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

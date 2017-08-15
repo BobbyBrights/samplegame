@@ -1,0 +1,46 @@
+<div class="drag-type-page">
+    <work-area menu="menu" next="next" header="header">
+
+        <!--Display static image-box-->
+        <div class="center-content">
+
+            <div class="image-box" ng-repeat="block in boxCount track by $index" id="image-box{{$index}}">
+                <img ng-src="{{boxImage['box' + block].path}}"
+                     width="{{boxImage['box' + block].width}}"
+                     style="margin-left:{{boxImage['box' + block].margin}} "/>
+            </div>
+
+        </div>
+
+        <!--dropZone area-->
+        <div ng-repeat="group in [0, 1]"
+             drop-zone
+             class="pos-absolute drop-btn"
+             group="{{$index}}"
+             id="dropZone{{$index}}"
+             position="{{(19.5 + ($index * 42.1))}},70">
+        </div>
+
+        <baseline orientation="baseline.orientation"></baseline>
+
+        <!--draggable buttons-->
+        <div ng-repeat="text in groups track by (groups + $index)"
+             drag-item
+             group="{{text}}"
+             id="drag{{$index}}"
+             class="pos-absolute drag-btn invisible"
+             position="{{dragPositions[$index]}}">{{dragItems[$index]}}
+        </div>
+
+        <!--Display correct tick-->
+        <img ng-repeat="i in [0, 1]"
+             ng-src="{{signs.path}}"
+             id="tick-{{i}}"
+             class="{{signs.cls}} tick"
+             position="{{(40 + ($index * 42.2))}},63"/>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

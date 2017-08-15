@@ -1,0 +1,20 @@
+<div class="count-by-ten-page">
+
+    <work-area menu="menu" plus="plus" minus="minus" header="header">
+
+        <!-- For display bird card images -->
+        <div class="flex-container">
+            <div class="bird-card" ng-repeat="bird in birdCount | range track by $index">
+                <game-images images="buttonImages"></game-images>
+                <div class="count">
+                    <span>{{(($index+1)*10)}}</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+
+</div>

@@ -1,0 +1,225 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-position-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/space/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.position-page{
+  .paths-page{
+    // Page title image
+    .page-title{
+     // background-image: url('./../../components/position/paths/images/title.svg');
+      position: absolute;
+      width: 100%;
+      height: 10%;
+      top: 14%;
+      font-family: poppins;
+      font-size: 2vw;
+      color: #fff761;
+      text-shadow: 0.05vw 0.15vw 0.15vw #000;
+      text-align: center;
+    }
+
+
+
+  .counter-container {
+    position: relative;
+    left: 5%;
+    margin-top:1%;
+    width: 24vw;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+    .circle-container:nth-child(10n){
+    border-right-width: 0.1vw;
+  }
+  .circle-container:nth-child(1n+91) {
+    border-bottom-width: 0.1vw;
+  }
+
+
+  .circle-container {
+    display: block;
+    width: 2.2vw;
+    position: relative;
+    height: 2vw;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0.1vw 0 0 0.1vw;
+    background: #8D9468;
+
+    &.circle-border {
+      border-color: #60673B;
+    }
+
+    .count {
+
+      bottom: 7.2%;
+      left: 0;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      font-size: 1vw;
+      line-height: 1.7vw;
+
+
+    }
+  }
+
+    /*.circle-container {
+      display: block;
+      width: 2.2vw;
+      position: relative;
+      height: 2vw;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 0.1vw 0 0 0.1vw;
+      background: #8D9468;
+      cursor:pointer;
+
+      &.circle-border {
+        border-color: #60673B;
+      }
+
+      .count {
+
+        bottom: 7.2%;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1vw;
+        line-height: 1.7vw;
+
+
+      }
+    }*/
+
+    .path-start {
+      position: absolute;
+      font-family: poppins;
+      font-size: 0.8vw;
+      color: #D66E4B;
+      left:5%;
+
+    }
+
+    .path-text {
+      position: relative;
+      font-family: poppins;
+      font-size: 1.5vw;
+      color: #D66E4B;
+      left:49%;
+      top:-1%;
+      width: 300px;
+    }
+
+    .path-start-two {
+      position: absolute;
+      font-family: poppins;
+      font-size: 0.8vw;
+      color: #D66E4B;
+      left:91%;
+      top:0%;
+    }
+
+    .path-text-two {
+      position: relative;
+      font-family: poppins;
+      font-size: 1.5vw;
+      color: #D66E4B;
+      left:3%;
+      top:-7%;
+      width: 300px;
+    }
+  // Game specific styles
+
+    .counter-container-two {
+      position: relative;
+      left: 56%;
+      margin-top:2%;
+      width: 24vw;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .circle-container-two:nth-child(10n){
+      border-right-width: 0.1vw;
+    }
+    .circle-container-two:nth-child(1n+91) {
+      border-bottom-width: 0.1vw;
+    }
+
+
+    .circle-container-two {
+      display: block;
+      width: 2.2vw;
+      position: relative;
+      height: 2vw;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 0.1vw 0 0 0.1vw;
+      background: #8D9468;
+
+      &.circle-border {
+        border-color: #60673B;
+      }
+
+      .count {
+
+        bottom: 7.2%;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 1vw;
+        line-height: 1.7vw;
+
+
+      }
+    }
+
+    .tree-top{
+      height: 14%;
+      width: 8%;
+      position: absolute;
+      z-index: 1;
+      top: -8%;
+      left: 5%;
+
+    }
+
+    .tree-bottom{
+      height: 14%;
+      width: 8%;
+      position: absolute;
+      left:37%;
+      top:75%;
+
+    }
+
+    .tree-top-two{
+      position: absolute;
+      left:60%;
+      top:-4%;
+      z-index: 1;
+
+    }
+
+    .tree-bottom-two{
+      position: absolute;
+      left:91%;
+      top:70%;
+      z-index: 1;
+    }
+}
+}

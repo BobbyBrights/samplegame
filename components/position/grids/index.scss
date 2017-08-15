@@ -1,0 +1,87 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-position-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/space/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.position-page{
+  .grids-page{
+
+    // Page title image
+    .page-title{
+      position: absolute;
+      width: 100%;
+      height: 10%;
+      top: 14%;
+      font-family: poppins;
+      font-size: 2vw;
+      color: #fff761;
+      text-shadow: 0.05vw 0.15vw 0.15vw #000;
+      text-align: center;
+    }
+
+    .cube{
+    //  border: 1px solid #cc3333;
+      z-index:1;
+      height:18%;
+      width:8%;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .main-grid{
+      width:50%;
+      position: absolute;
+      left:25%;
+      top:1%;
+    }
+
+    .hint{
+      position: absolute;
+
+      font-family: poppins;
+      font-size: 1.4vw;
+      color: #d96e4c;
+    }
+    .put{
+      width: 5%;
+      top: 5%;
+      left:2%;
+    }
+
+    .at{
+      width: 5%;
+      top: 5%;
+      left:17%;
+    }
+
+    .direction{
+      width: 25%;
+      top: 14%;
+      left:2%;
+
+    }
+
+    .screen{
+      left:20%;
+      top:5%;
+    }
+
+    .screen-second{
+      display: none;
+      left:2%;
+      top:5%;
+      width:23%;
+
+
+    }
+
+
+  }
+
+
+}

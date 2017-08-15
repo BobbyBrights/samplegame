@@ -1,0 +1,289 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "chance-probability": {
+              "types": {
+                "bag": {
+                  "home": {
+                    "header": {
+                      "text": "Likely or Unlikely?"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Select play, and then drag the cards.",
+                        "cls": ""
+                      },
+                      "labels": [
+                        "How likely is it that a",
+                        "will come out of the bag?",
+                        "Answer:"
+                      ],
+                      "button-text": [
+                        "likely",
+                        "unlikely",
+                        "impossible"
+                      ],
+                      "answers": [
+                        "Likely",
+                        "Unlikely",
+                        "Impossible",
+                        "Unlikely",
+                        "Likely",
+                        "Impossible",
+                        "Likely",
+                        "Unlikely",
+                        "Impossible",
+                        "Likely"
+                      ],
+                      "names": [
+                        "Christmas beetle",
+                        "Jewel beetle",
+                        "Rhinoceros beetle",
+                        "Longicorn beetle",
+                        "Dung beetle",
+                        "Christmas beetle",
+                        "Jewel beetle",
+                        "Rhinoceros beetle",
+                        "Longicorn beetle",
+                        "Dung beetle"
+                      ],
+                      "beetles": [
+                        "christmas",
+                        "jewel",
+                        "rhinoceros",
+                        "longicorn",
+                        "dung",
+                        "christmas",
+                        "jewel",
+                        "rhinoceros",
+                        "longicorn",
+                        "dung"
+                      ],
+                      "beetles-bag": [
+                        "christmasBag",
+                        "jewelBag",
+                        "rhinocerosBag",
+                        "longicornBag",
+                        "dungBag",
+                        "christmasBagSecond",
+                        "jewelBagSecond",
+                        "rhinocerosBagSecond",
+                        "longicornBagSecond",
+                        "dungBagSecond"
+                      ],
+                      "button-text": [
+                        "Likely",
+                        "Unlikely",
+                        "Impossible"
+                      ],
+                      "button-left": [
+                        "32.9",
+                        "50.9",
+                        "41.9"
+                      ],
+                      "button-top": [
+                        "109",
+                        "109",
+                        "120"
+                      ],
+                      "signs": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "name": "tick",
+                          "top": "53.8%",
+                          "left": "88.9%"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "name": "cross",
+                          "top": "56.8%",
+                          "left": "89.6%"
+                        }
+                      },
+                      "images": {
+                        "christmas-bag": {
+                          "path": "bag/images/christmas-bag.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "christmas": {
+                          "path": "bag/images/christmas.svg",
+                          "width": "24.5%"
+                        },
+                        "jewel-bag": {
+                          "path": "bag/images/jewel-bag.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "jewel": {
+                          "path": "bag/images/jewel.svg",
+                          "width": "50.5%"
+                        },
+                        "rhinoceros-bag": {
+                          "path": "bag/images/rhinocero-bag.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "rhinoceros": {
+                          "path": "bag/images/rhinocero.svg",
+                          "width": "50.5%"
+                        },
+                        "longicorn-bag": {
+                          "path": "bag/images/longicorn-bag.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "longicorn": {
+                          "path": "bag/images/longicorn.svg",
+                          "width": "27.6%"
+                        },
+                        "dung-bag": {
+                          "path": "bag/images/dung-bag.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "dung": {
+                          "path": "bag/images/dung.svg",
+                          "width": "25%"
+                        },
+                        "christmas-bag-second": {
+                          "path": "bag/images/christmas-bag-second.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "jewel-bag-second": {
+                          "path": "bag/images/jewel-bag-second.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "rhinoceros-bag-second": {
+                          "path": "bag/images/rhinoceros-bag-second.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "longicorn-bag-second": {
+                          "path": "bag/images/longicorn-bag-second.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        },
+                        "dung-bag-second": {
+                          "path": "bag/images/dung-bag-second.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8.9%",
+                          "left": "16.7%"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "chance": {
+                          "path": "images/menu/chance.svg",
+                          "state": "^.chance-probability-game",
+                          "params": "{category : 'space', game : 'chance', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      },
+                      "chance": {
+                        "path": "images/menu/chance.svg"
+                      },
+                      "christmas": {
+                        "path": "bag/images/christmas.svg"
+                      },
+                      "jewel-bag": {
+                        "path": "bag/images/jewel-bag.svg"
+                      },
+                      "jewel": {
+                        "path": "bag/images/jewel.svg"
+                      },
+                      "rhinoceros-bag": {
+                        "path": "bag/images/rhinocero-bag.svg"
+                      },
+                      "rhinoceros": {
+                        "path": "bag/images/rhinocero.svg"
+                      },
+                      "longicorn-bag": {
+                        "path": "bag/images/longicorn-bag.svg"
+                      },
+                      "longicorn": {
+                        "path": "bag/images/longicorn.svg"
+                      },
+                      "dung-bag": {
+                        "path": "bag/images/dung-bag.svg"
+                      },
+                      "dung": {
+                        "path": "bag/images/dung.svg"
+                      },
+                      "christmas-bag-second": {
+                        "path": "bag/images/christmas-bag-second.svg"
+                      },
+                      "jewel-bag-second": {
+                        "path": "bag/images/jewel-bag-second.svg"
+                      },
+                      "rhinoceros-bag-second": {
+                        "path": "bag/images/rhinoceros-bag-second.svg"
+                      },
+                      "longicorn-bag-second": {
+                        "path": "bag/images/longicorn-bag-second.svg"
+                      },
+                      "dung-bag-second": {
+                        "path": "bag/images/dung-bag-second.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

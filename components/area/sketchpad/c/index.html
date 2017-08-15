@@ -1,0 +1,51 @@
+<div class="sketchpad-page" >
+  <work-area menu="menu" next="next" reset="reset"
+             check="check"
+             header="header"
+             getScoreboard="getScoreboard"
+             onnumberclick="onNumberClick">
+
+
+      <!-- Display table-->
+      <div class="grid-container">
+          <table class="table-container" drop-zone group="3">
+              <tr ng-repeat="item in columns">
+                  <td ng-repeat="item in rows">
+                  </td>
+              </tr>
+          </table>
+      </div>
+
+      <!--Display big stamp images-->
+      <img id="stamp" ng-repeat="image in imageCount" class="pos-absolute"
+           ng-src="{{stampImages['stamp'+image].path}}"
+           ng-style="{top: stampImages['stamp'+image].top, left:stampImages['stamp'+image].left}"
+           height="{{stampImages['stamp'+image].height}}"
+           width="{{stampImages['stamp'+image].width}}"/>
+
+      <!--Sketch pad -->
+      <sketch-pad bind-sketch-pad="getSketchPad(sketchPad)" params="sketchPadParams"></sketch-pad>
+
+      <!--display question text with input box -->
+      <div class="question-container">
+          <span class="question-text text-left">The area of stamps is</span>
+          <input class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+          <span class=" question-text text-right">Squares</span>
+      </div>
+
+      <!-- Clear button -->
+      <div class="check-btn clear-button" ng-click="Clear()">Clear</div>
+
+      <!-- Clear button -->
+      <div class="check-btn hide-button" ng-click="HideAndShow()">{{hideButtonText}}</div>
+
+      <!--Check button -->
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

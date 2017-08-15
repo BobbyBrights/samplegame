@@ -1,0 +1,37 @@
+<div class="metres-page" >
+  <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard" onnumberclick="onNumberClick">
+    <!-- Add images -->
+      <div class="question-label">{{questionLabel}}</div>
+
+      <img class="display-box" ng-src="{{display.path}}">
+
+      <img ng-repeat="block in metres"
+           class="image-item"
+           height="{{metresImages['metres'+block].height}}"
+           width="{{metresImages['metres'+block].width}}"
+           ng-style="{top: metresImages['metres'+block].top, left:metresImages['metres'+block].left}"
+           ng-src="{{metresImages['metres'+block].path}}">
+
+      <img class="drag-scale"
+           id="pin"
+           drag-item
+           group="{{$index}}"
+           position="15,58"
+           ng-src="{{dragImage.path}}">
+
+    <!-- Game specific elements -->
+
+      <div class="question-container">
+          <div class="question-box">
+              <input type="text" maxlength="2" id="input-1" value="{{inputValue}}" class="input-field">
+              <span class="float-right"><span class="text-left right-side">Metre</span></span>
+          </div>
+      </div>
+      <!--display check buttons-->
+      <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

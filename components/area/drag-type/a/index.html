@@ -1,0 +1,55 @@
+<div class="drag-type-page">
+
+    <work-area next="next" menu="menu" header="header">
+
+        <!-- Display grid top text -->
+
+        <!-- Display table-->
+        <div class="grid-container">
+            <table class="table-container" drop-zone group="3">
+                <tr ng-repeat="item in columns">
+                    <td ng-repeat="item in rows">
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!--Display big stamp images-->
+        <img ng-repeat="image in imageCount" class="pos-absolute" drag-item
+             id="image-{{$index}}"
+             ng-src="{{stampImages['stamp'+image].path}}" group="3"
+             ng-style="{top: stampImages['stamp'+image].top, left:stampImages['stamp'+image].left,'z-index':($index+2)}"
+             height="{{stampImages['stamp'+image].height}}"
+             width="{{stampImages['stamp'+image].width}}"/>
+
+        <!--Display left small stamp images-->
+        <div class="left-box small-stamp-box">
+            <img class="small-stamp" ng-src="{{stampImages['stamp'+leftSmallStamp].path}}"
+                 width="{{leftSmallStampSize + '%'}}">
+        </div>
+        <!--Display right small stamp images-->
+        <div class="right-box small-stamp-box">
+            <img class="small-stamp" ng-src="{{stampImages['stamp'+rightSmallStamp].path}}"
+                 width="{{rightSmallStampSize + '%'}}">
+        </div>
+
+        <!--draggable buttons-->
+        <div ng-repeat="buttonText in ['Smaller','Larger']" drag-item id="drag{{$index}}"
+             class="pos-absolute drag-btn move-enable invisible" group="{{$index}}"
+             ng-style="{left:(30.6 +($index * 20.3)) + '%',top:'112.5%'}">{{buttonText}}
+        </div>
+
+        <!--drop-zone area-->
+        <div ng-repeat="group in groups" drop-zone id="dropZone{{$index}}"
+             class="drop-btn" group="{{group}}"
+             ng-style="{left:(27 + ($index * 33.5)) + '%',top:'73.7%', }">
+        </div>
+
+        <!--Display tick -->
+        <img class="tick invisible" ng-src="{{tickImage.path}}">
+
+        <!-- Display dropzone bottom hint text -->
+        <div class="hint-text" ng-bind-html="hintText"></div>
+    </work-area>
+
+</div>

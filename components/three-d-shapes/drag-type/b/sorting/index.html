@@ -1,0 +1,24 @@
+<div class="sorting-page">
+    <work-area menu="menu" next="next" header="header">
+        <!-- Game specific elements -->
+        <!-- Display drop-zone-shapes images -->
+        <div class="display-drop-box">
+            <div ng-repeat="block in 2|range track by getUniqueId() " class="drop-box" drop-zone
+                 group="{{$index + 1}}"></div>
+        </div>
+
+        <!-- Display shape text names -->
+        <div class="shapes" ng-bind-html="shapes.name"></div>
+
+        <!-- drag images-->
+        <img ng-repeat="block in boxCount" drag-item index="{{$index}}"
+             group="{{images['image'+ block].group}}" class="pos-absolute drag-elements"
+             id="{{images['image'+ block].id}}"
+             ng-src="{{images['image'+ block].path}}"
+             ng-style="{left:images['image'+block].left}"
+            height="18%" width="{{images['image' + block].width}}"/>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

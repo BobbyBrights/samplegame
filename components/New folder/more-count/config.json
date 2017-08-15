@@ -1,0 +1,86 @@
+{
+  "startHtml": "moreCount",
+  "headerContent": "How many?",
+  "footerContentJar": "Click a  jar.",
+  "icon": "gameIcon",
+  "signs": [
+    "tick",
+    "cross"
+  ],
+  "leafs": [{
+    "leaf": "leafLeft",
+    "position": "0,18"
+  }, {
+    "leaf": "rightLeaf",
+    "position": "778,18"
+  }],
+  "gameIcon": {
+    "icon": "gameIcon",
+    "position": "0,18"
+  },
+  "loadAssetButtons": {
+    "frog": {
+      "name": "frog",
+      "jar": "frogBottleButton",
+      "image": "frogLeft",
+      "headerContent": "How many frogs?",
+      "labels": [
+        "Frogs",
+        "More frogs"
+      ],
+      "position": "60,200",
+      "buttons": "3",
+      "more": "moreFrogsButtons",
+      "rightIcons": [
+        "blocks",
+        "counters"
+      ],
+      "maxLimit": "10",
+      "hintText": "Click a number card."
+    },
+    "block": {
+      "name": "block",
+      "jar": "blocksBottleButton",
+      "image": "block",
+      "headerContent": "How many blocks?",
+      "labels": [
+        "Blocks",
+        "More blocks"
+      ],
+      "position": "315,100",
+      "buttons": "11",
+      "more": "moreBlocksButtons",
+      "rightIcons": [
+        "frogs",
+        "counters"
+      ],
+      "maxLimit": "10",
+      "hintText": "Click a number card."
+    },
+    "counter": {
+      "name": "counter",
+      "jar": "counterBottleButton",
+      "image": "circle",
+      "headerContent": "How many counters?",
+      "labels": [
+        "counters",
+        "More counters"
+      ],
+      "position": "570,200",
+      "bigTable": "bigTableGrid",
+      "smallTable": "smallTableGrid",
+      "buttons": "3",
+      "more": "moreCountersButtons",
+      "rightIcons": [
+        "frogs",
+        "blocks"
+      ],
+      "maxLimit": "100",
+      "text": [
+        "hide chart",
+        "show chart"
+      ],
+      "hintText": "Click a number card."
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "curve": {
+                  "home": {
+                    "header": {
+                      "text": "Number Line Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "2": {
+                        "path": "curve/images/jump-two.svg",
+                        "width": "60%"
+                      },
+                      "3": {
+                        "path": "curve/images/jump-three.svg",
+                        "width": "60%"
+                      },
+                      "4": {
+                        "path": "curve/images/jump-four.svg",
+                        "width": "60%"
+                      },
+                      "5": {
+                        "path": "curve/images/jump-five.svg",
+                        "width": "60%"
+                      },
+                      "6": {
+                        "path": "curve/images/jump-six.svg",
+                        "width": "60%"
+                      },
+                      "7": {
+                        "path": "curve/images/jump-six.svg",
+                        "width": "80%"
+                      },
+                      "8": {
+                        "path": "curve/images/jump-six.svg",
+                        "width": "90%"
+                      },
+                      "9": {
+                        "path": "curve/images/jump-six.svg",
+                        "width": "100%"
+                      },
+                      "10": {
+                        "path": "curve/images/jump-six.svg",
+                        "width": "110%"
+                      }
+                    },
+                    "numberline": {
+                      "path": "curve/images/number line.svg"
+                    },
+                    "frog": {
+                      "path": "curve/images/frog.svg"
+                    },
+                    "cross": {
+                      "path": "curve/images/cross.svg"
+                    },
+                    "plus": {
+                      "path": "curve/images/plus.svg"
+                    },
+                    "question": {
+                      "frogPosition": [15,19,23,28,32,37,41,45,50,54,59,63,67,72,76,80,85,89,94],
+                      "hint": {
+                        "text": "Enter numbers in the boxes",
+                        "cls": ""
+                      },
+                      "text": {
+                        "text": "Multiplication is like repeated addition.",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "box": {
+                          "path": "images/menu/box.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'box', level :  'c'}"
+                        }
+                          ,
+                        "bug": {
+                          "path": "images/menu/bug.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'bug', level :  'c'}"
+                        }
+                          ,
+                        "dice": {
+                          "path": "images/menu/dice-icon.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'dice', level :  'c'}"
+                        }
+                          ,
+                        "commutative": {
+                          "path": "images/menu/commutative.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'commutative', level :  'c'}"
+                        }
+                          ,
+                        "tables": {
+                          "path": "images/menu/tables.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'tables', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

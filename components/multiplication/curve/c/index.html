@@ -1,0 +1,58 @@
+<div class="curve-page" >
+  <work-area menu="menu" next="next" reset="reset" check="check" header="header"  onnumberclick="onNumberClick" getscoreboard="getScoreboard">
+    <!-- Add images -->
+    <!--<game-images images="images"></game-images>-->
+
+    <!-- Game specific elements -->
+      <div class="question question-flex-container">
+          <div class="question-text flex-item">{{firstNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 3vw; margin-top: -1%;"> x </div>
+          <div class="question-text flex-item">{{secondNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 3vw"> = </div>
+      </div>
+
+      <div class="question question-flex-container" style="top: 10%">
+          <img class="flex-item" ng-src="{{cross.path}}" style="width: 4%;"/>&nbsp
+          <div class="question-text flex-item" style="font-size: 1.2vw;"> is like </div>
+          <img ng-repeat="img in 4| range track by getUniqueId()" class="flex-item" ng-src="{{plus.path}}" style="width: 4%;"/>
+      </div>
+
+      <div class="flex-container">
+          <img class="flex-item" ng-repeat="box in secondNumber| range track by getUniqueId()"
+               ng-src="{{curveImagesPath.path}}" width="{{firstNumber * 5}}%"/>
+      </div>
+
+      <img class="number-line" ng-src="{{numberLine.path}}" />
+
+      <img class="frog" ng-src="{{frog.path}}" ng-style="{left:frogPosition[total-2]+'%'}"/>
+
+      <div class="question-container">
+
+          <input id="input-0" maxlength="2" class="input-box" ng-model="inputs[0]"  ng-focus="inputClick(0)"
+                 ng-disabled="inputDisabled" style="left: 13%;">
+
+          <div class="col-xs-5 question-box left-box">
+              <span class="text">Jumps of</span>
+          </div>
+
+          <input id="input-1" maxlength="2" class="input-box" ng-model="inputs[1]" ng-focus="inputClick(1)"
+                 ng-disabled="inputDisabled" style="left: 36%;">
+
+          <div class="col-xs-5 question-box right-box">
+              <span class="text">Equals</span>
+          </div>
+
+          <input id="input-2" maxlength="2" class="input-box" ng-model="inputs[2]"  ng-focus="inputClick(2)"
+                 ng-disabled="inputDisabled" style="left: 58%;">
+
+      </div>
+
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+      <!-- Display hint text -->
+	<div class="hint-text text" ng-bind-html="Text"></div>
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

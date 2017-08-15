@@ -1,0 +1,211 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "position": {
+              "types": {
+                "paths": {
+                  "home": {
+                    "header": {
+                      "text": "Position ... paths and maps"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Click each square."
+                      },
+                      "start": {
+                        "text": "Start"
+                      }
+                    },
+                    "directions": [
+                      "Help frog find her tadpoles.",
+                      "Click each square"
+                    ],
+                    "direction-message":[
+                      "Go up 4 space",
+                      "Go to the right 2 space",
+                      "Go up 4 space",
+                      "Go to the right 5 space",
+                      "Go up 2 space",
+                      "Go to the right 1 space"
+                    ],
+                    "direction-number": [
+                      "a",
+                      "b",
+                      "c",
+                      "d",
+                      "c",
+                      "f"
+                    ],
+                    "PathValues":{
+                      "0":[8,9,18,28,27,26,25,24,23,33,43,53,61,62,63,71,81,91],
+                      "1":[7,17,23,24,25,26,27,33,43,53,63,71,72,73,81,91]
+                    },
+                    "message":["Good start", "Great! keep going","Going well","Nearly there","Thank You!!"],
+                    "messageIdValues" : {"0":[61,63,23,28,9], "1":[74,72,28,24,92]},
+
+                    "path-images":{
+                      "image1": {
+                        "path": "paths/images/bottom-tree.svg",
+                        "cls": "pos-absolute ",
+                        "width": "15%",
+                        "height": "15%",
+                        "top": "-2%",
+                        "left": "-38%"
+                      },
+                      "image2": {
+                        "path": "paths/images/top-tree.svg",
+                        "cls": "pos-absolute ",
+                        "width": "15%",
+                        "height": "15%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image3": {
+                        "path": "paths/images/leaf.svg",
+                        "cls": "pos-absolute ",
+                        "width": "10%",
+                        "height": "10%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image4": {
+                        "path": "paths/images/caterpillar.svg",
+                        "cls": "pos-absolute ",
+                        "width": "9%",
+                        "height": "10%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image5": {
+                        "path": "paths/images/tadpole.svg",
+                        "cls": "pos-absolute ",
+                        "width": "10%",
+                        "height": "7%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image6": {
+                        "path": "paths/images/frog.svg",
+                        "cls": "pos-absolute ",
+                        "width": "5%",
+                        "height": "5%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image7": {
+                        "path": "paths/images/top-arrow.svg",
+                        "cls": "pos-absolute ",
+                        "width": "8%",
+                        "height": "5%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image8": {
+                        "path": "paths/images/bottom-arrow.svg",
+                        "cls": "pos-absolute ",
+                        "width": "10%",
+                        "height": "6%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image9": {
+                        "path": "paths/images/caterpillar-grid.svg",
+                        "cls": "pos-absolute ",
+                        "width": "40%",
+                        "height": "65%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      },
+                      "image10": {
+                        "path": "paths/images/tadpole-grid.svg",
+                        "cls": "pos-absolute ",
+                        "width": "40%",
+                        "height": "65%",
+                        "top": "-2%",
+                        "left": "-38%"
+
+                      }
+
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "words": {
+                          "path": "images/menu/word-icon.svg",
+                          "state": "^.position-game",
+                          "params": "{category : 'space', game : 'words', level :  'b'}"
+                        }
+                          ,
+                        "grids": {
+                          "path": "images/menu/grids-icon.svg",
+                          "state": "^.position-game",
+                          "params": "{category : 'space', game : 'grids', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "image1": {
+                        "path": "paths/images/bottom-tree.svg"
+                      },
+                      "image2": {
+                        "path": "paths/images/top-tree.svg"
+                      },
+                      "image3": {
+                        "path": "paths/images/leaf.svg"
+                      },
+                      "image4": {
+                        "path": "paths/images/caterpillar.svg"
+                      },
+                      "image5": {
+                        "path": "paths/images/tadpole.svg"
+                      },
+                      "image6": {
+                        "path": "paths/images/frog.svg"
+                      },
+                      "image7": {
+                        "path": "paths/images/top-arrow.svg"
+                      },
+                      "image8": {
+                        "path": "paths/images/bottom-arrow.svg"
+                      },
+                      "image9": {
+                        "path": "paths/images/caterpillar-grid.svg"
+
+                      },
+                      "image10": {
+                        "path": "paths/images/tadpole-grid.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

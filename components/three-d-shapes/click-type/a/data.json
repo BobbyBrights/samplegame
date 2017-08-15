@@ -1,0 +1,103 @@
+
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "types": {
+                "click-type": {
+                  "home": {
+                    "header": {
+                      "text": "Attributes of 3D Shapes"
+                    },
+                    "footer": {},
+                    "question": {
+                      "attribute-data": {
+                        "screens": [
+                          {
+                            "header": "Colour",
+                            "footer": "The star is under the <span>red</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Size",
+                            "footer": "The star is under the <span>big</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Shape",
+                            "footer": "The star is under the <span>square</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Size and colour",
+                            "footer": "The star is under the <span>big, purple</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Shape and colour",
+                            "footer": "The star is under the <span>round, green</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Size and shape",
+                            "footer": "The star is under the <span>big, thick, triangular</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Size and shape",
+                            "footer": "The star is under the <span>small, thick, triangular</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Size, shape, colour",
+                            "footer": "The star is under the <span>small, thin, round, purple</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Size, shape, colour",
+                            "footer": "The star is under the <span>big, thick, square, green</span> block.",
+                            "hint": "<span class='hint-color'>Select the blocks to find the star.</span>"
+                          },
+                          {
+                            "header": "Congratulations!",
+                            "footer": "<span class='congrats'>You are an attribute star!!</span>",
+                            "hint": ""
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "sorting": {
+                          "path": "images/menu/drag-type-icon.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'drag-type', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "sorting": {
+                        "path": "images/menu/drag-type-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

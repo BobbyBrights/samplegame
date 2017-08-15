@@ -1,0 +1,36 @@
+<div class="position-page">
+
+  <work-area menu="menu" next="next" header="header">
+
+    <!-- Game specific elements -->
+    <div class="center-content">
+      <div ng-repeat="block in imageCount track by $index"
+           class="image-box" id="image-box{{$index}}">
+        <img ng-src="{{frogImages['frog' + block].path}}"
+             width="{{frogImages['frog' + block].width}}"/>
+      </div>
+    </div>
+
+    <div ng-repeat="value in 2 | range track by $index"
+         drag-item id="drag{{$index}}"
+         class="pos-absolute drag-btn drag invisible"
+         position="{{30.6 + ($index * 20.3)}},112.4"
+         group="{{$index}}">{{text[$index]}}
+    </div>
+
+    <div ng-repeat="value in 2 | range track by $index"
+         drop-zone
+         id="dropZone-{{$index}}"
+         class="pos-absolute drop-btn"
+         group="{{$index}}" position="{{(39.9 * $index ) + 21 }},75">
+    </div>
+
+    <span class="question-text">{{questionLabel}}</span>
+
+    <game-images id="tick" class="invisible" images="tick"></game-images>
+
+    <div class="hint-text">{{questionText}}</div>
+
+  </work-area>
+
+</div>

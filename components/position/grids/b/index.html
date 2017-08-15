@@ -1,0 +1,78 @@
+<div class="grids-page" >
+  <work-area
+          menu="menu"
+          next="next"
+          reset="reset" check="check" plus="plus" minus="minus" header="header">
+
+      <!--Main (6*5) Grid-->
+      <div>
+                <img class="main-grid" ng-src="{{grid.path}}" >
+      </div>
+
+
+     <!-- <div class="cube" drop-zone group ="7" style=" position:absolute; left:33.2%; top:20%; ">a</div>
+      <div class="cube" drop-zone style=" position:absolute; left:58%; top:57%; ">h</div>
+      <div class="cube" drop-zone group ="22" style=" position:absolute; left:58%; top:20%; ">b</div>
+      <div class="cube" drop-zone group ="10" style=" position:absolute; left:33.2%; top:57%;">c</div>
+      <div class="cube" drop-zone style=" position:absolute; left:41.2%; top:57%; ">g</div>
+      <div class="cube" drop-zone style=" position:absolute; left:41.3%; top:38%;">e</div>
+      <div class="cube" drop-zone style=" position:absolute; left:50%; top:38%; ">f</div>-->
+
+      <!--Dummy dives for first grid-->
+      <div class="cube"
+           drop-zone
+           ng-repeat="pos in group track by $index"
+           group="{{pos}}"
+           position="{{dummyDivPositionsOne[$index]}}" >
+
+      </div>
+
+      <!--Dummy dives for second grid-->
+      <div class="cube"
+           drop-zone
+           ng-repeat="pos in groupsecond track by $index"
+           group="{{pos}}"
+           position="{{dummyDivPositionsTwo[$index]}}">
+
+      </div>
+
+     <!-- <div class="cube" drop-zone group ="7" style=" position:absolute; left:33.2%; top:20%; ">a</div>
+      <div class="cube" drop-zone group ="22" style=" position:absolute; left:50%; top:20%; ">b</div>
+      <div class="cube" drop-zone style=" position:absolute; left:41.3%; top:38%;">e</div>
+      <div class="cube" drop-zone style=" position:absolute; left:58%; top:38%; ">f</div>
+      <div class="cube" drop-zone group ="10" style=" position:absolute; left:33.2%; top:57%;">c</div>
+      <div class="cube" drop-zone style=" position:absolute; left:50%; top:57%; ">g</div>
+      <div class="cube" drop-zone style=" position:absolute; left:58%; top:57%; ">h</div>-->
+
+
+      <!--Display first grid draggable images-->
+
+      <img  ng-repeat="image in imageCount track by $index" drag-item
+           class="{{gridFirstbug['bug'+$index].cls}}" id="bug-image{{$index}}"
+           ng-src="{{gridFirstbug['bug'+$index].path}}" group="{{group[$index]}}"
+           ng-style="{top: gridFirstbug['bug'+$index].top,
+                      left:gridFirstbug['bug'+$index].left,
+                      marginTop:gridFirstbug['bug'+$index].margin}"
+           height="{{gridFirstbug['bug'+$index].height}}"
+           width="{{gridFirstbug['bug'+$index].width}}" >
+
+      <!--Display Second grid draggable images-->
+      <img  ng-repeat="imgcnt in imageCount1 track by $index" drag-item
+            class="{{gridSecondbug['bug'+$index].cls}}" id="bug-image-two{{$index}}"
+            ng-src="{{gridSecondbug['bug'+$index].path}}" group="{{group[$index]}}"
+            ng-style="{top: gridSecondbug['bug'+$index].top,
+            left:gridSecondbug['bug'+$index].left}"
+            height="{{gridSecondbug['bug'+$index].height}}"
+            width="{{gridSecondbug['bug'+$index].width}}" >
+
+      <div class="hint put" ng-bind="hintText" id="hintId-first-put"></div>
+      <div class="hint at" id="hintId-first-at">at</div>
+      <div class="hint screen" ng-bind="screens.hint" id="hintId-first"></div>
+      <div class="hint screen-second" id="hintId-second">{{screens1.heading}}{{screens1.hint}}</div>
+      <div class="hint direction" ng-bind="direction"></div>
+
+
+
+
+   </work-area>
+ </div>

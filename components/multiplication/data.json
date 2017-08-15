@@ -1,0 +1,90 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "home": {
+                "header": {
+                  "text": "<span>It is game header</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                  "sign": {
+                    "tick": {
+                      "path": "images/tick.svg",
+                      "cls": "pos-absolute",
+                      "width": "10%",
+                      "top": "65%",
+                      "left": "89%",
+                      "name": "tick"
+                    },
+                    "cross": {
+                      "path": "images/cross.svg",
+                      "cls": "pos-absolute",
+                      "width": "10%",
+                      "top": "70%",
+                      "left": "89%",
+                      "name": "cross"
+                    }
+                  }
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text....",
+                    "cls": ""
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "home": {
+                "header": {
+                  "text": "<span>It is game header</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                  "fancy-image": {
+                    "path": "images/sample-decoration-image.svg",
+                    "cls": "fancy-pic",
+                    "width": "55px",
+                    "height": "112px",
+                    "top": "450px",
+                    "left": "40px"
+                  }
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text....",
+                    "cls": ""
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

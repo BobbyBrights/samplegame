@@ -1,0 +1,76 @@
+/* Game main namespace */
+.share-cicadas-page {
+
+  .heading {
+    top:0;
+    font-size: 1.6vw;
+    color: #d96e4c;
+    cursor: default;
+    text-align: center;
+  }
+
+  .trees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: 0.6%;
+
+    .tree {
+      width: 15%;
+      position: relative;
+    }
+  }
+
+  .drop-area {
+    width: 14%;
+    height: 32%;
+    position: absolute;
+  }
+
+  .drop-zone-0 {
+    left: 23%;
+    top: 18%;
+  }
+
+  .drop-zone-1 {
+    left: 59%;
+    top: 58%;
+  }
+
+  .drop-zone-2 {
+    left: 23%;
+    top: 58%;
+  }
+
+  .drop-zone-3 {
+    left: 59%;
+    top: 18%;
+  }
+
+  .drop-zone-4 {
+    left: 41%;
+    top: 37%;
+  }
+
+  .cicadas-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .drag-box {
+      width: 11vw;
+      height: 3.2vw;
+      text-align: center;
+    }
+
+    .cicadas {
+      height: 3vw;
+
+      &.dropped {
+        transform: rotate(270deg);
+        transform-origin: 53% 109%;
+        height: 1.8vw;
+      }
+    }
+  }
+}

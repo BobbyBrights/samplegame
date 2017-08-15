@@ -1,0 +1,83 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "curve": {
+                  "home": {
+                    "header": {
+                      "text": "Number Line Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "2": {
+                        "path": "curve/images/jump-two.svg",
+                        "width": "60%"
+                      },
+                      "3": {
+                        "path": "curve/images/jump-three.svg",
+                        "width": "60%"
+                      },
+                      "4": {
+                        "path": "curve/images/jump-four.svg",
+                        "width": "60%"
+                      },
+                      "5": {
+                        "path": "curve/images/jump-five.svg",
+                        "width": "60%"
+                      },
+                      "6": {
+                        "path": "curve/images/jump-six.svg",
+                        "width": "60%"
+                      }
+                    },
+                    "numberline": {
+                      "path": "curve/images/number line.svg"
+                    },
+                    "frog": {
+                      "path": "curve/images/frog.svg"
+                    },
+                    "question": {
+                      "frogPosition": [15,19,23,28,32,37,41,45,50,54,59,63,67,72,76,80,85,89,94],
+                      "hint": {
+                        "text": "Enter numbers in the boxes",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "bug": {
+                          "path": "images/menu/bug.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'bug', level :  'b'}"
+                        },
+                        "box": {
+                          "path": "images/menu/box.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'box', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "fractions": {
+              "home": {
+                "header": {
+                  "text": "Fractions"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {},
+                "question": {
+                  "hint": {
+                    "text": "Hint text....",
+                    "cls": ""
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

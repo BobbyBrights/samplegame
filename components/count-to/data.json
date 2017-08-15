@@ -1,0 +1,65 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "count-to": {
+              "home": {
+                "header": {
+                  "text":"How many?"
+                },
+                "footer": {},
+                "hint": {
+                  "text": "Select a jar."
+                },
+                "jar-cap-text": [
+                  "Frogs",
+                  "Blocks",
+                  "Counters"
+                ],
+                "jar-bottom-text": [
+                  "0-10",
+                  "10-20",
+                  "0-100"
+                ],
+                "button-images": {
+                  "frog": {
+                    "path": "images/button-frog.svg",
+                    "cls": "button-frog",
+                    "top": "6%",
+                    "left": "1%"
+                  },
+                  "block": {
+                    "path": "images/button-block.svg",
+                    "cls": "button-frog",
+                    "top": "6%",
+                    "left": "38.1%"
+                  },
+                  "counter": {
+                    "path": "images/button-counter.svg",
+                    "cls": "button-frog",
+                    "top": "6%",
+                    "left": "75.2%"
+                  }
+                },
+                "question": {
+                  "kind": "buttons",
+                  "count": 3,
+                  "max-value": 10,
+                  "cls": "",
+                  "hint": {
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

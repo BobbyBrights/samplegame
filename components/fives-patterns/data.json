@@ -1,0 +1,112 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "fives-patterns": {
+              "home": {
+                "header": {
+                  "0": {
+                    "text": "5s Forward Pattern"
+                  },
+                  "1": {
+                    "text": "5s Backward Pattern"
+                  },
+                  "2": {
+                    "text": "5s Between Pattern"
+                  }
+                },
+                "footer": {
+                },
+                "images": {
+                  "scale-one": {
+                    "path": "images/scale-one.svg",
+                    "cls": "pos-absolute scale-one",
+                    "width": "80%",
+                    "top": "12%",
+                    "left": "16%"
+                  },
+                  "scale-two": {
+                    "path": "images/scale-two.svg",
+                    "cls": "pos-absolute scale-two",
+                    "width": "80%",
+                    "top": "12%",
+                    "left": "16%"
+                  }
+                },
+                "question": {
+                  "maxValue": 13,
+                  "minValue": 1,
+                  "numberLimit": 7,
+                  "hint": {
+                    "text": "Enter the missing numbers.",
+                    "cls": ""
+                  },
+                  "footer": {
+                    "text": "Use the number line to help. Draw or trace jumps."
+                  },
+                  "disability": [
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      false,
+                      true,
+                      false,
+                      true,
+                      false,
+                      true
+                    ]
+                  ],
+                  "label": [
+                    "Hide",
+                    "Show"
+                  ]
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "scale-one": {
+                    "path": "images/scale-one.svg"
+                  },
+                  "scale-two": {
+                    "path": "images/scale-two.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

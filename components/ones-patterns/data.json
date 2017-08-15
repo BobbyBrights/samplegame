@@ -1,0 +1,91 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "ones-patterns": {
+              "home": {
+                "header": {
+                  "0": {
+                    "text": "1s Forward Pattern"
+                  },
+                  "1": {
+                    "text": "1s Backward Pattern"
+                  },
+                  "2": {
+                    "text": "1s Between Pattern"
+                  }
+                },
+                "footer": {},
+                "images": {
+                  "pythonImage": {
+                    "path": "images/python.svg",
+                    "cls": "pos-absolute python"
+                  }
+                },
+                "question": {
+                  "first-hint": "<span class='first-text'>Use the 100 chart to count.</span>",
+                  "second-hint": "<span class='second-text'>Select numbers to highlight.</span>",
+                  "third-hint": "<span class='third-text'>Select highlighted numbers to clear.</span>",
+                  "bottom-hint": "<span class='bottom-text'>Enter the missing numbers.</span>",
+                  "maxValue": "86",
+                  "minValue": "1",
+                  "numberLimit": 7,
+                  "disability": [
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      false,
+                      true,
+                      false,
+                      true,
+                      false,
+                      true
+                    ]
+                  ]
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "pythonImage": {
+                    "path": "images/python.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

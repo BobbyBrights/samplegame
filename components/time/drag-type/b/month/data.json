@@ -1,0 +1,151 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "time": {
+              "types": {
+                "month": {
+                  "home": {
+                    "header": {
+                      "text": "Months of the Year"
+                    },
+                    "footer": {},
+                    "images": {
+                      "sun": {
+                        "path": "drag-type/b/month/images/sun.svg",
+                        "cls": "pos-absolute move-enable",
+                        "width": "12%",
+                        "height": "22%",
+                        "top": "75%",
+                        "left": "2%"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "height": "22%",
+                        "top": "51.7%",
+                        "left": "46%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards to the boxes."
+                      },
+                      "month-names": [
+                        "January",
+                        "February",
+                        "March",
+                        "April",
+                        "May",
+                        "June",
+                        "July",
+                        "August",
+                        "September",
+                        "October",
+                        "November",
+                        "December"
+                      ],
+                      "drag-items": [
+                        "70.6,58.7",
+                        "52.5,70.3",
+                        "16.5,70.3",
+                        "52.5,47.1",
+                        "70.6,70.3",
+                        "34.6,47.1",
+                        "52.5,58.7",
+                        "16.5,58.7",
+                        "34.6,70.3",
+                        "34.6,58.7",
+                        "70.6,47.1",
+                        "16.5,47.1"
+                      ],
+                      "drop-zones": [
+                        "16.5,1.9",
+                        "34.6,1.9",
+                        "52.5,1.9",
+                        "70.6,1.9",
+                        "16.5,14.1",
+                        "34.6,14.1",
+                        "52.5,14.1",
+                        "70.6,14.1",
+                        "16.5,26.1",
+                        "34.6,26.1",
+                        "52.5,26.1",
+                        "70.6,26.1"
+                      ],
+                      "gradiant-colors": [
+                        "orange-gradient",
+                        "orange-gradient",
+                        "yellow-gradient",
+                        "yellow-gradient",
+                        "yellow-gradient",
+                        "blue-gradient",
+                        "blue-gradient",
+                        "blue-gradient",
+                        "greens-gradient",
+                        "greens-gradient",
+                        "greens-gradient",
+                        "orange-gradient"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "clock": {
+                          "path": "images/menu/hour-clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'clock', level :  'b'}"
+                        },
+                        "half-clock": {
+                          "path": "images/menu/half-clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'half-clock', level :  'b'}"
+                        },
+                        "calendar": {
+                          "path": "images/menu/calendar.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'calendar', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "help": {
+                    "game-name": "week-game",
+                    "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+                  },
+                  "preload": {
+                    "images": {
+                      "sun": {
+                        "path": "drag-type/b/month/images/sun.svg"
+                      },
+                      "clock": {
+                        "path": "images/menu/hour-clock.svg"
+                      },
+                      "half-clock": {
+                        "path": "images/menu/half-clock.svg"
+                      },
+                      "calendar": {
+                        "path": "images/menu/calendar.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

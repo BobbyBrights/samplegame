@@ -1,0 +1,37 @@
+<div class="animal-page">
+
+    <work-area menu="menu" next="next" onnumberclick="onNumberClick" header="header">
+
+        <!-- Add images -->
+        <game-images images="grid"></game-images>
+
+        <!-- Game specific elements -->
+        <div class="input-holder">
+            <div ng-repeat="inputItem in numberOfInputs track by $index" class="input-item">
+                <input id="input{{inputItem}}"
+                       class="input-box"
+                       ng-model="inputs[$index]"
+                       ng-focus="inputClick($index)"
+                       maxlength="2" ng-disabled="inputDisabled" readonly/>
+                <span class="label">{{imageNames[$index]}}</span>
+            </div>
+        </div>
+
+        <div class="image-holder">
+            <div ng-repeat="image in iconImagesNumbers track by $index" class="image-item">
+                <img class="img-content" ng-repeat="imageObj in image track by $index" ng-src="{{imageObj.path}}"/>
+            </div>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag" >
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <div class="hint-text hint-pos" ng-bind-html="questionLabel"></div>
+
+    </work-area>
+</div>

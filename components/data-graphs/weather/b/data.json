@@ -1,0 +1,65 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "data-graphs": {
+              "types": {
+                "weather": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "animal": {
+                          "path": "images/menu/animal.svg",
+                          "state": "^.data-graphs-game",
+                          "params": "{category : 'space', game : 'animal', level :  'b'}"
+                        }
+                          ,
+                        "fruit": {
+                          "path": "images/menu/fruit.svg",
+                          "state": "^.data-graphs-game",
+                          "params": "{category : 'space', game : 'fruit', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "fruit": {
+                        "path": "images/menu/fruit.svg"
+                      },
+                      "animal": {
+                        "path": "images/menu/animal.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

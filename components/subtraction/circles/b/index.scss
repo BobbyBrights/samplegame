@@ -1,0 +1,139 @@
+.subtraction-page{
+
+  .circles-page{
+
+    .counter-container {
+      position: relative;
+      left: 16.5%;
+      margin-top: 2.3%;
+      width: 39vw;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+
+    .circle-container:nth-child(5n){
+      border-right-width: 0.1vw;
+    }
+    .circle-container:nth-last-child(-n+5) {
+      border-bottom-width: 0.1vw;
+    }
+
+    .circle-container {
+      display: block;
+      width: 7.6vw;
+      position: relative;
+      height: 5.7vw;
+      border-color: transparent;
+      border-style: solid;
+      border-width: .1vw 0 0 .1vw;
+
+      &.circle-border {
+        border-color: #3f3d3e;
+      }
+    }
+
+
+    .data-content{
+      width: 43.2vw;
+      margin-left: 7vw;
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      bottom: 24%;
+      .input-data {
+        width: 5vw;
+        font-size: 3vw;
+        text-align: center;
+        color: #1b4123;
+        border-radius: 6%;
+        background: #dbe0bc;
+        border: .1vw solid #9e9a9a;
+        box-shadow: inset 0.1vw 0.1vw 0.3vw rgba(0,0,0,.31);
+
+        &:focus {
+          outline-width: 0;
+          border: 0.1vw solid #707070;
+        }
+      }
+
+      .sign-box{
+        width: 3vw;
+        height: 3vw;
+        margin-top: -1%;
+        text-align: center;
+        font-size: 4vw;
+        color: #D74E3B;
+      }
+    }
+
+    .input-answer-data{
+      width: 14%;
+      font-size: 3vw;
+      text-align: center;
+      color: #fff;
+      border-radius: 10%;
+      background: #7d844f;
+      border: 0.1vw solid #525731;
+      &:focus {
+        outline-width: 0;
+      }
+    }
+
+    .circle{
+      width: 63%;
+      margin-left: 1.5vw;
+      margin-top: 5%;
+    }
+
+    .check-btns  {
+      position: absolute;
+      top: 82%;
+      left: 85.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .check-button {
+      width: 12%;
+      position: absolute;
+      left: 85%;
+      bottom: 7%;
+    }
+    .sub-hint-minus{
+      position: absolute;
+      width: 16%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      bottom: 21%;
+      left: 27%;
+      text-align: center;
+    }
+
+    .sub-hint-equal{
+      position: absolute;
+      width: 16%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      bottom: 21%;
+      left: 57%;
+      text-align: center;
+
+    }
+  }
+}

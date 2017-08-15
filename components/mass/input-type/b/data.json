@@ -1,0 +1,206 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "types": {
+                "input-type": {
+                  "home": {
+                    "header": {
+                      "text": "Mass.. How many blocks?"
+                    },
+                    "footer": {},
+                    "images": {
+                      "click": {
+                        "path": "input-type/images/box-click.svg",
+                        "cls": "pos-absolute",
+                        "width": "5.8%",
+                        "height": "18%",
+                        "top": "60.2%",
+                        "left": "58%"
+                      },
+                      "stand": {
+                        "path": "input-type/images/stand.svg"
+                      },
+                      "balance": {
+                        "path": "input-type/images/balance.svg"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter the number."
+                      },
+                      "help-text": "Repeat the click block until the scales balance.",
+                      "bugs": {
+                        "bug-0": {
+                          "path": "input-type/images/bug-three.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-1": {
+                          "path": "input-type/images/bug-one.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-2": {
+                          "path": "input-type/images/bug-two.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-3": {
+                          "path": "input-type/images/bug-four.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-4": {
+                          "path": "input-type/images/bug-six.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-5": {
+                          "path": "input-type/images/bug-ten.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-6": {
+                          "path": "input-type/images/bug-nine.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        },
+                        "bug-7": {
+                          "path": "input-type/images/bug-eight.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17.6%"
+                        },
+                        "bug-8": {
+                          "path": "input-type/images/bug-seven.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17.6%"
+                        },
+                        "bug-9": {
+                          "path": "input-type/images/bug-five.svg",
+                          "cls": "pos-absolute",
+                          "width": "18%",
+                          "top": "91%",
+                          "left": "17%"
+                        }
+                      },
+                      "weights": {
+                        "box-0": {
+                          "path": "input-type/images/weight.svg"
+                        }
+                      },
+                      "no-of-blocks": [
+                        4,
+                        9,
+                        2,
+                        4,
+                        3,
+                        6,
+                        5,
+                        8,
+                        9,
+                        7
+                      ],
+                      "rotation-value": "20",
+                      "min-height": 62
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/input-type.svg",
+                          "state": "^.mass-game",
+                          "params": "{category : 'measurement', game : 'drag-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "click": {
+                        "path": "input-type/images/box-click.svg"
+                      },
+                      "stand": {
+                        "path": "input-type/images/stand.svg"
+                      },
+                      "balance": {
+                        "path": "input-type/images/balance.svg"
+                      },
+                      "bug-0": {
+                        "path": "input-type/images/bug-three.svg"
+                      },
+                      "bug-1": {
+                        "path": "input-type/images/bug-one.svg"
+                      },
+                      "bug-2": {
+                        "path": "input-type/images/bug-two.svg"
+                      },
+                      "bug-3": {
+                        "path": "input-type/images/bug-four.svg"
+                      },
+                      "bug-4": {
+                        "path": "input-type/images/bug-six.svg"
+                      },
+                      "bug-5": {
+                        "path": "input-type/images/bug-ten.svg"
+                      },
+                      "bug-6": {
+                        "path": "input-type/images/bug-nine.svg"
+                      },
+                      "bug-7": {
+                        "path": "input-type/images/bug-eight.svg"
+                      },
+                      "bug-8": {
+                        "path": "input-type/images/bug-seven.svg"
+                      },
+                      "bug-9": {
+                        "path": "input-type/images/bug-five.svg"
+                      },
+                      "box-0": {
+                        "path": "input-type/images/weight.svg"
+                      },
+                      "drag-type": {
+                        "path": "images/menu/drag-type.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

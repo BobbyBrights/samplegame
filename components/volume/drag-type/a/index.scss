@@ -1,0 +1,36 @@
+/* Sub game namespace */
+.volume-page {
+  .drag-type-page {
+
+    .center-content {
+      height: 15.1vw;
+      overflow: hidden;
+      align-items: flex-end;
+
+      .image-box {
+        width: 42%;
+        height: 100%;
+      }
+
+      #image-box0 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+
+      #image-box1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+    }
+
+    .tick {
+      width: 8%;
+    }
+
+    .horizontal {
+      top: 58.1%;
+    }
+  }
+}

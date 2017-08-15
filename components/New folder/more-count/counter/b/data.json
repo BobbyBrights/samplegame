@@ -1,0 +1,42 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "more-count": {
+              "types": {
+                "counter": {
+                  "menu": {
+                    "text": "",
+                    "cls": "",
+                    "items": {
+                      "frog": {
+                        "path": "",
+                        "text": ""
+                      },
+                      "block": {
+                        "path": "",
+                        "text": ""
+                      }
+                    }
+                  },
+                  "question": {
+                    "kind": "buttons",
+                    "count": 3,
+                    "max-value": 10,
+                    "cls": ""
+                  },
+                  "hint": {
+                    "text": "Click a number card.",
+                    "cls": ""
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

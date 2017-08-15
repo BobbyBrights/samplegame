@@ -1,0 +1,141 @@
+
+.app-home-level-menu-commutative-property-layout {
+  .banner {
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.commutative-property-page {
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .flex-container {
+    height: 21vw;
+    width: 26vw;
+    position: absolute;
+    left: 2.6%;
+    top: 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    .labels {
+      position: absolute;
+      width: 30vw;
+      font-size: 1.5vw;
+      color: #d96e4c;
+      cursor: default;
+      text-align: center;
+    }
+    .flex-items {
+      height: 10vw;
+      width: 30vw;
+    }
+
+  }
+  .label-text{
+    position: absolute;
+    width: 30vw;
+    font-size: 1.5vw;
+    color: #d96e4c;
+    cursor: default;
+    text-align: center;
+    left: -1%;
+    top: 0%;
+  }
+  .black-label {
+    color: black;
+  }
+  .red-label {
+    color: #d96e4c;
+    font-size: 1.4vw;
+    color: #d96e4c;
+    cursor: default;
+    text-align: center;
+  }
+
+  .input-holder {
+    height: 21vw;
+    width: 26vw;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid green;
+
+    .holders {
+      width: 20vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border: 2px solid green;
+    }
+  }
+
+  .text-box {
+    position: absolute;
+    border-radius: .6vw;
+    background-color: #c0de94;
+    width: 4vw;
+    font-size: 2.8vw;
+    color: #1b4123;
+    line-height: 4.1vw;
+    text-align: center;
+    height: 3.8vw;
+  }
+  .input-box {
+    width: 3.7vw;
+    height: 3.7vw;
+    font-size: 2.8vw;
+    position: absolute;
+  }
+
+  .plus {
+    font-size: 2.8vw;
+    position: absolute;
+    left: 69%;
+    top: 18%;
+  }
+
+  .line {
+    width: 0.48vw;
+    height: 22vw;
+    left: 52%;
+    top: 3%;
+    background-color: #545833;
+    position: absolute;
+  }
+
+  .more {
+    width: 6.3vw;
+    height: 2.8vw;
+    position: absolute;
+    left: 71.5%;
+    top: 84%;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,39 @@
+<div class="tables-page" >
+  <work-area menu="menu" next="next" reset="reset" check="check" header="header"  onnumberclick="onNumberClick" getscoreboard="getScoreboard">
+    <!-- Add images -->
+    <!--<game-images images="images"></game-images>-->
+
+    <!-- Game specific elements -->
+      <div class="hint-text question-hint-text" ng-bind-html="text"></div>
+
+      <div>
+          <div  ng-repeat="table in 12| range track by $index " class="question2 flex-container"
+                ng-style="{top:5 + ($index * 6)+'%',height:'2%'}">
+              <div class="question-text flex-item" style="color: #000;">{{$index +1}}</div>
+              <div class="question-text flex-item" > x </div>
+              <div class="question-text flex-item" style="color: #000;">{{firstNumber}}</div>
+              <div class="question-text flex-item" > = </div>
+
+              <input id="input-{{$index +1}}" maxlength="2" class="input-box  flex-item" ng-model="inputs[$index +1]"
+                     ng-focus="inputClick($index +1)"
+                     ng-disabled="inputDisabled">
+          </div>
+      </div>
+
+
+      <input id="go" maxlength="2" class="input-box" ng-model="inputs[0]"
+             ng-focus="inputClick(0)"
+             ng-disabled="inputDisabled" style="position: absolute">
+
+      <div id="gobutton" class="reset-btn action-btn" ng-click="go($event)">Go</div>
+
+      <div class="reset-btn action-btn" ng-click="reset($event)">Reset</div>
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div  ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+
+      <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

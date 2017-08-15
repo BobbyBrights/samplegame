@@ -1,0 +1,119 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "subtraction": {
+              "types": {
+                "frog": {
+                  "home": {
+                    "header": {
+                      "text":"Subtraction"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter answer in the box.",
+                        "cls": ""
+                      },
+                      "minus": {
+                        "text": "Minus",
+                        "cls": ""
+                      },
+
+                      "equal": {
+                        "text": "Equals",
+                        "cls": ""
+                      },
+                      "numberline": {
+                        "path": "frog/b/images/numberline.svg",
+                        "height": "72%",
+                        "width": "38.7vw",
+                        "top": "-59%",
+                        "left": "9.4vw",
+                        "cls":"pos-absolute"
+                      },
+                      "dotted-curved-line": {
+                        "path": "frog/b/images/dotted-curved-line.svg"
+                      },
+                      "frog": {
+                        "path": "frog/b/images/frog.svg",
+                        "width": "8%",
+                        "top": "15%",
+                        "left": "4%"
+                      },
+
+                      "leftPositions": ["17","22.6","28","33.6","39","45","50","55.7","61","67"]
+
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "circles": {
+                          "path": "images/menu/circles.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'circles', level :  'b'}"
+                        }
+                          ,
+                        "plus-and-minus": {
+                          "path": "images/menu/plus-and-minus.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'plus-and-minus', level :  'b'}"
+                        }
+                          ,
+                        "butterfly": {
+                          "path": "images/menu/butterfly.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'butterfly', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+
+                      }
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "numberline": {
+                        "path": "frog/b/images/numberline.svg"
+                      },
+                      "dotted-curved-line": {
+                        "path": "frog/b/images/dotted-curved-line.svg"
+                      },
+                      "frog": {
+                        "path": "frog/b/images/frog.svg"
+                      },
+                      "circles": {
+                        "path": "images/menu/circles.svg"
+                      },
+                      "plus-and-minus": {
+                        "path": "images/menu/plus-and-minus.svg"
+                      },
+                      "butterfly": {
+                        "path": "images/menu/butterfly.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

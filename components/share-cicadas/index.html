@@ -1,0 +1,32 @@
+<div class="share-cicadas-page">
+    <work-area menu="menu" next="next" header="header">
+
+        <div class="heading">
+            {{heading}}
+        </div>
+
+        <div class="trees">
+            <div class="tree tree-{{$index}}" drop-zone ng-repeat="tree in data.trees | range track by $index">
+                <img ng-src="{{treeImage.path}}" ng-style="{width:'155%', margin:'0 0 0 -30%'}"/>
+
+                <!-- drop zone tree -->
+                <div class="drop-area drop-zone-{{$index}}" ng-repeat="dz in data.dropZone | range track by $index"
+                     data-value="{{$index}}"
+                     id="drop-{{$parent.$index}}-{{$index}}">
+                </div>
+            </div>
+        </div>
+
+        <!--drag items-->
+        <div class="cicadas-box center-content">
+            <div class="drag-box" ng-repeat="c in data.cicadas | range track by $index">
+                <img class="cicadas"
+                     drag-item id="cicadas-{{$index}}"
+                     ng-src="{{cicadasImage.path}}"/>
+            </div>
+        </div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

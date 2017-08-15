@@ -1,0 +1,71 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "count-by": {
+              "types": {
+                "count-by-two": {
+                  "home": {
+                    "header": {
+                      "text": "Count by 2s"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "min-value": 1,
+                      "max-value": 25,
+                      "frog-image": {
+                        "path": "images/frog.svg",
+                        "width": "65%",
+                        "height": "60%"
+                      },
+                      "hint": {
+                        "text": "Select and count."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "count-by-five": {
+                          "path": "images/menu/count-by-five.svg",
+                          "state": "^.count-by-game",
+                          "params": "{category : 'number', game : 'count-by-five', level :  'b'}"
+                        },
+                        "count-by-ten": {
+                          "path": "images/menu/count-by-ten.svg",
+                          "state": "^.count-by-game",
+                          "params": "{category : 'number', game : 'count-by-ten', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "frog-image": {
+                        "path": "images/frog.svg"
+                      },
+                      "count-by-five": {
+                        "path": "images/menu/count-by-five.svg"
+                      },
+                      "count-by-ten": {
+                        "path": "images/menu/count-by-ten.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

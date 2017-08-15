@@ -1,0 +1,42 @@
+<div class="balance-page">
+    <work-area menu="menu"
+               next="next"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+
+        <!-- Display table -->
+
+        <div class="grid right-side-grid-border">
+            <div ng-repeat="item in rows track by $index" class="grid-content">
+                <div ng-repeat="item in columns track by $index" class="cell-content"
+                     ng-init="counter=($parent.$index*columns.length)+($index+1)">
+                    <img class="circle-container" ng-if="counter <= firstCount.length"
+                         ng-src="{{circleImages['blueCircle'].path}}"/>
+                    <img class="circle-container"
+                         ng-if="(counter > firstCount.length) && (counter <= finalCount.length)"
+                         ng-src="{{circleImages['greenCircle'].path}}"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add images-->
+        <game-images images="balanceImages.base"></game-images>
+
+        <div id="balance-box" class="balance-content">
+            <game-images images="balanceImages.balanceBox"></game-images>
+            <span ng-repeat="i in numbers track by $index"
+                  id="number{{$index}}"
+                  position="{{10 + ($index * 57)}},{{45 + ($index * 3)}}"
+                  class="number-text">{{i}}
+            </span>
+            <input id="input-1" maxlength="2" class="data-text" ng-disabled="inputDisabled"/>
+        </div>
+
+        <check-button class="balance-check" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="balance-redo" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

@@ -1,0 +1,153 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "chance-probability": {
+              "types": {
+                "chance": {
+                  "home": {
+                    "header": {
+                      "text": "Always, Sometimes or Never?"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Select play, and then drag the cards."
+                      },
+                      "header-text": {
+                        "text": "Will it happen?"
+                      },
+                      "images": {
+                        "tree": {
+                          "path": "chance/a/images/tree.svg",
+                          "cls": "pos-absolute",
+                          "width": "100%"
+                        },
+                        "play": {
+                          "path": "chance/a/images/play-btn.svg",
+                          "cls": "pos-absolute cursor-display",
+                          "width": "4%"
+                        },
+                        "kangaroo": {
+                          "path": "chance/a/images/kangaroo.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%"
+                        },
+                        "sun": {
+                          "path": "chance/a/images/sun.svg",
+                          "cls": "pos-absolute",
+                          "width": "7%"
+                        },
+                        "cloud": {
+                          "path": "chance/a/images/cloud.svg",
+                          "cls": "pos-absolute",
+                          "width": "14%"
+                        }
+                      },
+                      "tick": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "width": "8%"
+                        }
+                      },
+                      "group": [
+                        [
+                          0,
+                          1,
+                          2
+                        ],
+                        [
+                          0,
+                          2,
+                          1
+                        ],
+                        [
+                          1,
+                          0,
+                          2
+                        ]
+                      ],
+                      "labels": [
+                        "Always",
+                        "Sometimes",
+                        "Never"
+                      ],
+
+                      "drag-positions": [
+                        "30.5",
+                        "51",
+                        "40.5"
+                      ],
+                      "drop-left": [
+                        "18",
+                        "41.2",
+                        "64.6"
+                      ]
+
+                    }
+                  },
+                  "menu": {
+                    "left": null,
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "tree": {
+                        "path": "chance/a/images/tree.svg"
+                      },
+                      "play": {
+                        "path": "chance/a/images/play-btn.svg"
+                      },
+                      "kangaroo": {
+                        "path": "chance/a/images/kangaroo.svg"
+                      },
+                      "sun": {
+                        "path": "chance/a/images/sun.svg"
+                      },
+                      "cloud": {
+                        "path": "chance/a/images/cloud.svg"
+                      },
+                      "butterfly": {
+                        "path": "chance/a/images/butterfly.svg"
+                      },
+                      "butterfly-anim": {
+                        "path": "chance/a/images/butterfly-anim.svg"
+                      },
+                      "cloud-rain": {
+                        "path": "chance/a/images/cloud-rain.svg"
+                      },
+                      "cloud-reverse": {
+                        "path": "chance/a/images/cloud-reverse.svg"
+                      },
+                      "down-tree": {
+                        "path": "chance/a/images/down-tree.svg"
+                      },
+                      "drop": {
+                        "path": "chance/a/images/drop.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

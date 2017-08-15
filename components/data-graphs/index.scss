@@ -1,0 +1,125 @@
+@import './animal/index.scss';
+@import './fruit/index.scss';
+@import './weather/index.scss';
+@import './block/index.scss';
+
+/* Game main namespace */
+.data-graphs-page {
+  .buttons-panel {
+    position: absolute;
+  }
+
+  .next-button {
+    left: 88%;
+    top: 0%;
+    width: 10%;
+    height: 3vw;
+    line-height: 3vw;
+    font-size: 1.3vw;
+  }
+  .sign {
+    width: 8%;
+    top: 85%;
+    left: 71%;
+    position: absolute;
+  }
+  .image-holder {
+    display: -webkit-flex;
+    position: absolute;
+    display: flex;
+    width: 74.6%;
+    height: 75%;
+    top: 9%;
+    left: 5%;
+    flex-direction: column;
+    align-content: space-between;
+
+    .image-item {
+      width: 99.8%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      height: 5vw;
+      margin-left: 1%;
+
+      .img-content {
+        width: 8%;
+        padding: 1%;
+      }
+    }
+
+  }
+
+  .input-holder {
+    display: -webkit-flex;
+    position: absolute;
+    display: flex;
+    width: 14%;
+    height: 75%;
+    left: 81.8%;
+    top: 9%;
+    flex-direction: column;
+    align-content: space-between;
+
+    .input-item {
+      width: 96%;
+      height: 9vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .input-box {
+        margin-top: 5%;
+      }
+
+      .label {
+        text-align: center;
+        font-size: 1vw;
+        color: #d27450;
+        align-self: center;
+        outline: none;
+        z-index: 1;
+        cursor: default;
+      }
+    }
+  }
+  .check-btns {
+    position: absolute;
+    top: 85.5%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 85.5%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .hint-pos {
+    bottom: 91%;
+    width: 100%;
+    left: 0%;
+  }
+
+  .num-btn {
+    width: 5%;
+    height: 12%;
+  }
+
+  .button-box {
+    width: 11%;
+    height: 71%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 100.5%;
+  }
+  // Game specific styles
+}

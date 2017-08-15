@@ -1,0 +1,134 @@
+{
+  "levels": {
+    "d": {
+      "categories": {
+        "number": {
+          "games": {
+            "subtraction": {
+              "types": {
+                "tens-regroup": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "circles": {
+                          "path": "images/menu/circles.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'circles', level :  'd'}"
+                        }
+                          ,
+                        "frog": {
+                          "path": "images/menu/frog.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'frog', level :  'd'}"
+                        }
+                          ,
+                        "plus-and-minus": {
+                          "path": "images/menu/plus-and-minus.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'plus-and-minus', level :  'd'}"
+                        }
+                          ,
+                        "tens": {
+                          "path": "images/menu/tens.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'tens', level :  'd'}"
+                        }
+                          ,
+                        "hundreds": {
+                          "path": "images/menu/hundreds.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'hundreds', level :  'd'}"
+                        }
+                          ,
+                        "tens-hundreds": {
+                          "path": "images/menu/tens-hundreds.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'tens-hundreds', level :  'd'}"
+                        }
+                          ,
+                        "sketch": {
+                          "path": "images/menu/sketch.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'sketch', level :  'd'}"
+                        }
+                          ,
+                        "thousands": {
+                          "path": "images/menu/thousands.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'thousands', level :  'd'}"
+                        }
+                          ,
+                        "hundreds-regroup": {
+                          "path": "images/menu/hundreds-regroup.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'hundreds-regroup', level :  'd'}"
+                        }
+                          ,
+                        "thousands-regroup": {
+                          "path": "images/menu/thousands-regroup.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'thousands-regroup', level :  'd'}"
+                        }
+                          ,
+                        "tens-thousands": {
+                          "path": "images/menu/tens-thousands.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'tens-thousands', level :  'd'}"
+                        }
+                          ,
+                        "ten-thousands-regroup": {
+                          "path": "images/menu/ten-thousands-regroup.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'ten-thousands-regroup', level :  'd'}"
+                        }
+                          ,
+                        "hundred-thousands": {
+                          "path": "images/menu/hundred-thousands.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'hundred-thousands', level :  'd'}"
+                        }
+                          ,
+                        "hundred-thousands-regroup": {
+                          "path": "images/menu/hundred-thousands-regroup.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'hundred-thousands-regroup', level :  'd'}"
+                        }
+                          ,
+                        "butterfly": {
+                          "path": "images/menu/butterfly.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'butterfly', level :  'd'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "tens-regroup/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

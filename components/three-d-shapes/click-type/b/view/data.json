@@ -1,0 +1,201 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "types": {
+                "view": {
+                  "home": {
+                    "header": {
+                      "text": "3D Shape Views"
+                    },
+                    "footer": {
+                      "text": "Select the correct shape."
+                    },
+                    "images": {
+                      "0": {
+                        "path": "click-type/b/view/images/green-cylinder-one.svg",
+                        "width": "53%",
+                        "name": "sphere"
+                      },
+                      "1": {
+                        "path": "click-type/b/view/images/green-cylinder-two.svg",
+                        "width": "53%",
+                        "name": "rectangle"
+                      },
+                      "2": {
+                        "path": "click-type/b/view/images/green-square-prism.svg",
+                        "width": "66%",
+                        "name": "square"
+                      },
+                      "3": {
+                        "path": "click-type/b/view/images/green-square-prism-two.svg",
+                        "width": "63%",
+                        "name": "square"
+                      },
+                      "4": {
+                        "path": "click-type/b/view/images/rectangular-prism.svg",
+                        "width": "63%",
+                        "name": "rectangle"
+                      },
+                      "5": {
+                        "path": "click-type/b/view/images/rectangular-prism-two.svg",
+                        "width": "63%",
+                        "name": "rectangle"
+                      },
+                      "6": {
+                        "path": "click-type/b/view/images/square-prism.svg",
+                        "width": "63%",
+                        "name": "triangle"
+                      },
+                      "7": {
+                        "path": "click-type/b/view/images/square-pyramid.svg",
+                        "width": "63%",
+                        "name": "triangle"
+                      },
+                      "8": {
+                        "path": "click-type/b/view/images/yellow-cone.svg",
+                        "width": "63%",
+                        "name": "triangle"
+                      }
+                    },
+                    "question": {
+                      "question-images":{
+                        "0": {
+                          "path": "click-type/b/view/images/square.svg",
+                          "width": "60%",
+                          "name": "square"
+                        },
+                        "1": {
+                          "path": "click-type/b/view/images/rectangle.svg",
+                          "width": "78%",
+                          "name": "rectangle"
+                        },
+                        "2": {
+                          "path": "click-type/b/view/images/circle.svg",
+                          "width": "70%",
+                          "name": "sphere"
+                        },
+                        "3": {
+                          "path": "click-type/b/view/images/triangle.svg",
+                          "width": "78%",
+                          "name": "triangle"
+                        }
+                      },
+                      "hint-question-text": [
+                        "What shape is my top view?",
+                        "What shape is my front view?",
+                        "What shape is my top view?",
+                        "What shape is my front view?",
+                        "What shape is my top view?",
+                        "What shape is my side view?",
+                        "What shape is my front view?",
+                        "What shape is my side view?",
+                        "What shape is my front view?"
+                      ],
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick",
+                          "width": "8%",
+                          "top": "77.5%",
+                          "left": "82%"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross",
+                          "width": "8%",
+                          "top": "82.5%",
+                          "left": "82.2%"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "sorting": {
+                          "path": "images/menu/Bsorting-icon.svg",
+                          "state":  "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'sorting', level :  'b'}"
+                        },
+                        "quiz": {
+                          "path": "images/menu/quiz-icon.svg",
+                          "state":  "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'quiz', level :  'b'}"
+                        },
+                        "names": {
+                          "path": "images/menu/name-icon.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'names', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "0": {
+                        "path": "click-type/b/view/images/green-cylinder-one.svg"
+                      },
+                      "1": {
+                        "path": "click-type/b/view/images/green-cylinder-two.svg"
+                      },
+                      "2": {
+                        "path": "click-type/b/view/images/green-square-prism.svg"
+                      },
+                      "3": {
+                        "path": "click-type/b/view/images/green-square-prism-two.svg"
+                      },
+                      "4": {
+                        "path": "click-type/b/view/images/rectangular-prism.svg"
+                      },
+                      "5": {
+                        "path": "click-type/b/view/images/rectangular-prism-two.svg"
+                      },
+                      "6": {
+                        "path": "click-type/b/view/images/square-prism.svg"
+                      },
+                      "7": {
+                        "path": "click-type/b/view/images/square-pyramid.svg"
+                      },
+                      "8": {
+                        "path": "click-type/b/view/images/yellow-cone.svg"
+                      },
+                      "9": {
+                        "path": "click-type/b/view/images/square.svg"
+                      },
+                      "10": {
+                        "path": "click-type/b/view/images/rectangle.svg"
+                      },
+                      "11": {
+                        "path": "click-type/b/view/images/circle.svg"
+                      },
+                      "12": {
+                        "path": "click-type/b/view/images/triangle.svg"
+                      },
+                      "sorting": {
+                        "path": "images/menu/Bsorting-icon.svg"
+                      },
+                      "quiz": {
+                        "path": "images/menu/quiz-icon.svg"
+                      },
+                      "names": {
+                        "path": "images/menu/name-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

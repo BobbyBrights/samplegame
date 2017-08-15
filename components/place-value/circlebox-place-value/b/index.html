@@ -1,0 +1,32 @@
+<div class="circlebox-place-value-page">
+    <work-area menu="menu" next="next" header="header" onnumberclick="onNumberClick">
+
+        <!-- Game specific elements -->
+        <div class="group-of-Circle">
+            <div ng-repeat="num in groupOfCircles track by $index" class="circle-box-Container">
+                <img ng-src="{{groupOfCircle['circleGrid'+num].path}}" class="circle-grid"/>
+            </div>
+        </div>
+
+        <div class="circle-container">
+            <div ng-repeat="c in circle | range track by $index" class="circle">
+                <img ng-src="{{circles['circle'+circle].path}}" class="circle-grid"/>
+            </div>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!--display question text with input box -->
+        <div class="question-container">
+            <input class="input-box" id="input-0" tab-index="1" ng-focus="inputClick(0)"  ng-disabled="inputDisabled"/>
+            <div class="question-text number-question-0" ng-bind-html="tensText"></div>
+            <input class="input-box" id="input-1" tab-index="2" ng-focus="inputClick(1)" ng-disabled="inputDisabled"/>
+            <div class="question-text number-question-1" ng-bind-html="onesText"></div>
+            <input class="input-box" id="input-2" tab-index="3" ng-focus="inputClick(2)" ng-disabled="inputDisabled"/>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

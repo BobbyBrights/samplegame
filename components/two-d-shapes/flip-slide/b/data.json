@@ -1,0 +1,256 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "flip-slide": {
+                  "home": {
+                    "header": {
+                      "text": "2D Shape Transformations"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "sub-hint":{
+                        "text": "Keep selecting the blue buttons until the "
+                      },
+                      "hint": {
+                        "text": "skinks fit correctly in their shadows."
+                      },
+                      "label": "Help the skink hide a shadow.",
+                      "buttons": {
+                        "0": {
+                          "path": "flip-slide/images/flip-next-button.svg",
+                          "id": "flip",
+                          "width": "20%",
+                          "top": "7%",
+                          "left": "18%"
+                        },
+                        "1": {
+                          "path": "flip-slide/images/flip-previous-button.svg",
+                          "id": "flip",
+                          "width": "20%",
+                          "top": "7%",
+                          "left": "51%"
+                        },
+                        "2": {
+                          "path": "flip-slide/images/turn-down-arrow.svg",
+                          "id": "upward",
+                          "width": "25%",
+                          "top": "34%",
+                          "left": "64%"
+                        },
+                        "3": {
+                          "path": "flip-slide/images/turn-up-arrow.svg",
+                          "id": "downward",
+                          "width": "25%",
+                          "top": "34%",
+                          "left": "11%"
+                        },
+                        "4": {
+                          "path": "flip-slide/images/slide-top-arrow.svg",
+                          "id": "up",
+                          "width": "25%",
+                          "top": "62%",
+                          "left": "32%"
+                        },
+                        "5": {
+                          "path": "flip-slide/images/slide-right-arrow.svg",
+                          "id": "left",
+                          "width": "25%",
+                          "top": "71%",
+                          "left": "60%"
+                        },
+                        "6": {
+                          "path": "flip-slide/images/slide-bottom-arrow.svg",
+                          "id": "down",
+                          "width": "25%",
+                          "top": "78%",
+                          "left": "32%"
+                        },
+                        "7": {
+                          "path": "flip-slide/images/slide-left-arrow.svg",
+                          "id": "right",
+                          "width": "25%",
+                          "top": "71%",
+                          "left": "5%"
+                        }
+                      },
+                      "images": {
+                        "0": {
+                          "path": "flip-slide/images/curve-arrow.svg",
+                          "cls": "pos-absolute",
+                          "width": "50%",
+                          "top": "1%",
+                          "left": "20%"
+                        },
+                        "1": {
+                          "path": "flip-slide/images/flip-horizontal-line.svg",
+                          "cls": "pos-absolute",
+                          "width": "5%",
+                          "top": "5%",
+                          "left": "42%"
+                        },
+                        "2": {
+                          "path": "flip-slide/images/flip-text.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "20%",
+                          "left": "35%"
+                        },
+                        "3": {
+                          "path": "flip-slide/images/turn-circle.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%",
+                          "top": "30%",
+                          "left": "20%"
+                        },
+                        "4": {
+                          "path": "flip-slide/images/turn-text.svg",
+                          "cls": "pos-absolute",
+                          "width": "40%",
+                          "top": "52%",
+                          "left": "30%"
+                        },
+                        "5": {
+                          "path": "flip-slide/images/slide-icon.svg",
+                          "cls": "pos-absolute",
+                          "width": "20%",
+                          "top": "70%",
+                          "left": "35%"
+                        },
+                        "6": {
+                          "path": "flip-slide/images/slide-text.svg",
+                          "cls": "pos-absolute",
+                          "width": "40%",
+                          "top": "90%",
+                          "left": "30%"
+                        }
+                      },
+                      "shadow": {
+                        "0": {
+                          "path": "flip-slide/images/lizard-shadow-one.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "13%",
+                          "left": "7%"
+                        },
+                        "1": {
+                          "path": "flip-slide/images/lizard-shadow-two.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "8%",
+                          "left": "53%"
+                        },
+                        "2": {
+                          "path": "flip-slide/images/lizard-shadow-three.svg",
+                          "cls": "pos-absolute",
+                          "width": "30%",
+                          "top": "38%",
+                          "left": "40%"
+                        }
+                      },
+                      "lizard": {
+                        "path": "flip-slide/images/lizard.svg",
+                        "width": "35%"
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "side-corners": {
+                          "path": "images/menu/sidesCorners.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'side-corners', level :  'b'}"
+                        },
+                        "angles": {
+                          "path": "images/menu/angles.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'angles', level :  'b'}"
+                        },
+                        "names": {
+                          "path": "images/menu/names.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'names', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "buttons-0": {
+                        "path": "flip-slide/images/flip-next-button.svg"
+                      },
+                      "buttons-1": {
+                        "path": "flip-slide/images/flip-previous-button.svg"
+                      },
+                      "buttons-2": {
+                        "path": "flip-slide/images/turn-down-arrow.svg"
+                      },
+                      "buttons-3": {
+                        "path": "flip-slide/images/turn-up-arrow.svg"
+                      },
+                      "buttons-4": {
+                        "path": "flip-slide/images/slide-top-arrow.svg"
+                      },
+                      "buttons-5": {
+                        "path": "flip-slide/images/slide-right-arrow.svg"
+                      },
+                      "buttons-6": {
+                        "path": "flip-slide/images/slide-bottom-arrow.svg"
+                      },
+                      "buttons-7": {
+                        "path": "flip-slide/images/slide-left-arrow.svg"
+                      },
+                      "images-0": {
+                        "path": "flip-slide/images/curve-arrow.svg"
+                      },
+                      "images-1": {
+                        "path": "flip-slide/images/flip-horizontal-line.svg"
+                      },
+                      "images-2": {
+                        "path": "flip-slide/images/flip-text.svg"
+                      },
+                      "images-3": {
+                        "path": "flip-slide/images/turn-circle.svg"
+                      },
+                      "images-4": {
+                        "path": "flip-slide/images/turn-text.svg"
+                      },
+                      "images-5": {
+                        "path": "flip-slide/images/slide-icon.svg"
+                      },
+                      "images-6": {
+                        "path": "flip-slide/images/slide-text.svg"
+                      },
+                      "shadow-0": {
+                        "path": "flip-slide/images/lizard-shadow-one.svg"
+                      },
+                      "shadow-1": {
+                        "path": "flip-slide/images/lizard-shadow-two.svg"
+                      },
+                      "shadow-2": {
+                        "path": "flip-slide/images/lizard-shadow-three.svg"
+                      },
+                      "lizard": {
+                        "path": "flip-slide/images/lizard.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

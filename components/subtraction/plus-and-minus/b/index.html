@@ -1,0 +1,65 @@
+<div class="plus-and-minus-page" >
+  <work-area menu="menu" next="next"
+             check="check"
+             header="header"
+             getscoreboard="getScoreboard"
+             onnumberclick="onNumberClick">
+
+      <!--Display top hint text -->
+      <div class="top-hint-text" ng-bind-html="questionTexthint"></div>
+
+      <!-- Display table-->
+      <div class="grid-content">
+          <div class="grid-container" ng-repeat="i in [0]" id="table{{$index}}">
+              <table class="table-container">
+                  <tr ng-repeat="item in columns">
+                      <td ng-repeat="item in rows">
+                      </td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+
+      <!--Display circle panel -->
+      <div class="center-content circle-panel">
+          <div class="first-box circle-container-green">
+              <img class="circle" ng-repeat="num in greencount"
+                   ng-src="{{circleImages[(num < firstNumber)?'greenCircle':'orangeCircle'].path}}"/>
+           </div>
+      </div>
+
+      <!--Display numbers and answer of addition-->
+      <div class="data-content">
+          <div class="input-data" >{{firstNumber}}</div>
+          <div class="sign-box">+</div>
+          <div class="input-data" >{{secondNumber}}</div>
+          <div class="sign-box">=</div>
+          <div class="answer">{{answer}}</div>
+      </div>
+
+      <!--Display hint text for So -->
+      <div class="sub-hint-text" ng-bind-html="subHint"></div>
+
+      <!--Display numbers and input-->
+      <div class="second-data-content">
+          <div class="input-data" >{{answer}}</div>
+          <div class="sign-box">-</div>
+          <div class="input-data" >{{secondNumber}}</div>
+          <div class="sign-box">=</div>
+          <input id="input-value" maxlength="2" class="input-answer-data" ng-model="inputVal"/>
+      </div>
+
+
+      <!--Check button -->
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+
+      <!-- Display bottom hint text -->
+      <div class="hint-text" ng-bind-html="questionText"></div>
+      <div class="sub-hint-minus" ng-bind-html="questionSubminus"></div>
+      <div class="sub-hint-equal" ng-bind-html="questionSubequal"></div>
+
+  </work-area>
+</div>

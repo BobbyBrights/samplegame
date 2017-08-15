@@ -1,0 +1,42 @@
+<div class="month-page">
+
+    <work-area menu="menu" header="header" getscoreboard="getScoreboard">
+
+        <!--Drop zone-->
+        <div ng-repeat="dropZone in monthNames track by $index"
+             id="drop-zone-{{$index}}"
+             class="drop-zones roll-over-text common-style"
+             drop-zone group="{{$index}}"
+             position="{{dropZones[$index]}}">
+            <span ng-show="flag">{{dropZone}}</span>
+            <span ng-show="!flag">{{$index + 1}}</span>
+        </div>
+
+        <!--Drag card-->
+        <div ng-repeat="dragItem in monthNames track by $index"
+             id="drag-item-{{$index}}"
+             class="drag-items common-style"
+             position="{{dragItems[$index]}}"
+             ng-class="gradiantColors[$index]"
+             drag-item group="{{$index}}">{{monthNames[$index]}}
+        </div>
+
+        <!--Hint box-->
+        <div class="common-style common-buttons"
+             ng-repeat="button in ['Summer','Spring','Winter','Autumn']"
+             ng-class="gradiantColors[(11 - ($index * 3))]"
+             ng-style="{left:'86.8%',top:(19.4 +($index * 11.4))+'%'}">{{button}}
+        </div>
+
+        <!--tick-->
+        <game-images id="tick" images="monthImages.tick" ng-class="checkClass['tick']"></game-images>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <!--Sun image-->
+        <game-images images="monthImages.sun" ng-click="flag=!flag"></game-images>
+
+    </work-area>
+
+</div>

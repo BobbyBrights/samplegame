@@ -1,0 +1,25 @@
+<div class="odd-and-evens-page">
+    <work-area menu="menu"
+               reset="reset"
+               header="header">
+
+        <!-- Add images -->
+        <game-images images="images"></game-images>
+
+        <!-- Game specific elements -->
+        <div ng-repeat="odd in cardNumber track by $index"
+             class="drag-item"
+             id="drag{{$index}}"
+             drag-item group="{{odd + 1}}">
+            <img ng-src="{{cardImages['card'+$index].path}}"/>
+        </div>
+        <div ng-repeat="odd in oddEvenNumber" class="drop-item" drop-zone group="{{oddEvenNumber[$index]}}"
+             id="drop-zone-{{$index}}" position="{{dropZonePositions[$index]}}">
+            <img ng-src="{{cardImages['card'].path}}"/>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

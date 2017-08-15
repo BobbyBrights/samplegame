@@ -1,0 +1,37 @@
+<div class="commutative-page" >
+  <work-area menu="menu" next="next" reset="reset" check="check" header="header"  onnumberclick="onNumberClick" getscoreboard="getScoreboard">
+    <!-- Add images -->
+
+
+    <!-- Game specific elements -->
+      <div class="hint-text question-hint-text" ng-bind-html="text"></div>
+
+      <div class="question1 flex-container">
+          <div class="question-text flex-item" style="color: #000;">{{firstNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 4.5vw"> x </div>
+          <div class="question-text flex-item" style="color: #000;">{{secondNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 4.5vw; margin-top: 1%"> = </div>
+          <div class="question-text flex-item" style="width: 9%;" >{{total}}</div>
+      </div>
+
+      <div class="hint-text soText" ng-bind-html="soText"></div>
+
+      <div class="question2 flex-container">
+          <div class="question-text flex-item" style="color: #000;">{{secondNumber }}</div>
+          <div class="question-text flex-item" style="font-size: 4.5vw"> x </div>
+          <div class="question-text flex-item" style="color: #000;">{{firstNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 4.5vw; margin-top: 1%"> = </div>
+          <input id="input1" maxlength="2" class="input-box" ng-model="inputs"  ng-focus="inputClick(0)"
+                 ng-disabled="inputDisabled">
+      </div>
+
+
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

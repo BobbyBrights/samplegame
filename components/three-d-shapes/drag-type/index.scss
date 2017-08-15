@@ -1,0 +1,65 @@
+
+@import './b/sorting/index.scss';
+
+/* Sub game namespace */
+.three-d-shapes-page {
+  .drag-type-page {
+    .shapes {
+      color: #000000;
+      font-size: 1.3vw;
+      cursor: default;
+
+      .triangle-text {
+        position: absolute;
+        left: 28%;
+        top: 54%;
+      }
+
+      .circle-text {
+        position: absolute;
+        left: 68.1%;
+        top: 53%;
+      }
+
+      .square-text {
+        position: absolute;
+        left: 26.5%;
+        top: 52%;
+      }
+
+      .curved-text {
+        position: absolute;
+        left: 67.6%;
+        top: 45%;
+      }
+
+      .cube-text {
+        position: absolute;
+        left: 24.9%;
+        top: 52%;
+      }
+
+      .sphere-text {
+        position: absolute;
+        left: 67.2%;
+        top: 50%;
+      }
+
+      .cylinder-text {
+        position: absolute;
+        left: 66.5%;
+        top: 50%;
+      }
+    }
+
+    .display-dropbox {
+      margin: 0;
+      top: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+      height: 68%;
+    }
+  }
+
+}

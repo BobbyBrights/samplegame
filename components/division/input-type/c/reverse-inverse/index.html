@@ -1,0 +1,35 @@
+<div class="input-type-page">
+    <work-area menu="menu" next="next" check="check" header="header" onnumberclick="onNumberClick"
+               getscoreboard="getScoreboard">
+
+        <!-- Game specific elements -->
+
+        <div class="header-text hint-text">{{headerText}}</div>
+        <div class="footer-text hint-text">{{footerText}}</div>
+
+        <img class="multi-sign" ng-src="{{multiplication.path}}"/>
+        <div class="number" position="30,23">{{firstNumber}}</div>
+        <div class="symbol" position="40,16">×</div>
+        <div class="number" position="51,23">{{secondNumber}}</div>
+        <div class="symbol" position="62,16">=</div>
+        <div class="number" position="74,23">{{answer}}</div>
+
+        <div class="middle-text hint-text">so</div>
+
+        <img class="division-sign" ng-src="{{division.path}}"/>
+
+        <div class="reverse-input-container">
+            <div class="number" position="5,-3">{{answer}}</div>
+            <div class="symbol" position="22,-40">÷</div>
+            <div class="number" position="44,-3">{{firstNumber}}</div>
+            <div class="symbol" position="62,-40">=</div>
+            <input class="input-box reverse-input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

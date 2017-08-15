@@ -1,0 +1,198 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "beads": {
+              "home": {
+                "header": {
+                  "text": "Bead Patterns"
+                },
+                "footer": {
+                },
+                "images": {
+                  "small-bird": {
+                    "path": "images/small-bird.svg",
+                    "cls": "small-bird",
+                    "width": "20%",
+                    "left": "3%",
+                    "top": "65%"
+                  }
+                },
+                "question": {
+                  "question-label": {
+                    "text": "Complete the beads pattern"
+                  },
+                  "chain-images": {
+                    "image0": {
+                      "path": "images/beads-pattern-1.svg",
+                      "cls": "circles"
+                    },
+                    "image1": {
+                      "path": "images/beads-pattern-2.svg",
+                      "cls": "circles"
+                    },
+                    "image2": {
+                      "path": "images/beads-pattern-3.svg",
+                      "cls": "circles"
+                    },
+                    "image3": {
+                      "path": "images/beads-pattern-4.svg",
+                      "cls": "circles"
+                    },
+                    "image4": {
+                      "path": "images/beads-pattern-5.svg",
+                      "cls": "circles"
+                    }
+                  },
+                  "circle-images": {
+                    "image0": {
+                      "path": "images/circle-one.svg",
+                      "cls": "circle"
+                    },
+                    "image1": {
+                      "path": "images/circle-two.svg",
+                      "cls": "circle"
+                    },
+                    "image2": {
+                      "path": "images/circle-three.svg",
+                      "cls": "circle"
+                    },
+                    "image3": {
+                      "path": "images/circle-four.svg",
+                      "cls": "circle"
+                    },
+                    "image4": {
+                      "path": "images/circle-one.svg",
+                      "cls": "circle"
+                    },
+                    "image5": {
+                      "path": "images/circle-five.svg",
+                      "cls": "circle"
+                    },
+                    "image6": {
+                      "path": "images/circle-two.svg",
+                      "cls": "circle"
+                    },
+                    "image7": {
+                      "path": "images/circle-three.svg",
+                      "cls": "circle"
+                    },
+                    "image8": {
+                      "path": "images/circle-four.svg",
+                      "cls": "circle"
+                    },
+                    "image9": {
+                      "path": "images/circle-four.svg",
+                      "cls": "circle"
+                    },
+                    "image10": {
+                      "path": "images/circle-six.svg",
+                      "cls": "circle"
+                    },
+                    "image11": {
+                      "path": "images/circle-five.svg",
+                      "cls": "circle"
+                    },
+                    "image12": {
+                      "path": "images/circle-five.svg",
+                      "cls": "circle"
+                    },
+                    "image13": {
+                      "path": "images/circle-six.svg",
+                      "cls": "circle"
+                    },
+                    "image14": {
+                      "path": "images/circle-seven.svg",
+                      "cls": "circle"
+                    }
+                  },
+                  "hint": {
+                    "text": "Drag the beads.",
+                    "cls": ""
+                  },
+                  "sign": {
+                    "tick": {
+                      "path": "images/tick.svg",
+                      "name": "tick",
+                      "cls": "tick"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true
+              },
+              "preload": {
+                "images": {
+                  "image0": {
+                    "path": "images/beads-pattern-1.svg"
+                  },
+                  "image1": {
+                    "path": "images/beads-pattern-2.svg"
+                  },
+                  "image2": {
+                    "path": "images/beads-pattern-3.svg"
+                  },
+                  "image3": {
+                    "path": "images/beads-pattern-4.svg"
+                  },
+                  "image4": {
+                    "path": "images/beads-pattern-5.svg"
+                  },
+                  "small-bird": {
+                    "path": "images/small-bird.svg"
+                  },
+                  "circle-one": {
+                    "path": "images/circle-one.svg"
+                  },
+                  "circle-two": {
+                    "path": "images/circle-two.svg"
+                  },
+                  "circle-three": {
+                    "path": "images/circle-three.svg"
+                  },
+                  "circle-four": {
+                    "path": "images/circle-four.svg"
+                  },
+                  "circle-one1": {
+                    "path": "images/circle-one.svg"
+                  },
+                  "image5": {
+                    "path": "images/circle-five.svg"
+                  },
+                  "image6": {
+                    "path": "images/circle-two.svg"
+                  },
+                  "image7": {
+                    "path": "images/circle-three.svg"
+                  },
+                  "image8": {
+                    "path": "images/circle-four.svg"
+                  },
+                  "image9": {
+                    "path": "images/circle-five.svg"
+                  },
+                  "image10": {
+                    "path": "images/circle-six.svg"
+                  },
+                  "image11": {
+                    "path": "images/circle-seven.svg"
+                  },
+                  "tick": {
+                    "path": "images/tick.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "next-game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

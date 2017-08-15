@@ -1,0 +1,29 @@
+<div class="side-corners-page">
+    <work-area menu="menu" next="next" getscoreboard="getScoreboard" onnumberclick="onNumberClick" header="header">
+
+        <!-- Game specific elements -->
+        <div class="flex-container">
+            <img ng-src="{{images.path}}" style="width: {{images.width}}">
+        </div>
+
+
+        <div class="question-container">
+            <span class="question-box">Sides</span>
+            <input id="inputs1" maxlength="2" class="input-field" ng-model="secondInput" ng-click="inputClick(1)">
+        </div>
+        <div class="question-container box-container">
+            <span class=".question-box second-txt">Corners</span>
+            <input id="inputs2" maxlength="2" class="input-field" ng-model="firstInput" ng-click="inputClick(2)">
+
+        </div>
+
+
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

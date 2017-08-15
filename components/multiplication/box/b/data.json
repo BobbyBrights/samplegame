@@ -1,0 +1,77 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "box": {
+                  "home": {
+                    "header": {
+                      "text": "Animal Group Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "2":{
+                        "path": "box/images/group-two.svg",
+                        "width":"60%"
+                      },
+                      "3":{
+                        "path": "box/images/group-three.svg",
+                        "width":"80%"
+                      },
+                      "4":{
+                        "path": "box/images/group-four.svg",
+                        "width":"80%"
+                      },
+                      "5":{
+                        "path": "box/images/group-five.svg",
+                        "width":"100%"
+                      },
+                      "6":{
+                        "path": "box/images/group-six.svg",
+                        "width":"60%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the boxes",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "bug": {
+                          "path": "images/menu/bug.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'bug', level :  'b'}"
+                        }
+                          ,
+                        "curve": {
+                          "path": "images/menu/curve.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'curve', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

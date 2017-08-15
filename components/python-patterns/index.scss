@@ -1,0 +1,81 @@
+/* Game main namespace */
+.python-patterns-page {
+
+  .question-text {
+    position: absolute;
+    top: 31.5%;
+    width: 48%;
+    left: 26%;
+    bottom: initial;
+  }
+
+  .big-snake {
+    width: 57vw;
+    height: 17.4vw;
+    position: absolute;
+    top: 4%;
+  }
+
+  .question-box {
+    position: absolute;
+    width: 100%;
+    top: 3%;
+    left: -2%;
+  }
+    
+  .input-labels,
+  .input {
+    color: #ffffff;
+    text-align: center;
+    background-color: #c46702;
+    border: 2px solid #7a410e;
+    box-shadow: inset 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, 0.35);
+    border-radius: 0.9vw;
+    z-index: 1;
+    margin-top: 1%;
+    font-family: inherit;
+    width: 5.6vw;
+    height: 5.5vw;
+    font-size: 3.5vw;
+    margin-left: 3.7%;
+    line-height: 6vw;
+
+    &:focus {
+      border: 2px solid #1c1e1e;
+    }
+  }
+
+  .input {
+    font-size: 3.5vw;
+    outline: none;
+    padding-top: 1%;
+    height: 4.8vw;
+  }
+
+  .input-box {
+    width: 98.5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+  }
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left:85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+}

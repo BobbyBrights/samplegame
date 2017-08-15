@@ -1,0 +1,46 @@
+<div class="capacity-page">
+    <work-area menu="menu"
+               next="next"
+               header="header" getscoreboard="getScoreboard">
+       <!-- <div class="question-label">{{questionLabel}}</div>-->
+        <!--<baseline  orientation="baseline.orientation"></baseline>-->
+        <game-images images="Images"></game-images>
+
+        <!--Display static image-box-->
+        <div class="image-container">
+            <div class="image-box" ng-repeat="block in containerCount track by $index" id="image-box{{$index}}">
+                <img class="images-sub"
+                     ng-src="{{containerImages['container' + block].path}}"
+                     width="{{containerImages['container' + block].width}}"
+                     ng-style="{top:containerImages['container' + block].top}"/>
+            </div>
+        </div>
+
+        <!--dropZone area-->
+        <div ng-repeat="group in [0, 1]"
+             drop-zone
+             class="pos-absolute drop-btn"
+             group="{{$index}}"
+             id="dropZone{{$index}}"
+             position="{{(19.7+($index * 42.2))}},72">
+        </div>
+
+        <!--draggable buttons-->
+        <div ng-repeat="text in groups track by (groups + $index)"
+             drag-item
+             group="{{text}}"
+             id="drag{{$index}}"
+             class="pos-absolute drag-btn"
+             position="{{dragPositions[$index]}}">{{dragItems[$index]}}
+        </div>
+
+        <!--Display correct tick-->
+        <img ng-src="{{signs.path}}"
+             id="tick"
+             class="{{signs.cls}} tick"
+             position="48,73"/>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

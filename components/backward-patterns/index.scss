@@ -1,0 +1,100 @@
+// Add background layout
+.app-home-level-menu-backward-patterns-layout{
+  .banner{
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.backward-patterns-page{
+  .chart {
+    left: 2%;
+    position: absolute;
+    top: 5%;
+    border-collapse: collapse;
+    width: 41%;
+    height: 50%;
+    z-index: 1;
+
+    .row-chart {
+      width: 4%;
+      border: 0.15vw solid #94a06e;
+      background-color: #bbdc85;
+      color: #244b2c;
+      text-align: center;
+      font-size: 1.1vw;
+      z-index: 3;
+      cursor: pointer;
+    }
+  }
+  .white-bg {
+    background-color: #ffffff !important;
+  }
+  .first-label {
+    position: absolute;
+    width: 50%;
+    font-size: 1.6vw;
+    color: #d96e4c;
+    cursor: default;
+    text-align: center;
+    left: 48%;
+    top: 2%;
+  }
+  .second-label {
+    position: absolute;
+    width: 50%;
+    font-size: 1.6vw;
+    color: #d96e4c;
+    cursor: default;
+    text-align: center;
+    left: 48%;
+    top: 42%;
+  }
+  .text-label {
+    position: absolute;
+    border-radius: .6vw;
+    background-color: #c0de94;
+    width: 6.5%;
+    font-size: 2.2vw;
+    color: #1b4123;
+    line-height: 4.1vw;
+    text-align: center;
+    height: 3.8vw;
+  }
+  .input-box {
+    width: 3.3vw;
+    height: 3.1vw;
+  }
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .run {
+    animation: lizard 1s;
+  }
+
+  @keyframes lizard {
+    0% {
+      left: 81%;
+    }
+    100% {
+      left: 51%;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<div class="longer-page noselect">
+    <work-area menu="menu" next="next" header="header">
+
+        <div class="image-container">
+            <game-images class="middle-item" images="images"></game-images>
+
+            <img ng-repeat="block in animal" class="{{longerImages['longer'+$index].cls}}"
+                 ng-style="{top: longerImages['longer'+block].top, left:longerImages['longer'+block].left}"
+                 ng-src="{{longerImages['longer'+block].path}}"
+                 width="{{longerImages['longer'+block].width}}"/>
+
+            <baseline orientation="baseline.orientation"></baseline>
+        </div>
+
+        <div ng-repeat="positions in dropZonePositions track by (dropZonePositions+$index)"
+             drop-zone group="{{$index}}"
+             class="drop-btn"
+             id="drop{{$index}}"
+             position="{{positions}}">
+        </div>
+
+        <div ng-repeat="name in dragItems"
+             group="{{$index}}"
+             id="button-drag-{{$index}}"
+             class="pos-absolute drag-btn move-enable invisible"
+             ng-style="{left:(30.6 +($index * 20.3)) + '%',top:'112.5%'}"
+             drag-item>{{name}}
+        </div>
+
+        <img ng-repeat="position in [0,1] track by $index" class="tick-item-{{$index}} tick"
+             ng-src="{{signImages.tick.path}}"
+             id="tick-{{position}}">
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

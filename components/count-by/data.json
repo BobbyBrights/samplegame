@@ -1,0 +1,24 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "count-by": {
+              "home": {
+                "header": {},
+                "footer": {},
+                "images": {},
+                "question": {},
+                "menu": {
+                  "left": null,
+                  "right": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

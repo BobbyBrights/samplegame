@@ -1,0 +1,116 @@
+.capacity-I-page {
+  .image-container {
+    display: flex;
+    width: 100%;
+    height: 57%;
+    align-items: flex-end;
+    .image-box {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      width: 45%;
+      height: 100%;
+    }
+    #image-box0 {
+      margin-left: 6.6%;
+    }
+    #image-box1 {
+      margin-left: -3.1%;
+    }
+    .images-sub {
+      position: absolute;
+    }
+  }
+  .play-button {
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .water-container {
+    margin-left: 17%;
+    width: 67%;
+    height: 59%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+
+  }
+
+  .drag-item {
+    color: #ffffff;
+    width: 19%;
+    height: 13%;
+    z-index: 1;
+  }
+
+  .common-style {
+    position: absolute;
+    font-size: 1.4vw;
+    border-radius: 0.6vw;
+    border: solid 0.01vw;
+    text-align: center;
+    line-height: 3.5vw;
+  }
+
+  .drop-zone {
+    color: #da835d;
+    width: 19%;
+    height: 12%;
+  }
+
+  .rain {
+    position: absolute;
+    top: -10%;
+    width: 25%;
+    height: 65%;
+  }
+
+  // Rain Animation
+  .rain-drop {
+    width: 16%;
+    height: 70%;
+    position: absolute;
+    background-image: url('./../../components/capacity/drag-type/images/drop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: rain-drop 1s steps(15) infinite;
+  }
+  @keyframes rain-drop {
+    100% {
+      background-position: 123%;
+    }
+  }
+
+  .bucket-hand {
+    left: 20.6%;
+    top: 7%;
+    width: 17.2%;
+    height: 52%;
+    position: absolute;
+  }
+
+  //water animation
+  .cover {
+    overflow-y: hidden;
+    animation-iteration-count: 1;
+    animation: bucketw 6s forwards;
+  }
+  @keyframes bucketw {
+    100% {
+      height: 0;
+    }
+  }
+
+  .tick {
+    width: 6%;
+    height: 13%;
+  }
+
+  .question-label {
+    font-size: 1.6vw;
+    color: #d96e4c;
+    width: 100%;
+    text-align: center;
+  }
+}

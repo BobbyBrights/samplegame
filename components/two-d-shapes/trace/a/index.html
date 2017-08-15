@@ -1,0 +1,53 @@
+<div class="trace-page">
+
+  <work-area menu="menu" header="header">
+
+    <div class="hint-images" ng-repeat="shape in traceImages track by $index">
+      <img id="{{shape.id}}"
+           draggable="false" ondragstart="return false;"
+           class="{{shape.cls}} image-{{$index}}"
+           ng-click="shapeClick($event, id)"
+           ng-src="{{shape.path}}"
+           ng-style="{top:shape.top,left:shape.left}" height="{{shape.height}}"
+           width="{{shape.width}}">
+    </div>
+
+    <div class="hint-images" ng-repeat="shapeBlue in traceBlueImages track by $index">
+      <img id="{{shapeBlue.id}}"
+           draggable="false" ondragstart="return false;"
+           class="invisible {{shapeBlue.cls}} image-{{$index}}"
+           ng-src="{{shapeBlue.path}}"
+           ng-style="{top:shapeBlue.top,left:shapeBlue.left}" height="{{shapeBlue.height}}"
+           width="{{shapeBlue.width}}">
+    </div>
+    <div ng-repeat="shape in shapes track by $index">
+      <img id="shape{{shape.name}}"
+           class="{{shape.cls}} image-{{$index}}"
+           ng-src="{{shape.path}}"
+           ng-style="{top: shape.top, left: shape.left}"
+           height="{{shape.height}}"
+           width="{{shape.width}}">
+    </div>
+
+    <span class="choose-label">{{chooseShapeLabel}}</span>
+
+    <!-- Display hint text -->
+    <div class="hint-text" ng-bind-html="questionText"></div>
+
+    <!--Display clear button-->
+    <div id="clearButton" class="clear-button check-btn" ng-click="clearClick()">Clear</div>
+
+    <!--Display draw-own-shapes button-->
+    <div id="drawOwnShapes" class="draw-own-shapes check-btn" ng-click="drawShapes(shape)">Draw own shapes</div>
+
+    <sketch-pad bind-sketch-pad="getSketchPad(sketchPad)" params="sketchPadParams" id="content"></sketch-pad>
+
+    <div class="flexBox">
+      <div ng-repeat="colour in colors"
+           class="flex-items"
+           ng-style="{backgroundColor:colour}">
+      </div>
+    </div>
+
+  </work-area>
+</div>

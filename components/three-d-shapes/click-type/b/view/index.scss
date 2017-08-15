@@ -1,0 +1,67 @@
+//@import './a/index';
+
+// Add background layout
+.app-home-level-menu-three-d-shapes-game-layout{
+  .banner{
+    //background-image: url('./../../assets/images/space/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.three-d-shapes-page{
+
+  .view-page{
+
+    .flex-container {
+      border: .2vw solid #525731;
+      height: 85%;
+      width: 50%;
+      position: absolute;
+      left: 3.2%;
+      top: 1%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #81885e;
+
+      .img-content {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+      }
+    }
+
+    .right-container {
+      height: 60%;
+      width: 47%;
+      position: absolute;
+      top: 1%;
+      left: 53%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+
+      .angle {
+        width: 49%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    .hint-text{
+      top: 2%;
+      color: #fff;
+      left: 3%;
+      height: 10%;
+      width: 50%;
+    }
+
+    #sphere{
+      margin-top: 10%;
+    }
+  }
+}

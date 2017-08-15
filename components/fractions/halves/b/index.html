@@ -1,0 +1,28 @@
+<div class="halves-page">
+    <work-area menu="menu" next="next" check="check" header="header" getscoreboard="getScoreboard">
+
+        <img class="one-half-icon" ng-src="{{oneHalf.path}}"/>
+        <!-- Add images -->
+        <div class="game-info">
+            <game-images images="icons"></game-images>
+            <span class="sub-title">{{subTitle}}</span>
+        </div>
+
+        <div ng-if="counter===0" svg-directive nodename="butterfly" class="butterfly" svg-size="483,250"></div>
+
+        <div ng-if="counter >= 1" class="flex-container">
+            <img class="move-enable" ng-src="{{leftImage.path}}" ng-click="validateAnswer(0)"
+                 style="width:{{leftImage.width}}"/>
+            <img class="move-enable" ng-src="{{rightImage.path}}" ng-click="validateAnswer(1)"
+                 style="width:{{rightImage.width}}"/>
+        </div>
+
+        <img ng-if="counter > 0" ng-src="{{nextButterfly.path}}" class="next-butterfly move-enable"
+             ng-click="moreClick()"/>
+
+        <game-images ng-repeat="signs in sign" images="signs" id="{{signs.name}}" class="invisible"></game-images>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText[counter]"></div>
+
+    </work-area>
+</div>

@@ -1,0 +1,19 @@
+<div class="right-panel-menu" ng-class="{open: panalDisplay}">
+  <div ng-if="menu" class="panel-inner">
+    <div class="buttons center">
+      <a href="#" ng-click="onAbout($event)">
+      <img class="about-button" src="../../assets/images/about-button.svg"/></a>
+
+      <a href="#" ng-click="onHowTo($event)">
+      <img class="how-to-button" src="../../assets/images/how-to-button.svg"/></a>   
+         
+      <scoreboard ng-class="{'hide-score': !$ctrl.getscoreboard}"
+                  bind-scoreboard="$ctrl.getscoreboard(scoreboard)"
+                  params="scoreboardParams"
+                  id="scoreboard-elem"
+      ></scoreboard>
+      <a ng-class="{visible: !$ctrl.next}" href="#" ng-click="next($event)">
+      <img class="next-background" src="../../assets/images/next-button.svg"/></a>
+    </div>
+  </div>
+</div>

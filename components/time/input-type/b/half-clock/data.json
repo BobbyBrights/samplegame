@@ -1,0 +1,130 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "time": {
+              "types": {
+                "half-clock": {
+                  "home": {
+                    "header": {
+                      "text": "Tell Time to Half Past"
+                    },
+                    "footer": {},
+                    "images": {
+                      "clock": {
+                        "path": "input-type/b/half-clock/images/main-clock.svg",
+                        "cls": "pos-absolute",
+                        "width": "31%",
+                        "height": "87%",
+                        "top": "5.5%",
+                        "left": "16.6%"
+                      },
+                      "mid-circle": {
+                        "path": "input-type/b/half-clock/images/mid-circle.svg",
+                        "cls": "pos-absolute",
+                        "width": "1.1%",
+                        "height": "3%",
+                        "top": "47.5%",
+                        "left": "31.5%"
+                      },
+                      "hour-needle": {
+                        "path": "input-type/b/half-clock/images/hour-needle.svg",
+                        "cls": "pos-absolute hour-needle"
+                      },
+                      "minute-needle": {
+                        "path": "input-type/b/half-clock/images/minute-needle.svg",
+                        "cls": "pos-absolute",
+                        "width": "0.7%",
+                        "height": "14.5%",
+                        "top": "49.5%",
+                        "left": "31.6%"
+                      }
+                    },
+                    "question": {
+                      "time-question": {
+                        "text": "What time is it?"
+                      },
+                      "hint": {
+                        "text": "Enter the numbers in the boxes."
+                      },
+                      "clock-label": [
+                        "Half past",
+                        ":",
+                        "30"
+                      ],
+                      "initialDegree": 0,
+                      "rotateBy": 30,
+                      "maxValue": 12,
+                      "minValue": 1
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "clock": {
+                          "path": "images/menu/hour-clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'clock', level :  'b'}"
+                        },
+                        "month": {
+                          "path": "images/menu/month.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'month', level :  'b'}"
+                        },
+                        "calendar": {
+                          "path": "images/menu/calendar.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'calendar', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "help": {
+                    "game-name": "clock-game",
+                    "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+                  },
+                  "preload": {
+                    "images": {
+                      "clock": {
+                        "path": "input-type/b/half-clock/images/main-clock.svg"
+                      },
+                      "mid-circle": {
+                        "path": "input-type/b/half-clock/images/mid-circle.svg"
+                      },
+                      "hour-needle": {
+                        "path": "input-type/b/half-clock/images/hour-needle.svg"
+                      },
+                      "minute-needle": {
+                        "path": "input-type/b/half-clock/images/minute-needle.svg"
+                      },
+                      "hour-clock": {
+                        "path": "images/menu/hour-clock.svg"
+                      },
+                      "month": {
+                        "path": "images/menu/month.svg"
+                      },
+                      "calendar": {
+                        "path": "images/menu/calendar.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
