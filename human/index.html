@@ -1,0 +1,14 @@
+<div ng-if="humanVisibility">
+
+            <i ng-click="$dismiss()" class="box_close material-icons">close</i>
+                <div class="panel panel-body">
+
+                    <div svg-map val="score{{setClass}}" style="height: 570px; width: 425px;"></div>
+                    <div class="scale">
+                        <div ng-repeat="n in [0,1,2,3,4,5,6,7,8,9,10]" ng-click="scaleSet(n)"
+                             ng-style="{backgroundColor:'{{scaleColor[n]}}'}">{{n}}
+                        </div>
+                    </div>
+                </div>
+
+</div>

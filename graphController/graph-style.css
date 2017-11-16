@@ -1,0 +1,61 @@
+.graph-container{
+  position: absolute;
+  height: 457px;
+  width: 720px;
+  max-width: 767px;
+  min-width: 340px;
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  border-radius: 5px;
+  top: 135px;
+  left: 65px;
+  z-index: 99999;
+}
+.graph-btn{
+    margin-top: -4.8%;
+    margin-left: 40%;
+    position: relative;
+}
+.option-box{
+  top: -2.8%;
+  right: 6%;
+  position: absolute;
+  cursor: pointer;
+  font-size: 12px;
+}
+.close-btn-box{
+  margin-top: 8px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.checkbox-bg{
+  border: 1px solid gray;
+  border-radius: 5px;
+  height: 104px;
+  width: 81%;
+  margin-left: 10%;
+  margin-top: -37px;
+}
+.checkbox label, .radio label {
+    min-height: 21px;
+    padding-left: 32px;
+    margin-bottom: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.graph-container-bg {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.box .panel_header .actions:before {
+  display: none;
+}
+.box .panel_header .title:after{
+  display: none;
+}
+.box .panel_header .title {
+  width: 100%
+ } 
+ .checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+  margin-left: 0px;
+ }

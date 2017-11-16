@@ -1,0 +1,46 @@
+<div ng-if="graphVisibility">
+         <!-- <button type="button" name="graph" ng-click="showGraph()" class="graph-btn btn btn-primary">graph</button> -->
+        <div style="position: absolute; width: 150%; margin-left: -102px;">
+             
+            <section class="box" >
+            <header class="panel_header">
+                <h2 class="title pull-left" style="line-height: 10px">Vital Graph / Comparison</h2>                
+                <button ng-click="showOption()" id="optionBtn" 
+                                class="option-box btn btn-primary btn-sm">{{option_text}}</button>
+                <div class="actions panel_actions pull-right">
+                    <i ng-click="$dismiss()" style="margin-top: 8px;" class="box_close material-icons">close</i>
+                </div>
+            </header>
+            <div class="content-body padding-top-45 graph-container-bg" 
+            style="border: 1px solid grey">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding-left-0 padding-right-0">
+                        
+                        <div ng-if="optionsVisibility" class="checkbox checkbox-bg row">
+                            <label ng-repeat="role in roles" class="checkbox-inline col-md-2 col-sm-2 col-xs-2">
+                                <input style="margin-top: -5px; margin-left: -14px;" type="checkbox"                                
+                                id="{{role}}"
+                                checklist-value="role" 
+                                checklist-model="user.roles"         
+                                ng-click="optionValue($event)" />
+                                {{role}}
+                            </label>
+                        </div>
+                            <div class="graph-wrapper">
+
+                                <div class="col-md-12 col-sm-12 col-xs-12 padding-right-0" style="overflow:hidden;">
+                                    <!-- <div class="chart-container"> -->
+                                    <canvas id="line" 
+                                    width="680px" height="123px"
+                                    class="chart chart-line ng-isolate-scope" chart-data="data" chart-labels="labels | date:'dd-MM-yyyy'" chart-options="options" chart-legend="true" chart-series="series" chart-click="onClick" chart-colors="color">
+                                    </canvas>
+                                   <!--  </div> -->
+                                </div>
+                            </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+</div>    
