@@ -1,0 +1,39 @@
+<div class="circles-page" >
+    <work-area menu="menu" next="next"
+               check="check"
+               header="header"
+               getscoreboard="getScoreboard"
+               onNumberClick="onNumberClick">
+
+        <!--Display the grid and repeat circle images-->
+        <div class="counter-container">
+            <div class="circle-container circle-border" ng-repeat="val in ranger">
+                <img class="circle"
+                     ng-show="($index+1)>(secondNumber+ans)?false:true"
+                     ng-src="{{circleImages[($index< ans)?'greenCircle':'crossCircle'].path}}"/>
+            </div>
+        </div>
+
+        <!--Display input and numbers-->
+        <div class="data-content">
+            <div class="input-data" >{{firstNumber}}</div>
+            <div class="sign-box">-</div>
+            <div class="input-data" >{{secondNumber}}</div>
+            <div class="sign-box">=</div>
+            <input id="input-value" maxlength="2"  class="input-data" ng-model="inputVal"/>
+        </div>
+
+
+        <!--Check button -->
+        <check-button class="check-btns" ng-click="check($event)" param="flag" >
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+        <div class="sub-hint-minus" ng-bind-html="questionSubminus"></div>
+        <div class="sub-hint-equal" ng-bind-html="questionSubequal"></div>
+
+    </work-area>
+</div>

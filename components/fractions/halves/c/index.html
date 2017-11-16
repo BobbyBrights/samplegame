@@ -1,0 +1,56 @@
+<div class="halves-page" >
+  <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard"  onnumberclick="onNumberClick">
+
+    <!-- Add images -->
+      <div>
+          <game-images images="icons"></game-images>
+          <span class="sub-title">{{subTitle}}</span>
+      </div>
+
+      <div ng-if="counter === 0" >
+          <game-images images="firstGame"></game-images>
+
+          <div ng-repeat="img in wingImages" class="{{img.cls}}" ng-click="wingClick(img.id)"
+               ng-style="{left:img.left, top:img.top, height:img.height, width:img.width}"
+               style="cursor: pointer">
+              <img class="invisible" ng-src="{{img.path}}" height="100%"
+                   width="100%" id="{{img.id}}" >
+          </div>
+      </div>
+
+      <div ng-if="counter == 1 || counter == 2" class="flex-container">
+          <img ng-src="{{leftImage.path}}" ng-click="validateAnswer(0)" style="width:{{leftImage.width}}"/>
+          <img ng-src="{{rightImage.path}}" ng-click="validateAnswer(1)" style="width:{{rightImage.width}}"/>
+      </div>
+
+      <div ng-if="counter == 3">
+            <img ng-src="{{leftImage.path}}" style="width: 30%; position: absolute; left: 16.5%; top:25%"/>
+          <div class="question-container">
+              <img ng-src="{{halve.path}}" style="width:25%;"/>
+              <span class="question-text">X</span>
+              <span class="question-text" style="position: absolute;left: 30%;top: 55%;">Of</span>
+              <span class="question">{{thirdSubtypeText}}</span>
+              <span class="question-text">=</span>
+              <input class="input-box"
+                     id="input-0"
+                     ng-click="inputClick($index)"
+                     ng-focus="currentInput=$index"
+                     data-count="{{num}}"
+                     maxlength="2"
+                     ng-disabled="inputDisabled"/>
+          </div>
+      </div>
+
+      <div ng-if="counter > 0" class="check-btn more" ng-click="moreClick()">More</div>
+
+      <game-images ng-repeat="signs in sign" images="signs" id="{{signs.name}}" class="invisible"></game-images>
+
+      <!--display reset and check buttons-->
+      <check-button ng-if="counter == 3" class="check-btns" ng-click="check($event)" param="flag">&divide</check-button>
+
+      <div ng-if="!flag && counter == 3 " class="redo-btns" ng-click="redo($event)"></div>
+
+    <!-- Display hint text -->
+      <div class="hint-text" ng-bind-html="questionText[counter]"></div>
+  </work-area>
+</div>

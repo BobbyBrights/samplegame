@@ -1,0 +1,77 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "tables": {
+                  "home": {
+                    "header": {
+                      "text": "Tables Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "table": {
+                        "text": "Tables Practice"
+                      },
+                      "hint": {
+                        "text": "Enter a number up to 12 in the box."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "box": {
+                          "path": "images/menu/box.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'box', level :  'c'}"
+                        }
+                          ,
+                        "bug": {
+                          "path": "images/menu/bug.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'bug', level :  'c'}"
+                        }
+                          ,
+                        "curve": {
+                          "path": "images/menu/curve.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'curve', level :  'c'}"
+                        }
+                          ,
+                        "dice": {
+                          "path": "images/menu/dice-icon.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'dice', level :  'c'}"
+                        }
+                          ,
+                        "commutative": {
+                          "path": "images/menu/commutative.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'commutative', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

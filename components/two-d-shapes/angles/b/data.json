@@ -1,0 +1,126 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "angles": {
+                  "home": {
+                    "header": {
+                      "text": "2D Shape Angles"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "sub-hint": {
+                        "text": "Keep selecting the green button to make an angle,"
+                      },
+                      "hint": {
+                        "text": "which is smaller or larger than a right angle."
+                      },
+                      "images": {
+                        "vertical-blue-line": {
+                          "path": "angles/images/vertical-blue-line.svg",
+                          "width": "50%"
+                        },
+                        "horizontal-blue-line": {
+                          "path": "angles/images/horizontal-blue-line.svg",
+                          "width": "50%"
+                        },
+                        "yellow-horizontal-line": {
+                          "path": "angles/images/yellow-horizontal-line.svg",
+                          "width": "50%"
+                        },
+                        "button": {
+                          "path": "angles/images/button.svg",
+                          "width": "10%"
+                        }
+                      },
+                      "angles": {
+                        "0": {
+                          "path": "angles/images/right-angle.svg",
+                          "width": "27%",
+                          "cls": "pos-absolute"
+                        },
+                        "1": {
+                          "path": "angles/images/smaller-angle.svg",
+                          "width": "24.5%",
+                          "cls": "pos-absolute",
+                          "left": "73%"
+                        },
+                        "2": {
+                          "path": "angles/images/larger-angle.svg",
+                          "width": "24%",
+                          "cls": "pos-absolute",
+                          "top": "35%",
+                          "left": "40%"
+                        }
+                      },
+                      "angleText": [
+                        "Smaller than a right angle.",
+                        "Equal to a right angle.",
+                        "Larger than a right angle."
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "side-corners": {
+                          "path": "images/menu/sidesCorners.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'side-corners', level :  'b'}"
+                        },
+                        "flip-slide": {
+                          "path": "images/menu/flipSides.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'flip-slide', level :  'b'}"
+                        },
+                        "names": {
+                          "path": "images/menu/names.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'names', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "vertical-blue-line": {
+                        "path": "angles/images/vertical-blue-line.svg"
+                      },
+                      "horizontal-blue-line": {
+                        "path": "angles/images/horizontal-blue-line.svg"
+                      },
+                      "yellow-horizontal-line": {
+                        "path": "angles/images/yellow-horizontal-line.svg"
+                      },
+                      "button": {
+                        "path": "angles/images/button.svg"
+                      },
+                      "0": {
+                        "path": "angles/images/right-angle.svg"
+                      },
+                      "1": {
+                        "path": "angles/images/smaller-angle.svg"
+                      },
+                      "2": {
+                        "path": "angles/images/larger-angle.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

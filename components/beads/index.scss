@@ -1,0 +1,28 @@
+/* Game main namespace */
+.beads-page {
+  // Game specific styles
+  .drop-zone {
+    position: absolute;
+    width: 8.5%;
+    height: 21%;
+  }
+  .small-bird,
+  .circle-holder, .circles {
+    position: absolute;
+    width:94.4%;
+  }
+  .circle {
+    position: absolute;
+    width: 9.8%;
+  }
+  .sign {
+    position: absolute;
+    width: 8%;
+    top: 42.1%;
+    left: 88.8%;
+  }
+  .question-label {
+    top: 0;
+    bottom: initial;
+  }
+}

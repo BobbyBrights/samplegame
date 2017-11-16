@@ -1,0 +1,30 @@
+/* Sub game namespace */
+.two-d-shapes-page {
+  .match-page {
+    .hint-text {
+      bottom: 0;
+    }
+
+    .shape-text {
+      margin-top: -0.1%;
+      width: 100%;
+      text-align: center;
+      font-size: 1.5vw;
+      color: #d96e4c;
+      transform: rotate(-90deg);
+    }
+
+    .display-dropbox {
+      margin: 0;
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+
+    .shape-label {
+      display: flex;
+      justify-content: space-around;
+      align-items: baseline;
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "addition": {
+              "types": {
+                "balance": {
+                  "home": {
+                    "header": {
+                      "text":"Number Balance Addition"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                      "balance-box": {
+                        "path": "balance/b/images/balance.svg",
+                        "width": "94%",
+                        "height": "93%"
+                      },
+                      "base": {
+                        "path": "balance/b/images/base.svg",
+                        "cls": "pos-absolute",
+                        "top": "43%",
+                        "left": "21%",
+                        "width": "20%",
+                        "height": "35%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the green box. Balance the beam.",
+                        "cls": ""
+                      },
+                      "circle-images": {
+                        "green-circle": {
+                          "path": "balance/b/images/green-circle.svg",
+                          "width": "2vw",
+                          "height": "61%"
+                        },
+                        "blue-circle": {
+                          "path": "balance/b/images/blue-circle.svg",
+                          "width": "2vw",
+                          "height": "61%"
+                        }
+                      },
+                      "sign-images":{
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "cls": "pos-absolute",
+                          "width": "9%",
+                          "height": "26%",
+                          "top": "37%",
+                          "left": "82%"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "cls": "pos-absolute",
+                          "width": "12%",
+                          "height": "26%",
+                          "top": "37%",
+                          "left": "82%"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "one-dice": {
+                          "path": "images/menu/one-dice.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'one-dice', level :  'b'}"
+                        }
+                          ,
+                        "two-dice": {
+                          "path": "images/menu/two-dice.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'two-dice', level :  'b'}"
+                        }
+                          ,
+                        "number-line": {
+                          "path": "images/menu/number-line.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'number-line', level :  'b'}"
+                        }
+                          ,
+                        "to-twenty": {
+                          "path": "images/menu/to-twenty.svg",
+                          "state": "^.addition-game",
+                          "params": "{category : 'number', game : 'to-twenty', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "balance-box": {
+                        "path": "balance/b/images/balance.svg"
+                      },
+                      "base": {
+                        "path": "balance/b/images/base.svg"
+                      },
+                      "green-circle": {
+                        "path": "balance/b/images/green-circle.svg"
+                      },
+                      "blue-circle": {
+                        "path": "balance/b/images/blue-circle.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      },
+                      "one-dice": {
+                        "path": "images/menu/one-dice.svg"
+                      },
+                      "two-dice": {
+                        "path": "images/menu/two-dice.svg"
+                      },
+                      "number-line": {
+                        "path": "images/menu/number-line.svg"
+                      },
+                      "to-twenty": {
+                        "path": "images/menu/to-twenty.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

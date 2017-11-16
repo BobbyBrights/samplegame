@@ -1,0 +1,12 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 23.26 23.26">
+    <defs>
+        <style>.cls-1{fill:url(#radial-gradient);}</style>
+        <radialGradient id="radial-gradient" cx="11.63" cy="11.63" r="11.63" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#afce22"/>
+            <stop offset="1" stop-color="#6db015"/>
+        </radialGradient>
+    </defs>
+    <title>button</title>
+    <circle class="cls-1" cx="11.63" cy="11.63" r="11.63"/>
+</svg>

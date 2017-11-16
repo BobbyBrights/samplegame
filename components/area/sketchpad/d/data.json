@@ -1,0 +1,74 @@
+{
+  "levels": {
+    "d": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "types": {
+                "sketchpad": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'drag-type', level :  'd'}"
+                        }
+                          ,
+                        "grid-drag": {
+                          "path": "images/menu/grid-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'grid-drag', level :  'd'}"
+                        }
+                          ,
+                        "multi-square-drag": {
+                          "path": "images/menu/multi-square-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'multi-square-drag', level :  'd'}"
+                        }
+                          ,
+                        "square-grid": {
+                          "path": "images/menu/square-grid.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'square-grid', level :  'd'}"
+                        }
+                          ,
+                        "dot-paper": {
+                          "path": "images/menu/dot-paper.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'dot-paper', level :  'd'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "sketchpad/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

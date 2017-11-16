@@ -1,0 +1,197 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "long": {
+                  "home": {
+                    "header":{
+                      "text":"Centimetre"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "question-label": {
+                        "text": "How many centimetres long in this bug?"
+                      },
+                      "hint": {
+                        "text": "Drag the centimetre ruler to check.",
+                        "cls": ""
+                      },
+                      "drag-image": {
+                        "path": "long/images/scale.svg"
+                      },
+                      "long-images":{
+                        "play-0":{
+                          "path":"long/images/play-1.svg",
+                          "width":"20.4%",
+                          "height":"50%",
+                          "left":"39.5%",
+                          "top":"5%"
+                        },
+                        "play-1":{
+                          "path":"long/images/play-2.svg",
+                          "width":"20.4%",
+                          "height":"50%",
+                          "left":"39%",
+                          "top":"9%"
+                        },
+                        "play-2":{
+                          "path":"long/images/play-3.svg",
+                          "width":"32.4%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"7%"
+                        },
+                        "play-3":{
+                          "path":"long/images/play-4.svg",
+                          "width":"32.5%",
+                          "height":"50%",
+                          "left":"33%",
+                          "top":"5%"
+                        },
+                        "play-4":{
+                          "path":"long/images/play-5.svg",
+                          "width":"41%",
+                          "height":"50%",
+                          "left":"29%",
+                          "top":"8%"
+                        },
+                        "play-5":{
+                          "path":"long/images/play-6.svg",
+                          "width":"41%",
+                          "height":"50%",
+                          "left":"29%",
+                          "top":"8%"
+                        },
+                        "play-6":{
+                          "path":"long/images/play-7.svg",
+                          "width":"36.7%",
+                          "height":"50%",
+                          "left":"32%",
+                          "top":"7%"
+                        },
+                        "play-7":{
+                          "path":"long/images/play-8.svg",
+                          "width":"28.7%",
+                          "height":"50%",
+                          "left":"36%",
+                          "top":"7%"
+                        },
+                        "play-8":{
+                          "path":"long/images/play-9.svg",
+                          "width":"24.6%",
+                          "height":"50%",
+                          "left":"38%",
+                          "top":"5%"
+                        },
+                        "play-9":{
+                          "path":"long/images/play-10.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"7%"
+                        }
+                      },
+                      "correct-answer": [
+                        4,
+                        4,
+                        7,
+                        7,
+                        9,
+                        9,
+                        8,
+                        6,
+                        5,
+                        7
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "metre": {
+                          "path": "images/menu/one-metres-icon.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'metre', level :  'c'}"
+                        },
+                        "tall": {
+                          "path": "images/menu/centimetres-icon-two.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'tall', level :  'c'}"
+                        },
+                        "metres": {
+                          "path": "images/menu/metres-icon.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'metres', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "drag-image": {
+                        "path": "long/images/pins.svg"
+                      },
+                      "play-0": {
+                        "path":"long/images/play-1.svg"
+                      },
+                      "play-1": {
+                        "path": "long/images/play-2.svg"
+                      },
+                      "play-2": {
+                        "path": "long/images/play-3.svg"
+                      },
+                      "play-3": {
+                        "path": "long/images/play-4.svg"
+                      },
+                      "play-4": {
+                        "path": "long/images/play-5.svg"
+                      },
+                      "play-5": {
+                        "path": "long/images/play-6.svg"
+                      },
+                      "play-6": {
+                        "path": "long/images/play-7.svg"
+                      },
+                      "play-7": {
+                        "path": "long/images/play-8.svg"
+                      },
+                      "play-8": {
+                        "path": "long/images/play-9.svg"
+                      },
+                      "play-9": {
+                        "path": "long/images/play-10.svg"
+                      },
+                      "metre": {
+                        "path": "images/menu/one-metres-icon.svg"
+                      },
+                      "tall": {
+                        "path": "images/menu/centimetres-icon-two.svg"
+                      },
+                      "metres": {
+                        "path": "images/menu/metres-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+<div class="count-blocks-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard" onnumberclick="onNumberClick">
+        <!-- Add images -->
+        <div class="blocks">
+            <img ng-repeat="block in blockBox"
+                 class="{{blockImages['imageBlock'+$index].cls}} box-image"
+                 ng-style="{top: blockImages['imageBlock'+block].top,
+               left:blockImages['imageBlock'+block].left, 'z-index':1}"
+                 ng-src="{{blockImages['imageBlock'+block].path}}"
+                 width="{{blockImages['imageBlock'+block].width}}">
+        </div>
+
+        <!-- Base line -->
+        <baseline orientation="baseline.orientation"></baseline>
+
+        <!-- display question center-->
+        <div class="question-center" ng-bind-html="questionsCenter"></div>
+
+        <div class="question-container">
+            <div class="question-text" ng-bind-html="questionsBox"></div>
+            <input class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+        <!--display check buttons-->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

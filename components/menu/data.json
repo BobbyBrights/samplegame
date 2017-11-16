@@ -1,0 +1,1344 @@
+{
+  "levels": {
+    "menu": {
+      "left": null,
+      "right": null,
+      "bottom": null
+    },
+    "header": {
+      "text": "Choose Game"
+    },
+    "a": {
+      "show-level": "A first Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "count-cray-fish": {
+              "order": 0,
+              "text": "Count crayfish",
+              "path": "count-cray-fish",
+              "cls": ""
+            },
+            "more-count": {
+              "order": 1,
+              "text": "More counting",
+              "path": "more-count",
+              "cls": ""
+            },
+            "add-bugs": {
+              "order": 2,
+              "text": "Add bugs",
+              "path": "add-bugs",
+              "cls": ""
+            },
+            "subtract-skinks": {
+              "order": 3,
+              "text": "subtract skinks",
+              "path": "subtract-skinks",
+              "cls": ""
+            },
+            "group-tadpoles": {
+              "order": 4,
+              "text": "Group tadpoles",
+              "path": "group-tadpoles",
+              "cls": ""
+            },
+            "share-cicadas": {
+              "order": 5,
+              "text": "Share cicadas",
+              "path": "share-cicadas",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "beads": {
+              "order": 0,
+              "text": "Beads",
+              "path": "beads",
+              "cls": ""
+            },
+            "shapes": {
+              "order": 1,
+              "text": "Shapes",
+              "path": "shapes",
+              "cls": ""
+            },
+            "possum-patterns": {
+              "order": 2,
+              "text": "possum patterns",
+              "path": "possum-patterns",
+              "cls": ""
+            },
+            "python-patterns": {
+              "order": 3,
+              "text": "python patterns",
+              "path": "python-patterns",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "order": 0,
+              "text": "Length",
+              "path": "length-game",
+              "sub-game": "longer",
+              "cls": ""
+            },
+            "area": {
+              "order": 1,
+              "text": "Area",
+              "path": "area-game",
+              "sub-game": "drag-type",
+              "cls": ""
+            },
+            "volume": {
+              "order": 2,
+              "text": "Volume",
+              "path": "volume-game",
+              "sub-game": "drag-type",
+              "cls": ""
+            },
+            "capacity": {
+              "order": 3,
+              "text": "Capacity",
+              "path": "capacity-game",
+              "sub-game": "drag-type",
+              "cls": ""
+            },
+            "mass": {
+              "order": 4,
+              "text": "Mass",
+              "path": "mass-game",
+              "sub-game": "drag-type",
+              "cls": ""
+            },
+            "time": {
+              "order": 5,
+              "text": "Time",
+              "path": "time-game",
+              "sub-game": "word",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 3,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "three-d-shapes": {
+              "order": 0,
+              "text": "threeD Shapes",
+              "path": "three-d-shapes-game",
+              "sub-game":"sorting",
+              "cls": ""
+            },
+            "two-d-shapes": {
+              "order": 1,
+              "text": "TwoD Shapes",
+              "path": "two-d-shapes-game",
+              "sub-game": "find",
+              "cls": ""
+            },
+            "position": {
+              "order": 2,
+              "text": "Position",
+              "path": "position-game",
+              "sub-game": "drag-type",
+              "cls": ""
+            },
+            "chance-probability": {
+              "order": 3,
+              "text": "chance probability",
+              "path": "chance-probability-game",
+              "sub-game": "chance",
+              "cls": ""
+            },
+            "data-graphs": {
+              "order": 4,
+              "text": "Data Graphs",
+              "path": "data-graphs-game",
+              "cls": ""
+            }
+          }
+        }
+      }
+    },
+    "b": {
+      "show-level": "B Second Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "count-by": {
+              "order": 0,
+              "text": "Count by",
+              "path": "count-by-game",
+              "sub-game": "count-by-two",
+              "cls": ""
+            },
+            "count-to": {
+              "order": 1,
+              "text": "Count to",
+              "path": "count-to-game",
+              "sub-game": "frog",
+              "cls": ""
+            },
+            "place-value": {
+              "order": 2,
+              "text": "Place value",
+              "path": "place-value-game",
+              "sub-game": "pencile-place-value",
+              "cls": ""
+            },
+            "addition": {
+              "order": 3,
+              "text": "Addition",
+              "path": "addition-game",
+              "sub-game": "two-dice",
+              "cls": ""
+            },
+            "subtraction": {
+              "order": 4,
+              "text": "Subtraction",
+              "path": "subtraction",
+              "cls": ""
+            },
+            "multiplication": {
+              "order": 5,
+              "text": "Multiplication",
+              "path": "multiplication-game",
+              "sub-game": "bug",
+              "cls": ""
+            },
+            "division": {
+              "order": 6,
+              "text": "Division",
+              "path": "division-game",
+              "sub-type": "drag-type",
+              "cls": ""
+            },
+            "fractions": {
+              "order": 7,
+              "text": "Fractions",
+              "path": "fractions-game",
+              "sub-game": "halves",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "ones-patterns": {
+              "text": "Ones Patterns",
+              "path": "ones-patterns",
+              "cls": ""
+            },
+            "twos-patterns": {
+              "text": "Twos Patterns",
+              "path": "twos-patterns",
+              "cls": ""
+            },
+            "fives-patterns": {
+              "text": "Fives Patterns",
+              "path": "fives-patterns",
+              "cls": ""
+            },
+            "tens-patterns": {
+              "text": "Tens Patterns",
+              "path": "tens-patterns",
+              "cls": ""
+            },
+            "odd-and-evens": {
+              "text": "Odd and Evens",
+              "path": "odd-and-evens",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "order": 0,
+              "text": "Length",
+              "path": "length-game",
+              "sub-game": "metre",
+              "cls": ""
+            },
+            "area": {
+              "text": "Area",
+              "path": "area-game",
+              "sub-game": "grid-drag",
+              "cls": ""
+            },
+            "volume": {
+              "text": "Volume",
+              "path": "volume",
+              "cls": ""
+            },
+            "capacity": {
+              "text": "Capacity",
+              "path": "capacity",
+              "cls": ""
+            },
+            "mass": {
+              "text": "Mass",
+              "path": "mass",
+              "sub-game": "balance-double",
+              "cls": ""
+            },
+            "time": {
+              "text": "Time",
+              "path": "time",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 3,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "three-d-shapes": {
+              "text": "threeD Shapes",
+              "path": "three-d-shapes-game",
+              "sub-game": "sorting",
+              "cls": ""
+            },
+            "two-d-shapes": {
+              "text": "TwoD Shapes",
+              "path": "two-d-shapes-game",
+              "sub-game": "side-corners",
+              "cls": ""
+            },
+            "position": {
+              "text": "Position",
+              "path": "position-game",
+              "sub-game": "words",
+              "cls": ""
+            },
+            "chance-probability": {
+              "text": "chance probability",
+              "path": "chance-probability",
+              "cls": ""
+            },
+            "data-graphs": {
+              "text": "Data Graphs",
+              "path": "data-graphs",
+              "cls": ""
+            },
+            "money": {
+              "text": "Money",
+              "path": "money",
+              "cls": ""
+            }
+          }
+        }
+      }
+    },
+    "c": {
+      "show-level": "C third Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "place-value": {
+              "order": 0,
+              "text": "Place value",
+              "path": "place-value-game",
+              "sub-game": "pencile-place-value",
+              "cls": ""
+            },
+            "number-ordering": {
+              "order": 1,
+              "text": "Number ordering to 999",
+              "path": "number-ordering-game",
+              "sub-game": "after",
+              "cls": ""
+            },
+            "rounding-to": {
+              "order": 2,
+              "text": "rounding to 10/100",
+              "path": "rounding-to-game",
+              "sub-game":"ten",
+              "cls": ""
+            },
+            "addition": {
+              "order": 3,
+              "text": "Addition",
+              "path": "addition",
+              "cls": ""
+            },
+            "subtraction": {
+
+              "order": 4,
+              "text": "Subtraction",
+              "path": "subtraction-game",
+              "sub-game": "butterfly",
+              "cls": ""
+            },
+            "multiplication": {
+              "order": 5,
+              "text": "Multiplication",
+              "path": "multiplication-game",
+              "sub-game": "bug",
+              "cls": ""
+            },
+            "division": {
+              "order": 6,
+              "text": "Division",
+              "path": "division-game",
+              "sub-game": "beetal",
+              "cls": ""
+            },
+            "fractions": {
+
+              "order": 7,
+              "text": "Fractions",
+              "path": "fractions-game",
+              "sub-game": "halves",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "forward-patterns": {
+              "order": 0,
+
+              "text": "Forward Patterns",
+              "path": "forward-patterns",
+              "cls": ""
+            },
+            "backward-patterns": {
+              "order": 1,
+              "text": "Backward Patterns",
+              "path": "backward-patterns",
+              "cls": ""
+            },
+
+            "odd-and-evens": {
+              "order": 2,
+              "text": "Odd and Evens",
+              "path": "odd-and-evens",
+              "cls": ""
+            },
+            "input-output": {
+              "order": 3,
+              "text": "Input Output",
+              "path": "input-output",
+              "cls": ""
+            },
+
+            "tables": {
+              "order": 4,
+              "text": "tables",
+              "path": "tables",
+              "cls": ""
+            },
+            "equality": {
+              "order": 5,
+              "text": "Equality",
+              "path": "equality",
+              "cls": ""
+            },
+            "opposite": {
+              "order": 6,
+              "text": "Opposite",
+              "path": "opposite",
+              "cls": ""
+            },
+            "commutative-property": {
+              "order": 7,
+              "text": "Commutative Property",
+              "path": "commutative-property",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "order": 0,
+              "text": "Length",
+              "path": "length-game",
+
+              "sub-game": "metre",
+              "cls": ""
+            },
+            "area": {
+              "order": 1,
+              "text": "Area",
+              "path": "area-game",
+              "sub-game": "sketchpad",
+              "cls": ""
+            },
+            "volume": {
+              "order": 2,
+              "text": "Volume",
+              "path": "volume-game",
+              "sub-game": "input-type",
+              "cls": ""
+            },
+            "capacity": {
+              "order": 3,
+              "text": "Capacity",
+              "path": "capacity-game",
+              "sub-game": "input-type",
+              "cls": ""
+            },
+            "mass": {
+              "order": 4,
+              "text": "Mass",
+              "path": "mass-game",
+              "sub-game": "input-type",
+              "cls": ""
+            },
+            "time": {
+              "order": 5,
+              "text": "Time",
+              "path": "time",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 3,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "three-d-shapes": {
+
+              "order": 0,
+              "text": "threeD Shapes",
+              "path": "three-d-shapes",
+              "cls": ""
+            },
+            "two-d-shapes": {
+
+              "order": 1,
+              "text": "TwoD Shapes",
+              "path": "two-d-shapes",
+              "cls": ""
+            },
+            "position": {
+              "order": 3,
+              "text": "Position",
+              "path": "position",
+              "cls": ""
+            },
+            "chance-probability": {
+              "order": 4,
+              "text": "chance probability",
+              "path": "chance-probability",
+              "cls": ""
+            },
+            "data-graphs": {
+              "order": 5,
+              "text": "Data Graphs",
+              "path": "data-graphs",
+              "cls": ""
+            },
+            "money": {
+              "order": 6,
+              "text": "Money",
+              "path": "money",
+              "cls": ""
+            }
+          }
+        }
+      }
+    },
+    "d": {
+      "show-level": "D fourth Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "to-999": {
+              "text": "To 999",
+              "path": "to-999",
+              "cls": ""
+            },
+            "numbers-to-9999": {
+              "text": "Numbers To 9999",
+              "path": "numbers-to-9999",
+              "cls": ""
+            },
+            "rounding-to-nearest-10": {
+              "text": "Rounding to nearest 10",
+              "path": "rounding-to-nearest-10",
+              "cls": ""
+            },
+            "addition": {
+              "text": "Addition",
+              "path": "addition",
+              "cls": ""
+            },
+            "subtracion": {
+              "text": "Subtracion",
+              "path": "subtracion",
+              "cls": ""
+            },
+            "multiplication": {
+              "text": "Multiplication",
+              "path": "Multiplication",
+              "cls": ""
+            },
+            "division": {
+              "text": "Division",
+              "path": "division",
+              "cls": ""
+            },
+            "fraction": {
+              "text": "Fractions",
+              "path": "fraction",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "tens-patterns": {
+              "text": "Tens Patterns",
+              "path": "tens-patterns",
+              "cls": ""
+            },
+            "hundreds-patterns": {
+              "text": "Hundreds Patterns",
+              "path": "hundreds-patterns",
+              "cls": ""
+            },
+            "other-number-patterns": {
+              "text": "Other Number Patterns",
+              "path": "Other-number-patterns",
+              "cls": ""
+            },
+            "input-output": {
+              "text": "Input output",
+              "path": "input-output",
+              "cls": ""
+            },
+            "tables": {
+              "text": "Tables",
+              "path": "tables",
+              "cls": ""
+            },
+            "equilance": {
+              "text": "Equilance",
+              "path": "equilance",
+              "cls": ""
+            },
+            "inverse-operations": {
+              "text": "Inverse Operations",
+              "path": "inverse-operations",
+              "cls": ""
+            },
+            "properties": {
+              "text": "Properties",
+              "path": "properties",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "text": "Length",
+              "path": "length",
+              "cls": ""
+            },
+            "area": {
+              "text": "Area",
+              "path": "area",
+              "cls": ""
+            },
+            "volume": {
+              "text": "Volume",
+              "path": "volume",
+              "cls": ""
+            },
+            "capacity": {
+              "text": "Capacity",
+              "path": "capacity",
+              "cls": ""
+            },
+            "mass": {
+              "text": "Mass",
+              "path": "mass",
+              "cls": ""
+            },
+            "time": {
+              "text": "Time",
+              "path": "time",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 3,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "threed-shapes": {
+              "text": "threeD Shapes",
+              "path": "threeD-shapes",
+              "cls": ""
+            },
+            "twod-shapes": {
+              "text": "TwoD Shapes",
+              "path": "twoD-shapes",
+              "cls": ""
+            },
+            "position": {
+              "text": "Position",
+              "path": "position",
+              "cls": ""
+            },
+            "chance-probabilty": {
+              "text": "chance probabilty",
+              "path": "chance-probabilty",
+              "cls": ""
+            },
+            "data-graphs": {
+              "text": "Data Graphs",
+              "path": "data-graphs",
+              "cls": ""
+            },
+            "money": {
+              "text": "Money",
+              "path": "money",
+              "cls": ""
+            }
+          }
+        }
+      }
+    },
+    "e": {
+      "show-level": "E fifth Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "place-value": {
+              "text": "Place Value",
+              "path": "place-value",
+              "cls": ""
+            },
+            "numbers-ordering-expanding": {
+              "text": "Numbers Ordering Expanding",
+              "path": "numbers-ordering-expanding",
+              "cls": ""
+            },
+            "rounding-to-100/1000": {
+              "text": "Rounding to 100/1000",
+              "path": "rounding-to-100/1000",
+              "cls": ""
+            },
+            "addition": {
+              "text": "Addition",
+              "path": "addition",
+              "cls": ""
+            },
+            "subtracion": {
+              "text": "Subtracion",
+              "path": "subtracion",
+              "cls": ""
+            },
+            "multiplication": {
+              "text": "Multiplication",
+              "path": "Multiplication",
+              "cls": ""
+            },
+            "division": {
+              "text": "Division",
+              "path": "division",
+              "cls": ""
+            },
+            "fraction": {
+              "text": "Fractions",
+              "path": "fraction",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "tens-patterns": {
+              "text": "Tens Patterns",
+              "path": "tens-patterns",
+              "cls": ""
+            },
+            "hundreds-patterns": {
+              "text": "Hundreds Patterns",
+              "path": "hundreds-patterns",
+              "cls": ""
+            },
+            "other-number-patterns": {
+              "text": "Other Number Patterns",
+              "path": "Other-number-patterns",
+              "cls": ""
+            },
+            "input-output": {
+              "text": "Input output",
+              "path": "input-output",
+              "cls": ""
+            },
+            "tables": {
+              "text": "Tables",
+              "path": "tables",
+              "cls": ""
+            },
+            "equilance": {
+              "text": "Equilance",
+              "path": "equilance",
+              "cls": ""
+            },
+            "inverse-operations": {
+              "text": "Inverse Operations",
+              "path": "inverse-operations",
+              "cls": ""
+            },
+            "properties": {
+              "text": "Properties",
+              "path": "properties",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "text": "Length",
+              "path": "length",
+              "cls": ""
+            },
+            "area": {
+              "text": "Area",
+              "path": "area",
+              "cls": ""
+            },
+            "volume": {
+              "text": "Volume",
+              "path": "volume",
+              "cls": ""
+            },
+            "capacity": {
+              "text": "Capacity",
+              "path": "capacity",
+              "cls": ""
+            },
+            "mass": {
+              "text": "Mass",
+              "path": "mass",
+              "cls": ""
+            },
+            "time": {
+              "text": "Time",
+              "path": "time",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 3,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "threed-shapes": {
+              "text": "threeD Shapes",
+              "path": "threeD-shapes",
+              "cls": ""
+            },
+            "twod-shapes": {
+              "text": "TwoD Shapes",
+              "path": "twoD-shapes",
+              "cls": ""
+            },
+            "position": {
+              "text": "Position",
+              "path": "position",
+              "cls": ""
+            },
+            "chance-probabilty": {
+              "text": "chance probabilty",
+              "path": "chance-probabilty",
+              "cls": ""
+            },
+            "data-graphs": {
+              "text": "Data Graphs",
+              "path": "data-graphs",
+              "cls": ""
+            },
+            "money": {
+              "text": "Money",
+              "path": "money",
+              "cls": ""
+            }
+          }
+        }
+      }
+    },
+    "f": {
+      "show-level": "F sixth Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "to 999 - 9999": {
+              "text": "To 999 - 9999",
+              "path": "To 999 - 9999",
+              "cls": ""
+            },
+            "numbers": {
+              "text": "Numbers",
+              "path": "numbers",
+              "cls": ""
+            },
+            "rounding-to-10/100/1000": {
+              "text": "Rounding to 10/100/1000",
+              "path": "rounding-to-10/100/1000",
+              "cls": ""
+            },
+            "addition": {
+              "text": "Addition",
+              "path": "addition",
+              "cls": ""
+            },
+            "subtracion": {
+              "text": "Subtracion",
+              "path": "subtracion",
+              "cls": ""
+            },
+            "multiplication": {
+              "text": "Multiplication",
+              "path": "Multiplication",
+              "cls": ""
+            },
+            "division": {
+              "text": "Division",
+              "path": "division",
+              "cls": ""
+            },
+            "fraction": {
+              "text": "Fractions",
+              "path": "fraction",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "number-sequences": {
+              "text": "Number Sequences",
+              "path": "number-sequences",
+              "cls": ""
+            },
+            "calculator-patterns": {
+              "text": "Calculator Patterns",
+              "path": "calculator-patterns",
+              "cls": ""
+            },
+            "input-output": {
+              "text": "Input output",
+              "path": "input-output",
+              "cls": ""
+            },
+            "tables-rates": {
+              "text": "Tables Rates",
+              "path": "tables-rates",
+              "cls": ""
+            },
+            "equilance": {
+              "text": "Equilance",
+              "path": "equilance",
+              "cls": ""
+            },
+            "balance": {
+              "text": "balance",
+              "path": "balance",
+              "cls": ""
+            },
+            "order-of-operations": {
+              "text": "Order of Operations",
+              "path": "order-of-operations",
+              "cls": ""
+            },
+            "properties": {
+              "text": "Properties",
+              "path": "properties",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "text": "Length",
+              "path": "length",
+              "cls": ""
+            },
+            "area": {
+              "text": "Area",
+              "path": "area",
+              "cls": ""
+            },
+            "volume": {
+              "text": "Volume",
+              "path": "volume",
+              "cls": ""
+            },
+            "capacity": {
+              "text": "Capacity",
+              "path": "capacity",
+              "cls": ""
+            },
+            "mass": {
+              "text": "Mass",
+              "path": "mass",
+              "cls": ""
+            },
+            "time": {
+              "text": "Time",
+              "path": "time",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 3,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "threed-shapes": {
+              "text": "threeD Shapes",
+              "path": "threeD-shapes",
+              "cls": ""
+            },
+            "twod-shapes": {
+              "text": "TwoD Shapes",
+              "path": "twoD-shapes",
+              "cls": ""
+            },
+            "position": {
+              "text": "Position",
+              "path": "position",
+              "cls": ""
+            },
+            "chance-probabilty": {
+              "text": "chance probabilty",
+              "path": "chance-probabilty",
+              "cls": ""
+            },
+            "data-graphs": {
+              "text": "Data Graphs",
+              "path": "data-graphs",
+              "cls": ""
+            },
+            "money": {
+              "text": "Money",
+              "path": "money",
+              "cls": ""
+            }
+          }
+        }
+      }
+    },
+    "g": {
+      "show-level": "G Seventh Year of school",
+      "category-order": [
+        "number",
+        "algebra-patterns",
+        "measurement",
+        "space"
+      ],
+      "categories": {
+        "number": {
+          "order": 0,
+          "key": "number",
+          "text": "Number",
+          "games": {
+            "to 999 - 999": {
+              "order": 0,
+              "text": "To 999 999 999",
+              "path": "To 999 - 999",
+              "cls": ""
+            },
+            "numbers": {
+              "order": 1,
+              "text": "Numbers",
+              "path": "numbers",
+              "cls": ""
+            },
+            "rounding-to-10/100/1000": {
+              "order": 2,
+              "text": "Rounding to 10/100/1000",
+              "path": "rounding-to-10/100/1000",
+              "cls": ""
+            },
+            "addition": {
+              "order": 3,
+              "text": "Addition",
+              "path": "addition",
+              "cls": ""
+            },
+            "subtracion": {
+              "order": 4,
+              "text": "Subtracion",
+              "path": "subtracion",
+              "cls": ""
+            },
+            "multiplication": {
+              "order": 5,
+              "text": "Multiplication",
+              "path": "Multiplication",
+              "cls": ""
+            },
+            "division": {
+              "order": 6,
+              "text": "Division",
+              "path": "division",
+              "cls": ""
+            },
+            "fraction": {
+              "order": 7,
+              "text": "Fractions",
+              "path": "fraction",
+              "cls": ""
+            }
+          }
+        },
+        "algebra-patterns": {
+          "order": 1,
+          "key": "algebra-patterns",
+          "text": "Algebra: Patterns",
+          "games": {
+            "number-sequences": {
+              "order": 0,
+              "text": "Number Sequences",
+              "path": "number-sequences",
+              "cls": ""
+            },
+            "calculator-patterns": {
+              "order": 1,
+              "text": "Calculator Patterns",
+              "path": "calculator-patterns",
+              "cls": ""
+            },
+            "input-output": {
+              "order": 2,
+              "text": "Input output",
+              "path": "input-output",
+              "cls": ""
+            },
+            "tables-rates": {
+              "order": 3,
+              "text": "Tables Rates",
+              "path": "tables-rates",
+              "cls": ""
+            },
+            "equilance": {
+              "order": 4,
+              "text": "Equilance",
+              "path": "equilance",
+              "cls": ""
+            },
+            "balance": {
+              "order": 5,
+              "text": "balance",
+              "path": "balance",
+              "cls": ""
+            },
+            "order-of-operations": {
+              "order": 6,
+              "text": "Order of Operations",
+              "path": "order-of-operations",
+              "cls": ""
+            },
+            "properties": {
+              "order": 7,
+              "text": "Properties",
+              "path": "properties",
+              "cls": ""
+            }
+          }
+        },
+        "measurement": {
+          "order": 2,
+          "key": "measurement",
+          "text": "Measurement",
+          "games": {
+            "length": {
+              "order": 0,
+              "text": "Length",
+              "path": "length",
+              "cls": ""
+            },
+            "area": {
+              "order": 1,
+              "text": "Area",
+              "path": "area",
+              "cls": ""
+            },
+            "volume": {
+              "order": 2,
+              "text": "Volume",
+              "path": "volume",
+              "cls": ""
+            },
+            "capacity": {
+              "order": 3,
+              "text": "Capacity",
+              "path": "capacity",
+              "cls": ""
+            },
+            "mass": {
+              "order": 4,
+              "text": "Mass",
+              "path": "mass",
+              "cls": ""
+            },
+            "time": {
+              "order": 5,
+              "text": "Time",
+              "path": "time",
+              "cls": ""
+            }
+          }
+        },
+        "space": {
+          "order": 2,
+          "key": "space",
+          "text": "Space",
+          "games": {
+            "threed-shapes": {
+              "order": 0,
+              "text": "threeD Shapes",
+              "path": "threeD-shapes",
+              "cls": ""
+            },
+            "twod-shapes": {
+              "order": 1,
+              "text": "TwoD Shapes",
+              "path": "twoD-shapes",
+              "cls": ""
+            },
+            "position": {
+              "order": 2,
+              "text": "Position",
+              "path": "position",
+              "cls": ""
+            },
+            "chance-probabilty": {
+              "order": 3,
+              "text": "chance probabilty",
+              "path": "chance-probabilty",
+              "cls": ""
+            },
+            "data-graphs": {
+              "order": 4,
+              "text": "Data Graphs",
+              "path": "data-graphs",
+              "cls": ""
+            },
+            "money": {
+              "order": 5,
+              "text": "Money",
+              "path": "money",
+              "cls": ""
+            }
+          }
+        }
+      }
+    }
+  }
+}

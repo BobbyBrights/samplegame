@@ -1,0 +1,45 @@
+<div class="grid-drag-page">
+
+    <work-area menu="menu" next="next"
+               check="check"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+
+        <!-- Display table-->
+        <div class="table-container" drop-zone group="0"></div>
+
+        <!--Display stamp image-->
+        <div class="image-box">
+            <img id="image-box{{$index}}" ng-repeat="image in imageCount track by $index"
+                 class="pos-absolute image-container"
+                 ng-src="{{stampImages['stamp' + image].path}}"
+                 width="{{stampImages['stamp' + image].width}}"/>
+        </div>
+
+        <!--Display grid image-->
+        <img id="grid" ng-src="{{gridImage.path}}" drag-item width="{{gridImage.width}}" class="pos-absolute"
+             group="0" ng-style="{top: gridImage.top, left:gridImage.left}"/>
+
+        <!-- Display stamp hint text -->
+        <div class="stamp-hint-text common-hint-text" ng-bind-html="stampHint"></div>
+
+
+        <!--display question text with input box -->
+        <div class="question-container">
+            <span class="question-text text-left">The stamps equals</span>
+            <input class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+            <span class=" question-text text-right">Squares</span>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+
+    </work-area>
+</div>

@@ -1,0 +1,25 @@
+<div class="flip-slide-page">
+    <work-area menu="menu" reset="reset" header="header">
+
+        <div class="control-panel">
+            <img ng-repeat="img in buttons"
+                 class="pos-absolute ctrl-btn"
+                 id="{{img.id}}"
+                 ng-src="{{img.path}}"
+                 ng-click="(img.id =='flip')? flipFunction() : click()"
+                 width="{{img.width}}"
+                 ng-style="{left:img.left,top:img.top}"/>
+            <game-images ng-repeat="img in image" images="img"></game-images>
+        </div>
+
+        <game-images ng-repeat="img in shadow" images="img"></game-images>
+
+        <img ng-src="{{lizard.path}}" id="lizard" width="{{lizard.width}}"/>
+
+        <div class="sub-hint hint-text" ng-bind-html="subHint"></div>
+        <div class="reset-button reset-btn" ng-click="resetButton()">Reset</div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+        <div class="hint-text hint-pos" ng-bind-html="questionLabel"></div>
+    </work-area>
+</div>

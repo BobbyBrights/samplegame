@@ -1,0 +1,125 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-division-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.division-page {
+  .input-type-page{
+
+  }
+  // Game specific styles
+  .sketch-pad-base {
+    position: absolute;
+    width: 84%;
+    height: 71%;
+    top: 0;
+    left: 14%;
+  }
+
+  .number-line {
+    position: absolute;
+    width: 20%;
+    left: 34%;
+    top: 1%;
+    font-size: 1.6vw;
+    text-align: right;
+    color: #d97f5e;
+  }
+
+  .correct-answer {
+    position: absolute;
+    width: 5%;
+    left: 55%;
+    top: 1%;
+    font-size: 1.6vw;
+    text-align: left;
+    color: #d97f5e;
+  }
+
+  .butterfly-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 16%;
+    top: 13%;
+    width: 81%;
+    height: 35%;
+    justify-content: center;
+
+    .butterfly {
+      width: 9%;
+      height: 44%;
+      margin-left: 1%;
+    }
+  }
+
+  .flower-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 13%;
+    top: 50%;
+    width: 85%;
+    height: 20%;
+    justify-content: center;
+
+    .flower {
+      width: 17%;
+      margin-left: 5%;
+    }
+  }
+
+  .input-text {
+    position: absolute;
+    top: 74%;
+    left: 24.6%;
+    line-height: 2.5;
+    width: 51.2%;
+    height: 14.7%;
+    color: #1b4123;
+    text-align: center;
+    font-size: 1.5vw;
+    border-radius: .8vw;
+    background-color: #c0de94;
+    outline: none;
+  }
+
+  .check-btns {
+    position: absolute;
+    top: 75%;
+    left: 85.4%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 75%;
+    left: 85.4%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .clear-btn {
+    position: absolute;
+    left: 1%;
+    top: 82%;
+    width: 10%;
+    height: 11%;
+  }
+
+  .division-page {
+    .left-panel-menu a {
+      width:60%;
+    }
+  }
+}

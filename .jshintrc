@@ -1,0 +1,43 @@
+{
+  "bitwise": true,
+  "camelcase": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "forin": false,
+  "freeze": false,
+  "immed": true,
+  "indent": 2,
+  "latedef": "nofunc",
+  "newcap": true,
+  "noarg": true,
+  "noempty": true,
+  "nonbsp": true,
+  "nonew": true,
+  "plusplus": false,
+  "quotmark": "single",
+  "undef": true,
+  "unused": true,
+  "strict": false,
+  "maxparams": 20,
+  "maxdepth": 5,
+  "maxlen": 120,
+  "esnext": true,
+  "jasmine": true,
+  "browserify": true,
+  "devel": true,
+  "browser": true,
+  "jquery": true,
+  "globals": {
+    "_": false,
+    "$": false,
+    "angular": false,
+    "document": false,
+    "require": false
+  },
+  // Ignored Warnings
+  // 'x' was used before it was defined
+  "-W003": true,
+  // Unnecessary directive 'ngInject'
+  "-W034": true
+}

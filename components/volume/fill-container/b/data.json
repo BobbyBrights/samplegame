@@ -1,0 +1,118 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "volume": {
+              "types": {
+                "fill-container": {
+                  "home": {
+                    "header": {
+                      "text": "Blocks Measurement"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Select play. Then enter the number in the box.",
+                        "cls": ""
+                      },
+                      "questions-box": {
+                        "text": "blocks"
+                      },
+                      "questions-center": {
+                        "text": "How many blocks will fill the container?"
+                      },
+                      "static-image": {
+                        "path": "fill-container/images/static-square-box.svg"
+                      },
+                      "play-image": {
+                        "path": "fill-container/images/play-button.svg"
+                      },
+                      "random-images": {
+                        "square-0": {
+                          "node": "cubes0",
+                          "cls": "pos-absolute",
+                          "size": "20, 20",
+                          "position": "66.8,39.5",
+                          "svgsize": "210,135",
+                          "cubes": "4"
+                        },
+                        "square-1": {
+                          "node": "cubes1",
+                          "cls": "pos-absolute",
+                          "size": "30, 30",
+                          "position": "66.8,37.5",
+                          "svgsize": "292,135",
+                          "cubes": "6"
+                        },
+                        "square-2": {
+                          "node": "cubes2",
+                          "cls": "pos-absolute",
+                          "size": "20, 20",
+                          "position": "66.8,22.5",
+                          "svgsize": "210,220",
+                          "cubes": "8"
+                        },
+                        "square-3": {
+                          "node": "cubes3",
+                          "cls": "pos-absolute",
+                          "size": "30, 40",
+                          "position": "66.8,19",
+                          "svgsize": "292,211",
+                          "cubes": "12"
+                        },
+                        "square-4": {
+                          "node": "cubes4",
+                          "cls": "pos-absolute",
+                          "size": "22, 25",
+                          "position": "66.8,18",
+                          "svgsize": "314,324",
+                          "cubes": "27"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "input-click-type": {
+                          "path": "images/menu/count-block.svg",
+                          "state": "^.volume-game",
+                          "params": "{category : 'measurement', game : 'input-click-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "static-image": {
+                        "path": "fill-container/images/static-square-box.svg"
+                      },
+                      "play-image": {
+                        "path": "fill-container/images/play-button.svg"
+                      },
+                      "input-click-type": {
+                        "path": "images/menu/count-block.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "next-game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

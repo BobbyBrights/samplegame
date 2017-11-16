@@ -1,0 +1,42 @@
+<div class="count-to-page">
+    <work-area id="workArea" menu="menu" header="header">
+
+        <div class="bowl">
+            <div ng-if="!isGamePage">
+                <a href="#" ui-sref="app.home.level.menu.count-to-game({category: category, game: 'frog'})">
+                    <img class="{{buttonImages.frog.cls}}" ng-src="{{buttonImages.frog.path}}"
+                         ng-style="{top: buttonImages.frog.top, left: buttonImages.frog.left}">
+                </a>
+                <br>
+                <a href="#" ui-sref="app.home.level.menu.count-to-game({category: category, game: 'block'})">
+                    <img class="{{buttonImages.block.cls}}" ng-src="{{buttonImages.block.path}}"
+                         ng-style="{top: buttonImages.block.top, left: buttonImages.block.left}">
+                </a>
+                <br>
+                <a href="#"
+                   ui-sref="app.home.level.menu.count-to-game({category: category, game: 'counter'})">
+                    <img class="{{buttonImages.counter.cls}}" ng-src="{{buttonImages.counter.path}}"
+                         ng-style="{top: buttonImages.counter.top, left: buttonImages.counter.left}">
+                </a>
+
+                <!--Display jar cap text-->
+                <div ng-repeat="i in [0,1,2]" class="jar-text jar-cap-text-color"
+                     ng-style="{position:'absolute','top':'5%','left':(1) + $index * 37.1+'%',width:'27.5%'}">
+                    <span>{{jarCapText[i]}}</span>
+                </div>
+
+                <!--Display jar bottom text-->
+                <div ng-repeat="i in [0,1,2]" class="jar-text jar-bottom-text-color"
+                     ng-style="{position:'absolute','top':'95%','left':(1) + $index * 37.1+'%',width:'27.5%'}">
+                    <span>{{jarBottomText[i]}}</span>
+                </div>
+
+            </div>
+        </div>
+        <!--Display hint text-->
+        <div class="hint-text" ng-bind-html="hint"></div>
+
+    </work-area>
+
+    <div ui-view="{{gamePageView}}"></div>
+</div>

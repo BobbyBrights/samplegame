@@ -1,0 +1,106 @@
+/* Sub game namespace */
+.to-twenty-page {
+  .data-content {
+    display: flex;
+    justify-content: space-between;
+    top: 60%;
+    position: absolute;
+    width: 67.3%;
+    height: 26%;
+    margin-left: 16.4%;
+    border-radius: 1vw;
+    background-color: #c0de94;
+    box-shadow: 0.3vw 0 0.5vw -0.2vw hsla(0, 0%, 53%, .67);
+    .input-box {
+      width: 14%;
+      height: 4.6vw;
+      font-size: 3vw;
+      text-align: center;
+      margin-left: 2.6%;
+      margin-right: 2.6%;
+      margin-top: 0.3%;
+    }
+    .plus-sign {
+      position: absolute;
+      left: 27.5%;
+      top: 71%;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+    .equal-sign {
+      position: absolute;
+      left: 66%;
+      top: 71%;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+  }
+  .circle-container {
+    position: absolute;
+    margin-top: 3.1%;
+    padding-left: 12%;
+    height: 16%;
+    width: 28%;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: row;
+    //flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    width: 7vw;
+    height: 13vw;
+    top: 4.3%;
+    position: absolute;
+    .grid-content {
+      display: flex;
+      flex-direction: column;
+
+      .cell-content {
+        width: 3.5vw;
+        height: 2.5vw;
+        border: 1px groove black;
+      }
+    }
+  }
+  .first-grid {
+    left: 32.9%;
+    border: 1px groove black;
+  }
+  .second-grid {
+    left: 54.9%;
+    border: 1px groove black;
+  }
+
+  .check {
+    width: 12%;
+    position: absolute;
+    bottom: 4%;
+    left: 74%;
+    z-index: 99;
+    line-height: 2.3;
+    height: 3.5vw;
+  }
+  .sign-box {
+    width: 14%;
+    height: 48%;
+    margin-top: 4.1%;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 22%;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+
+    .symbol {
+      margin-top: 1.7%;
+    }
+  }
+  .blue-box {
+    background-color: rgba(52, 152, 219, 0.83);
+  }
+  .red-box {
+    background-color: rgb(255, 101, 0);
+  }
+}

@@ -1,0 +1,46 @@
+<div class="capacity-II-page">
+    <work-area menu="menu"
+               next="next"
+               getscoreboard="getScoreboard"
+               header="header" onnumberclick="onNumberClick">
+        <!--question Level-->
+        <div class="question-label ">{{questionLabel}}</div>
+        <!--Empty jug-->
+        <div class="check-btn fill" id="fill" ng-click="fill($event)">Fill</div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText[0]" position="2,80"></div>
+        <div class="hint-text" ng-bind-html="questionText[1]" position="2,90"></div>
+
+        <!--filled containers-->
+        <game-images ng-repeat="image in noOfImages  | range track by $index"
+                     ng-style="{left:left+($index * diff)+'%',top:top+'%'}"
+                     images="fillImages" id="{{$index}}" class="waterHolder">
+        </game-images>
+        <!--empty containers-->
+        <game-images ng-repeat="image in noOfImages  | range track by $index"
+                     ng-style="{left:left+($index * diff)+'%',top:top+'%'}"
+                     images="images" id="fill{{$index}}" class="waterHolder">
+        </game-images>
+
+        <!--Empty water jug-->
+        <img ng-if="!fillState" id="empty-jug" ng-src="{{ContainerImages['emptyJug'].path}}"/>
+        <!--Filling water jug-->
+        <div ng-if="fillState" id="filling-water" ng-style="{left:waterJugPosition+'%',top:'5%'}"></div>
+
+        <div class="question-container">
+            <input ng-repeat="input in 2| range track by $index" id="input{{$index}}"
+                   class="input-box"
+                   position="{{1.5+ ($index * 42)}},5"
+                   maxlength="1"
+                   ng-disabled="inputBox"
+                   ng-model="inputs[$index]"
+                   ng-focus="inputClick($index)"/>
+            <div ng-repeat="input in 2| range track by $index" class="number-count" ng-bind-html="text[$index]"
+                 position="{{5+ ($index * 50)}},1"></div>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+    </work-area>
+</div>

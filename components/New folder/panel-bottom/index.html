@@ -1,0 +1,14 @@
+<div class="bottom-panel-menu" ng-class="{open: menu}">
+  <div ng-if="menu" class="panel-inner">
+    <num-pad ng-if="$ctrl.menu.numPad"
+             menu="$ctrl.menu"
+             buttons="$ctrl.menu.numPad"
+             onnumberclick="$ctrl.onnumberclick">
+    </num-pad>
+    <div ng-if="$ctrl.plus && $ctrl.minus" class="buttons center">
+      <a ng-if="$ctrl.plus" href="#" ng-click="$ctrl.plus($event)"  class="plus-btn">+</a>
+      <a ng-if="$ctrl.minus" href="#" ng-click="$ctrl.minus($event)"  class="minus-btn">-</a>
+    </div>
+  </div>
+  <div class="bamboo"></div>
+</div>

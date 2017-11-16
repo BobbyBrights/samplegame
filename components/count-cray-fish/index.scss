@@ -1,0 +1,67 @@
+/* @import './style'; */
+
+// Add background layout
+/*.app-home-level-menu-count-cray-fish-layout {
+  .banner {
+    background-image: url('./../assets/images/backgrounds/level-a/background.jpg');
+  }
+}*/
+
+/* Game main namespace */
+.count-cray-fish-page {
+  // Page title image
+
+  .game-body {
+    padding-left: 0.29%;
+  }
+
+  .game-body .game-stage {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    margin-left: 0.3%;
+  }
+
+  .fish-card {
+    display: block;
+    background-color:#fcf1b6;
+    width: 5vw;
+    border-radius: .5vw;
+    height: 7vw;
+    position: relative;
+    margin-bottom: 1.5%;
+    margin-left: 1.05%;
+    box-shadow: 0 0.05vw 0 #b3b3b3;
+
+    .image-box {
+      display: block;
+      border: 0.1vw solid #908E7D;
+      width: 3.6vw;
+      border-radius: .3vw;
+      height: 5.7vw;
+      position: relative;
+      margin-bottom: 1.5%;
+      margin-top: 11%;
+      margin-left: 12.77%;
+    }
+
+    .count {
+      display: inline-block;
+      position: absolute;
+      top: 78%;
+      left: 0%;
+      width: 100%;
+      text-align: center;
+      font-size: 1.4vw;
+      line-height: 2.2vw;
+
+      span {
+        background-color: #fcf1b6;
+        line-height: 0.6vw;
+        display: inline-block;
+        padding: 0 2%;
+      }
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "capacity": {
+              "types": {
+                "drag-half-type": {
+                  "home": {
+                    "header": {
+                      "text": "drag-half-type"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                      "mug-image": {
+                        "path": "drag-half-type/images/static-half-litre.svg",
+                        "cls": "pos-absolute",
+                        "width": "100%",
+                        "height": "45%",
+                        "left": "0%",
+                        "top": "-8%"
+                      }
+                    },
+                    "question": {
+                      "baseline": {
+                        "orientation": "horizontal"
+                      },
+                      "container-images": {
+                      "container0": {
+                        "path": "drag-half-type/images/screen1-holds-more.svg",
+                        "width": "13%",
+                        "top":"40%"
+                      },
+                      "container1": {
+                        "path": "drag-half-type/images/screen1-holds-less.svg",
+                        "width": "16%",
+                        "top":"60%"
+                      },
+                      "container2": {
+                        "path": "drag-half-type/images/screen2-holds-less.svg",
+                        "width": "4%",
+                        "top":"44%"
+                      },
+                      "container3": {
+                        "path": "drag-half-type/images/screen2-holds-more.svg",
+                        "width": "5%",
+                        "top":"39%"
+                      },
+                      "container4": {
+                        "path": "drag-half-type/images/screen3-holds-more.svg",
+                        "width": "13%",
+                        "top":"41%"
+                      },
+                      "container5": {
+                        "path": "drag-half-type/images/screen3-holds-less.svg",
+                        "width": "5%",
+                        "top":"39%"
+                      },
+                      "container6": {
+                        "path": "drag-half-type/images/screen4-holds-more.svg",
+                        "width": "13%",
+                        "top":"44%"
+                      },
+                      "container7": {
+                        "path": "drag-half-type/images/screen4-holds-less.svg",
+                        "width": "10%",
+                        "top":"40%"
+                      },
+                      "container8": {
+                        "path": "drag-half-type/images/screen5-holds-more.svg",
+                        "width": "10%",
+                        "top":"44%"
+                      },
+                      "container9": {
+                        "path": "drag-half-type/images/screen5-holds-less.svg",
+                        "width": "8%",
+                        "top":"46%"
+                      },
+                      "container10": {
+                        "path": "drag-half-type/images/screen6-holds-more.svg",
+                        "width": "10%",
+                        "top":"57%"
+                      },
+                      "container11": {
+                        "path": "drag-half-type/images/screen6-holds-less.svg",
+                        "width": "10%",
+                        "top":"40%"
+                      },
+                      "container12": {
+                        "path": "drag-half-type/images/screen7-holds-more.svg",
+                        "width": "10%",
+                        "top":"40%"
+                      },
+                      "container13": {
+                        "path": "drag-half-type/images/screen7-holds-less.svg",
+                        "width": "9%",
+                        "top":"43%"
+                      },
+                      "container14": {
+                        "path": "drag-half-type/images/screen8-holds-less.svg",
+                        "width": "6%",
+                        "top":"50%"
+                      },
+                      "container15": {
+                        "path": "drag-half-type/images/screen8-holds-more.svg",
+                        "width": "8%",
+                        "top":"45%"
+                      },
+                      "container16": {
+                        "path": "drag-half-type/images/screen9-holds-less.svg",
+                        "width": "9%",
+                        "top":"45%"
+                      },
+                      "container17": {
+                        "path": "drag-half-type/images/screen9-holds-more.svg",
+                        "width": "6%",
+                        "top":"52%"
+                      },
+                      "container18": {
+                        "path": "drag-half-type/images/screen10-holds-less.svg",
+                        "width": "6%",
+                        "top":"47%"
+                      },
+                      "container19": {
+                        "path": "drag-half-type/images/screen10-holds-more.svg",
+                        "width": "8%",
+                        "top": "40%"
+                        }
+                      },
+                      "sign": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute invisible"
+                      },
+                      "drag-items": [
+                        "holds more",
+                        "holds less"
+                      ],
+                      "drag-positions": [
+                        "30.6,112.5",
+                        "50.3,112.5"
+                      ],
+                      "min-value": 0,
+                      "max-value": 2,
+                      "hint": {
+                        "text": "Drag the cards.",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "input-type": {
+                          "path": "images/menu/input-type.svg",
+                          "state": "^.capacity-game",
+                          "params": "{category : 'measurement', game : 'input-type', level :  'c'}"
+                        },
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.capacity-game",
+                          "params": "{category : 'measurement', game : 'drag-type', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "container0": {
+                        "path": "drag-half-type/images/screen1-holds-more.svg"
+                      },
+                      "container1": {
+                        "path": "drag-half-type/images/screen1-holds-less.svg"
+                      },
+                      "container2": {
+                        "path": "drag-half-type/images/screen2-holds-less.svg"
+                      },
+                      "container3": {
+                        "path": "drag-half-type/images/screen2-holds-more.svg"
+                      },
+                      "container4": {
+                        "path": "drag-half-type/images/screen3-holds-more.svg"
+                      },
+                      "container5": {
+                        "path": "drag-half-type/images/screen3-holds-less.svg"
+                      },
+                      "container6": {
+                        "path": "drag-half-type/images/screen4-holds-less.svg"
+                      },
+                      "container7": {
+                        "path": "drag-half-type/images/screen4-holds-more.svg"
+                      },
+                      "container8": {
+                        "path": "drag-half-type/images/screen5-holds-more.svg"
+                      },
+                      "container9": {
+                        "path": "drag-half-type/images/screen5-holds-less.svg"
+                      },
+                      "container10": {
+                        "path": "drag-half-type/images/screen6-holds-more.svg"
+                      },
+                      "container11": {
+                        "path": "drag-half-type/images/screen6-holds-less.svg"
+                      },
+                      "container12": {
+                        "path": "drag-half-type/images/screen7-holds-more.svg"
+                      },
+                      "container13": {
+                        "path": "drag-half-type/images/screen7-holds-less.svg"
+                      },
+                      "container14": {
+                        "path": "drag-half-type/images/screen8-holds-less.svg"
+                      },
+                      "container15": {
+                        "path": "drag-half-type/images/screen8-holds-more.svg"
+                      },
+                      "container16": {
+                        "path": "drag-half-type/images/screen9-holds-less.svg"
+                      },
+                      "container17": {
+                        "path": "drag-half-type/images/screen9-holds-more.svg"
+                      },
+                      "container18": {
+                        "path": "drag-half-type/images/screen10-holds-less.svg"
+                      },
+                      "container19": {
+                        "path": "drag-half-type/images/screen10-holds-more.svg"
+                      },
+                      "mug-image": {
+                        "path": "drag-half-type/images/static-half-litre.svg"
+                      },
+                      "sign": {
+                        "path": "drag-half-type/images/tick.svg"
+                      },
+                      "input-type": {
+                        "path": "images/menu/input-type.svg"
+                      },
+                      "drag-type": {
+                        "path": "images/menu/drag-type.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

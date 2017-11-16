@@ -1,0 +1,115 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "data-graphs": {
+              "types": {
+                "weather": {
+                  "home": {
+                    "header": {
+                      "text": "Picture Graphs (Pictograms)"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Enter the numbers."
+                      },
+                      "label": "How many?",
+                      "image-names": [
+                        "Sunny",
+                        "Partly cloudy",
+                        "Cloudy",
+                        "Rainy"
+                      ],
+                      "grid-image": {
+                        "grid": {
+                          "path": "weather/a/images/data-grid.svg",
+                          "cls": "pos-absolute",
+                          "width": "100%",
+                          "height":"76%",
+                          "top": "8.5%",
+                          "left": "0%"
+                        }
+                      },
+                      "weather-images": {
+                        "0": {
+                          "path": "weather/a/images/sun.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "1": {
+                          "path": "weather/a/images/cloud-sun.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "2": {
+                          "path": "weather/a/images/cloud.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "3": {
+                          "path": "weather/a/images/rain-cloud.svg",
+                          "cls": "pos-absolute"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "animal": {
+                          "path": "images/menu/animal.svg",
+                          "state": "^.data-graphs-game",
+                          "params": "{category : 'space', game : 'animal', level :  'a'}"
+                        },
+                        "fruit": {
+                          "path": "images/menu/fruit.svg",
+                          "state": "^.data-graphs-game",
+                          "params": "{category : 'space', game : 'fruit', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "0": {
+                        "path": "weather/a/images/sun.svg"
+                      },
+                      "1": {
+                        "path": "weather/a/images/cloud-sun.svg"
+                      },
+                      "2": {
+                        "path": "weather/a/images/cloud.svg"
+                      },
+                      "3": {
+                        "path": "weather/a/images/rain-cloud.svg"
+                      },
+                      "data-grid": {
+                        "path": "weather/a/images/data-grid.svg"
+                      },
+                      "animal": {
+                        "path": "images/menu/animal.svg"
+                      },
+                      "fruit": {
+                        "path": "images/menu/fruit.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

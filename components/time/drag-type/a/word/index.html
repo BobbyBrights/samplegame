@@ -1,0 +1,59 @@
+
+<div class="word-page noselect">
+    <work-area menu="menu" next="next" header="header">
+        <!--weather images-->
+        <div class="image-box">
+            <img ng-repeat="image in imagesCount track by $index"
+                 class="{{images['image'+image].cls}}"
+                 ng-src="{{images['image'+image].path}}"
+                 width="{{images['image'+image].width}}"
+                 height="{{images['image'+image].height}}">
+        </div>
+
+        <!--Rain drop area-->
+        <div ng-show="rainState">
+            <div class="rain"></div>
+            <div id="cloud-text" class="weather-text" ng-style="{left:'49%',top:'14%'}"></div>
+        </div>
+
+        <!--sun and cloud images-->
+        <img ng-if="count % 2 !==0"
+             ng-repeat="sun in question.suns"
+             id="{{count!==3 || $index!==1?'sun'+sun:'cloud'}}"
+             ng-src="{{count==3 && $index==1?wordImages.cloud.path:wordImages.sun.path}}"
+             class="{{wordImages.sun.cls}}"
+             ng-style="{left:(positions.left)+($index*61)+'%',top:(positions.top)-($index*39)+'%'}"
+             width="{{wordImages.sun.width}}"
+             height="{{wordImages.sun.height}}"
+             ng-click="sunAnimation(count!==3 || $index!==1?'sun'+sun:'cloud')"/>
+
+        <!--weather text-->
+        <div ng-if="count % 2 !==0"
+             ng-repeat="text in question.suns"
+             id="textsun{{$index}}"
+             class="weather-text"
+             ng-style="{left:5+($index * 44)+'%',top:'14%'}"></div>
+
+        <!--Drop zone-->
+        <div ng-repeat="dropZone in dragCards"
+             id="drop-zone-{{$index}}"
+             class="pos-absolute drop-btn"
+             drop-zone group="{{$index}}"
+             ng-style="{left:(22.7+($index * 36.5))+'%',top:'69.7%'}"></div>
+
+        <!--Drag items-->
+        <div ng-repeat="dragItem in dragCards"
+             id="drag-item-{{$index}}"
+             class="pos-absolute drag-btn invisible"
+             ng-style="{left:(30.6+($index * 20.3))+'%',top:'112.5%'}"
+             drag-item group="{{$index}}">{{dragItem}}
+        </div>
+
+        <!--tick-->
+        <game-images id="tick" images="wordImages.tick"></game-images>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="hintText"></div>
+    </work-area>
+
+</div>

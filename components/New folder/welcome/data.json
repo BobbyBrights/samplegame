@@ -1,0 +1,33 @@
+{
+  "welcome": {
+    "preload": {
+      "images": {
+        "background-4-3": {
+          "path": "images/backgrounds/welcome/background-4-3.jpg"
+        },
+        "background-16-9": {
+          "path": "images/backgrounds/welcome/background-16-9.jpg"
+        },
+        "bamboo": {
+          "path": "images/bamboo.svg"
+        },
+        "home": {
+          "path": "images/home-content.svg"
+        },
+        "logo": {
+          "path": "images/mathletics-logo.svg"
+        },
+        "monkey": {
+          "path": "images/monkey.svg"
+        },
+        "play": {
+          "path": "images/play-button.svg"
+        }
+      },
+      "ahead": {
+        "folder": "../home",
+        "next-path": "home.preload"
+      }
+    }
+  }
+}

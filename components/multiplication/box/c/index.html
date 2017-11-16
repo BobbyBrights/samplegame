@@ -1,0 +1,49 @@
+<div class="box-page" >
+  <work-area menu="menu" next="next" reset="reset" check="check" header="header"  onnumberclick="onNumberClick" getscoreboard="getScoreboard" >
+    <!-- Add images -->
+    <!--<game-images images="images"></game-images>-->
+
+    <!-- Game specific elements -->
+      <div class="base-line"></div>
+
+      <div class="flex-container">
+          <img class="flex-item" ng-repeat="box in secondNumber| range track by getUniqueId()"
+               ng-src="{{boxImagesPath.path}}" ng-style="{width:boxImagesPath.width}"/>
+      </div>
+
+      <div class="question question-flex-container">
+          <div class="question-text flex-item" style="color: #000;">{{firstNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 3vw; margin-top: -1%;"> x </div>
+          <div class="question-text flex-item" style="color: #000;">{{secondNumber}}</div>
+          <div class="question-text flex-item" style="font-size: 3vw"> = </div>
+      </div>
+
+      <div class="question-container">
+
+          <input id="input-0" maxlength="2" class="input-box" ng-model="inputs[0]"  ng-focus="inputClick(0)"
+                 ng-disabled="inputDisabled" style="left: 13%;">
+
+          <div class="col-xs-5 question-box left-box">
+              <span class="text">Group of</span>
+          </div>
+
+          <input id="input-1" maxlength="2" class="input-box" ng-model="inputs[1]" ng-focus="inputClick(1)"
+                 ng-disabled="inputDisabled" style="left: 36%;">
+
+          <div class="col-xs-5 question-box right-box">
+              <span class="text">Equals</span>
+          </div>
+
+          <input id="input-2" maxlength="2" class="input-box" ng-model="inputs[2]"  ng-focus="inputClick(2)"
+                 ng-disabled="inputDisabled" style="left: 58%;">
+
+      </div>
+
+      <check-button class="check-btns" ng-click="check($event)" param="flag" >
+      </check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+      </div>
+      <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

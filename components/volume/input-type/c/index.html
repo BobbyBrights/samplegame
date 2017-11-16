@@ -1,0 +1,30 @@
+<div class="input-type-page" >
+  <work-area menu="menu" next="next" getscoreboard="getScoreboard" header="header" onnumberclick="onNumberClick">
+
+      <div class="question-label">{{questionLabel}}</div>
+      <img class="display-box" ng-src="{{displayBox.path}}">
+    <!-- Add images -->
+      <img ng-repeat="box in blockImages"
+           class="image-item"
+           height="{{inputImages['block'+box].height}}"
+           width="{{inputImages['block'+box].width}}"
+           ng-style="{top: inputImages['block'+box].top, left:inputImages['block'+box].left}"
+           ng-src="{{inputImages['block'+box].path}}">
+
+    <!-- Game specific elements -->
+      <div class="question-container">
+          <div class="question-box">
+              <span class="float-left"><span class="text-left left-side">The volume of this model is </span> </span>
+              <input type="text" maxlength="2" id="input-1" value="{{inputValue}}" class="input-field"/>
+              <span class="float-right"><span class="text-left right-side">cubes</span></span>
+          </div>
+      </div>
+
+      <!--display check buttons-->
+      <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+      <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

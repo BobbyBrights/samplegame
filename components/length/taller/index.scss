@@ -1,0 +1,33 @@
+/* Sub game namespace */
+.length-page {
+  .taller-page {
+    .image-container {
+      margin-left: 17%;
+      width: 69%;
+      height: 17vw;
+      z-index: 1;
+    }
+
+    .middle-item {
+      position: absolute;
+      width: 5%;
+      top: 10.1%;
+      left: 47%;
+      z-index: 1;
+    }
+
+    .grass {
+      top: 60%;
+    }
+
+    .tick-item-0 {
+      left: 38.2%;
+      top: 68%;
+    }
+
+    .tick-item-1 {
+      left: 87%;
+      top: 68%;
+    }
+  }
+}

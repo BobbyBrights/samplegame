@@ -1,0 +1,86 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "division": {
+              "types": {
+                "reverse-inverse": {
+                  "home": {
+                    "header": {
+                      "text": "Division ... sharing"
+                    },
+                    "footer": {
+                      "text": ""
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "multiplication": {
+                        "path": "images/multiplication.svg"
+                      },
+                      "division": {
+                        "path": "images/division-sign.svg"
+                      },
+                      "hint": {
+                        "text": "Enter the missing number."
+                      },
+                      "headerText": "Division is opposite to multiplication.(Reverse or Inverse)",
+                      "footerText": "You can use multiplication facts to do division."
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "beetal": {
+                          "path": "images/menu/dragon-icon.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'beetal', level :  'c'}"
+                        },
+                        "dice": {
+                          "path": "images/menu/dice-icon.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'dice', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path": "input-type/images/right-panel-icon.svg"
+                      }
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "multiplication": {
+                        "path": "images/multiplication.svg"
+                      },
+                      "division": {
+                        "path": "images/division-sign.svg"
+                      },
+                      "beetal": {
+                        "path": "images/menu/dragon-icon.svg"
+                      },
+                      "dice": {
+                        "path": "images/menu/dice-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+<div class="commutative-property-page">
+    <work-area menu="menu" next="next" getscoreboard="getScoreboard" onnumberclick="onNumberClick" header="header">
+
+        <!-- Game specific elements -->
+        <div class="label-text" ng-bind-html="labelText"></div>
+
+        <div class="flex-container">
+
+            <div ng-repeat="text in labels track by getUniqueId()" class="flex-items">
+                <div class="labels" ng-bind-html="text"></div>
+            </div>
+
+        </div>
+
+            <div ng-repeat="pos in textBoxPosition"
+                 class="text-box"
+                 ng-style="{left:pos.left+'%',top:pos.top+'%'}">{{values[$index]}}
+            </div>
+
+            <span ng-repeat="plus in plusPosition"
+                  class="red-label plus"
+                  ng-style="{left:plus.left+'%',top:plus.top+'%'}">+</span>
+
+            <span ng-if="counter === 0"
+                  ng-repeat="i in [0,1]"
+                  class="red-label plus"
+                  position="{{equalsPosition[i]}}">=</span>
+
+            <span class="red-label plus"
+                  ng-style="{left:answerPosition.left+'%',top:answerPosition.top+'%',position:'absolute'}">{{answer}}</span>
+
+            <span class="red-label plus"
+                  ng-style="{left:soPosition.left+'%',top:soPosition.top+'%'}">So</span>
+
+            <input id="input-1"
+                   class="input-box"
+                   ng-click="inputClick($index)"
+                   ng-focus="currentInput=$index"
+                   data-count="{{num}}"
+                   maxlength="2"
+                   ng-disabled="inputDisabled"
+                   ng-style="{left:inputPosition.left+'%',top:inputPosition.top+'%'}"/>
+
+
+            <div class="line"></div>
+
+            <div class="check-btn more" ng-click="moreClick()">More</div>
+
+            <!--display reset and check buttons-->
+            <check-button class="check-btns" ng-click="check($event)" param="flag">&divide</check-button>
+
+            <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+            <!-- Display hint text -->
+            <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>
+

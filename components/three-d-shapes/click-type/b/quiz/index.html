@@ -1,0 +1,30 @@
+<div class="quiz-page">
+    <work-area menu="menu" next="next" header="header" check="check">
+
+        <div class="hint-text hint-header-text" ng-bind-html="headingShapeText"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text hint-question-text">
+            <div ng-bind-html="questionText"></div>
+            <div class="shape-names">{{shapeNames}}</div>
+        </div>
+        <!-- Add images -->
+        <div class="shapes" ng-repeat="image in buttonImages track by $index">
+            <img ng-src="{{image.path}}"
+                 id="{{image.id}}"
+                 width="{{image.width}}"
+                 class="{{image.cls}}"
+                 ng-style="{top: image.top, left:image.left}"
+                 ng-click="onShapesClick($event, id)"/>
+        </div>
+
+        <!-- Footer text -->
+        <div class="footer-text" ng-bind-html="footer"></div>
+
+        <!-- Check and redo button -->
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+    </work-area>
+</div>

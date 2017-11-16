@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 136.8 136.8" style="enable-background:new 0 0 136.8 136.8;" xml:space="preserve">
+<title>circle-one</title>
+<rect style="fill:none;" width="136.8" height="136.8"/>
+<g id="Layer_1-2">
+	<path style="fill:#5D0363;" d="M47.4,67.4c0-11.6,9.4-21,21-21s21,9.4,21,21s-9.4,21-21,21l0,0l0,0C56.8,88.4,47.5,79,47.4,67.4z"
+		/>
+
+		<radialGradient id="SVGID_1_" cx="225.71" cy="-717.4346" r="17.77" gradientTransform="matrix(0 1 -1.04 0 -682.09 -158.3)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0.5" style="stop-color:#FFFFFF"/>
+		<stop  offset="0.57" style="stop-color:#FAFAFA"/>
+		<stop  offset="0.67" style="stop-color:#EAEAEA"/>
+		<stop  offset="0.77" style="stop-color:#D1D1D1"/>
+		<stop  offset="0.88" style="stop-color:#ADADAD"/>
+		<stop  offset="1" style="stop-color:#808080"/>
+	</radialGradient>
+	<circle style="fill:url(#SVGID_1_);" cx="68.4" cy="67.4" r="15.8"/>
+</g>
+</svg>

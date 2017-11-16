@@ -1,0 +1,40 @@
+/* Game main namespace */
+.position-page {
+  // Game specific styles
+
+  .center-content {
+    height: 17.9vw;
+    width: 57vw;
+    overflow: hidden;
+    align-items: flex-end;
+
+    .image-box {
+      width: 42%;
+      height: 100%;
+    }
+
+    #image-box0 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    #image-box1 {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+  }
+
+  .question-text {
+    position: absolute;
+    width: 100%;
+    font-size: 1.6vw;
+    top: 0%;
+    color: #d96e4c;
+    cursor: default;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,44 @@
+<div class="fives-patterns-page">
+    <work-area menu="menu" header="header" onnumberclick="onNumberClick" getscoreboard="getScoreboard"
+               next="next">
+
+        <!---Display scale images-->
+        <game-images images="images"></game-images>
+
+        <!---sketch color pad-->
+        <sketch-pad bind-sketch-pad="getSketchPad(sketchPad)" params="sketchPadParams" id="content"></sketch-pad>
+
+        <div class="input-container">
+            <input class="input-box"
+                   ng-repeat="num in numbers track by $index + disability[counter]"
+                   ng-disabled="disability[counter][$index]"
+                   value="{{disability[counter][$index] ? num : ''}}"
+                   id="input-{{$index}}"
+                   ng-click="inputClick($index)"
+                   ng-focus="currentInput=$index"
+                   data-count="{{num}}"
+                   maxlength="2"/>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <!-- Display footer text -->
+        <div class="footer-text" ng-bind-html="footerText"></div>
+
+        <!--Display clear button-->
+        <div class="clear-btn action-btn black-gradient" ng-click="clearClick()">Clear</div>
+
+        <!--Display check button-->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!--Display more button-->
+        <div class="more-button check-btn action-btn" ng-click="more()">More</div>
+
+        <!--Display hide button-->
+        <div class="hide-btn action-btn black-gradient" ng-click="hide($event)">{{label}}</div>
+
+    </work-area>
+</div>

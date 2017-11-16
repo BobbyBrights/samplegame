@@ -1,0 +1,40 @@
+
+<div class="clock-page">
+    <work-area menu="menu" next="next" check="check" header="header" onnumberclick="onNumberClick">
+        <!-- Display question text -->
+        <div class="question-text" ng-bind-html="questionText"></div>
+
+        <!--Clock images-->
+        <game-images images="clockImages.clock"></game-images>
+
+        <game-images images="clockImages.minuteNeedle"></game-images>
+
+        <img id="hour-needle" class="{{clockImages.hourNeedle.cls}}" ng-src="{{clockImages.hourNeedle.path}}"/>
+
+        <game-images images="clockImages.midCircle"></game-images>
+
+        <!--Inputs and input labels-->
+        <input ng-repeat="input in 2| range track by $index" id="input{{$index}}"
+               class="input-box"
+               position="54,{{29 + ($index * 22)}}"
+               maxlength="2"
+               ng-model="inputs[$index]"
+               ng-focus="inputClick($index)"
+               ng-disabled="inputDisabled"/>
+
+        <label class="time-label first-label">{{question.clockLabel[0]}}</label>
+
+        <label class="time-label second-label">{{question.clockLabel[1]}}</label>
+
+        <label class="time-label third-label">{{question.clockLabel[2]}}</label>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="hintText"></div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag" >
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+    </work-area>
+</div>

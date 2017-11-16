@@ -1,0 +1,26 @@
+<div class="find-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+
+
+        <!--Display hint shape text-->
+
+        <div class="hint-text hint-shape-text" ng-bind-html="shapeNames"></div>
+
+        <!--Display shape images-->
+        <div class="shapes-container">
+            <img ng-repeat="shape in shapes track by $index"
+                 id="{{shape.id}}" class="{{shape.cls}}"
+                 ng-click="onShapesClick($event)"
+                 ng-src="{{shape.path}}">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+        <!--Display tick and cross images-->
+        <img ng-repeat="signs in sign" ng-src="{{signs.path}}"
+             class="answer-sign {{checkClass[signs.name]}}"
+             ng-class="checkClass[signs.name]">
+
+    </work-area>
+
+</div>

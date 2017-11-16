@@ -1,0 +1,217 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "longer": {
+                  "home": {
+                    "header": {
+                      "text": "Longer or Shorter?"
+                    },
+                    "images": {
+                      "middle": {
+                        "path": "longer/images/margin-box.svg"
+                      }
+                    },
+                    "question": {
+                      "baseline": {
+                        "orientation": "vertical"
+                      },
+                      "hint": {
+                        "text": "Drag the cards."
+                      },
+                      "longer-images": {
+                        "longer-0": {
+                          "path": "longer/images/crocodile-small.svg",
+                          "cls": "pos-absolute",
+                          "height": "15%",
+                          "width": "20%",
+                          "top": "20%",
+                          "left": "4%"
+                        },
+                        "longer-1": {
+                          "path": "longer/images/crocodile-big.svg",
+                          "cls": "pos-absolute",
+                          "height": "5%",
+                          "width": "40%",
+                          "top": "48%",
+                          "left": "4%"
+                        },
+                        "longer-2": {
+                          "path": "longer/images/cicadas-big.svg",
+                          "cls": "pos-absolute",
+                          "height": "15%",
+                          "width": "30%",
+                          "top": "2%",
+                          "left": "4%"
+                        },
+                        "longer-3": {
+                          "path": "longer/images/cicadas-small.svg",
+                          "cls": "pos-absolute",
+                          "height": "5%",
+                          "width": "20%",
+                          "top": "48%",
+                          "left": "4%"
+                        },
+                        "longer-4": {
+                          "path": "longer/images/skinks-small.svg",
+                          "cls": "pos-absolute",
+                          "height": "15%",
+                          "width": "20%",
+                          "top": "11.5%",
+                          "left": "4%"
+                        },
+                        "longer-5": {
+                          "path": "longer/images/skinks-big.svg",
+                          "cls": "pos-absolute",
+                          "height": "5%",
+                          "width": "35%",
+                          "top": "48%",
+                          "left": "4%"
+                        },
+                        "longer-6": {
+                          "path": "longer/images/cryfish-big.svg",
+                          "cls": "pos-absolute",
+                          "height": "5%",
+                          "width": "29%",
+                          "top": "2%",
+                          "left": "4%"
+                        },
+                        "longer-7": {
+                          "path": "longer/images/cryfish-small.svg",
+                          "cls": "pos-absolute",
+                          "height": "15%",
+                          "width": "20%",
+                          "top": "48%",
+                          "left": "4%"
+                        },
+                        "longer-8": {
+                          "path": "longer/images/platypus-small.svg",
+                          "cls": "pos-absolute",
+                          "height": "15%",
+                          "width": "20%",
+                          "top": "17%",
+                          "left": "4%"
+                        },
+                        "longer-9": {
+                          "path": "longer/images/platypus-big.svg",
+                          "cls": "pos-absolute",
+                          "height": "5%",
+                          "width": "40%",
+                          "top": "48%",
+                          "left": "4%"
+                        }
+                      },
+                      "drag-items": [
+                        "Longer",
+                        "Shorter"
+                      ],
+                      "drop-zone-positions": [
+                        [
+                          "65.4,52",
+                          "65.4,20"
+                        ],
+                        [
+                          "65.4,20",
+                          "65.4,52"
+                        ],
+                        [
+                          "65.4,52",
+                          "65.4,20"
+                        ],
+                        [
+                          "65.4,20",
+                          "65.4,52"
+                        ],
+                        [
+                          "65.4,52",
+                          "65.4,20"
+                        ]
+                      ],
+                      "sign-images": {
+                        "tick": {
+                          "path": "images/tick.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "taller": {
+                          "path": "images/menu/taller.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'taller', level :  'a'}"
+                        },
+                        "closer": {
+                          "path": "images/menu/closer.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'closer', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "middle": {
+                        "path": "longer/images/margin-box.svg"
+                      },
+                      "longer-0": {
+                        "path": "longer/images/crocodile-small.svg"
+                      },
+                      "longer-1": {
+                        "path": "longer/images/crocodile-big.svg"
+                      },
+                      "longer-2": {
+                        "path": "longer/images/cicadas-big.svg"
+                      },
+                      "longer-3": {
+                        "path": "longer/images/cicadas-small.svg"
+                      },
+                      "longer-4": {
+                        "path": "longer/images/skinks-small.svg"
+                      },
+                      "longer-5": {
+                        "path": "longer/images/skinks-big.svg"
+                      },
+                      "longer-6": {
+                        "path": "longer/images/cryfish-big.svg"
+                      },
+                      "longer-7": {
+                        "path": "longer/images/cryfish-small.svg"
+                      },
+                      "longer-8": {
+                        "path": "longer/images/platypus-small.svg"
+                      },
+                      "longer-9": {
+                        "path": "longer/images/platypus-big.svg"
+                      },
+                      "taller": {
+                        "path": "images/menu/taller.svg"
+                      },
+                      "closer": {
+                        "path": "images/menu/closer.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

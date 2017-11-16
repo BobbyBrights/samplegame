@@ -1,0 +1,59 @@
+<div class="calendar-page">
+    <work-area menu="menu" next="next" check="check" header="header" onnumberclick="onNumberClick">
+
+        <!-- Display calender hint text -->
+        <div class="text heading-hint-text" ng-bind-html="calenderHeadingHint"></div>
+
+        <!--Display pink circle -->
+        <div ng-if="count<=7" class="circle" ng-repeat="p in pinkCircle"
+             position="{{pinkCirclePositions[p]}}"></div>
+
+        <!-- Display question text -->
+        <div ng-if="count<=7" class="text question-text" ng-bind-html="questionText"></div>
+
+        <!--Display drop box-->
+        <!--<input id="input" ng-if="count<=7" class="input-area"/>-->
+
+        <div id="input"  ng-if="count<=7" class="input-area input-comman-style"></div>
+
+        <!--Display button panel-->
+        <div ng-if="count<=7" class=" action-button-area action-buttons center-content">
+            <div class="action-btn  days-button" ng-repeat="button in buttonLabels"
+                 ng-click="getAnswer(button)">
+                <div class="num-card">{{button}}</div>
+            </div>
+        </div>
+
+        <div class="input-text-area" ng-if="count>=8">
+            <!-- Display example question text -->
+            <div  class="text example-text" ng-bind-html="exampleQuestionHint"></div>
+
+            <!--Example input-box-->
+            <input id="input-0" class="drop-btn" maxlength="4"  ng-disabled="inputDisabled"/>
+
+        </div>
+
+        <!--Display green circle -->
+        <div ng-if="count>=8" class="green-circle" ng-repeat="q in greenCircle"
+             position="{{greenCirclePositions[q]}}"></div>
+
+        <!--Display example image-->
+        <game-images ng-if="count>=8" images="calendarImages.examples"></game-images>
+
+        <!-- Display question text -->
+        <div ng-if="count>=8" class="text example2-text" ng-bind-html="exampleBottomText"></div>
+
+        <!--Display calender image-->
+        <game-images images="calendarImages.calender"></game-images>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="hintText"></div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+
+    </work-area>
+</div>

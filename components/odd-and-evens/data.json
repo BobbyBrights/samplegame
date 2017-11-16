@@ -1,0 +1,239 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "odd-and-evens": {
+              "home": {
+                "header": {
+                  "text": "Odds and Evens"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                  "odd-container": {
+                    "path": "images/odd.svg",
+                    "cls": "pos-absolute",
+                    "width": "50%",
+                    "height": "107%",
+                    "top": "-15%",
+                    "left": "-1%"
+                  },
+                  "even-container": {
+                    "path": "images/even.svg",
+                    "cls": "pos-absolute",
+                    "width": "50%",
+                    "height": "108%",
+                    "top": "-15%",
+                    "left": "50%"
+                  }
+                },
+                "question": {
+                  "card-images": {
+                    "card-1": {
+                      "path": "images/card20.svg",
+                      "cls": ""
+                    },
+                    "card-2": {
+                      "path": "images/card19.svg",
+                      "cls": ""
+                    },
+                    "card-3": {
+                      "path": "images/card18.svg",
+                      "cls": ""
+                    },
+                    "card-4": {
+                      "path": "images/card17.svg",
+                      "cls": ""
+                    },
+                    "card-5": {
+                      "path": "images/card16.svg",
+                      "cls": ""
+                    },
+                    "card-6": {
+                      "path": "images/card15.svg",
+                      "cls": ""
+                    },
+                    "card-7": {
+                      "path": "images/card14.svg",
+                      "cls": ""
+                    },
+                    "card-8": {
+                      "path": "images/card13.svg",
+                      "cls": ""
+                    },
+                    "card-9": {
+                      "path": "images/card12.svg",
+                      "cls": ""
+                    },
+                    "card-10": {
+                      "path": "images/card11.svg",
+                      "cls": ""
+                    },
+                    "card-11": {
+                      "path": "images/card10.svg",
+                      "cls": ""
+                    },
+                    "card-12": {
+                      "path": "images/card9.svg",
+                      "cls": ""
+                    },
+                    "card-13": {
+                      "path": "images/card8.svg",
+                      "cls": ""
+                    },
+                    "card-14": {
+                      "path": "images/card7.svg",
+                      "cls": ""
+                    },
+                    "card-15": {
+                      "path": "images/card6.svg",
+                      "cls": ""
+                    },
+                    "card-16": {
+                      "path": "images/card5.svg",
+                      "cls": ""
+                    },
+                    "card-17": {
+                      "path": "images/card4.svg",
+                      "cls": ""
+                    },
+                    "card-18": {
+                      "path": "images/card3.svg",
+                      "cls": ""
+                    },
+                    "card-19": {
+                      "path": "images/card2.svg",
+                      "cls": ""
+                    },
+                    "card-20": {
+                      "path": "images/card1.svg",
+                      "cls": ""
+                    },
+                    "card": {
+                      "path": "images/card.svg",
+                      "cls": ""
+                    }
+                  },
+                  "number-range": {
+                    "maxLimit": 20,
+                    "minLimit": 1,
+                    "differ": 2
+                  },
+                  "hint": {
+                    "text": "Drag the number cards to the correct slots.",
+                    "cls": ""
+                  },
+                  "drop-zone-position": [
+                    "8,9",
+                    "16,9",
+                    "24,9",
+                    "32,9",
+                    "8,34",
+                    "16,34",
+                    "24,34",
+                    "32,34",
+                    "16,59",
+                    "24,59",
+                    "60,9",
+                    "68,9",
+                    "76,9",
+                    "84,9",
+                    "60,34",
+                    "68,34",
+                    "76,34",
+                    "84,34",
+                    "68,59",
+                    "76,59"
+                  ]
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true
+              },
+              "preload": {
+                "images": {
+                  "odd-container": {
+                    "path": "images/odd.svg"
+                  },
+                  "even-container": {
+                    "path": "images/even.svg"
+                  },
+                  "card-1": {
+                    "path": "images/card20.svg"
+                  },
+                  "card-2": {
+                    "path": "images/card19.svg"
+                  },
+                  "card-3": {
+                    "path": "images/card18.svg"
+                  },
+                  "card-4": {
+                    "path": "images/card17.svg"
+                  },
+                  "card-5": {
+                    "path": "images/card16.svg"
+                  },
+                  "card-6": {
+                    "path": "images/card15.svg"
+                  },
+                  "card-7": {
+                    "path": "images/card14.svg"
+                  },
+                  "card-8": {
+                    "path": "images/card13.svg"
+                  },
+                  "card-9": {
+                    "path": "images/card12.svg"
+                  },
+                  "card-10": {
+                    "path": "images/card11.svg"
+                  },
+                  "card-11": {
+                    "path": "images/card10.svg"
+                  },
+                  "card-12": {
+                    "path": "images/card9.svg"
+                  },
+                  "card-13": {
+                    "path": "images/card8.svg"
+                  },
+                  "card-14": {
+                    "path": "images/card7.svg"
+                  },
+                  "card-15": {
+                    "path": "images/card6.svg"
+                  },
+                  "card-16": {
+                    "path": "images/card5.svg"
+                  },
+                  "card-17": {
+                    "path": "images/card4.svg"
+                  },
+                  "card-18": {
+                    "path": "images/card3.svg"
+                  },
+                  "card-19": {
+                    "path": "images/card2.svg"
+                  },
+                  "card-20": {
+                    "path": "images/card1.svg"
+                  },
+                  "card": {
+                    "path": "images/card.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

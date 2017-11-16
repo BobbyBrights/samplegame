@@ -1,0 +1,77 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "bug": {
+                  "home": {
+                    "header": {
+                      "text": "Tadpole Row Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the boxes",
+                        "cls": ""
+                      },
+                      "bug-image": {
+                        "path": "bug/images/tadpole.svg",
+                        "width": "20%",
+                        "height": "15%"
+                      },
+                      "bug-container-size": [
+                        "20",
+                        "30",
+                        "40",
+                        "50",
+                        "60",
+                        "70"
+                      ],
+                      "bug-margin": [
+                        "5",
+                        "15",
+                        "25",
+                        "30",
+                        "40",
+                        "0"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "box": {
+                          "path": "images/menu/box.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'box', level :  'b'}"
+                        },
+                        "curve": {
+                          "path": "images/menu/curve.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'curve', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

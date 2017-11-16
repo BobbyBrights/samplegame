@@ -1,0 +1,12 @@
+<div class="left-panel-menu" ng-class="{open: menu}">
+  <div ng-if="menu" class="panel-inner">
+    <div class="panel-buttons center">
+      <a ng-repeat="(key, button) in menu.buttons" class="left-panel-image {{button.cls}}"
+         ui-sref="{{button.state ? button.state + '(' + (button.params || '{}') + ')' : '.'}}">
+        <img class="{{button.cls}} image-{{$index}}"
+             ng-src="{{button.path}}" data-image-index="{{$index}}"
+             ng-style="button.styles" height="{{button.height}}" width="{{button.width}}">
+      </a>
+    </div>
+  </div>
+</div>

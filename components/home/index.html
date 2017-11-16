@@ -1,0 +1,34 @@
+
+<!--<div class="banner {{getLevel()}}">-->
+<div>
+  <div ui-view>
+    <div class="home-page">
+      <work-area header="header" menu="menu">        
+        <div class="level-content-box">
+          <div class="row text-header">
+            <div ng-repeat="hd in data.headings.items track by $index" class="col-xs-{{data.headings.heading[$index]}}">
+              <div class="box box-{{$index}}" ng-bind-html="hd"></div>
+            </div>
+          </div>
+
+          <div ng-repeat="(key, level) in data.levels track by $index"
+               ui-sref="app.home.level.menu({backDrop: '{{key}}',level: '{{key}}'})"
+               class="level-box row no-margin">
+            <div class="col-xs-1 text-center">
+              <div class="box" ng-bind="level.text"></div>
+            </div>
+            <div class="col-xs-5 text-left">
+              <div class="box " ng-bind="level.className"></div>
+            </div>
+            <div class="col-xs-3 text-left">
+              <div class="box" ng-bind="level.games"></div>
+            </div>
+            <div class="col-xs-3 text-left">
+              <div class="box" ng-bind="level.years"></div>
+            </div>
+          </div>
+        </div>
+      </work-area>
+    </div>
+  </div>
+</div>

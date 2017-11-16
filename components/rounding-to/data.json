@@ -1,0 +1,42 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "rounding-to": {
+              "home": {
+                "header": {
+                  "text": "<span>It is game header</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                  "fancy-image": {
+                    "path": "images/sample-decoration-image.svg",
+                    "cls": "fancy-pic",
+                    "width": "55px",
+                    "height": "112px",
+                    "top": "450px",
+                    "left": "40px"
+                  }
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text....",
+                    "cls": ""
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

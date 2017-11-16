@@ -1,0 +1,54 @@
+{
+  "levels": {
+    "a": {
+
+      "categories": {
+        "number": {
+          "games": {
+            "more-count": {
+              "home": {
+                "header": {
+                  "text": "How many? "
+                },
+                "hint": {
+                  "text": "Select a jar."
+                },
+                "images": {},
+                "button-images": {
+                  "frog": {
+                    "path": "images/frogs-jar.svg",
+                    "cls": "button-jar",
+                    "top": "5%",
+                    "left": "5.5%"
+                  },
+                  "block": {
+                    "path": "images/blocks-jar.svg",
+                    "cls": "button-jar",
+                    "top": "5%",
+                    "left": "39.6%"
+                  },
+                  "counter": {
+                    "path": "images/counters-jar.svg",
+                    "cls": "button-jar",
+                    "top": "5%",
+                    "left": "73.8%"
+                  }
+                },
+                "question": {
+                  "kind": "buttons",
+                  "count": 3,
+                  "max-value": 10,
+                  "hint": {}
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

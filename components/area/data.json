@@ -1,0 +1,26 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "home": {
+                "header": {},
+                "footer": {},
+                "images": {},
+                "question": {
+                  "hint": {}
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

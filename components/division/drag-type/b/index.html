@@ -1,0 +1,58 @@
+<div class="drag-type-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard" onnumberclick="onNumberClick">
+
+        <!-- Game specific elements -->
+
+        <img class="herculus-moth" ng-src="{{herculusMoth.path}}"/>
+        <span class="herculus-text"> Hercules Moth</span>
+        <!--drag items-->
+        <div class="caterpillar-box center-content">
+            <div class="drag-box" ng-repeat="c in data.caterpillar | range track by $index">
+                <img class="caterpillar"
+                     drag-item
+                     ng-src="{{caterpillarImage.path}}"/>
+            </div>
+        </div>
+
+        <img class="base-line" ng-src="{{baseLine.path}}"/>
+
+        <div class="leaf-box">
+            <div class="leaf tree-{{$index}}"
+                 drop-zone
+                 ng-repeat="tree in data.leafs | range track by $index">
+                <img ng-src="{{leafImage.path}}"/>
+
+                <!-- drop zone tree-->
+                <div class="drop-area drop-zone-{{$index}}"
+                     ng-repeat="dz in data.dropZone | range track by $index"
+                     data-value="{{$index}}"
+                     id="drop-{{$parent.$index}}-{{$index}}">
+                </div>
+            </div>
+        </div>
+
+        <div class="input-text">
+            <input ng-repeat="num in inputPositions"
+                   id="input-{{$index}}"
+                   class="input-box"
+                   value="{{$index==0?data.caterpillar:$index==1?data.leafs:''}}"
+                   ng-disabled="{{$index==0?true:$index==1?true:false}}"
+                   ng-click="inputClick($index)"
+                   ng-focus="currentInput=$index"
+                   data-count="{{num}}"
+                   maxlength="{{$index == 1 ? 1 : 2 }}"
+                   position="{{num}}"/>
+
+            <span size="39,13.5" position="14,6">Shared among</span>
+
+            <span size="20,13.5" position="67,6">Equals</span>
+        </div>
+
+        <!--check-button-->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

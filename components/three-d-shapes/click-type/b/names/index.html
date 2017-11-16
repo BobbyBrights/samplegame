@@ -1,0 +1,33 @@
+<div class="names-page" >
+  <work-area menu="menu" next="next" check="check" header="header">
+
+    <!-- Game specific elements -->
+    <div class="flex-container">
+        <img class="img-content" ng-src="{{questionImageNames[0].path}}" style="width:{{img.width}};"/>
+    </div>
+
+    <div class="button-container">
+      <div ng-repeat="button in buttons"
+           id="{{button}}"
+           class="button action-btn red-gradient"
+            ng-click="onButtonClick($event,id)">
+           {{button}}
+
+      </div>
+    </div>
+
+    <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+
+    <!-- Tick and Cross -->
+    <div class="center-content">
+      <img ng-repeat="signs in sign"
+           ng-src="{{signs.path}}"
+           style="position:absolute;"
+           ng-style="{width:signs.width,left:signs.left,top:signs.top}"
+           class="sign answer-sign {{checkClass[signs.name]}}"
+           ng-class="checkClass[signs.name]">
+    </div>
+
+  </work-area>
+</div>

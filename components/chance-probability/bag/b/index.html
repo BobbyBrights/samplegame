@@ -1,0 +1,43 @@
+<div class="bag-page">
+
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+        <!-- Game specific elements -->
+
+        <img class="{{beetlesBag.cls}}" ng-src="{{beetlesBag.path}}"
+             width="{{beetlesBag.width}}" ng-style="{left:beetlesBag.left,top:beetlesBag.top}"/>
+
+        <div class="data-holder">
+
+            <span class="box-items">{{labels[0]}} {{names}}</span>
+
+            <div class="box-items"><img class="beetles" ng-src="{{beetle.path}}"/></div>
+
+            <span class="box-items">{{labels[1]}}</span>
+
+            <span class="answer-label">{{labels[2]}}</span>
+
+            <div class="input-container">
+                <div class="drop-btn">{{answerValue}}</div>
+            </div>
+
+        </div>
+
+        <div class="action-btn pos-absolute"
+             ng-repeat="text in buttonText"
+             ng-click="answerCheck(text)"
+             ng-style="{left:buttonLeft[$index]+'%',top:buttonTop[$index]+'%'}">
+            <div id="{{text}}" class="num-card">{{text}}</div>
+        </div>
+
+        <img ng-repeat="sign in signs"
+             ng-src="{{sign.path}}"
+             class="{{sign.cls}} {{checkClass[sign.name]}}"
+             ng-class="checkClass[sign.name]"
+             width="{{sign.width}}" ng-style="{left:sign.left,top:sign.top}"/>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+
+</div>

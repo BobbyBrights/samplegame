@@ -1,0 +1,38 @@
+<div class="tall-page">
+    <work-area menu="menu" next="next" getscoreboard="getScoreboard" header="header" onnumberclick="onNumberClick">
+        <!-- Add images -->
+        <div class="container">
+            <game-images id="drag"
+                         class="image-item-0"
+                         drag-item
+                         group="{{$index}}"
+                         images="images">
+            </game-images>
+
+            <img ng-repeat="block in butterfly"
+                 class="image-item-1"
+                 height="{{tallImages['tall'+block].height}}"
+                 ng-style="{top: tallImages['tall'+block].top, left:tallImages['tall'+block].left}"
+                 ng-src="{{tallImages['tall'+block].path}}">
+
+            <baseline orientation="baseline.orientation"></baseline>
+
+        </div>
+
+        <div class="question-container">
+            <div class="question-box">
+                <span class="float-left"><span class="text-left left-side">This butterfly is </span></span>
+                <input type="text" maxlength="2" id="input-1" value="{{inputValue}}" class="input-field">
+                <span class="float-right"><span class="text-left right-side">blocks tall</span></span>
+            </div>
+        </div>
+
+        <!--display check buttons-->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="footer-text" ng-bind-html="footerText"></div>
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

@@ -1,0 +1,10 @@
+<div class="sketch-pad-container">
+  <div class="sketch-pad-base" id="canvas-base-{{$ctrl.canvasId}}"></div>
+  <div class="color-palette">
+    <div ng-repeat="color in $ctrl.colors"
+         class="color"
+         ng-style="{'background-color': color }"
+         ng-click="$ctrl.onColorChange($event)">
+    </div>
+  </div>
+</div>

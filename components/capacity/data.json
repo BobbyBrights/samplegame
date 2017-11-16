@@ -1,0 +1,40 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "capacity": {
+              "home": {
+                "header": {
+                },
+                "footer": {
+                },
+                "images": {
+                  "fancy-image": {
+                    "path": "images/sample-decoration-image.svg",
+                    "cls": "fancy-pic",
+                    "width": "55px",
+                    "height": "112px",
+                    "top": "450px",
+                    "left": "40px"
+                  }
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text....",
+                    "cls": ""
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

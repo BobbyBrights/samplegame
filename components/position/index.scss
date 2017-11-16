@@ -1,0 +1,23 @@
+@import './drag-type/index.scss';
+@import './words/index.scss';
+@import './grids/index.scss';
+@import './paths/index.scss';
+
+/* Game main namespace */
+.position-page{
+  // Page title image
+  .page-title{
+   // background-image: url('./../../components/position/images/title.svg');
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 14%;
+    font-family: poppins;
+    font-size: 2vw;
+    color: #fff761;
+    text-shadow: 0.05vw 0.15vw 0.15vw #000;
+    text-align: center;
+  }
+
+  // Game specific styles
+}

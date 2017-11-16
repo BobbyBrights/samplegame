@@ -1,0 +1,29 @@
+<div class="drag-type-page">
+    <work-area menu="menu" next="next" header="header">
+
+        <!-- Display drop-zone-shapes images -->
+        <div class="display-dropbox">
+            <img ng-repeat="shape in dropcount"
+                 drop-zone group="{{$index + 1}}"
+                 class="{{dropShapes['image'+ $index].cls}}"
+                 ng-src="{{dropShapes['image'+ shape].path}}"
+                 ng-style="{top: dropShapes['image'+ shape].top, left:dropShapes['image'+shape].left}"
+                 height="{{dropShapes['image'+shape].height}}"
+                 width="{{dropShapes['image'+shape].width}}"/>
+        </div>
+
+        <!-- Display shape text names -->
+        <div class="shapes" ng-bind-html="shapes.name"></div>
+
+        <!-- drag images-->
+        <img ng-repeat="block in boxCount" drag-item index="{{$index}}"
+             group="{{images['image'+ block].group}}" class="pos-absolute "
+             id="{{images['image'+ block].id}}"
+             ng-src="{{images['image'+ block].path}}"
+             ng-style="{top: images['image'+ block].top, left:images['image'+block].left}"
+             height="{{images['image' + block].height}}"
+             width="{{images['image' + block].width}}"/>
+
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

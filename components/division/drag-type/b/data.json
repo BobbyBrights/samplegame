@@ -1,0 +1,88 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "division": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Sharing with Hercules Moths"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "herculusMoth": {
+                        "path": "drag-type/images/herculus-moth.svg"
+                      },
+                      "caterpillarImage": {
+                        "path": "drag-type/images/bug.svg"
+                      },
+                      "leafImage": {
+                        "path": "drag-type/images/leaf.svg"
+                      },
+                      "baseLine": {
+                        "path": "drag-type/images/green-base-line.svg"
+                      },
+                      "inputPositions": [
+                        "1,5.7",
+                        "55,5.7",
+                        "88,5.7"
+                      ],
+                      "hint": {
+                        "text": "Drag the caterpillars to share them between the leaves."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "input-type": {
+                          "path": "images/menu/input-type.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'input-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "herculusMoth": {
+                        "path": "drag-type/images/herculus-moth.svg"
+                      },
+                      "caterpillarImage": {
+                        "path": "drag-type/images/bug.svg"
+                      },
+                      "leafImage": {
+                        "path": "drag-type/images/leaf.svg"
+                      },
+                      "baseLine": {
+                        "path": "drag-type/images/green-base-line.svg"
+                      },
+                      "input-type": {
+                          "path": "images/menu/input-type.svg"
+                        }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

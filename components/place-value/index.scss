@@ -1,0 +1,30 @@
+@import './pencile-place-value/index.scss';
+@import './whitebox-place-value/index.scss';
+@import './circlebox-place-value/index.scss';
+@import './circle-place-value/index.scss';
+
+/* Game main namespace */
+.place-value-page{
+
+  // Game specific styles
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.4%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left:85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+}

@@ -1,0 +1,41 @@
+.time-page {
+  .week-page {
+    #drop-zone-0, #drop-zone-1, #drop-zone-2,
+    #drop-zone-3, #drop-zone-4 {
+      border-color: #d74e3b;
+    }
+    #drop-zone-5, #drop-zone-6 {
+      border-color: #79d03f;
+    }
+
+    .common-style {
+      width: 16%;
+      position: absolute;
+      text-align: center;
+      color: #ffffff;
+      font-size: 1.3vw;
+      border-radius: 0.6vw;
+      line-height: 2.9vw;
+    }
+
+    .drag-items {
+      color: #ffffff;
+      height: 10.7%;
+      border: solid 0.01vw;
+    }
+
+    .drop-zones {
+      height: 10.2%;
+      color: #da835d;
+      border: solid 0.01vw;
+    }
+
+    .green-gradient {
+      background-image: -webkit-gradient(linear, 0 0, 0 36, color-stop(0.055, #54b507), color-stop(0.916, #7cd244), to(#82d347));
+      background-image: -webkit-linear-gradient(#54b507 5.5%, #7cd244 91.6%, #82d347);
+      background-image: -moz-linear-gradient(#54b507 5.5%, #7cd244 91.6%, #82d347);
+      background-image: -o-linear-gradient(#54b507 5.5%, #7cd244 91.6%, #82d347);
+      background-image: linear-gradient(#54b507 5.5%, #7cd244 91.6%, #82d347)
+    }
+  }
+}

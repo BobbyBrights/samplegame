@@ -1,0 +1,155 @@
+// Add background layout
+.app-home-level-menu-fives-patterns-layout {
+  .banner {
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.fives-patterns-page {
+
+  .answer-sign {
+    position: absolute;
+    width: 8%;
+    height: 20%;
+    top: 41%;
+    left: 90%;
+  }
+  .input-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c0de94;
+    left: 17.4%;
+    top: 66.7%;
+    width: 66%;
+    height: 20%;
+    border-radius: 0.6vw;
+    justify-content: center;
+    .input-box {
+      width: 10%;
+      height: 68%;
+      margin: 1.6%;
+    }
+  }
+  .check-btns {
+    position: absolute;
+    top: 81.4%;
+    left: 85.3%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .redo-btns {
+    position: absolute;
+    top: 83%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .scale-two {
+    display: none;
+  }
+
+  .footer-text {
+    position: absolute;
+    font-size: 1.6vw;
+    width: 74%;
+    height: 9%;
+    left: 13.4%;
+    top: 55.7%;
+  }
+
+  .check-btn {
+    position: absolute;
+    width: 11.4%;
+    height: 11%;
+    line-height: 3vw;
+    margin-top: 30.3%;
+    left: 83.8%;
+
+  }
+
+  .clear-btn {
+    position: absolute;
+    height: 2.9vw;
+    line-height: 3.2vw;
+    font-size: 1.4vw;
+    top: 81%;
+    width: 11.5%;
+    left: 1.6%;
+  }
+
+  .more-btn {
+    position: absolute;
+    width: 14%;
+    top: 81%;
+    height: 3.5vw;
+    font-size: 1.6vw;
+    line-height: 3.7vw;
+    left: 86.8%;
+
+  }
+
+  .hide-btn {
+    position: absolute;
+    width: 11.3%;
+    height: 2.9vw;
+    line-height: 3.2vw;
+    font-size: 1.4vw;
+    top: -14%;
+    left: 84.1%;
+  }
+
+  .sketch-pad-container .color-palette {
+    top: -16%;
+    width: 11%;
+  }
+
+  /* sketchpad */
+  #content {
+    .sketch-pad-base {
+      position: absolute;
+      width: 80%;
+      height: 53%;
+      top: 3%;
+      left: 16%;
+    }
+  }
+
+  .input-flex {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    left: 23%;
+    min-height: 19%;
+    cursor: auto;
+
+    .input-item {
+      font-size: 1.6vw;
+      border: .15vw solid #9e9a9a;
+      border-radius: .5vw;
+      background-color: #dbe0bc;
+      box-shadow: inset 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, .35);
+      color: #1b4123;
+      text-align: center;
+      width: 7%;
+      padding: 0.2vw;
+      padding-top: 0.4vw;
+      margin: 1%;
+      font-family: poppins;
+      line-height: 3.2vw;
+      &:focus {
+        outline: none;
+        border: .15vw solid #707070;
+        color: #1b4123;
+      }
+    }
+  }
+}

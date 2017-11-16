@@ -1,0 +1,115 @@
+/* Sub game namespace */
+.area-page {
+  .multi-square-page {
+    .table-container {
+      position: absolute;
+      width: 100%;
+      height: 65%;
+      z-index: 0;
+      margin-top: 5%;
+    }
+
+    .check-btns {
+      position: absolute;
+      top: 82%;
+      left: 85.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+    .num-pad.card-pad .action-buttons {
+      margin-top: 1.2%;
+      width: 20.6vw;
+      height: 7vw;
+      margin-left: 3.7%;
+    }
+    .redo-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .square {
+      position: absolute;
+      width: 6.2%;
+      height: 13%;
+      top: 20%;
+      opacity: 0.6;
+    }
+
+    .square-one {
+      left: 63%;
+    }
+
+    .square-two {
+      left: 70%;
+    }
+
+    .square-three {
+      left: 77%;
+    }
+
+    .pos-absolute {
+      position: absolute;
+    }
+
+    .common-hint-text {
+      font-size: 1.6vw;
+      color: #d96e4c;
+      position: absolute;
+    }
+
+    .stamp-hint-text {
+      left: 14%;
+      top: 62%;
+    }
+
+    .square-hint-text {
+      left: 47%;
+      top: 62%;
+    }
+
+    .question-container {
+      position: relative;
+      border-radius: 6px;
+      background-color: #c0de94;
+      box-shadow: 3px 0 5px 0 rgba(0, 0, 0, .21);
+      left: 28.9%;
+      top: 73.9%;
+      width: 25vw;
+      line-height: 3.6vw;
+      height: 3.6vw;
+    }
+
+    #input-1 {
+      position: absolute;
+      left: 58.41%;
+      top: 3.1%;
+    }
+
+    .question-text {
+      position: absolute;
+      margin-top: -0.5%;
+      width: 100%;
+      font-size: 1.35vw;
+    }
+
+    .text-left {
+      float: left;
+      margin-left: 4%;
+      color: #1b4123;
+    }
+
+    .text-right {
+      float: left;
+      margin-left: 75%;
+      color: #1b4123;
+    }
+  }
+
+}

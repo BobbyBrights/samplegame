@@ -1,0 +1,76 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "division": {
+              "types": {
+                "input-type": {
+                  "home": {
+                    "header": {
+                      "text": "Sharing with Butterflies"
+                    },
+                    "footer": {
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "flower": {
+                        "path": "images/flower.svg"
+                      },
+                      "butterfly": {
+                        "path": "images/butterfly.svg"
+                      },
+                      "inputPositions": [
+                        "1,5.7",
+                        "55,5.7",
+                        "88,5.7"
+                        ],
+                      "hint": {
+                        "text": "Draw lines to share the butterflies among the flowers."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'drag-type', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "flower": {
+                        "path": "images/flower.svg"
+                      },
+                      "butterfly": {
+                        "path": "images/butterfly.svg"
+                      },
+                      "drag-type": {
+                        "path": "images/menu/drag-type.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

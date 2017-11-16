@@ -1,0 +1,108 @@
+// Add background layout
+.app-home-level-menu-tens-patterns-layout {
+  .banner {
+    background-image: url('./../../assets/images/algebra-patterns/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.tens-patterns-page {
+  .answer-sign {
+    position: absolute;
+    width: 10%;
+    top: 42%;
+    left: 87%;
+  }
+  //.check-btn {
+  //  font-size: 1.6vw;
+  //  width: 85%;
+  //  height: 3.7vw;
+  //  line-height: 3.8vw;
+  //  margin: 19px auto 19%;
+  //}
+  .check-btn {
+    width: 12%;
+    position: absolute;
+    bottom: 19%;
+    left: 85%;
+    z-index: 1;
+  }
+
+  .next-btn {
+    width: 85%;
+  }
+  .hide-btn {
+    position: absolute;
+    left: 85%;
+    top: -15%;
+    width: 12%;
+    height: 3.6vw;
+    line-height: 3.9vw;
+  }
+  .more-btn {
+    position: absolute;
+    left: 85%;
+    top: 83%;
+    width: 12%;
+    height: 3.6vw;
+    line-height: 3.9vw;
+  }
+  .clear-btn {
+    position: absolute;
+    left: 0%;
+    top: 82%;
+    width: 12%;
+    height: 3.6vw;
+    line-height: 3.9vw;
+  }
+
+  .number-line {
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    width: 83%;
+  }
+
+  .hint-pos {
+    bottom: 31%;
+    font-size: 1.3vw;
+  }
+
+  /* sketchpad */
+  .sketch-pad-base {
+    position: absolute;
+    width: 85%;
+    height: 65%;
+    top: -1%;
+    left: 13%;
+  }
+
+  .input-holder {
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 81%;
+    left: 23%;
+    min-height: 18%;
+    cursor: auto;
+
+    .input-item {
+      border: 0.145vw solid #696E46;
+      border-radius: 0.7vw;
+      background-color: #80875D;
+      font-size: 1.6vw;
+      width: 7%;
+      margin: 1%;
+      color: #ffffff;
+      text-align: center;
+      line-height: 3.5vw;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+  // Game specific styles
+}

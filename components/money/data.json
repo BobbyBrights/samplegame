@@ -1,0 +1,190 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "money": {
+              "home": {
+                "header": {
+                  "text": "Wombat Money Box"
+                },
+                "footer": {
+                  "text": "Enter amount in the box."
+                },
+                "images": {},
+                "question": {
+                  "wombat-image": {
+                    "path": "images/wombat.svg"
+                  },                  
+                  "hint": {
+                    "text": "How much money?"
+                  },
+                  "rsType": {
+                    "text": "Dollars",
+                    "cls": "rs-type"
+                  },
+                  "coins": {
+                    "c0": {
+                      "path": "images/50c.svg",
+                      "cls": "pos-absolute",
+                      "width": "14%",
+                      "height": "30%"
+                    },
+                    "c1": {
+                      "path": "images/20c.svg",
+                      "cls": "pos-absolute",
+                      "width": "11%",
+                      "height": "23%"
+                    },
+                    "c2": {
+                      "path": "images/10c.svg",
+                      "cls": "pos-absolute",
+                      "width": "11%",
+                      "height": "22%"
+                    },
+                    "c3": {
+                      "path": "images/5c.svg",
+                      "cls": "pos-absolute",
+                      "width": "9%",
+                      "height": "20%"
+                    },
+                    "c4": {
+                      "path": "images/2d.svg",
+                      "cls": "pos-absolute",
+                      "width": "6%",
+                      "height": "14%"
+                    },
+                    "c5": {
+                      "path": "images/1d.svg",
+                      "cls": "pos-absolute",
+                      "width": "7%",
+                      "height": "15%"
+                    }
+                  },
+                  "coins-images":{
+
+                    "variation-0":{
+                      "images":[3, 3],
+                      "position":[[24,7],[18,7]],
+                      "answer":10
+                    },
+                    "variation-1":{
+                      "images":[2, 2],
+                      "position":[[24,7],[18,7]],
+                      "answer":20
+                    },
+                    "variation-2":{
+                      "images":[2, 3, 3],
+                      "position":[[16,8],[22,3],[26,9]],
+                      "answer":20
+                    },
+                    "variation-3":{
+                      "images":[2, 1],
+                      "position":[[23,10],[17,4]],
+                      "answer":30
+                    },
+                    "variation-4":{
+                      "images":[2, 2, 3, 3],
+                      "position":[[18,4],[24,11],[18,10],[24,5]],
+                      "answer":30
+                    },
+                    "variation-5":{
+                      "images":[2, 2, 1],
+                      "position":[[22,4],[25,10],[17,10]],
+                      "answer":40
+                    },
+                    "variation-6":{
+                      "images":[2, 2, 3, 3, 3, 3],
+                      "position":[[15,5],[27,4],[16,11],[21,6],[22,12],[28,11]],
+                      "answer":40
+                    },
+                    "variation-7":{
+                      "images":[2, 2, 2, 1],
+                      "position":[[17,11],[24,10],[25,4],[18,4]],
+                      "answer":50
+                    },
+                    "variation-8":{
+                      "images":[1, 2, 3, 3, 3, 3],
+                      "position":[[15,5],[16,12],[22,10],[22,4],[28,7],[27,13]],
+                      "answer":50
+                    },
+                    "variation-9":{
+                      "images":[0, 1, 2, 3, 3],
+                      "position":[[16,4],[24,3],[18,12],[24,9],[27,14]],
+                      "answer":90
+                    },
+                    "variation-10":{
+                      "images":[5, 5],
+                      "position":[[19,6],[23,11]],
+                      "answer":2
+                    },
+                    "variation-11":{
+                      "images":[5, 5, 4],
+                      "position":[[21,4],[18,11],[25,9]],
+                      "answer":4
+                    },
+                    "variation-12":{
+                      "images":[0, 0, 5, 5],
+                      "position":[[23,3],[16,10],[18,5],[25,12]],
+                      "answer":102
+                    },
+                    "variation-13":{
+                      "images":[4, 4, 5],
+                      "position":[[18,5],[25,5],[21,11]],
+                      "answer":5
+                    },
+                    "variation-14":{
+                      "images":[1, 1, 1, 1, 1, 4, 4, 4, 4, 5],
+                      "position":[[14,7],[14,14],[20,11],[26,14],[28,8],[17,3],[22,3],[27,3],[24,7],[20,7]],
+                      "answer":109
+                    }
+
+                  }
+
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "wombat-image": {
+                    "path": "images/wombat.svg"
+                  },
+                  "c0": {
+                    "path": "images/50c.svg"
+                  },
+                  "c1": {
+                    "path": "images/20c.svg"
+                  },
+                  "c2": {
+                    "path": "images/10c.svg"
+                  },
+                  "c3": {
+                    "path": "images/5c.svg"
+                  },
+                  "c4": {
+                    "path": "images/2d.svg"
+                  },
+                  "c5": {
+                    "path": "images/1d.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

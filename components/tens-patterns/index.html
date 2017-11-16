@@ -1,0 +1,46 @@
+<div class="tens-patterns-page">
+    <work-area menu="menu" next="next" check="check" header="header"
+                onnumberclick="onNumberClick" getscoreboard="getScoreboard">
+        <!-- Add images -->
+        <game-images images="images"></game-images>
+
+        <sketch-pad bind-sketch-pad="getSketchPad(sketchPad)"></sketch-pad>
+
+        <div class="input-holder">
+            <!-- <input class="input-item"
+                   ng-repeat="i in numberOfInputs track by $index"
+                   ng-disabled="disability[counter][$index]"
+                   ng-model="userInputs[$index]"
+                   id="input-{{$index}}"
+                   maxlength="3"/> -->
+            <div id="input-label-{{$index}}" ng-repeat="num in numbers.left track by getUniqueId()"
+             class="input-item">{{num}}
+            </div>
+
+            <input ng-repeat="num in numbers.right track by getUniqueId()" id="input-{{$index}}" 
+            class="input-item input" ng-click="inputClick($index)" ng-focus="currentInput=$index" 
+            data-count="{{num}}" maxlength="3"/>
+        </div>
+
+        <game-images ng-if="!showLine" images="numberLine"></game-images>
+        <game-images ng-if="showLine" images="dottedLine"></game-images>
+
+        <span class="hint-text hint-pos">{{hintLabel}}</span>
+        <!-- Game specific elements -->
+        <div class=" hide-btn  plus-btn" ng-click="hide($event)">{{label}}</div>
+        <div class="clear-btn plus-btn" ng-click="Clear()">{{text}}</div>
+
+        <div class=" more-btn  plus-btn" ng-click="changePattern($event)">More</div>
+
+        <img ng-repeat="signs in sign" ng-src="{{signs.path}}"
+             class="answer-sign {{checkClass[signs.name]}}"
+             ng-class="checkClass[signs.name]"/>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <div id="check" class="check-button check-btn action-btn red-gradient" ng-click="check($event)">Check</div>
+
+    </work-area>
+
+</div>

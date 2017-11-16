@@ -1,0 +1,16 @@
+@import './count-by-two/index.scss';
+@import './count-by-five/index.scss';
+@import './count-by-ten/index.scss';
+
+/* Game main namespace */
+.count-by-page{
+  .bottom-panel-menu {
+    .buttons {
+      height: 76%;
+      margin-left: 6.6%;
+      margin-top: 4.7%;
+      width: 30%;
+      justify-content: center;
+    }
+  }
+}

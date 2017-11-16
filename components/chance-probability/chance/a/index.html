@@ -1,0 +1,82 @@
+<div class="chance-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+
+        <!-- Add images -->
+
+        <div class="hint-text question-text" ng-bind-html="headerText"></div>
+
+        <div class="image-holder">
+            <div ng-repeat="i in 3 | range track by $index" class="image-item">
+                <img id="tree-{{$index}}" ng-src="{{images.tree.path}}"/>
+            </div>
+        </div>
+
+        <div>
+            <img ng-repeat="i in 3 | range track by $index"
+                 id="play-{{$index}}"
+                 class="{{images.play.cls}}"
+                 ng-src="{{images.play.path}}"
+                 width="{{images.play.width}}"
+                 ng-style="{left:25.3 +($index * 23.4)+'%',top:'58.8%'}"
+                 ng-click="play($index)"/>
+        </div>
+        <!-- drag and drop elements -->
+        <div ng-repeat="text in labels track by $index"
+             drag-item
+             id="drag-{{$index}}"
+             class="pos-absolute drag-btn move-enable invisible"
+             group="{{$index}}"
+             ng-style="{left:leftPosition[$index]+'%',top:topPosition[$index]+'%'}">{{text}}
+        </div>
+
+        <div ng-repeat="dropValue in groups track by getUniqueId()"
+             drop-zone
+             id="drop-{{$index}}"
+             class="drop-btn"
+             group="{{dropValue}}"
+             ng-style="{left:dropLeft[$index]+'%',top:'70.6%'}">
+        </div>
+
+        <!-- animations are here -->
+        <div ng-if="type < 2">
+            <img id="kangaroo" class="kangaro-position {{images.kangaroo.cls}}" ng-src="{{images.kangaroo.path}}"
+                 width="{{images.kangaroo.width}}"/>
+
+            <div id="kangaroo-hop" position="36,41"></div>
+
+            <img id="sun" class="{{images.sun.cls}} sun-position" ng-src="{{images.sun.path}}"
+                 width="{{images.sun.width}}"/>
+        </div>
+
+        <div ng-if="type === 1">
+            <img id="cloud" class="{{images.cloud.cls}}" ng-src="{{images.cloud.path}}"
+                 width="{{images.cloud.width}}"/>
+
+            <div ng-show="rainOn" id="rain" position="70.5,12"></div>
+
+        </div>
+
+        <div ng-if="type === 2">
+            <img id="sun-two" class="{{images.sun.cls}} sun-two-position" ng-src="{{images.sun.path}}"
+                 width="{{images.sun.width}}"/>
+
+            <img id="cloud2" class="{{images.cloud.cls}} flip"
+                 ng-src="{{images.cloud.path}}"
+                 width="{{images.cloud.width}}" position="70,23"/>
+
+            <div ng-show="rainOn" class="flip" id="rain-two" position="70.6,6.5"></div>
+
+            <div id="butterfly" class="butterfly" position="14,40"></div>
+
+            <div id="butterfly-fly" class="invisible" position="14,40"></div>
+
+        </div>
+
+        <img id="tick" ng-src="{{tickImage.tick.path}}" width="{{tickImage.tick.width}}" class="invisible"
+             position="89,63.5"/>
+
+        <!--  Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

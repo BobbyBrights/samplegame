@@ -1,0 +1,87 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "number-ordering": {
+              "types": {
+                "in-order": {
+                  "home": {
+                    "header": {
+                      "text": "Ordering numbers"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "inOrder": {
+                        "path": "in-order/images/bug2.svg",
+                        "cls": "pos-absolute",
+                        "width": "10%",
+                        "height": "11%",
+                        "top": "10%",
+                        "left": "87%"
+                      }
+                    },
+                    "question": {
+                      "chartHelp": "Write the numbers from smallest to largest.",
+                      "maxValue": 900,
+                      "minValue": 100,
+                      "hint": {
+                        "text": "Enter the missing number.",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "before": {
+                          "path": "images/menu/left-icon-before.svg",
+                          "state": "^.number-ordering-game",
+                          "params": "{category : 'number', game : 'before', level :  'c'}"
+                        },
+                        "after": {
+                          "path": "images/menu/left-icon-after.svg",
+                          "state": "^.number-ordering-game",
+                          "params": "{category : 'number', game : 'after', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path": "in-order/images/right-panel-icon.svg"
+                      }
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "inOrder": {
+                        "path": "in-order/images/bug2.svg"
+                      },
+                      "before": {
+                        "path": "images/menu/left-icon-before.svg"
+                      },
+                      "after": {
+                        "path": "images/menu/left-icon-after.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

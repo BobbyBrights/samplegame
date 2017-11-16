@@ -1,0 +1,21 @@
+/* Sub game namespace */
+.count-to-page {
+
+  .block-image {
+    width: 20.5%;
+    height: 20%;
+
+  }
+  .reset-check-btn {
+    position: absolute;
+    width: 10%;
+    top: 84%;
+    left: 76.5%;
+    z-index: 2;
+
+    .redo-btns {
+      width: 6.4vw;
+      height: 2.7vw;
+    }
+  }
+}

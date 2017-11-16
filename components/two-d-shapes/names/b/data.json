@@ -1,0 +1,248 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "names": {
+                  "home": {
+                    "header": {
+                      "text": "2D Shape Names"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Select the correct name."
+                      },
+                      "images": {
+                        "0": {
+                          "path": "names/images/square-one.svg",
+                          "width": "53%"
+                        },
+                        "1": {
+                          "path": "names/images/circle-one.svg",
+                          "width": "53%"
+                        },
+                        "2": {
+                          "path": "names/images/triangle-one.svg",
+                          "width": "66%"
+                        },
+                        "3": {
+                          "path": "names/images/hexagon-one.svg",
+                          "width": "63%"
+                        },
+                        "4": {
+                          "path": "names/images/rectangle-one.svg",
+                          "width": "95%"
+                        },
+                        "5": {
+                          "path": "names/images/square-two.svg",
+                          "width": "53%"
+                        },
+                        "6": {
+                          "path": "names/images/circle-two.svg",
+                          "width": "54%"
+                        },
+                        "7": {
+                          "path": "names/images/triangle-two.svg",
+                          "width": "62%"
+                        },
+                        "8": {
+                          "path": "names/images/hexagon-two.svg",
+                          "width": "62%"
+                        },
+                        "9": {
+                          "path": "names/images/rectangle-two.svg",
+                          "width": "95%"
+                        },
+                        "10": {
+                          "path": "names/images/square-three.svg",
+                          "width": "53%"
+                        },
+                        "11": {
+                          "path": "names/images/circle-three.svg",
+                          "width": "53%"
+                        },
+                        "12": {
+                          "path": "names/images/triangle-three.svg",
+                          "width": "95%"
+                        },
+                        "13": {
+                          "path": "names/images/hexagon-three.svg",
+                          "width": "85%"
+                        },
+                        "14": {
+                          "path": "names/images/rectangle-three.svg",
+                          "width": "22.5%"
+                        },
+                        "15": {
+                          "path": "names/images/square-one.svg",
+                          "width": "53%"
+                        },
+                        "16": {
+                          "path": "names/images/circle-one.svg",
+                          "width": "53%"
+                        },
+                        "17": {
+                          "path": "names/images/triangle-four.svg",
+                          "width": "62%"
+                        },
+                        "18": {
+                          "path": "names/images/hexagon-four.svg",
+                          "width": "46%"
+                        },
+                        "19": {
+                          "path": "names/images/rectangle-four.svg",
+                          "width": "95%"
+                        }
+                      },
+                      "signs": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "name": "tick",
+                          "top": "61.8%",
+                          "left": "89.3%"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "name": "cross",
+                          "top": "66.3%",
+                          "left": "90.1%"
+                        }
+                      },
+                      "names": [
+                        "Square",
+                        "Circle",
+                        "Rectangle",
+                        "Triangle",
+                        "Hexagon"
+                      ],
+                      "answer": [
+                        "Square",
+                        "Circle",
+                        "Triangle",
+                        "Hexagon",
+                        "Rectangle",
+                        "Square",
+                        "Circle",
+                        "Triangle",
+                        "Hexagon",
+                        "Rectangle",
+                        "Square",
+                        "Circle",
+                        "Triangle",
+                        "Hexagon",
+                        "Rectangle",
+                        "Square",
+                        "Circle",
+                        "Triangle",
+                        "Hexagon",
+                        "Rectangle"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "side-corners": {
+                          "path": "images/menu/sidesCorners.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'side-corners', level :  'b'}"
+                        },
+                        "flip-slide": {
+                          "path": "images/menu/flipSides.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'flip-slide', level :  'b'}"
+                        },
+                        "angles": {
+                          "path": "images/menu/angles.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'angles', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "0": {
+                        "path": "names/images/square-one.svg"
+                      },
+                      "1": {
+                        "path": "names/images/circle-one.svg"
+                      },
+                      "2": {
+                        "path": "names/images/triangle-one.svg"
+                      },
+                      "3": {
+                        "path": "names/images/hexagon-one.svg"
+                      },
+                      "4": {
+                        "path": "names/images/rectangle-one.svg"
+                      },
+                      "5": {
+                        "path": "names/images/square-two.svg"
+                      },
+                      "6": {
+                        "path": "names/images/circle-two.svg"
+                      },
+                      "7": {
+                        "path": "names/images/triangle-two.svg"
+                      },
+                      "8": {
+                        "path": "names/images/hexagon-two.svg"
+                      },
+                      "9": {
+                        "path": "names/images/rectangle-two.svg"
+                      },
+                      "10": {
+                        "path": "names/images/square-three.svg"
+                      },
+                      "11": {
+                        "path": "names/images/circle-three.svg"
+                      },
+                      "12": {
+                        "path": "names/images/triangle-three.svg"
+                      },
+                      "13": {
+                        "path": "names/images/hexagon-three.svg"
+                      },
+                      "14": {
+                        "path": "names/images/rectangle-three.svg"
+                      },
+                      "15": {
+                        "path": "names/images/square-one.svg"
+                      },
+                      "16": {
+                        "path": "names/images/circle-one.svg"
+                      },
+                      "17": {
+                        "path": "names/images/triangle-four.svg"
+                      },
+                      "18": {
+                        "path": "names/images/hexagon-four.svg"
+                      },
+                      "19": {
+                        "path": "names/images/rectangle-four.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "place-value": {
+              "types": {
+                "circle-place-value": {
+                  "home": {
+                    "header": {
+                      "text": "Place Value with Abacus"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                      "handler": {
+                        "path": "circle-place-value/images/handler.svg",
+                        "cls": "pos-absolute",
+                        "width": "27%",
+                        "height": "75%",
+                        "top": "9%",
+                        "left": "13.7%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the boxes, and then select check."
+                      },
+                      "tens-text": {
+                        "text": "Tens"
+                      },
+                      "ones-text":{
+                        "text": "Ones"
+                      },
+                      "abacus": {
+                        "blue-abacus": {
+                          "path": "circle-place-value/images/blue-abacus.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "darkmagenta-abacus": {
+                          "path": "circle-place-value/images/darkmagenta-abacus.svg",
+                          "cls": "pos-absolute"
+                        }
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "pencile-place-value": {
+                          "path": "images/menu/left-pencil-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'pencile-place-value', level :  'b'}"
+                        },
+                        "whitebox-place-value": {
+                          "path": "images/menu/left-blocks-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'whitebox-place-value', level :  'b'}"
+                        },
+                        "circlebox-place-value": {
+                          "path": "images/menu/left-grid-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'circlebox-place-value', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "handler": {
+                        "path": "circle-place-value/images/handler.svg"
+                      },
+                      "blue-abacus": {
+                        "path": "circle-place-value/images/blue-abacus.svg"
+                      },
+                      "darkmagenta-abacus": {
+                        "path": "circle-place-value/images/darkmagenta-abacus.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

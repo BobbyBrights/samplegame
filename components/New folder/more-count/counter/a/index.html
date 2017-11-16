@@ -1,0 +1,40 @@
+
+<div class="counter-page">
+
+    <work-area menu="menu" id="workArea" next="next" onnumberclick="checkClick" header="header">
+
+        <!--Display jar image-->
+        <game-images images="images"></game-images>
+
+        <!--Display the circle image-->
+        <div class="counter-container">
+            <div class="circle-container circle-border" ng-repeat="val in ranger">
+                <div class="circle" ng-hide="val<=randomCounters?false:true"
+                     ng-style="{'background-color': colors[getCircleCount(val-1)],
+                     'box-shadow' : shadowColors[getCircleCount(val-1)]}"></div>
+                <div class="count">
+                    <span ng-class="checkVisibility">{{val}}</span>
+                </div>
+            </div>
+        </div>
+
+        <!--Display show-hide button with text-->
+        <div class="grid-btn" ng-click="showHideTable($event)">
+            <!--Display the show-hide-button-->
+            <game-images images="showHideButton" class="show-hide-button"></game-images>
+            <!--Display show-hide button text-->
+            <span class="hide-show">{{chartText}}</span>
+        </div>
+
+        <!--Display tick and cross-->
+        <div class="tick-cross">
+            <img class="tick" ng-class="checkClass['tick']" ng-src="{{sign.tick.path}}">
+            <img class="cross" ng-class="checkClass['cross']" ng-src="{{sign.cross.path}}">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+
+</div>

@@ -1,0 +1,91 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "home": {
+                "header": {
+                  "text": "<span>It is game header</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text...."
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "home": {
+                "header": {
+                  "text": "<span>It is game header</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text...."
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "home": {
+                "header": {
+                  "text": "<span>It is game header</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                },
+                "question": {
+                  "hint": {
+                    "text": "Hint text...."
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

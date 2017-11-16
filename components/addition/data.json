@@ -1,0 +1,32 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "addition": {
+              "home": {
+                "header": {
+                },
+                "footer": {
+                },
+                "images": {
+                },
+                "question": {
+                  "hint": {
+                    "text": "Enter answer in the box.",
+                    "cls": ""
+                  }
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

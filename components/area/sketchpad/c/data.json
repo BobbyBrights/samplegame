@@ -1,0 +1,132 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "area": {
+              "types": {
+                "sketchpad": {
+                  "home": {
+                    "header": {
+                      "text": "Area"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Trace around the stamp,then click hide.</br>Count the squares,enter answer in the box.",
+                        "cls": ""
+                      },
+                      "stamp-images": {
+                        "stamp-0": {
+                          "path": "sketchpad/c/images/$2-frog.svg",
+                          "width": "27%",
+                          "height": "34.7%",
+                          "top": "10.9%",
+                          "left": "39.1%"
+                        },
+                        "stamp-1": {
+                          "path": "sketchpad/c/images/10c-bug.svg",
+                          "width": "18%",
+                          "height": "44%",
+                          "top": "10.6%",
+                          "left": "39%"
+                        },
+                        "stamp-2": {
+                          "path": "sketchpad/c/images/20c-bug.svg",
+                          "width": "18%",
+                          "height": "44%",
+                          "top": "10.6%",
+                          "left": "39.05%"
+                        },
+                        "stamp-3": {
+                          "path": "sketchpad/c/images/$1-fish.svg",
+                          "width": "27%",
+                          "height": "36%",
+                          "top": "10.1%",
+                          "left": "39%"
+                        },
+                        "stamp-4": {
+                          "path": "sketchpad/c/images/50c-grasshopper.svg",
+                          "width": "27%",
+                          "height": "44%",
+                          "top": "10.5%",
+                          "left": "39%"
+                        },
+                        "stamp-5": {
+                          "path": "sketchpad/c/images/45c-butterfly.svg",
+                          "width": "27.7%",
+                          "height": "52%",
+                          "top": "10.9%",
+                          "left": "38.7%"
+                        }
+                      },
+                      "input-values": [
+                        24,
+                        20,
+                        20,
+                        24,
+                        30,
+                        36
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "multi-square-drag": {
+                          "path": "images/menu/multi-square-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'multi-square-drag', level :  'c'}"
+                        },
+                        "grid-drag": {
+                          "path": "images/menu/grid-drag.svg",
+                          "state": "^.area-game",
+                          "params": "{category : 'measurement', game : 'grid-drag', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10,
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "stamp-0": {
+                        "path": "sketchpad/c/images/$2-frog.svg"
+                      },
+                      "stamp-1": {
+                        "path": "sketchpad/c/images/10c-bug.svg"
+                      },
+                      "stamp-2": {
+                        "path": "sketchpad/c/images/20c-bug.svg"
+                      },
+                      "stamp-3": {
+                        "path": "sketchpad/c/images/$1-fish.svg"
+                      },
+                      "stamp-4": {
+                        "path": "sketchpad/c/images/50c-grasshopper.svg"
+                      },
+                      "stamp-5": {
+                        "path": "sketchpad/c/images/45c-butterfly.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,270 @@
+
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "shapes": {
+              "home": {
+                "header": {
+                  "text": "Shape Patterns"
+                },
+                "images": {
+                  "hen": {
+                    "path": "images/hen.svg",
+                    "cls": "hen",
+                    "width": "12%",
+                    "height": "35%",
+                    "top": "64%",
+                    "left": "3%"
+                  }
+                },
+                "question": {
+                  "question-label": {
+                    "text": "Complete the shapes pattern."
+                  },
+                  "hint": {
+                    "text": "Drag the shapes."
+                  },
+                  "random-images": {
+                    "shapes-0": {
+                      "path": "images/dark-orange-square.svg"
+                    },
+                    "shapes-1": {
+                      "path": "images/green-triangle.svg"
+                    },
+                    "shapes-2": {
+                      "path": "images/blue-circle.svg"
+                    },
+                    "shapes-3": {
+                      "path": "images/blue-circle.svg"
+                    },
+                    "shapes-4": {
+                      "path": "images/orange-rectangle.svg"
+                    },
+                    "shapes-5": {
+                      "path": "images/red-hexagone.svg"
+                    },
+                    "shapes-6": {
+                      "path": "images/pink-tapezoide.svg"
+                    },
+                    "shapes-7": {
+                      "path": "images/purple-rectangle.svg"
+                    },
+                    "shapes-8": {
+                      "path": "images/light-green-square.svg"
+                    },
+                    "shapes-9": {
+                      "path": "images/yellow-triangle.svg"
+                    },
+                    "shapes-10": {
+                      "path": "images/orange-circle.svg"
+                    },
+                    "shapes-11": {
+                      "path": "images/red-rectangle.svg"
+                    },
+                    "shapes-12": {
+                      "path": "images/blue-circle.svg"
+                    },
+                    "shapes-13": {
+                      "path": "images/orange-rectangle.svg"
+                    },
+                    "shapes-14": {
+                      "path": "images/red-hexagone.svg"
+                    },
+                    "shapes-15": {
+                      "path": "images/green-hexagone.svg"
+                    },
+                    "shapes-16": {
+                      "path": "images/blue-pentagone.svg"
+                    },
+                    "shapes-17": {
+                      "path": "images/purple-tapezoide.svg"
+                    },
+                    "shapes-18": {
+                      "path": "images/orange-circle.svg"
+                    },
+                    "shapes-19": {
+                      "path": "images/green-hexagone.svg"
+                    },
+                    "shapes-20": {
+                      "path": "images/red-rectangle.svg"
+                    },
+                    "shapes-21": {
+                      "path": "images/green-hexagone.svg"
+                    },
+                    "shapes-22": {
+                      "path": "images/dark-orange-square.svg"
+                    },
+                    "shapes-23": {
+                      "path": "images/green-triangle.svg"
+                    },
+                    "shapes-24": {
+                      "path": "images/pink-tapezoide.svg"
+                    },
+                    "shapes-25": {
+                      "path": "images/blue-pentagone.svg"
+                    },
+                    "shapes-26": {
+                      "path": "images/red-hexagone.svg"
+                    },
+                    "shapes-27": {
+                      "path": "images/green-hexagone.svg"
+                    },
+                    "shapes-28": {
+                      "path": "images/orange-rectangle.svg"
+                    },
+                    "shapes-29": {
+                      "path": "images/purple-rectangle.svg"
+                    },
+                    "shapes-30": {
+                      "path": "images/purple-rectangle.svg"
+                    },
+                    "shapes-31": {
+                      "path": "images/purple-tapezoide.svg"
+                    },
+                    "shapes-32": {
+                      "path": "images/light-green-square.svg"
+                    }
+                  },
+                  "drop-image": {
+                    "drop": {
+                      "path": "images/shape-circle.svg",
+                      "width": "5%"
+                    }
+                  },
+                  "sign-image": {
+                    "tick": {
+                      "path": "images/tick.svg",
+                      "cls": "tick"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true
+              },
+              "preload": {
+                "images": {
+                  "hen": {
+                    "path": "images/hen.svg"
+                  },
+                  "drop": {
+                    "path": "images/shape-circle.svg"
+                  },
+                  "shapes-0": {
+                    "path": "images/dark-orange-square.svg"
+                  },
+                  "shapes-1": {
+                    "path": "images/green-triangle.svg"
+                  },
+                  "shapes-2": {
+                    "path": "images/blue-circle.svg"
+                  },
+                  "shapes-3": {
+                    "path": "images/blue-circle.svg"
+                  },
+                  "shapes-4": {
+                    "path": "images/orange-rectangle.svg"
+                  },
+                  "shapes-5": {
+                    "path": "images/red-hexagone.svg"
+                  },
+                  "shapes-6": {
+                    "path": "images/pink-tapezoide.svg"
+                  },
+                  "shapes-7": {
+                    "path": "images/purple-rectangle.svg"
+                  },
+                  "shapes-8": {
+                    "path": "images/light-green-square.svg"
+                  },
+                  "shapes-9": {
+                    "path": "images/yellow-triangle.svg"
+                  },
+                  "shapes-10": {
+                    "path": "images/orange-circle.svg"
+                  },
+                  "shapes-11": {
+                    "path": "images/red-rectangle.svg"
+                  },
+                  "shapes-12": {
+                    "path": "images/blue-circle.svg"
+                  },
+                  "shapes-13": {
+                    "path": "images/orange-rectangle.svg"
+                  },
+                  "shapes-14": {
+                    "path": "images/red-hexagone.svg"
+                  },
+                  "shapes-15": {
+                    "path": "images/green-hexagone.svg"
+                  },
+                  "shapes-16": {
+                    "path": "images/blue-pentagone.svg"
+                  },
+                  "shapes-17": {
+                    "path": "images/purple-tapezoide.svg"
+                  },
+                  "shapes-18": {
+                    "path": "images/orange-circle.svg"
+                  },
+                  "shapes-19": {
+                    "path": "images/green-hexagone.svg"
+                  },
+                  "shapes-20": {
+                    "path": "images/red-rectangle.svg"
+                  },
+                  "shapes-21": {
+                    "path": "images/green-hexagone.svg"
+                  },
+                  "shapes-22": {
+                    "path": "images/dark-orange-square.svg"
+                  },
+                  "shapes-23": {
+                    "path": "images/green-triangle.svg"
+                  },
+                  "shapes-24": {
+                    "path": "images/pink-tapezoide.svg"
+                  },
+                  "shapes-25": {
+                    "path": "images/blue-pentagone.svg"
+                  },
+                  "shapes-26": {
+                    "path": "images/red-hexagone.svg"
+                  },
+                  "shapes-27": {
+                    "path": "images/green-hexagone.svg"
+                  },
+                  "shapes-28": {
+                    "path": "images/orange-rectangle.svg"
+                  },
+                  "shapes-29": {
+                    "path": "images/purple-rectangle.svg"
+                  },
+                  "shapes-30": {
+                    "path": "images/purple-rectangle.svg"
+                  },
+                  "shapes-31": {
+                    "path": "images/purple-tapezoide.svg"
+                  },
+                  "shapes-32": {
+                    "path": "images/light-green-square.svg"
+                  },
+                  "tick": {
+                    "path": "images/tick.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

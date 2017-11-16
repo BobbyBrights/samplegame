@@ -1,0 +1,30 @@
+@import './drag-type/index.scss';
+@import './click-type/index.scss';
+@import './input-click-type/index.scss';
+@import './input-type/index.scss';
+@import './fill-container/index.scss';
+
+
+/* Game main namespace */
+.volume-page {
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.5%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.5%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+}

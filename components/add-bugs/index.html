@@ -1,0 +1,51 @@
+<div class="add-bugs-page">
+  <work-area
+      menu="menu"
+      next="next"
+      onnumberclick="checkClick"
+      getscoreboard="getScoreboard" 
+      header="header">
+      
+    <!-- Game specific elements -->
+
+    <!-- Leafs and bugs -->
+    <div class="left-side-big-leaf">
+      <game-images images="bugsImages.leaf"></game-images>
+
+      <img ng-repeat="position in bugsLeftPosition"
+           class="{{bigBugImage.bigBug.cls}}"
+           data-rotate-by="{{transformLeft[$index]}}"
+           ng-src="{{bigBugImage.bigBug.path}}"
+           height="{{bigBugImage.bigBug.height}}"
+           width="{{bigBugImage.bigBug.width}}"
+           position="{{position}}">
+    </div>
+
+    <div class="right-side-big-leaf">
+      <game-images images="bugsImages.leaf2"></game-images>
+
+      <img ng-repeat="position in bugsRightPosition"
+           class="{{bigBugImage.bigBug.cls}}"
+           data-rotate-by="{{transformRight[$index]}}"
+           ng-src="{{bigBugImage.bigBug.path}}"
+           height="{{bigBugImage.bigBug.height}}"
+           width="{{bigBugImage.bigBug.width}}"
+           position="{{position}}">
+    </div>
+
+    <!--Tick and Cross-->
+    <div class="center-content">
+      <img ng-repeat="signs in sign"
+           ng-src="{{signs.path}}"
+           class="sign answer-sign {{checkClass[signs.name]}}"
+           ng-class="checkClass[signs.name]">
+    </div>
+
+    <!--Display footer text-->
+    <div class="footer-text">{{footer}}</div>
+
+    <!--Display hint text-->
+    <div class="hint-text">{{questionText}}</div>
+
+  </work-area>
+</div>

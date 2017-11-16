@@ -1,0 +1,61 @@
+.one-dice-page {
+  .left-dice-image, .right-dice-image {
+    margin-top: 2%;
+    width: 26%;
+  }
+
+  .dice-content {
+    margin-left: 6%;
+    width: 88%;
+    height: 52%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .data-content {
+    width: 67.3%;
+    height: 25%;
+    margin-left: 16.4%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.1%;
+    border-radius: 1vw;
+    background-color: #c0de94;
+    box-shadow: 0.3vw 0 0.5vw -0.2vw hsla(0,0%,53%,.67);
+    .input-box {
+      width: 13%;
+      height: 4.6vw;
+      font-size: 3vw;
+      text-align: center;
+      margin-left: 2%;
+      margin-right: 2.3%;
+      margin-top: 0.3%;
+    }
+
+    .sign-box {
+      width: 14%;
+      height: 48%;
+      margin-top: 4.1%;
+      vertical-align: middle;
+      text-align: center;
+      border-radius: 22%;
+      font-size: 2vw;
+      font-weight: bold;
+      color: #000000;
+
+      .sign-text {
+        font-size: 1vw;
+        font-weight: bold;
+        margin-top: -6%;
+      }
+      .symbol {
+        margin-top: 1.7%;
+      }
+    }
+    .blue-box {
+      background-color: rgba(52, 152, 219, 0.83);
+    }
+    .red-box {
+      background-color: rgb(255, 101, 0);
+    }
+  }
+}

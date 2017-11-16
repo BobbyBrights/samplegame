@@ -1,0 +1,54 @@
+<div class="twos-patterns-page">
+    <work-area menu="menu" next="next"
+               check="check"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+
+        <!-- Game specific elements -->
+
+        <game-images images="images"></game-images>
+
+        <!--Table chart-->
+        <table class="chart">
+            <tr ng-repeat="item in columns">
+                <td ng-repeat="item in rows"
+                    ng-click="activeButton($parent.$id+'-'+$index)"
+                    id="{{$parent.$id+'-'+$index}}"
+                    class="row-chart">{{($parent.$index * 10) + $index + 1}}
+                </td>
+            </tr>
+        </table>
+
+        <!--Chart help text-->
+        <div class="chart-help">{{chartHelp}}</div>
+
+        <!--Input boxes-->
+        <div class="input-container">
+            <input class="input-box"
+                   ng-repeat="num in numbers"
+                   ng-disabled="disability[counter][$index]"
+                   value="{{disability[counter][$index] ? numbers[$index] : ''}}"
+                   id="input-{{$index}}"
+                   ng-click="inputClick($index)"
+                   ng-focus="currentInput=$index"
+                   data-count="{{num}}"
+                   maxlength="2"/>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <div class="more-button check-btn action-btn" ng-click="more()">More</div>
+
+        <div class="reset-button check-btn action-btn" ng-click="reset()">reset</div>
+
+        <!--Display Pattern type-->
+        <div class="even-odd">{{numberPattern}}</div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

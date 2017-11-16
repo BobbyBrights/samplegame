@@ -1,0 +1,193 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "capacity": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Measuring Capacity"
+                    },
+                    "footer": {
+                      "text": ""
+                    },
+                    "images": {
+                      "play-button-image": {
+                        "path": "drag-type/a/images/play.svg",
+                        "cls": "pos-absolute play-button",
+                        "width": "8%",
+                        "top": "30%",
+                        "left": "46.5%"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "10%",
+                        "height": "15%",
+                        "left": "81%",
+                        "top": "81%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Click play, and then drag the cards.",
+                        "cls": ""
+                      },
+                      "fill-water-container": {
+                        "bucket": {
+                          "path": "drag-type/a/images/bucket-water.svg",
+                          "cls": "pos-absolute ",
+                          "width": "17.1%",
+                          "height": "52%",
+                          "top": "7.5%",
+                          "left": "20.6%"
+                        },
+                        "pot": {
+                          "path": "drag-type/a/images/pot-water.svg",
+                          "cls": "pos-absolute",
+                          "width": "20.1%",
+                          "top": "20%",
+                          "left": "60.9%"
+                        },
+                        "bowl": {
+                          "path": "drag-type/a/images/bowl-water.svg",
+                          "cls": "pos-absolute",
+                          "width": "24.1%",
+                          "top": "29%",
+                          "left": "16.8%"
+                        },
+                        "jar": {
+                          "path": "drag-type/a/images/jar-water.svg",
+                          "cls": "pos-absolute",
+                          "width": "16%",
+                          "top": "21.3%",
+                          "left": "63%"
+                        }
+                      },
+                      "drag-cards": [
+                        "Full",
+                        "Empty"
+                      ],
+                      "drop-zone-left": [
+                        "30.6",
+                        "50.9"
+                      ],
+                      "drag-group": [
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ],
+                        [
+                          0,
+                          1
+                        ],
+                        [
+                          1,
+                          0
+                        ]
+                      ],
+                      "fill-image": [
+                        "bucket",
+                        "pot",
+                        "bowl",
+                        "jar"
+                      ],
+                      "container": [
+                        "bucketCover",
+                        "potCover",
+                        "bowlCover",
+                        "jarCover"
+                      ],
+                      "cover-box": [
+                        "145,198",
+                        "195,170",
+                        "195,109",
+                        "160,170"
+                      ],
+                      "cover-size": [
+                        "17.1, 52",
+                        "20,52",
+                        "24,52",
+                        "16,52"
+                      ],
+                      "cover-position": [
+                        "20.6,7.4",
+                        "61,20",
+                        "16.8,29",
+                        "63,21.3"
+                      ],
+                      "image-box": [
+                        "145,198",
+                        "195,170",
+                        "195,160",
+                        "160,170"
+                      ],
+                      "images-size": [
+                        "17.1, 52",
+                        "22,52",
+                        "24,52",
+                        "16,52"
+                      ],
+                      "left-images-position": [
+                        "63,7.4",
+                        "19,16.4",
+                        "61.3,16",
+                        "20.8,21.3"
+                      ],
+                      "number-of-drops": 25,
+                      "animation-delay": 0
+                    }
+                  },
+                  "menu": {
+                    "left": null,
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "bucket": {
+                        "path": "drag-type/a/images/bucket-water.svg"
+                      },
+                      "pot": {
+                        "path": "drag-type/a/images/pot-water.svg"
+                      },
+                      "bowl": {
+                        "path": "drag-type/a/images/bowl-water.svg"
+                      },
+                      "jar": {
+                        "path": "drag-type/a/images/jar-water.svg"
+                      },
+                      "drop":{
+                        "path":"drag-type/images/drop.svg"
+                      },
+                      "play-button-image": {
+                        "path": "drag-type/a/images/play.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  },
+                  "help": {
+                    "game-name": "capacity-game",
+                    "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

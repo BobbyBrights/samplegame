@@ -1,0 +1,36 @@
+<div class="two-dice-page">
+    <work-area menu="menu"
+               next="next"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+        <!-- Add images -->
+        <game-images class="dice-panel" images="Images.diceBox"></game-images>
+
+        <!--Dice points-->
+        <game-images class="left-dice-image" images="leftCircle"></game-images>
+        <game-images class="right-dice-image" images="rightCircle"></game-images>
+
+        <!--Numbers and input-->
+        <div class="input-content">
+            <div class="input-box"><span class="number-content">{{firstNumber}}</span></div>
+            <div class="sign-box red-box">
+                <div class="symbol">+</div>
+                <div class="sign-text">{{plusSignText}}</div>
+            </div>
+            <div class="input-box"><span class="number-content">{{secondNumber}}</span></div>
+            <div class="sign-box blue-box">
+                <div class="symbol">=</div>
+                <div class="sign-text">{{equalSignText}}</div>
+            </div>
+            <input class="input-box" id="input-1" maxlength="2" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

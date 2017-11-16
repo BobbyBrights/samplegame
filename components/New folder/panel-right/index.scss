@@ -1,0 +1,71 @@
+.right-panel-menu {
+    background-image: url('./images/right-panel.svg');
+    position: absolute;
+    height: 61%;
+    width: 18%;    
+    right: -2%;
+    top: 23%;
+    background-repeat: no-repeat;
+
+  &.open{
+    animation: right-slide 2s;   
+    right: -16%;
+  }
+  
+  @keyframes right-slide {
+      0% {
+        right: -2%;
+      }
+      100% {
+        right: -16%;
+      }
+    } 
+
+  
+  &.rclose{
+    animation: right-close 2s;   
+    right: -2%;
+  }
+  
+  @keyframes right-close {
+      0% {
+        right: -16%;
+      }
+      100% {
+        right: -2%;
+      }
+    }   
+
+  .panel-inner{
+    margin-left: 4%;
+  }
+
+  .buttons{
+    justify-content: space-around;
+    margin-top: 10%;
+    height: 20.2vw;
+  }
+
+  .image-0{
+    width: 65%;
+    height: 15%;
+    margin-left: 20%;
+    margin-top: 15%;
+  }
+  .next-background{
+    width: 66%;
+  }
+  .how-to-button{
+    width: 66%;
+  }
+  .about-button{
+    width: 66%;
+  }
+  .visible{
+    visibility: hidden;
+  }
+  
+  .hide-score{
+    visibility: hidden;
+  }
+}

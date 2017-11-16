@@ -1,0 +1,28 @@
+@import './one-dice/index.scss';
+@import './two-dice/index.scss';
+@import './number-line/index.scss';
+@import './to-twenty/index.scss';
+@import './balance/index.scss';
+
+.app-home-level-menu-addition-game-layout {
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.4%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+}

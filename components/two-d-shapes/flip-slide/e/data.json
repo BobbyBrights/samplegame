@@ -1,0 +1,80 @@
+{
+  "levels": {
+    "e": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "flip-slide": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "find": {
+                          "path": "images/menu/find.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'find', level :  'e'}"
+                        }
+                          ,
+                        "match": {
+                          "path": "images/menu/match.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'match', level :  'e'}"
+                        }
+                          ,
+                        "trace": {
+                          "path": "images/menu/trace.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'trace', level :  'e'}"
+                        }
+                          ,
+                        "side-corners": {
+                          "path": "images/menu/side-corners.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'side-corners', level :  'e'}"
+                        }
+                          ,
+                        "angles": {
+                          "path": "images/menu/angles.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'angles', level :  'e'}"
+                        }
+                          ,
+                        "names": {
+                          "path": "images/menu/names.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'names', level :  'e'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "flip-slide/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

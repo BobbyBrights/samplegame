@@ -1,0 +1,139 @@
+
+
+html * {
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
+
+/* For float */
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-clear {
+  clear: both;
+
+  height: 1px;
+}
+
+/* For modern browsers */
+.float-clearfix:before,
+.float-clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.pos-relative {
+  position: relative;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center-content {
+  display: flex;
+  -webkit-justify-content: center; /* Safari */
+  justify-content: center;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  .action-btn {
+    height: 3.6vw;
+    width: 4vw;
+    margin: 1% 1%;
+  }
+}
+
+.move-disable {
+  pointer-events: none;
+}
+
+.move-enable {
+  cursor: pointer;
+  //pointer-events: auto;
+}
+
+.fade-in {
+    visibility: visible;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+            opacity: 1;
+}
+.fade-out {
+    -webkit-animation: fadeout 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 1s; /* Firefox < 16 */
+        -ms-animation: fadeout 1s; /* Internet Explorer */
+         -o-animation: fadeout 1s; /* Opera < 12.1 */
+            animation: fadeout 1s;
+            opacity: 0;
+}
+
+@keyframes fadein {
+    from { opacity: 0;}
+    to   { opacity: 1;}
+}
+
+@keyframes fadeout{
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}

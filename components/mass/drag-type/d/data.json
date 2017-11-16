@@ -1,0 +1,50 @@
+{
+  "levels": {
+    "d": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "mass": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "input-type": {
+                          "path": "images/menu/input-type.svg",
+                          "state": "^.mass-game",
+                          "params": "{category : 'measurement', game : 'input-type', level :  'd'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "drag-type/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

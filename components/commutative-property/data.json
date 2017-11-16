@@ -1,0 +1,91 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "commutative-property": {
+              "home": {
+                "header": {
+                  "text": "<span>Equality (number sentences)</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+
+                "question": {
+                  "labelText":"<span>Commutative law, rule or property</span>",
+                  "labels":{
+                    "0":"<span>In addition multiplication,</span>",
+                    "1":"<span>numbers may be added or</span>",
+                    "2":"<span>multiplied together in any order.</span>",
+                    "3":"<span class='black-label'>6 &#43 2=8 </span> <span class='red-label'>and</span> <span class='black-label'> 2 &#43 6=8</span>",
+                    "4":"<span class='black-label'>3 &times 2=6 </span> <span class='red-label'>and</span> <span class='black-label'> 2 &times 3=6</span>",
+                    "5":"<span>For subtraction and division the</span> ",
+                    "6":"<span>order is most important and must</span>",
+                    "7":"<span>not be changed as this results in</span>",
+                    "8":"<span>different answers. e.g.</span>",
+                    "9":"<span class='black-label'>&nbsp&nbsp8 - 2=6  </span> <span class='red-label'> but </span> <span class='black-label'>  2 - 8=-6</span>",
+                    "10":"<span class='black-label'>8 &divide 4=2 </span><span class='red-label'> but</span> <span class='black-label'>  8 &divide 2=4</span>"
+                  },
+                  "positions":{
+                       "0":{
+                         "0":{"left":60,"top":20},
+                         "1":{"left":75,"top":20},
+                         "2":{"left":60,"top":50},
+                         "3":{"left":75,"top":50}
+                       },
+                    "1":{
+                      "0":{"left":64,"top":20},
+                      "1":{"left":89.8,"top":20},
+                      "2":{"left":64,"top":42},
+                      "3":{"left":89.8,"top":42}
+                    }
+                  },
+                  "plus":{
+                    "0":{
+                      "0":{"left":69,"top":18},
+                      "1":{"left":69,"top":48}
+                    },
+                    "1":{
+                      "0":{"left":58.5,"top":41},
+                      "1":{"left":84.5,"top":41}
+                    }
+                  },
+                  "equals":["85,18","85,48"],
+                  "so":{
+                    "0":{"left":75,"top":34},
+                    "1":{"left":77,"top":18}
+                  },
+                  "inputs":
+                  {
+                    "0":{"left":89.8,"top":50},
+                    "1":{"left":89.8,"top":61}
+
+                  },
+                  "answers":{
+                      "0":{"left":91,"top":18},
+                      "1":{"left":66,"top":61}
+                  },
+                  "hint": {
+                    "text": "Enter the missing numbers.",
+                    "cls": ""
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

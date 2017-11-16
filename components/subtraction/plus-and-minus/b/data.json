@@ -1,0 +1,113 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "subtraction": {
+              "types": {
+                "plus-and-minus": {
+                  "home": {
+                    "header": {
+                      "text":"Subtraction"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Enter answer in the box.",
+                        "cls": ""
+                      },
+                      "top-hint": {
+                        "text": "Subtraction is the opposite of addition.",
+                        "cls": ""
+                      },
+
+                      "sub-hint": {
+                        "text": "So",
+                        "cls": ""
+                      },
+
+                      "minus": {
+                        "text": "Minus",
+                        "cls": ""
+                      },
+
+                      "equal": {
+                        "text": "Equals",
+                        "cls": ""
+                      },
+
+                      "circle-images": {
+                        "green-circle": {
+                          "path": "plus-and-minus/b/images/green-circle.svg"
+
+                        },
+                        "orange-circle": {
+                          "path": "plus-and-minus/b/images/orange-circle.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "circles": {
+                          "path": "images/menu/circles.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'circles', level :  'b'}"
+                        }
+                          ,
+                        "frog": {
+                          "path": "images/menu/frog.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'frog', level :  'b'}"
+                        }
+                          ,
+                        "butterfly": {
+                          "path": "images/menu/butterfly.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'butterfly', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "green-circle": {
+                        "path": "plus-and-minus/b/images/green-circle.svg"
+                      },
+                      "orange-circle": {
+                        "path": "plus-and-minus/b/images/orange-circle.svg"
+                      },
+                      "circles": {
+                        "path": "images/menu/circles.svg"
+                      },
+                      "frog": {
+                        "path": "images/menu/frog.svg"
+                      },
+                      "butterfly": {
+                        "path": "images/menu/butterfly.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

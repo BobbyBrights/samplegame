@@ -1,0 +1,70 @@
+.bamboo {
+  position:absolute;
+  background-image: url('./images/bottom-panel-bamboo.svg');
+  background-repeat: no-repeat;
+  width: 25.5vw;
+  height: 3vw;
+  bottom: -0.9vw;
+  left: -.2vw;
+}
+.bottom-panel-menu {
+  background-image: url('./images/bottom-panel.svg');
+  position: absolute;  
+  height: 24%;
+  left: 28.2%;  
+  bottom: -1%;
+  width: 100%;
+  background-repeat: no-repeat;
+
+  &.open {    
+   animation: bottom-slide 2s;
+    bottom: -20.6%;
+  } 
+
+  @keyframes bottom-slide {
+      0% {
+        bottom: -1%;
+      }
+      100% {
+        bottom: -20.6%;
+      }
+    }
+
+    &.bclose {    
+   animation: bottom-close 2s;
+    bottom: -1%;
+  } 
+
+  @keyframes bottom-close {
+      0% {
+        bottom: -20.6%;
+      }
+      100% {
+        bottom: -1%;
+      }
+    }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 1.1%;
+    margin-left: 5.2%;
+    width: 18.8vw;
+    height: 7vw;
+    flex-direction: row;
+
+    .plus-btn,
+    .minus-btn {
+      font-size: 3vw;
+      margin: 19px auto 19%;
+      line-height: 3.5vw;
+      width: 2.9vw;
+      margin: 1%;
+      background-color: #632C00;
+      height: 2.9vw;
+      box-shadow: 0 2px 5px #b5a078;
+    }
+  }
+}

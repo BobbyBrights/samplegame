@@ -1,0 +1,58 @@
+<div class="num-pad {{padType}}">
+  <!--Button panel-->
+
+  <div ng-if="padType == 'card-pad'" class="action-buttons center-content">
+        <div ng-repeat="(key, button) in buttons track by key" class="action-btn num-card"
+             ng-click="onNumberClick($event, button.label)">
+            <div class="num-card">{{button.label}}</div>
+        </div>
+  </div>
+  <div ng-if="padType=='gray-button-pad'">
+        <div ng-if="padInput=='numeric'" class="grid">
+            <div ng-repeat="item in rows track by $index" class="grid-content">
+                <div ng-repeat="item in columns track by $index" class="num-content"
+                     ng-init="counter=($parent.$index*columns.length)+($index)">
+
+                    <div ng-if="counter < 5" ng-click="onNumberClick($event, counter)">{{counter}}</div>
+
+                    <div ng-if="counter > 5 && !$last" ng-click=" onNumberClick($event, counter-1)">{{counter-1}}
+                    </div>
+
+                    <div ng-if="counter == 5"  ng-click="onToggleInput($event, 'alphabet')">abc</div>
+
+                    <div ng-if="counter == 11" ng-click="onNumberClick($event, 'backspace')">
+                        <img src="./images/back-btn.svg" class="back-space"
+                             ng-click="onNumberClick($event, 'backspace')"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div ng-if="padInput=='alphabet'" class="grid">
+            <div ng-repeat="item in rows track by $index" class="grid-content">
+                <div ng-repeat="item in columns track by $index" class="alpha-content"
+                     ng-init="counter=($parent.$index*columns.length)+($index)">
+
+                    <div ng-if="counter < 9" ng-click="onNumberClick($event, alphabets[counter])">
+                        {{alphabets[counter]}}</div>
+                    <div ng-if="counter == 9" ng-click="onToggleInput($event, 'numeric')">123</div>
+
+                    <div ng-if="counter > 9 && counter < 19"
+                         ng-click=" onNumberClick($event, alphabets[counter-1])">{{alphabets[counter-1]}}</div>
+
+                    <div ng-if="counter == 19"></div>
+
+                    <div ng-if="counter > 19 && counter < 28"
+                         ng-click=" onNumberClick($event, alphabets[counter-2])">{{alphabets[counter-2]}}</div>
+
+                    <div ng-if="counter == 28" ng-click="onNumberClick($event, 'backspace')">
+                        <img src="./images/back-btn.svg" class="back-space"
+                             ng-click="onNumberClick($event, 'backspace')"/>
+                    </div>
+                    <div ng-if="counter == 29"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

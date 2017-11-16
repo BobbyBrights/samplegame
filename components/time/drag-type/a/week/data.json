@@ -1,0 +1,115 @@
+
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "time": {
+              "types": {
+                "week": {
+                  "home": {
+                    "header": {
+                      "text": "Days of the Week"
+                    },
+                    "footer": {},
+                    "images": {
+                      "sun": {
+                        "path": "drag-type/a/week/images/sun.svg",
+                        "cls": "pos-absolute move-enable",
+                        "width": "12%",
+                        "height": "22%",
+                        "top": "75%",
+                        "left": "2%"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "height": "22%",
+                        "top": "43.7%",
+                        "left": "83%"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the day cards."
+                      },
+                      "days-name": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday",
+                        "Sunday"
+                      ],
+                      "drag-top": [
+                        "51.5",
+                        "39.3",
+                        "27",
+                        "2.5",
+                        "76.1",
+                        "63.8",
+                        "14.7"
+                      ],
+                      "drop-top": [
+                        "2.6",
+                        "14.9",
+                        "27.1",
+                        "39.4",
+                        "51.8",
+                        "64",
+                        "76.3"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "word": {
+                          "path": "images/menu/word.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'word', level :  'a'}"
+                        },
+                        "clock": {
+                          "path": "images/menu/clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'clock', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "sun": {
+                        "path": "drag-type/a/week/images/sun.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "word": {
+                        "path": "images/menu/word.svg"
+                      },
+                      "clock": {
+                        "path": "images/menu/clock.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  },
+                  "help": {
+                    "game-name": "week-game",
+                    "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

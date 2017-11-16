@@ -1,0 +1,107 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "backward-patterns": {
+              "home": {
+                "header": {
+                  "text": "<span>Counting backwards by...</span>"
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "question": {
+                  "hint": {
+                    "text": "Enter the missing numbers.",
+                    "cls": ""
+                  },
+                  "images": {
+                    "tree": {
+                      "path": "images/tree.svg",
+                      "cls":"pos-absolute",
+                      "width": "46%",
+                      "top":"20%",
+                      "left":"50%"
+                    },
+                    "lizard": {
+                      "path": "images/lizard.svg",
+                      "cls":"pos-absolute",
+                      "width": "13%",
+                      "top":"27%",
+                      "left":"81%"
+                    },
+                    "1": {
+                      "path": "images/1s.svg",
+                      "cls":"pos-absolute",
+                      "width": "6%",
+                      "top":"13%",
+                      "left":"59%"
+                    },
+                    "2": {
+                      "path": "images/2s.svg",
+                      "cls":"pos-absolute",
+                      "width": "6%",
+                      "top":"13%",
+                      "left":"67%"
+                    },
+                    "5": {
+                      "path": "images/5s.svg",
+                      "cls":"pos-absolute",
+                      "width": "6%",
+                      "top":"13%",
+                      "left":"75%"
+                    },
+                    "10": {
+                      "path": "images/10s.svg",
+                      "cls":"pos-absolute",
+                      "width": "6%",
+                      "top":"13%",
+                      "left":"83%"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": {
+                },
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "tree": {
+                    "path": "images/tree.svg"
+                  },
+                  "lizard": {
+                    "path": "images/lizard.svg"
+                  },
+                  "1": {
+                    "path": "images/1s.svg"
+                  },
+                  "2": {
+                    "path": "images/2s.svg"
+                  },
+                  "5": {
+                    "path": "images/5s.svg"
+                  },
+                  "10": {
+                    "path": "images/10s.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "multiplication": {
+              "types": {
+                "commutative": {
+                  "home": {
+                    "header": {
+                      "text": "Commutative Multiplication"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "question": {
+                        "text": "Number may be multiplied together in any order. (commutative law,rule or property)"
+                      },
+                      "soText": {
+                        "text": "SO"
+                      },
+                      "hint": {
+                        "text": "Enter answer in the box."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "box": {
+                          "path": "images/menu/box.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'box', level :  'c'}"
+                        }
+                          ,
+                        "bug": {
+                          "path": "images/menu/bug.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'bug', level :  'c'}"
+                        }
+                          ,
+                        "curve": {
+                          "path": "images/menu/curve.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'curve', level :  'c'}"
+                        }
+                          ,
+                        "dice": {
+                          "path": "images/menu/dice-icon.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'dice', level :  'c'}"
+                        }
+                          ,
+                        "tables": {
+                          "path": "images/menu/tables.svg",
+                          "state": "^.multiplication-game",
+                          "params": "{category : 'number', game : 'tables', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

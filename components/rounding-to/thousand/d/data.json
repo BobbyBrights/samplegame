@@ -1,0 +1,56 @@
+{
+  "levels": {
+    "d": {
+      "categories": {
+        "number": {
+          "games": {
+            "rounding-to": {
+              "types": {
+                "thousand": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "ten": {
+                          "path": "images/menu/ten.svg",
+                          "state": "^.rounding-to-game",
+                          "params": "{category : 'number', game : 'ten', level :  'd'}"
+                        }
+                          ,
+                        "hundred": {
+                          "path": "images/menu/hundred.svg",
+                          "state": "^.rounding-to-game",
+                          "params": "{category : 'number', game : 'hundred', level :  'd'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "thousand/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+
+  "home": {
+    "preload": {
+      "images": {
+        "background-4-3": {
+          "path": "images/backgrounds/home/background-4-3.jpg"
+        },
+        "background-16-9": {
+          "path": "images/backgrounds/home/background-16-9.jpg"
+        },
+        "level-monkey": {
+          "path": "images/level-monkey.svg"
+        },
+        "content": {
+          "path": "images/content.svg"
+        },
+        "rainforest-logo": {
+          "path": "images/rainforest-logo.svg"
+        },
+        "bamboo": {
+          "path": "images/bamboo.svg"
+        },
+        "title-backgroud": {
+          "path": "images/title-backgroud.svg"
+        }
+      },
+      "ahead": {
+      }
+    }
+  },
+  "headings": {
+    "items": [
+      "LEVEL",
+      "CLASS",
+      "INTERACTIVE ACTIVITIES",
+      "NB: QUEENSLAND LEVELS"
+
+    ],
+    "heading": [
+      1,
+      5,
+      3,
+      3
+    ],
+    "header": {
+      "text": "Choose level"
+    },
+    "menu": {
+      "left": null,
+      "right": null,
+      "bottom": null
+    }
+  },
+  "levels": {
+    "a": {
+      "text": "A",
+      "cls": "",
+      "className": "Kindergarten, Reception, Preparatory",
+      "games": "30+",
+      "years": "Year 1"
+    },
+    "b": {
+      "text": "B",
+      "cls": "",
+      "className": "Grade/Year 1",
+      "games": "70+",
+      "years": "Year 2"
+    },
+    "c": {
+      "text": "C",
+      "cls": "",
+      "className": "Grade/Year 2",
+      "games": "100+",
+      "years": "Year 3"
+    },
+    "d": {
+      "text": "D",
+      "cls": "",
+      "className": "Grade/Year 3",
+      "games": "120+",
+      "years": "Year 4"
+    },
+    "e": {
+      "text": "E",
+      "cls": "",
+      "className": "Grade/Year 4",
+      "games": "130+",
+      "years": "Year 5"
+    },
+    "f": {
+      "text": "F",
+      "cls": "",
+      "className": "Grade/Year 5",
+      "games": "175+",
+      "years": "Year 6"
+    },
+    "g": {
+      "text": "G",
+      "cls": "",
+      "className": "Grade/Year 5",
+      "games": "200+",
+      "years": "Year 6"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+
+<div class="input-type-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard" onnumberclick="onNumberClick">
+        <!-- Add images -->
+        <game-images class="stand" images="stand"></game-images>
+
+        <div class="balance-container">
+            <img class="balance default-rotation-value" ng-src="{{balance.path}}">
+            <img ng-repeat="block in image" class="{{bugs['bug'+$index].cls}} default-rotation-bar-value"
+                 ng-style="{top: bugs['bug'+ (block)].top, left:bugs['bug'+ block].left}"
+                 ng-src="{{bugs['bug'+ block].path}}"
+                 width="{{bugs['bug'+ block].width}}"/>
+
+            <div class="right-pan">
+                <img ng-src="{{weights.path}}"/>
+                <div class="right-pan-block">
+                    <img class="right-pan-img" ng-repeat="block in rightPanblocks" ng-src="{{click.path}}"
+                         ng-style="{top: $index > 5  ? '-500%' : ($index > 2) ? '-295%' : '-90%', left : '-55%'}"/>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game specific elements -->
+        <game-images class="clickable-block" images="click" ng-click="onClickBlock()"></game-images>
+        <div class="question-container">
+            <input class="input-box" id="input-1" ng-model="inputValue" ng-value="inputValue" maxlength="1"/>
+            <span class="question-text">blocks</span>
+        </div>
+
+        <div class="reset-check-btn">
+            <div class="reset-btn action-btn" ng-click="reset($event)">Reset</div>
+            <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+            <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+        </div>
+
+        <div class="hint-text help-text" ng-bind-html="helpText"></div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

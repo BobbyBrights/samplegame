@@ -1,0 +1,35 @@
+<div class="subtract-skinks-page">
+    <work-area menu="menu" header="header" onnumberclick="onNumberClick">
+
+        <!-- Add image -->
+        <game-images class="subtract-bg" images="question.background"></game-images>
+
+        <!--display lizard images-->
+        <div class="lizard-count">
+            <game-images ng-repeat="liz in lizardcount  | range track by $index"
+                         images="lizardClasses" id="{{$index}}" class="lizard-result"
+                         ng-click="lizardCounter($index)"></game-images>
+        </div>
+
+        <!-- Display middle hint text -->
+        <span class="middle-hint">{{middleHintText}}</span>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <!--display question text with input box -->
+        <div class="question-container">
+            <div class="question-text" ng-bind-html="questionsBox"></div>
+            <div class="number-count">{{goneLizard}}</div>
+            <input class="input-box" id="input-1" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+        <!--display reset and check buttons-->
+        <div class="reset-btn action-btn" ng-click="reset($event)">Reset</div>        
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+        
+    </work-area>
+</div>

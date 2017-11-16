@@ -1,0 +1,34 @@
+/* Sub game namespace */
+.length-page {
+  .long-page {
+    .image-item {
+      position: absolute;
+    }
+
+    .drag {
+      width: 8%;
+    }
+
+    .drag-scale {
+      width:50%;
+    }
+
+    .question-box
+    .input-field {
+      position: absolute;
+      left:35%;
+    }
+
+    .left-side {
+      margin-left: -2%;
+    }
+
+    .question-label {
+      top: 2%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      left: 22%;
+      position: absolute;
+    }
+  }
+}

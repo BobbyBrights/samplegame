@@ -1,0 +1,20 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-subtraction-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.subtraction-page{
+  .thousands-page{
+    // Page title image
+    .page-title{
+      background-image: url('./../../components/subtraction/thousands/images/title.svg');
+    }
+  }
+
+  // Game specific styles
+}

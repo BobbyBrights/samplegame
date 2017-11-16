@@ -1,0 +1,49 @@
+<div class="words-page" >
+  <work-area menu="menu"
+             next="next"
+             reset="reset"
+             check="check"
+             plus="plus"
+             minus="minus"
+             header="header">
+
+      <!-- Display hint text -->
+      <div class="text-lable" ng-bind-html="questionLable"></div>
+
+      <!-- Game specific elements -->
+      <div class="center-content">
+          <div class="image-box" ng-repeat="block in boxCount track by $index" id="image-box">
+              <img ng-src="{{caterpillarImages['caterpillar' + block].path}}"
+                   width="{{caterpillarImages['caterpillar' + block].width}}"
+                   height="{{caterpillarImages['caterpillar' + block].height}}"/>
+          </div>
+      </div>
+
+      <!--dropZone area-->
+      <div ng-repeat="group in [0, 1]"
+           drop-zone
+           class="drop-zone"
+           group="{{$index}}"
+           id="dropZone{{$index}}"
+           position="{{(31 + ($index * 29))}},70">
+      </div>
+
+      <!--draggable buttons-->
+      <div ng-repeat="text in groups track by (groups + $index)"
+           drag-item
+           group="{{text}}"
+           id="button-drag-{{$index}}"
+           class="pos-absolute drag-btn move-enable invisible"
+           ng-style="{left:(30.6 +($index * 20.3)) + '%',top:'112.5%'}">
+          <span ng-repeat="block in boxCount track by $index">
+            {{caterpillarQuestion['caterpillar'+block].position[text]}}
+          </span>
+      </div>
+
+      <!--Display correct tick-->
+      <img ng-src="{{signs.path}}" id="tick" />
+
+      <!-- Display hint text -->
+	<div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

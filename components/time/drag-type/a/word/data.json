@@ -1,0 +1,223 @@
+
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "time": {
+              "types": {
+                "word": {
+                  "home": {
+                    "header": {
+                      "text": "Words Related to Time"
+                    },
+                    "footer": {},
+                    "images": {
+                      "sun": {
+                        "path": "drag-type/a/word/images/sun.svg",
+                        "cls": "pos-absolute move-enable",
+                        "width": "6%",
+                        "height": "20%"
+                      },
+                      "cloud": {
+                        "path": "drag-type/a/word/images/cloud.svg",
+                        "cls": "pos-absolute move-enable"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "height": "30%",
+                        "top": "56.7%",
+                        "left": "81%"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg",
+                        "cls": "pos-absolute",
+                        "width": "13%",
+                        "height": "30%",
+                        "top": "65%",
+                        "left": "85%"
+                      }
+                    },
+                    "question": {
+                      "images": {
+                        "image-0": {
+                          "path": "drag-type/a/word/images/day.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-1": {
+                          "path": "drag-type/a/word/images/night.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-2": {
+                          "path": "drag-type/a/word/images/day-left.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-3": {
+                          "path": "drag-type/a/word/images/day-right.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-4": {
+                          "path": "drag-type/a/word/images/frog-eggs.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-5": {
+                          "path": "drag-type/a/word/images/frog-tedpol.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-6": {
+                          "path": "drag-type/a/word/images/frog.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-7": {
+                          "path": "drag-type/a/word/images/day-left.svg",
+                          "cls": "weather-images"
+                        },
+                        "image-8": {
+                          "path": "drag-type/a/word/images/day-right.svg",
+                          "cls": "weather-images"
+                        }
+                      },
+                      "main-limit": 0,
+                      "number-of-drops": 25,
+                      "animation-delay": 0,
+                      "range-limit": [
+                        2,
+                        2,
+                        3,
+                        2
+                      ],
+                      "suns": [
+                        0,
+                        1
+                      ],
+                      "duration": 1500,
+                      "sunrise-position": [
+                        "34%",
+                        "6%"
+                      ],
+                      "sunset-position": [
+                        "65%",
+                        "30%"
+                      ],
+                      "drag-cards": [
+                        [
+                          "Day",
+                          "Night"
+                        ],
+                        [
+                          "Morning",
+                          "Afternoon"
+                        ],
+                        [
+                          "Before",
+                          "After"
+                        ],
+                        [
+                          "Long Time",
+                          "Short Time"
+                        ]
+                      ],
+                      "weather-texts": [
+                        "sunrise",
+                        "sunset",
+                        "raindrops"
+                      ],
+                      "hint": [
+                        "Drag the cards.",
+                        "Click the suns, drag cards.",
+                        "Drag the cards.",
+                        "Click the sun and rain, drag cards."
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "week": {
+                          "path": "images/menu/week.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'week', level :  'a'}"
+                        },
+                        "clock": {
+                          "path": "images/menu/clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'clock', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "range": {
+                        "no-of-buttons": [],
+                        "start-number": 0
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "image-0": {
+                        "path": "drag-type/a/word/images/day.svg"
+                      },
+                      "image-1": {
+                        "path": "drag-type/a/word/images/night.svg"
+                      },
+                      "image-2": {
+                        "path": "drag-type/a/word/images/day-left.svg"
+                      },
+                      "image-3": {
+                        "path": "drag-type/a/word/images/day-right.svg"
+                      },
+                      "image-4": {
+                        "path": "drag-type/a/word/images/frog-eggs.svg"
+                      },
+                      "image-5": {
+                        "path": "drag-type/a/word/images/frog-tedpol.svg"
+                      },
+                      "image-6": {
+                        "path": "drag-type/a/word/images/frog.svg"
+                      },
+                      "image-7": {
+                        "path": "drag-type/a/word/images/day-left.svg"
+                      },
+                      "image-8": {
+                        "path": "drag-type/a/word/images/day-right.svg"
+                      },
+                      "sun": {
+                        "path": "drag-type/a/word/images/sun.svg"
+                      },
+                      "cloud": {
+                        "path": "drag-type/a/word/images/cloud.svg"
+                      },
+                      "week": {
+                        "path": "images/menu/week.svg"
+                      },
+                      "clock": {
+                        "path": "images/menu/clock.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  },
+                  "help": {
+                    "game-name": "words-game",
+                    "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

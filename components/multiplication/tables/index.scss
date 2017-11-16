@@ -1,0 +1,77 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-multiplication-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.multiplication-page{
+  .tables-page{
+
+    #gobutton{
+      position: absolute;
+      width: 5vw;
+      height: 3.4vw;
+      left: 60%;
+      top: 81.7%;
+      line-height: 3.4vw;
+      font-size: 2vw;
+      z-index: 1;
+    }
+
+    .reset-btn{
+      position: absolute;
+      left: 84%;
+      top: 70%;
+      z-index: 1;
+    }
+    .hint-text{
+      left: 3%;
+      width: 42%;
+      height: 20%;
+      text-align: left;
+    }
+    .flex-container {
+      display: flex;
+      justify-content: center;
+      width: 70%;
+      left: 15%;
+      position: absolute;
+      align-content: flex-start;
+    }
+
+    .flex-item {
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      width: 7.5%;
+    }
+
+    #go {
+      width: 4vw;
+      height: 3vw;
+      left: 50%;
+      top: 82%;
+      font-size: 2.5vw;
+    }
+    .question-hint-text{
+    top: 10%;
+    left: 3%;
+    width: 20%;
+  }
+    .question-text{
+      font-size: 1.5vw;
+    }
+    .input-box {
+      position: relative;
+      height: 1.1vw;
+      width: 2vw;
+      font-size: 1.3vw;
+    }
+  }
+
+  // Game specific styles
+}

@@ -1,0 +1,37 @@
+<div class="beads-page">
+    <work-area menu="menu" next="next" getscoreboard="getScoreboard" header="header">
+        <!--question text-->
+        <div class="hint-text question-label" ng-bind-html="questionLabel"></div>
+        <!-- Add images -->
+        <game-images images="images"></game-images>
+
+        <!-- Game specific elements -->
+        <img ng-repeat="circle in chainCount track by $index"
+             id="img-{{$index}}"
+             ng-style="{top: 15.7 + '%', left:3 +'%'}"
+             class="{{chainImages['image'+circle].cls}} "
+             ng-src="{{chainImages['image'+circle].path}}"
+             width="{{chainImages['image'+circle].width}}"/>
+
+        <!--drag items-->
+        <img ng-repeat="circle in imageCount track by $index" drag-item
+             group="{{$index}}"
+             id="drag-zone{{$index}}"
+             ng-style="{top:'61%', left:dragPosition[$index]}"
+             class="{{circleImages['image' + circle].cls}} drag-circle"
+             ng-src="{{circleImages['image' + circle].path}}"/>
+
+        <!--drop zone-->
+        <div ng-repeat="drop in [0,1,2]" id="drop-zone{{drop}}" class="drop-zone" drop-zone
+             group="{{$index}}"
+             ng-style="{top: '15.5%', left:beadsPosition[$index]+'%'}"></div>
+
+        <!--Display tick images-->
+        <img ng-src="{{sign.path}}"
+             id="tick" ng-class="checkClass['tick']"
+             class="sign">
+
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>
+

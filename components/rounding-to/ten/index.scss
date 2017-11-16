@@ -1,0 +1,16 @@
+@import './c/index';
+
+// Add background layout
+.app-home-level-menu-rounding-to-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.rounding-to-page{
+  .ten-page{
+  }
+
+  // Game specific styles
+}

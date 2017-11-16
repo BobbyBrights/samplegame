@@ -1,0 +1,23 @@
+<div class="angles-page">
+    <work-area menu="menu" reset="reset" header="header">
+
+        <div class="left-container">
+            <span class="angle-text"> {{angleText}}</span>
+            <img id="button" ng-src="{{button.path}}" ng-mousedown="onMouseDown($event)" ng-mouseup="mouseup($event)"
+                 class="green-button"/>
+            <img ng-src="{{images.horizontalBlueLine.path}}" class="blue-line"/>
+            <img id="rotate" ng-src="{{images.yellowHorizontalLine.path}}" class="yellow-line"/>
+            <game-images images="images.verticalBlueLine" class="vertical-blue"></game-images>
+        </div>
+
+        <div class="right-container">
+            <game-images images="angles"></game-images>
+        </div>
+
+        <div class="sub-hint hint-text" ng-bind-html="subHint"></div>
+
+        <div class="reset-button reset-btn" ng-click="resetButton()">Reset</div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

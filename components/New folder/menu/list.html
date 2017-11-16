@@ -1,0 +1,30 @@
+
+<div class="menu-page">
+  <work-area menu="menu" header="header">
+    <div class="scroll-container">
+      <div ng-repeat="category in currLevel.categories | orderObjectBy: 'order'" class="header-contain" ng-class="{'menu-patch' : $index == 3 }">
+        <div class="header">
+          <span ng-bind-html="category.text"></span>
+        </div>
+        <div class="category-number menu-container {{category.key}}">
+          <img ng-repeat="game in category.games | orderObjectBy: 'order'"
+               class="menu-item" ng-click="openGame(category.key, game.path, game.subGame,category.order)"
+               ng-src="{{game.icon}}"/>
+        </div>
+      </div>
+      <div class="patch"></div>
+    </div>
+
+    <div class="scroll-bar">
+      <img class="monkey" src="./images/monkey.svg"/>
+      <img class="scroll" src="./images/scroll.svg"/>
+    </div>
+
+    <div class="button-container">
+      <span class="scroll-button" ng-repeat="category in currLevel.categories | orderObjectBy: 'order'"
+            ng-style="{'top': (14 + ($index * 18))+'%' }" path="{{$index}}"></span>
+      <span class="top-arrow arrow" button="top"></span>
+      <span class="bottom-arrow arrow" button="bottom"></span>
+    </div>
+  </work-area>
+</div>

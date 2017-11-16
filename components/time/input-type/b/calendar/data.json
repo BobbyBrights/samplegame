@@ -1,0 +1,171 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "time": {
+              "types": {
+                "calendar": {
+                  "home": {
+                    "header": {
+                      "text": "The Calendar"
+                    },
+                    "footer": {},
+                    "images": {
+                      "calender": {
+                        "path": "input-type/b/calendar/images/calender.svg",
+                        "cls": "pos-absolute",
+                        "width": "29.9%",
+                        "height": "56%",
+                        "top": "8.5%",
+                        "left": "35.1%"
+                      },
+                      "examples": {
+                        "path": "input-type/b/calendar/images/examples.svg",
+                        "cls": "pos-absolute",
+                        "width": "6.9%",
+                        "height": "63.2%",
+                        "top": "2.7%",
+                        "left": "16.5%"
+                      },
+                      "pink-circle": {
+                        "path": "input-type/b/calendar/images/pink-circle.svg"
+                      },
+                      "green-circle": {
+                        "path": "input-type/b/calendar/images/green-circle.svg"
+                      }
+                    },
+                    "question": {
+                      "time-question": {
+                        "text": "What day is it?"
+                      },
+                      "example-question": {
+                        "text": "Write the date in the box?"
+                      },
+                      "example-bottom-text": {
+                        "text": "Examples"
+                      },
+                      "hint": {
+                        "text": "Select the day of the week and check."
+                      },
+                      "heading-hint": {
+                        "text": "DECEMBER"
+                      },
+                      "names": [
+                        "Monday",
+                        "Tuesday",
+                        "Wednesday",
+                        "Thursday",
+                        "Friday",
+                        "Saturday",
+                        "Sunday"
+                      ],
+                      "answer": [
+                        "Wednesday",
+                        "Monday",
+                        "Friday",
+                        "Thursday",
+                        "Sunday",
+                        "Saturday",
+                        "Thursday"
+                      ],
+                      "result": [
+                        "16th",
+                        "25th",
+                        "22nd",
+                        "12th",
+                        "31st",
+                        "3rd",
+                        "2nd",
+                        "1st"
+                      ],
+                      "pink-circle-positions": [
+                        "43.8,18",
+                        "35.4,27.2",
+                        "52.2,36.4",
+                        "39.6,55",
+                        "60.5,27.2",
+                        "56.4,45.8",
+                        "48,27.2"
+                      ],
+                      "green-circle-positions": [
+                        "48,36.5",
+                        "56.4,45.8",
+                        "43.8,45.8",
+                        "60.6,27.2",
+                        "52.2,55.1",
+                        "52.2,18",
+                        "48,18",
+                        "43.7,18"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "clock": {
+                          "path": "images/menu/hour-clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'clock', level :  'b'}"
+                        },
+                        "half-clock": {
+                          "path": "images/menu/half-clock.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'half-clock', level :  'b'}"
+                        },
+                        "month": {
+                          "path": "images/menu/month.svg",
+                          "state": "^.time-game",
+                          "params": "{category : 'measurement', game : 'month', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "help": {
+                    "game-name": "clock-game",
+                    "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+                  },
+                  "preload": {
+                    "images": {
+                      "calender": {
+                        "path": "input-type/b/calendar/images/calender.svg"
+                      },
+                      "examples": {
+                        "path": "input-type/b/calendar/images/examples.svg"
+                      },
+                      "pink-circle": {
+                        "path": "input-type/b/calendar/images/pink-circle.svg"
+                      },
+                      "green-circle": {
+                        "path": "input-type/b/calendar/images/green-circle.svg"
+                      },
+                      "clock": {
+                        "path": "images/menu/hour-clock.svg"
+                      },
+                      "half-clock": {
+                        "path": "images/menu/half-clock.svg"
+                      },
+                      "month": {
+                        "path": "images/menu/month.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "spinner": {
+    "images": {
+      "a-left":{
+        "path":"images/a-left.svg"
+      },
+      "a-right":{
+        "path":"images/a-right.svg"
+      },
+      "b-left":{
+        "path":"images/b-left.svg"
+      },
+      "b-right":{
+        "path":"images/b-right.svg"
+      },
+      "c-left":{
+        "path":"images/c-left.svg"
+      },
+      "c-right":{
+        "path":"images/c-right.svg"
+      },
+      "d-left":{
+        "path":"images/d-left.svg"
+      },
+      "d-right":{
+        "path":"images/d-right.svg"
+      },
+      "e-left":{
+        "path":"images/d-left.svg"
+      },
+      "e-right":{
+        "path":"images/d-right.svg"
+      },
+      "f-left":{
+        "path":"images/d-left.svg"
+      },
+      "f-right":{
+        "path":"images/d-right.svg"
+      },
+      "g-left":{
+        "path":"images/d-left.svg"
+      },
+      "g-right":{
+        "path":"images/d-right.svg"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<div class="count-by-two-page">
+
+    <work-area menu="menu" plus="plus" minus="minus" header="header">
+
+        <!-- For display frog card images on plus-->
+        <div class="flex-container">
+            <div class="frog-card" ng-repeat="frog in frogCount | range track by $index">
+                <game-images images="buttonImages"></game-images>
+                <div class="count">
+                    <span>{{(($index+1)*2)}}</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+</div>

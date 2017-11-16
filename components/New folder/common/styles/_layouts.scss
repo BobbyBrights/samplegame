@@ -1,0 +1,77 @@
+.banner {
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0; /* vertical center */
+  left: 0;
+  right: 0; /* horizontal center */
+  width: 100vw !important;
+  max-height: 100vh;
+
+  &.ar-bg-16-9 {
+    height: 56.25vw !important; /* height:width ratio = 9/16 = .5625 */
+     max-width: 177.78vh; /* 16/9 = 1.778 */
+  }
+  &.ar-bg-4-3 {
+    height: 75vw !important; /* height:width ratio = 3/4 = .5625 */
+    max-width: 133.33vh; /* 4/3 = 1.778 */
+  }
+  &.welcome-16-9{
+    background-image: url('./../assets/images/backgrounds/welcome/background-16-9.jpg');
+  }
+  &.home-16-9{
+    background-image: url('./../assets/images/backgrounds/home/background-16-9.jpg');
+  }
+  &.a-16-9{
+    background-image: url('./../assets/images/backgrounds/level-a/background-16-9.jpg');
+  }
+  &.b-16-9 {
+    background-image: url('./../assets/images/backgrounds/level-b/background-16-9.jpg');
+  }
+   &.c-16-9 {
+    background-image: url('./../assets/images/backgrounds/level-c/background-16-9.jpg');
+  }
+   &.d-16-9 {
+    background-image: url('./../assets/images/backgrounds/level-d/background-16-9.jpg');
+  }
+  /* &.e-16-9 {
+    background-image: url('./../assets/images/backgrounds/level-e/background-16-9.jpg');
+  }
+   &.f-16-9 {
+    background-image: url('./../assets/images/backgrounds/level-f/background-16-9.jpg');
+  }
+   &.g-16-9 {
+    background-image: url('./../assets/images/backgrounds/level-g/background-16-9.jpg');
+  }*/
+
+  &.welcome-4-3{
+    background-image: url('./../assets/images/backgrounds/welcome/background-4-3.jpg');
+  }
+  &.home-4-3{
+    background-image: url('./../assets/images/backgrounds/home/background-4-3.jpg');
+  }
+  &.a-4-3{
+    background-image: url('./../assets/images/backgrounds/level-a/background-4-3.jpg');
+  }
+  &.b-4-3 {
+    background-image: url('./../assets/images/backgrounds/level-b/background-4-3.jpg');
+  }
+  &.c-4-3 {
+    background-image: url('./../assets/images/backgrounds/level-c/background-4-3.jpg');
+  }
+  &.d-4-3 {
+    background-image: url('./../assets/images/backgrounds/level-d/background-4-3.jpg');
+  }
+  &.e-4-3 {
+    background-image: url('./../assets/images/backgrounds/level-e/background-4-3.jpg');
+  }
+  &.f-4-3 {
+    background-image: url('./../assets/images/backgrounds/level-f/background-4-3.jpg');
+  }
+  &.g-4-3 {
+    background-image: url('./../assets/images/backgrounds/level-g/background-4-3.jpg');
+  }
+}

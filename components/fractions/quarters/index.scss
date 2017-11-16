@@ -1,0 +1,152 @@
+/* Sub game namespace */
+.fractions-page {
+  .quarters-page {
+    // Page title image
+
+    // Game specific styles
+    .game-info {
+      position: absolute;
+      width: 28.3%;
+      height: 25%;
+      right: 2.9%;
+      top: -7%;
+    }
+    .one-fourth-icon {
+      position: absolute;
+      width: 6%;
+      left: 47.3%;
+    }
+    .flex-container {
+      height: 26vw;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: flex-start;
+      align-items: center;
+    }
+    .sub-title {
+      position: absolute;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      top: 11%;
+      text-align: center;
+      left: 38%;
+    }
+    .square {
+      width: 27%;
+      position: absolute;
+      top: 24%;
+      left: 16.5%;
+    }
+    .circle {
+      width: 27%;
+      position: absolute;
+      top: 24%;
+      left: 57.2%;
+    }
+    .next-butterfly {
+      width: 14%;
+      left: 43%;
+      top: 50%;
+      position: absolute;
+    }
+    .right-1 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 24%;
+      left: 16.5%;
+    }
+    .right-2 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 24%;
+      left: 30%;
+    }
+    .right-3 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 54%;
+      left: 16.5%;
+    }
+    .right-4 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 54%;
+      left: 30%;
+    }
+    .left-1 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 24%;
+      left: 57.2%;
+      border-top-left-radius: 10em;
+    }
+    .left-2 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 24%;
+      left: 70.7%;
+      border-top-right-radius: 10em;
+    }
+    .left-3 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 54%;
+      left: 57.2%;
+      border-bottom-left-radius: 10em;
+    }
+    .left-4 {
+      height: 30%;
+      width: 13.5%;
+      background-color: transparent;
+      z-index: 1;
+      position: absolute;
+      top: 54%;
+      left: 70.7%;
+      border-bottom-right-radius: 10em;
+    }
+    .more {
+      width: 6.3vw;
+      height: 2.8vw;
+      position: absolute;
+      left: 84.5%;
+      top: 85%;
+      z-index: 1;
+    }
+    .question {
+      color: #1b4123;
+      background: #c0de94;
+      border-radius: 8px;
+      padding: 1%;
+      font-size: 2.7vw;
+      box-shadow: 3px 0 5px 0 rgba(0,0,0,.21);
+      height: 4.4vw;
+      width: 4.4vw;
+      line-height: 5.3vw;
+      text-align: center;
+    }
+  }
+}

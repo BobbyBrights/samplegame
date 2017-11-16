@@ -1,0 +1,58 @@
+.left-panel-menu {
+  background-image: url('./images/left-panel.svg');
+    position: absolute;
+    height: 61%;
+    width: 18%;     
+    left: -2%;  
+    top: 23%;
+    background-repeat: no-repeat;
+
+  &.open{  
+    animation: left-slide 2s;  
+    left: -16%;
+  }  
+  @keyframes left-slide {
+      0% {
+        left: -2%;
+      }
+      100% {
+        left: -16%;
+      }
+    } 
+
+  
+  &.lclose{  
+    animation: left-close 2s;  
+    left: -2%;
+  }  
+  @keyframes left-close {
+      0% {
+        left: -16%;
+      }
+      100% {
+        left: -2%;
+      }
+    }    
+
+  a{
+    display: block;
+    width: 66%;
+    text-align: center;
+  } 
+  .panel-inner{
+    margin: 8% 16% 0 14%;
+    height: 20vw;
+    overflow: hidden;
+  }
+
+  .panel-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow-y: auto;
+    img{
+    }
+  }
+}

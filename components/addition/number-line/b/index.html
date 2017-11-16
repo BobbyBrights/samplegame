@@ -1,0 +1,44 @@
+<div class="number-line-page">
+    <work-area menu="menu"
+               next="next"
+               header="header"
+               getscoreboard="getScoreboard"
+               onnumberclick="onNumberClick">
+
+        <!--Orange-curve-->
+        <div class="curves"
+             ng-repeat="i in number" game-svg="$numberLines"
+             svg-size="680,80"
+             svg-directive nodename="orange-{{firstNumber}}-{{result}}">
+        </div>
+        <!--green-Curve-->
+        <div class="curves"
+             ng-repeat="i in number" game-svg="$numberLines"
+             svg-size="680,80"
+             svg-directive nodename="{{greenCurve}}">
+        </div>
+        <div class="scale" svg-directive nodename="scale" svg-size="680,80"></div>
+
+        <!--Display input and numbers-->
+        <div class="data-content">
+            <div class="input-box"><span class="number-content">{{firstNumber}}</span></div>
+            <div class="sign-box red-box">
+                <div class="symbol">+</div>
+            </div>
+            <div class="plus-sign">{{plusSignText}}</div>
+            <div class="input-box"><span class="number-content">{{secondNumber}}</span></div>
+            <div class="sign-box blue-box">
+                <div class="symbol">=</div>
+            </div>
+            <div class="equal-sign">{{equalSignText}}</div>
+            <input class="input-box" id="input-1" maxlength="2" tab-index="1" ng-disabled="inputDisabled"/>
+        </div>
+
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

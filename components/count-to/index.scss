@@ -1,0 +1,50 @@
+@import './frog/index.scss';
+@import './block/index.scss';
+@import './counter/index.scss';
+
+.app-home-level-menu-count-to-layout {
+  .banner {
+    background-image: url('../../assets/images/number/background.jpg');
+  }
+}
+
+/* Game main namespace */
+.count-to-page {
+  .bowl {
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 88%;
+    height: 60%;
+  }
+
+  .button-frog {
+    position: absolute;
+    cursor: pointer;
+    width: 27.5%;
+    height: 88.7%;
+  }
+
+  .jar-bottom-text-color {
+    color: #D27450;
+  }
+
+  .jar-cap-text-color {
+    color: #FFFFFF;
+  }
+
+  .jar-text {
+    position: absolute;
+    font-size: 1.4vw;
+    text-align: center;
+    z-index: 99;
+  }
+
+  .left-panel-menu a {
+    width: 80%;
+  }
+
+  .left-panel-menu .panel-buttons {
+    justify-content: space-around;
+  }
+}

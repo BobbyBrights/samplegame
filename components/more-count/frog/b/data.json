@@ -1,0 +1,96 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "more-count": {
+              "types": {
+                "frog": {
+                  "home": {
+                    "header": {
+                      "text": "How many frogs?",
+                      "cls": ""
+                    },
+                    "footer": {
+                      "text": "Click a number card.",
+                      "cls": ""
+                    },
+                    "images": {
+                      "frog-left": {
+                        "name": "frog-right.svg",
+                        "cls": "pos-absolute more-count-single-frog",
+                        "width": "86px",
+                        "height": "98px"
+                      },
+                      "frog-right": {
+                        "name": "frog-right.svg",
+                        "cls": "pos-absolute",
+                        "width": "86px",
+                        "height": "98px",
+                        "top": "125px",
+                        "left": "60px"
+                      },
+                      "blocks-bottle-icon": {
+                        "name": "blocks-bottle-icon.svg",
+                        "cls": "pos-absolute",
+                        "width": "100px",
+                        "height": "100px",
+                        "top": "285px",
+                        "left": "10px"
+                      },
+                      "counter-bottle-icon": {
+                        "name": "counter-bottle-icon.svg",
+                        "cls": "pos-absolute",
+                        "width": "100px",
+                        "height": "100px",
+                        "top": "385px",
+                        "left": "10px"
+                      },
+                      "more-frog-button": {
+                        "name": "more-frog-button.svg",
+                        "cls": "pos-absolute",
+                        "width": "170x",
+                        "height": "170px",
+                        "top": "305px",
+                        "left": "660px"
+                      },
+                      "empty-jar": {
+                        "name": "empty-jar.svg",
+                        "cls": "pos-absolute",
+                        "width": "541",
+                        "height": "430px",
+                        "top": "15px",
+                        "left": "135px"
+                      }
+                    }
+                  },
+                  "items": {
+                      "block": {
+                        "path": "",
+                        "text": ""
+                      },
+                      "counter": {
+                        "path": "",
+                        "text": ""
+                      }
+                    },
+                  "question": {
+                    "kind": "buttons",
+                    "count": 3,
+                    "max-value": 10,
+                    "cls": ""
+                  },
+                  "hint": {
+                    "text": "Click a number card.",
+                    "cls": ""
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

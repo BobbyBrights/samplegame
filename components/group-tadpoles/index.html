@@ -1,0 +1,50 @@
+<div class="group-tadpoles-page">
+    <work-area 
+        menu="menu" 
+        next="next" 
+        header="header" 
+        onnumberclick="onNumberClick">
+
+        <!-- Game specific elements -->
+        <div class="circles center-content">
+            <div class="circle" ng-repeat="circle in data.circles track by getUniqueId()">
+                <div class="tadpoles vertical-center" rotate-by="{{circle.rotateBy}}">
+                    <div class="tadpole" ng-repeat="tadpole in circle.tadpoles | range track by getUniqueId()"
+                         flip-by="{{circle.flipBy}}">
+                        <img ng-src="{{tadpoleImage.path}}">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img ng-src="{{frogImage.path}}" class="frogimg">
+
+        <div class="bottom-panel row no-margin">
+            <div class="left-box">
+                <div ng-hide="data.input" class="question-two">
+                    <input class="input-one input-box" ng-bind="enteredValue" maxlength="1" readonly/>
+                    <span>{{noOfGroups}}</span>
+                    <p>groups of </p><span class="answers" ng-bind="answer"></span>
+                    <i ng-if="data.input"> make</i>
+                </div>
+
+
+                <div ng-show="data.input" class="question">
+                    <input ng-show="data.input" class="input input-box" maxlength="1" readonly/>
+                    <span>{{noOfGroups}}</span> groups of <span class="number"><span ng-bind="answer"></span></span>
+                    <span ng-if="data.input" class="make-position"> make</span>
+                    <span class="answer" ng-bind="enteredValue"></span>
+                </div>
+
+            </div>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag" >
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

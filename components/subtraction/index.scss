@@ -1,0 +1,39 @@
+@import './circles/index.scss';
+@import './frog/index.scss';
+@import './plus-and-minus/index.scss';
+@import './tens/index.scss';
+@import './hundreds/index.scss';
+@import './tens-hundreds/index.scss';
+@import './sketch/index.scss';
+@import './thousands/index.scss';
+@import './tens-regroup/index.scss';
+@import './hundreds-regroup/index.scss';
+@import './thousands-regroup/index.scss';
+@import './tens-thousands/index.scss';
+@import './ten-thousands-regroup/index.scss';
+@import './hundred-thousands/index.scss';
+@import './hundred-thousands-regroup/index.scss';
+@import './butterfly/index.scss';
+
+.app-home-level-menu-subtraction-game-layout{
+  .banner{
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+.subtraction-page{
+    // Page title image
+
+   .right-panel-menu{
+      .next-btn,
+      .check-btn{
+        margin: 19% auto;
+        width: 94%;
+        font-size: 1.6vw;
+      }
+    }
+  }
+
+
+
+  // Game specific styles

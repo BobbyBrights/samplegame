@@ -1,0 +1,113 @@
+//@import './a/index';
+
+// Add background layout
+.app-home-level-menu-three-d-shapes-game-layout {
+  .banner {
+    //background-image: url('./../../assets/images/space/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.three-d-shapes-page {
+
+  .quiz-page {
+
+    .flex-container {
+      border: .2vw solid #525731;
+      height: 87%;
+      width: 63%;
+      position: absolute;
+      left: 3%;
+      top: 1%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #81885e;
+
+      .img-content {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        height: 90%;
+        width: 100%;
+      }
+    }
+
+    .shapes{
+      cursor: pointer;
+    }
+
+    .hint-header-text {
+      bottom: initial;
+      top: 0;
+    }
+
+    .hint-question-text {
+      color: #ff9900;
+      top: 25%;
+      left: -11%;
+      height: 10%;
+    }
+
+    .shape-names {
+      position: absolute;
+      text-align: center;
+      left: 55%;
+      top: 0%;
+      font-size: 1.6vw;
+      color: #00cc00;
+    }
+
+    .head-txt{
+      color: #ff9900;
+    }
+
+    .txt{
+      color: #00cc00;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-content: space-around;
+      align-items: flex-start;
+      left: 66%;
+      height: 87%;
+      width: 33%;
+      position: absolute;
+
+      .button {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        height: 13%;
+        width: 90%;
+        font-size: 1.5vw;
+        line-height: 3.5vw;
+        position: relative;
+
+      }
+    }
+
+    .check-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+  }
+}

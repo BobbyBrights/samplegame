@@ -1,0 +1,56 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "types": {
+                "input-type": {
+                  "home": {
+                    "header": {
+                      "text": "<span>It is game header</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Hint text....",
+                        "cls": ""
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "drag-type": {
+                          "path": "images/menu/drag-type.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'drag-type', level :  'c'}"
+                        }
+                          ,
+                        "click-type": {
+                          "path": "images/menu/click-type.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'click-type', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path"  : "input-type/images/right-panel-icon.svg"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

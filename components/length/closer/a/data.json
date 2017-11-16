@@ -1,0 +1,242 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "closer": {
+                  "home": {
+                    "header": {
+                      "text": "Closer or Further?"
+                    },
+                    "images": {
+                      "middle": {
+                        "path": "closer/images/margin-box.svg"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards."
+                      },
+                      "image-grass": {
+                        "path": "closer/images/grass-line.svg"
+                      },
+                      "random-images": {
+                        "closer-0": {
+                          "path": "closer/images/hen-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "25%",
+                          "height": "15%",
+                          "top": "-2%",
+                          "left": "-11.2%"
+                        },
+                        "closer-1": {
+                          "path": "closer/images/hen-big.svg",
+                          "cls": "pos-absolute",
+                          "width": "35%",
+                          "height": "15%",
+                          "top": "14%",
+                          "left": "53.5%"
+                        },
+                        "closer-2": {
+                          "path": "closer/images/parrot-big.svg",
+                          "cls": "pos-absolute",
+                          "width": "22%",
+                          "height": "15%",
+                          "top": "-4%",
+                          "left": "-10%"
+                        },
+                        "closer-3": {
+                          "path": "closer/images/parrot-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "11%",
+                          "height": "15%",
+                          "top": "7%",
+                          "left": "65.5%"
+                        },
+                        "closer-4": {
+                          "path": "closer/images/skinks-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "25%",
+                          "height": "15%",
+                          "top": "22%",
+                          "left": "-11.4%"
+                        },
+                        "closer-5": {
+                          "path": "closer/images/skinks-big.svg",
+                          "cls": "pos-absolute",
+                          "width": "40%",
+                          "height": "15%",
+                          "top": "55%",
+                          "left": "51%"
+                        },
+                        "closer-6": {
+                          "path": "closer/images/frog-big.svg",
+                          "cls": "pos-absolute",
+                          "width": "35%",
+                          "height": "15%",
+                          "top": "40%",
+                          "left": "-16.4%"
+                        },
+                        "closer-7": {
+                          "path": "closer/images/frog-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "20%",
+                          "height": "15%",
+                          "top": "12%",
+                          "left": "61%"
+                        },
+                        "closer-8": {
+                          "path": "closer/images/tree-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "25%",
+                          "height": "15%",
+                          "top": "-4.5%",
+                          "left": "-11.4%"
+                        },
+                        "closer-9": {
+                          "path": "closer/images/tree-big.svg",
+                          "cls": "pos-absolute",
+                          "width": "40%",
+                          "height": "15%",
+                          "top": "13%",
+                          "left": "51%"
+                        }
+                      },
+                      "drag-items": [
+                        "Closer",
+                        "Further"
+                      ],
+                      "drop-zone-positions": [
+                        [
+                          "65.4,75",
+                          "16.5,40"
+                        ],
+                        [
+                          "16.5,76",
+                          "65.4,40"
+                        ],
+                        [
+                          "65.4,73",
+                          "16.5,40"
+                        ],
+                        [
+                          "16.5,79",
+                          "65.4,40"
+                        ],
+                        [
+                          "65.4,75",
+                          "16.5,40"
+                        ]
+                      ],
+                      "tick-positions": [
+                        [
+                          "37,33",
+                          "86,68"
+                        ],
+                        [
+                          "37,69.5",
+                          "86,33.5"
+                        ],
+                        [
+                          "37,33.5",
+                          "86,66"
+                        ],
+                        [
+                          "37,72.5",
+                          "86,33.5"
+                        ],
+                        [
+                          "37,33.5",
+                          "86,68.5"
+                        ]
+
+                      ],
+                      "sign-images": {
+                        "tick": {
+                          "path": "images/tick.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "longer": {
+                          "path": "images/menu/longer.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'longer', level :  'a'}"
+                        },
+                        "taller": {
+                          "path": "images/menu/taller.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'taller', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "image-grass": {
+                        "path": "closer/images/grass-line.svg"
+                      },
+                      "middle": {
+                        "path": "closer/images/margin-box.svg"
+                      },
+                      "closer-0": {
+                        "path": "closer/images/hen-small.svg"
+                      },
+                      "closer-1": {
+                        "path": "closer/images/hen-big.svg"
+                      },
+                      "closer-2": {
+                        "path": "closer/images/parrot-big.svg"
+                      },
+                      "closer-3": {
+                        "path": "closer/images/parrot-small.svg"
+                      },
+                      "closer-4": {
+                        "path": "closer/images/skinks-small.svg"
+                      },
+                      "closer-5": {
+                        "path": "closer/images/skinks-big.svg"
+                      },
+                      "closer-6": {
+                        "path": "closer/images/frog-big.svg"
+                      },
+                      "closer-7": {
+                        "path": "closer/images/frog-small.svg"
+                      },
+                      "closer-8": {
+                        "path": "closer/images/tree-small.svg"
+                      },
+                      "closer-9": {
+                        "path": "closer/images/tree-big.svg"
+                      },
+                      "longer": {
+                        "path": "images/menu/longer.svg"
+                      },
+                      "taller": {
+                        "path": "images/menu/taller.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "position": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Where is the frog?"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards."
+                      },
+                      "question-label": {
+                        "text": "Where is the frog?"
+                      },
+                      "frog-images": {
+                        "frog0": {
+                          "path": "drag-type/a/images/outside-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "55%",
+                          "left": "30%"
+                        },
+                        "frog1": {
+                          "path": "drag-type/a/images/inside-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%"
+                        },
+                        "frog2": {
+                          "path": "drag-type/a/images/between-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "65%"
+                        },
+                        "frog3": {
+                          "path": "drag-type/a/images/beside-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "44%"
+                        },
+                        "frog4": {
+                          "path": "drag-type/a/images/above-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%"
+                        },
+                        "frog5": {
+                          "path": "drag-type/a/images/below-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%"
+                        },
+                        "frog6": {
+                          "path": "drag-type/a/images/behind-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "61%"
+                        },
+                        "frog7": {
+                          "path": "drag-type/a/images/infront-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%"
+                        },
+                        "frog8": {
+                          "path": "drag-type/a/images/under-over-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "95%"
+                        },
+                        "frog9": {
+                          "path": "drag-type/a/images/top-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "19%"
+                        },
+                        "frog10": {
+                          "path": "drag-type/a/images/bottom-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "19%"
+                        },
+                        "frog11": {
+                          "path": "drag-type/a/images/right-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%"
+                        },
+                        "frog12": {
+                          "path": "drag-type/a/images/left-position.svg",
+                          "cls": "pos-absolute",
+                          "width": "60%"
+                        }
+                      },
+                      "min-value": 0,
+                      "max-value": 2,
+                      "tick": {
+                        "path": "images/tick.svg",
+                        "cls": "pos-absolute",
+                        "width": "8%",
+                        "left": "81.5%",
+                        "top": "68%"
+                      },
+                      "button-labels": [
+                        [
+                          "Outside",
+                          "Inside"
+                        ],
+                        [
+                          "Between",
+                          "Beside"
+                        ],
+                        [
+                          "Above",
+                          "Below"
+                        ],
+                        [
+                          "Behind",
+                          "In front"
+                        ],
+                        [
+                          "Under",
+                          "Over"
+                        ],
+                        [
+                          "Top",
+                          "Bottom"
+                        ],
+                        [
+                          "Left",
+                          "Right"
+                        ]
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": null,
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "frog0": {
+                        "path": "drag-type/a/images/outside-position.svg"
+                      },
+                      "frog1": {
+                        "path": "drag-type/a/images/inside-position.svg"
+                      },
+                      "frog2": {
+                        "path": "drag-type/a/images/between-position.svg"
+                      },
+                      "frog3": {
+                        "path": "drag-type/a/images/beside-position.svg"
+                      },
+                      "frog4": {
+                        "path": "drag-type/a/images/above-position.svg"
+                      },
+                      "frog5": {
+                        "path": "drag-type/a/images/below-position.svg"
+                      },
+                      "frog6": {
+                        "path": "drag-type/a/images/behind-position.svg"
+                      },
+                      "frog7": {
+                        "path": "drag-type/a/images/infront-position.svg"
+                      },
+                      "frog8": {
+                        "path": "drag-type/a/images/under-over-position.svg"
+                      },
+                      "frog9": {
+                        "path": "drag-type/a/images/top-position.svg"
+                      },
+                      "frog10": {
+                        "path": "drag-type/a/images/bottom-position.svg"
+                      },
+                      "frog11": {
+                        "path": "drag-type/a/images/right-position.svg"
+                      },
+                      "frog12": {
+                        "path": "drag-type/a/images/left-position.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

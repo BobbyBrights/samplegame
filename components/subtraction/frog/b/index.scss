@@ -1,0 +1,175 @@
+.subtraction-page{
+
+  .frog-page{
+
+    .check-btns  {
+      position: absolute;
+      top: 82%;
+      left: 85.8%;
+      height: 14%;
+      width: 14%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .redo-btns {
+      position: absolute;
+      top: 84%;
+      left: 85.8%;
+      height: 13%;
+      width: 13%;
+      cursor: pointer;
+      z-index: 1;
+    }
+
+    .butterfly-image{
+      width: 85%;
+      left: 13%;
+      bottom: 123%;
+      position: absolute;
+    }
+
+
+    .numberline{
+      height: 72%;
+      width: 38.7vw;
+      top: -2%;
+      left: 9.4vw;
+      position: absolute;
+    }
+
+    .frogimg{
+      width: 4%;
+      top: 22%;
+      left: 46%;
+      position: absolute;
+    }
+    .data-content {
+      width: 42.6vw;
+      margin-left: 7.3vw;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 26%;
+      position: absolute;
+      .input-data {
+        width: 5vw;
+        font-size: 3vw;
+        text-align: center;
+        color: #1b4123;
+        border-radius: 6%;
+        background: #dbe0bc;
+        border: .1vw solid #9e9a9a;
+        box-shadow: inset 0.1vw 0.1vw 0.3vw rgba(0,0,0,.31);
+
+        &:focus {
+          outline-width: 0;
+          border: 0.1vw solid #707070;
+        }
+      }
+      .sign-box{
+        width: 9%;
+        text-align: center;
+        font-size: 3vw;
+        color: #D74E3B;
+      }
+    }
+
+    .dotted-curved-image{
+      width:9%;
+    }
+   /* #content {
+      .sketch-pad-base {
+        position: absolute;
+        width: 80%;
+        height: 46%;
+        top: -56%;
+        left: 16%;
+      }
+    }*/
+
+
+    .curved-line-container {
+      display: flex;
+      flex-wrap: wrap;
+      top: 21%;
+      width: 66.5%;
+      height: 10%;
+      position: absolute;
+      .dotted-curved-line {
+        width: 8.4%;
+      }
+    }
+
+    .counter-container {
+      position: relative;
+      left: 16.3%;
+      margin-top: 2.3%;
+      width: 39vw;
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-content: flex-start;
+    }
+    .number-text {
+      font-size: 4vw;
+      width: 7%;
+      text-align: center;
+      color: white;
+    }
+
+    .check-button {
+      width: 12%;
+      position: absolute;
+      left: 84%;
+      bottom: 5%;
+    }
+
+    .clear-button{
+      width: 10%;
+      position: absolute;
+      left: 1%;
+      margin-top: 37%;
+    }
+
+    .sign {
+      width: 8%;
+      bottom: 25%;
+      left: 86%;
+      position: absolute;
+    }
+
+    .sub-hint-minus{
+      position: absolute;
+      width: 16%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      bottom: 21%;
+      left: 27%;
+      text-align: center;
+    }
+
+    .sub-hint-equal{
+      position: absolute;
+      width: 16%;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      bottom: 21%;
+      left: 57%;
+      text-align: center;
+
+    }
+
+    /* sketchpad */
+    .sketch-pad-base {
+      position: absolute;
+      width: 85%;
+      height: 65%;
+      top: -1%;
+      left: 13%;
+    }
+
+
+  }
+}

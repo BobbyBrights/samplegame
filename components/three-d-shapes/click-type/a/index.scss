@@ -1,0 +1,47 @@
+
+/* Sub game namespace */
+.three-d-shapes-page {
+  .click-type-page {
+    // Game specific styles
+    .hint-color {
+      color: #000000;
+    }
+    .header {
+      font-size: 1.6vw;
+      line-height: 3vw;
+      color: #d24639;
+      cursor: default;
+      text-align: center;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 12%;
+      text-align: center;
+      width: 100%;
+      color: #000000;
+      font-size: 1.6vw;
+      cursor: default;
+      span {
+        color: #d24639;
+      }
+    }
+
+    .header-color {
+      color: #d24639;
+    }
+
+    .shape-holder {
+      display: flex;
+      justify-content: center;
+    }
+
+    .shape-container {
+      position: absolute;
+      width: 66.7%;
+      height: 63%;
+      left: 17%;
+      top: 14%;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+<div class="money-page">
+    <work-area menu="menu" next="next" header="header" onnumberclick="onNumberClick"
+               getscoreboard="getScoreboard">
+
+        <!-- Game specific elements -->
+        <div class="left-side">
+            <game-images images="wombatImage"></game-images>
+        </div>
+
+        <div class="image-box" ng-repeat="block in boxCount track by $index" id="image-box-{{$index}}">
+            <img ng-src="{{coins['c' + block].path}}"
+                 width="{{coins['c' + block].width}}"
+                 height="{{coins['c' + block].height}}"
+                 class="{{coins['c' + block].cls}}"
+                 ng-style="{top:position[$index][1]+'vw',left:position[$index][0]+'vw'}"/>
+        </div>
+
+        <div class="right-side">
+            <div class="question-head" ng-bind-html="questionText"></div>
+
+            <!-- Input box -->
+            <div class="question-container">
+                <div ng-hide="data.input" class="question-two">
+                    <input class="input-box" id="input-1" maxlength="2" tab-index="1" ng-disabled="isDisable"/>
+                    <span class="dollar">Dollars</span><span class="answers" ng-bind="answer"></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- check -->
+        <check-button class="check-btns" ng-click="check($event)" param="flag"></check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)"></div>
+
+        <!--Display footer text-->
+        <div class="footer-text">{{footer}}</div>
+
+    </work-area>
+</div>

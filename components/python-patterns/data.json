@@ -1,0 +1,57 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "python-patterns": {
+              "home": {
+                "header": {
+                  "text": "Python Number Patterns"
+                },
+                "footer": {
+                },
+                "images": {},
+                "question": {
+                  "question-text": {
+                    "text": "Complete the number pattern."
+                  },
+                  "hint": {
+                    "text": "Enter the missing numbers."
+                  },
+                  "images": {
+                    "big-snake": {
+                      "path": "images/big-snake.svg",
+                      "cls": "",
+                      "width": "57vw",
+                      "height": "17.4vw"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "big-snake": {
+                    "path": "images/big-snake.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

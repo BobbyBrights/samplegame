@@ -1,0 +1,24 @@
+@import './font';
+@import './styles/colors';
+@import './styles/common';
+@import './styles/layouts';
+@import './styles/game';
+
+body {
+  margin: 0;
+  font-family: poppins;
+}
+
+#main-app {
+  //width: 100%;
+  //height: 100;
+  //margin: 0 auto;
+}
+
+.stage {
+  //width: 100%;
+  //height: 100%;
+  //position: absolute;
+  //overflow: hidden;
+  //background-color: #a8e0f7;
+}

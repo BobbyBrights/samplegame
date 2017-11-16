@@ -1,0 +1,24 @@
+.sketch-pad-container {
+  .sketch-pad-base {
+  }
+
+  .sketch-pad-canvas {
+  }
+
+  .color-palette {
+    width: 12%;
+    height: 75%;
+    left: 2%;
+    top: -10%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+
+    .color {
+      margin: 0.3vw;
+      width: 40%;
+      height: 12%;
+      cursor: pointer;
+    }
+  }
+}

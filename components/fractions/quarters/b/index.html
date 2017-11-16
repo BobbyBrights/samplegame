@@ -1,0 +1,56 @@
+<div class="quarters-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+        <!-- Game specific elements -->
+        <img class="one-fourth-icon" ng-src="{{oneFour.path}}"/>
+        <!-- Add images -->
+        <div class="game-info">
+            <game-images images="icons"></game-images>
+            <span class="sub-title">{{subTitle}}</span>
+        </div>
+
+        <div ng-if="counter === 0">
+            <img ng-src="{{subGameFirst.square.path}}" class="square">
+            <div ng-if="counter==0" ng-repeat="i in [1,2,3,4]" class="right-{{i}}" id="{{i}}" ng-click="squareClick(i)"
+                 style="cursor: pointer"></div>
+            <img id="red-butterfly1" class="invisible" ng-src="{{subGameFirst.orangeButterfly.path}}" position="16.8,30"
+                 width="13%">
+            <img id="red-butterfly2" class="invisible" ng-src="{{subGameFirst.orangeButterfly.path}}" position="30.3,30"
+                 width="13%">
+            <img id="red-butterfly3" class="invisible" ng-src="{{subGameFirst.orangeButterfly.path}}" position="16.8,61"
+                 width="13%">
+            <img id="red-butterfly4" class="invisible" ng-src="{{subGameFirst.orangeButterfly.path}}" position="30.3,61"
+                 width="13%">
+
+            <img ng-src="{{subGameFirst.circle.path}}" ng-if="counter==0" class="circle">
+            <div ng-if="counter==0" ng-repeat="j in [1,2,3,4]" class="left-{{j}}" id="{{j}}" ng-click="circleClick(j)"
+                 style="cursor: pointer"></div>
+
+            <img id="blackWhiteButterfly1" position="60.5,34" class="invisible"
+                 ng-src="{{subGameFirst.muroonButterfly.path}}"
+                 width="10%">
+            <img id="blackWhiteButterfly2" position="71,34" class="invisible"
+                 ng-src="{{subGameFirst.muroonButterfly.path}}"
+                 width="10%">
+            <img id="blackWhiteButterfly3" position="60.5,55" class="invisible"
+                 ng-src="{{subGameFirst.muroonButterfly.path}}"
+                 width="10%">
+            <img id="blackWhiteButterfly4" position="71,55" class="invisible"
+                 ng-src="{{subGameFirst.muroonButterfly.path}}"
+                 width="10%">
+        </div>
+
+        <div ng-if="counter >= 1" class="flex-container">
+            <img class="move-enable" ng-src="{{leftImage.path}}" ng-click="validateAnswer(0)"
+                 style="width:{{leftImage.width}}"/>
+            <img class="move-enable" ng-src="{{rightImage.path}}" ng-click="validateAnswer(1)"
+                 style="width:{{rightImage.width}}"/>
+        </div>
+
+        <img ng-if="counter > 0" ng-src="{{nextButterfly.path}}" class="next-butterfly move-enable"
+             ng-click="moreClick()"/>
+
+        <game-images ng-repeat="signs in sign" images="signs" id="{{signs.name}}" class="invisible"></game-images>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText[counter]"></div>
+    </work-area>
+</div>

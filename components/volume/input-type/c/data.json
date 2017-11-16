@@ -1,0 +1,292 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "volume": {
+              "types": {
+                "input-type": {
+                  "home": {
+                    "header": {
+                      "text": "Block models"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "question-label": {
+                        "text": "What is volume of this model?"
+                      },
+                      "hint": {
+                        "text": "Count the cubes. Enter your answer in the box.",
+                        "cls": ""
+                      },
+                      "input-images":{
+                        "block-0":{
+                          "path":"input-type/images/block-1.svg",
+                          "width":"20.4%",
+                          "height":"50%",
+                          "left":"40%",
+                          "top":"14%"
+                        },
+                        "block-1":{
+                          "path":"input-type/images/block-2.svg",
+                          "width":"20.4%",
+                          "height":"50%",
+                          "left":"40%",
+                          "top":"14%"
+                        },
+                        "block-2":{
+                          "path":"input-type/images/block-3.svg",
+                          "width":"32.4%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-3":{
+                          "path":"input-type/images/block-4.svg",
+                          "width":"32.5%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-4":{
+                          "path":"input-type/images/block-5.svg",
+                          "width":"41%",
+                          "height":"50%",
+                          "left":"31%",
+                          "top":"14%"
+                        },
+                        "block-5":{
+                          "path":"input-type/images/block-6.svg",
+                          "width":"41%",
+                          "height":"50%",
+                          "left":"31%",
+                          "top":"14%"
+                        },
+                        "block-6":{
+                          "path":"input-type/images/block-7.svg",
+                          "width":"36.7%",
+                          "height":"50%",
+                          "left":"31%",
+                          "top":"14%"
+                        },
+                        "block-7":{
+                          "path":"input-type/images/block-8.svg",
+                          "width":"28.7%",
+                          "height":"50%",
+                          "left":"35%",
+                          "top":"14%"
+                        },
+                        "block-8":{
+                          "path":"input-type/images/block-9.svg",
+                          "width":"24.6%",
+                          "height":"50%",
+                          "left":"39%",
+                          "top":"14%"
+                        },
+                        "block-9":{
+                          "path":"input-type/images/block-10.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-10":{
+                          "path":"input-type/images/block-11.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-11":{
+                          "path":"input-type/images/block-12.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"32%",
+                          "top":"14%"
+                        },
+                        "block-12":{
+                          "path":"input-type/images/block-13.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-13":{
+                          "path":"input-type/images/block-14.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-14":{
+                          "path":"input-type/images/block-15.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-15":{
+                          "path":"input-type/images/block-16.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-16":{
+                          "path":"input-type/images/block-17.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-17":{
+                          "path":"input-type/images/block-18.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-18":{
+                          "path":"input-type/images/block-19.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        },
+                        "block-19":{
+                          "path":"input-type/images/block-20.svg",
+                          "width":"32.7%",
+                          "height":"50%",
+                          "left":"34%",
+                          "top":"14%"
+                        }
+                      },
+                      "correct-answer": [
+                        8,
+                        6,
+                        8,
+                        8,
+                        16,
+                        3,
+                        5,
+                        5,
+                        7,
+                        8,
+                        9,
+                        4,
+                        6,
+                        7,
+                        10,
+                        8,
+                        5,
+                        7,
+                        9,
+                        12
+                      ],
+                      "display-box":{
+                        "path": "input-type/images/info-board.svg"
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "fill-container": {
+                          "path": "images/menu/left-cube.svg",
+                          "state": "^.volume-game",
+                          "params": "{category : 'measurement', game : 'fill-container', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "display-box": {
+                        "path": "input-type/images/info-board.svg"
+                      },
+                      "fill-container": {
+                        "path": "images/menu/left-cube.svg"
+                      },
+                      "block-0":{
+                        "path":"input-type/images/block-1.svg"
+                      },
+                      "block-1":{
+                        "path":"input-type/images/block-2.svg"
+                      },
+                      "block-2":{
+                        "path":"input-type/images/block-3.svg"
+                      },
+                      "block-3":{
+                        "path":"input-type/images/block-4.svg"
+                      },
+                      "block-4":{
+                        "path":"input-type/images/block-5.svg"
+                      },
+                      "block-5":{
+                        "path":"input-type/images/block-6.svg"
+                      },
+                      "block-6":{
+                        "path":"input-type/images/block-7.svg"
+                      },
+                      "block-7":{
+                        "path":"input-type/images/block-8.svg"
+                      },
+                      "block-8":{
+                        "path":"input-type/images/block-9.svg"
+                      },
+                      "block-9":{
+                        "path":"input-type/images/block-10.svg"
+                      },
+                      "block-10":{
+                        "path":"input-type/images/block-11.svg"
+                      },
+                      "block-11":{
+                        "path":"input-type/images/block-12.svg"
+                      },
+                      "block-12":{
+                        "path":"input-type/images/block-13.svg"
+                      },
+                      "block-13":{
+                        "path":"input-type/images/block-14.svg"
+                      },
+                      "block-14":{
+                        "path":"input-type/images/block-15.svg"
+                      },
+                      "block-15":{
+                        "path":"input-type/images/block-16.svg"
+                      },
+                      "block-16":{
+                        "path":"input-type/images/block-17.svg"
+                      },
+                      "block-17":{
+                        "path":"input-type/images/block-18.svg"
+                      },
+                      "block-18":{
+                        "path":"input-type/images/block-19.svg"
+                      },
+                      "block-19":{
+                        "path":"input-type/images/block-20.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "next-game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

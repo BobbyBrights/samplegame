@@ -1,0 +1,63 @@
+
+
+.app-welcome-layout {
+  .banner{
+   // background-image: url('./../assets/images/backgrounds/welcome/background.jpg');
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.welcome-page {
+  .container {
+    position: relative;
+    width: 55%;
+  }
+
+  .play-button {
+    position: absolute;
+    width: 19%;
+    top: 72%;
+    left: 40.2%;
+    display: inline-block;
+    background-image: url('../components/welcome/images/play-button.svg');
+    height: 18%;
+    background-repeat: no-repeat;
+    background-position: 35% 36%;
+    background-size: 141%;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .monkey-position {
+    position: absolute;
+    top: 30%;
+    left: -9%;
+    width: 17.2%;
+  }
+
+  .bamboo-position {
+    position: absolute;
+    top: -11%;
+    left: 3%;
+    width: 94%;
+  }
+
+  .mathletics-logo {
+    position: absolute;
+    bottom: -18%;
+    left: 44%;
+    width: 13%;
+  }
+
+  // Aspect Ratio classes
+  .banner.ar-16-9 {
+    background-position-y: -50px;
+  }
+
+  .container.ar-4-3 {
+    margin-top: -60px;
+  }
+}

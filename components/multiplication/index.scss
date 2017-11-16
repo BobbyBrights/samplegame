@@ -1,0 +1,104 @@
+@import './bug/index.scss';
+@import './curve/index.scss';
+@import './box/index.scss';
+@import './dice/index.scss';
+@import './commutative/index.scss';
+@import './tables/index.scss';
+
+/* Game main namespace */
+.multiplication-page{
+  // Game specific styles
+
+  .left-panel-menu .panel-buttons{
+    justify-content: inherit;
+  }
+
+  .check-btns {
+    position: absolute;
+    left: 85.6%;
+    top: 84%;
+    z-index: 1;
+  }
+
+  .question-container {
+    position: absolute;
+    top: 70%;
+    left:12%;
+    width: 100%;
+  }
+  .number-question {
+    width: 13%;
+    text-align: center;
+    float: left;
+    margin-left: 4%;
+  }
+  .text {
+    font-size:1.5vw;
+    margin-left: 6%;
+  }
+  .question-text{
+    color: #C8704C;
+    font-size: 3vw;
+  }
+  .second-question-box {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+    height: 4vw;
+    width: 30%;
+    text-align: center;
+    border-radius: 1vw;
+    background-color: #525731;
+    line-height: 4vw;
+    color: #98b644;
+    font-size: 1.3vw;
+  }
+
+  .question-box{
+    position: absolute;
+    top: 80%;
+    text-align: center;
+    border-radius: 0.5vw;
+    background-color: #c0de94;
+    line-height: 3.4vw;
+    color: #1b4123;
+    font-size: 1.3vw;
+    height: 3.4vw;
+  }
+
+  .left-box{
+    left: 20%;
+    width: 15%;
+  }
+
+  .right-box{
+    left: 43%;
+    width: 14%;
+  }
+
+  .input-box {
+    position: absolute;
+  }
+
+  .left-panel-menu a  {
+    width:100%;
+  }
+   /* width: 8%;
+    height: 4vw;
+    left: 27%;
+    color: #fff;
+    border-radius: 10%;
+    font-size: 1.3vw;
+    text-align: center;
+    background: #81885e;
+    border: .1vw solid #525731;
+    &:focus {
+      outline-width: 0;
+    }
+  }*/
+ /* .col-xs-5,
+  .col-xs-7{
+    padding: 0;
+    height:  4.5vw;
+  }*/
+}

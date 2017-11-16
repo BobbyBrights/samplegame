@@ -1,0 +1,202 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "long": {
+                  "home": {
+                    "header":{
+                      "text":"Long"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "question-label": {
+                        "text": ""
+                      },
+                      "hint": {
+                        "text": "Drag the paper clips to check.",
+                        "cls": ""
+                      },
+                      "drag-image": {
+                        "path": "long/images/pins.svg"
+                      },
+                      "long-images":{
+                        "play-0":{
+                          "path":"long/images/play-1.svg",
+                          "width":"20%",
+                          "height":"50%",
+                          "left":"40%",
+                          "top":"5%"
+                        },
+                        "play-1":{
+                          "path":"long/images/play-2.svg",
+                          "width":"20%",
+                          "height":"50%",
+                          "left":"40%",
+                          "top":"1%"
+                        },
+                        "play-2":{
+                          "path":"long/images/play-3.svg",
+                          "width":"30%",
+                          "height":"50%",
+                          "left":"36%",
+                          "top":"5%"
+                        },
+                        "play-3":{
+                          "path":"long/images/play-4.svg",
+                          "width":"30%",
+                          "height":"50%",
+                          "left":"35%",
+                          "top":"5%"
+                        },
+                        "play-4":{
+                          "path":"long/images/play-5.svg",
+                          "width":"40%",
+                          "height":"50%",
+                          "left":"30%",
+                          "top":"1%"
+                        },
+                        "play-5":{
+                          "path":"long/images/play-6.svg",
+                          "width":"40%",
+                          "height":"50%",
+                          "left":"30%",
+                          "top":"1%"
+                        },
+                        "play-6":{
+                          "path":"long/images/play-7.svg",
+                          "width":"35%",
+                          "height":"50%",
+                          "left":"33%",
+                          "top":"2%"
+                        },
+                        "play-7":{
+                          "path":"long/images/play-8.svg",
+                          "width":"30%",
+                          "height":"50%",
+                          "left":"35%",
+                          "top":"1%"
+                        },
+                        "play-8":{
+                          "path":"long/images/play-9.svg",
+                          "width":"20%",
+                          "height":"50%",
+                          "left":"40%",
+                          "top":"5%"
+                        },
+                        "play-9":{
+                          "path":"long/images/play-10.svg",
+                          "width":"40%",
+                          "height":"50%",
+                          "left":"30%",
+                          "top":"1%"
+                        }
+                      },
+                      "correct-answer": [
+                        2,
+                        2,
+                        4,
+                        4,
+                        5,
+                        5,
+                        4,
+                        3,
+                        2,
+                        4
+                      ],
+                      "drag":[
+                        1,
+                        2,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "tall": {
+                          "path": "images/menu/tall.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'tall', level :  'b'}"
+                        }
+                          ,
+                        "metre": {
+                          "path": "images/menu/metre.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'metre', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "drag-image": {
+                        "path": "long/images/pins.svg"
+                      },
+                      "play-0": {
+                        "path":"long/images/play-1.svg"
+                      },
+                      "play-1": {
+                        "path": "long/images/play-2.svg"
+                      },
+                      "play-2": {
+                        "path": "long/images/play-3.svg"
+                      },
+                      "play-3": {
+                        "path": "long/images/play-4.svg"
+                      },
+                      "play-4": {
+                        "path": "long/images/play-5.svg"
+                      },
+                      "play-5": {
+                        "path": "long/images/play-6.svg"
+                      },
+                      "play-6": {
+                        "path": "long/images/play-7.svg"
+                      },
+                      "play-7": {
+                        "path": "long/images/play-8.svg"
+                      },
+                      "play-8": {
+                        "path": "long/images/play-9.svg"
+                      },
+                      "play-9": {
+                        "path": "long/images/play-10.svg"
+                      },
+                      "metre": {
+                        "path": "images/menu/metre.svg"
+                      },
+                      "taller": {
+                        "path": "images/menu/taller.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

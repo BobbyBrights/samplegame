@@ -1,0 +1,164 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "types": {
+                "quiz": {
+                  "home": {
+                    "header": {
+                      "text": "What shape am I?"
+                    },
+                    "footer": {
+                      "text":"Select the correct shape."
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "I am a"
+                      },
+                      "heading-shape-text": [
+                        "<span class='head-txt'>I have</span><span class='txt'> 8 corners and rectangular faces.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> 6 square faces.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> 0 edges.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> 5 corners.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> 6 faces, all rectangles.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> a point and round base.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> only 1 surface. It is curved.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> a point and 1 square face.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> 8 corners and 6 square faces.<span>",
+                        "<span class='head-txt'>I have</span><span class='txt'> a curved surace and 2 round bases.<span>"
+                      ],
+                      "question-images": {
+                        "cube": {
+                          "path": "click-type/b/quiz/images/cube.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top": "5%",
+                          "left": "3.1%",
+                          "id": "cube."
+                        },
+                        "square-pyramid": {
+                          "path": "click-type/b/quiz/images/square-pyramid.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top": "50.3%",
+                          "left": "3%",
+                          "id": "pyramid."
+                        },
+                        "rectangular-prism": {
+                          "path": "click-type/b/quiz/images/rectangular-prism.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top": "60%",
+                          "left": "20%",
+                          "id": "rectangular-prism."
+                        },
+                        "sphere": {
+                          "path": "click-type/b/quiz/images/sphere.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top": "49%",
+                          "left": "42%",
+                          "id": "sphere."
+                        },
+                        "cone": {
+                          "path": "click-type/b/quiz/images/cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top": "49%",
+                          "left": "62%",
+                          "id": "cone."
+                        },
+                        "cylinder": {
+                          "path": "click-type/b/quiz/images/cylinder.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top": "49%",
+                          "left": "81.5%",
+                          "id": "cylinder."
+                        }
+                      },
+                      "correct-answer":[
+                        "rectangular-prism.",
+                        "cube.",
+                        "sphere.",
+                        "pyramid.",
+                        "rectangular-prism.",
+                        "cone.",
+                        "sphere.",
+                        "pyramid.",
+                        "cube.",
+                        "cylinder.",
+                        "rectangular-prism."
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "sorting": {
+                          "path": "images/menu/Bsorting-icon.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'sorting', level :  'b'}"
+                        },
+                        "names": {
+                          "path": "images/menu/name-icon.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'names', level :  'b'}"
+                        },
+                        "view": {
+                          "path": "images/menu/view-icon.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'view', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "cube": {
+                        "path": "click-type/b/quiz/images/cube.svg"
+                      },
+                      "square-pyramid": {
+                        "path": "click-type/b/quiz/images/square-pyramid.svg"
+                      },
+                      "rectangular-prism": {
+                        "path": "click-type/b/quiz/images/rectangular-prism.svg"
+                      },
+                      "sphere": {
+                        "path": "click-type/b/quiz/images/sphere.svg"
+                      },
+                      "cone": {
+                        "path": "click-type/b/quiz/images/cone.svg"
+                      },
+                      "cylinder": {
+                        "path": "click-type/b/quiz/images/cylinder.svg"
+                      },
+                      "sorting": {
+                        "path": "images/menu/Bsorting-icon.svg"
+                      },
+                      "names": {
+                        "path": "images/menu/name-icon.svg"
+                      },
+                      "view": {
+                        "path": "images/menu/view-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

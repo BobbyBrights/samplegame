@@ -1,0 +1,156 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "data-graphs": {
+              "types": {
+                "block": {
+                  "home": {
+                    "header": {
+                      "text": "Bar Graphs with Blocks"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter the numbers in the boxes.",
+                        "cls": ""
+                      },
+                      "label": "How many?",
+                      "image-names": [
+                        "Bugs",
+                        "Moths",
+                        "Caterpillars",
+                        "Grasshoppers",
+                        "Butterflies",
+                        "Beetles"
+                      ],
+                      "block-images": {
+                        "0": {
+                          "path": "block/b/images/bugs.svg"
+                        },
+                        "1": {
+                          "path": "block/b/images/moths.svg"
+                        },
+                        "2": {
+                          "path": "block/b/images/caterpillars.svg"
+                        },
+                        "3": {
+                          "path": "block/b/images/grasshoppers.svg"
+                        },
+                        "4": {
+                          "path": "block/b/images/butterflies.svg"
+                        },
+                        "5": {
+                          "path": "block/b/images/beetles.svg"
+                        }
+                      },
+                      "box-images": {
+                        "0": {
+                          "path": "block/b/images/voilet-block.svg"
+                        },
+                        "1": {
+                          "path": "block/b/images/yellow-block.svg"
+                        },
+                        "2": {
+                          "path": "block/b/images/green-block.svg"
+                        },
+                        "3": {
+                          "path": "block/b/images/blue-block.svg"
+                        },
+                        "4": {
+                          "path": "block/b/images/pink-block.svg"
+                        },
+                        "5": {
+                          "path": "block/b/images/orange-block.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "animal": {
+                          "path": "images/menu/left-animal-icon.svg",
+                          "width": "60%",
+                          "state": "^.data-graphs-game",
+                          "params": "{category : 'space', game : 'animal', level :  'b'}"
+                        },
+                        "fruit": {
+                          "path": "images/menu/left-fruit-icon.svg",
+                          "width": "60%",
+                          "state": "^.data-graphs-game",
+                          "params": "{category : 'space', game : 'fruit', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right":  true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "0": {
+                        "path": "block/b/images/bugs.svg"
+                      },
+                      "1": {
+                        "path": "block/b/images/moths.svg"
+                      },
+                      "2": {
+                        "path": "block/b/images/caterpillars.svg"
+                      },
+                      "3": {
+                        "path": "block/b/images/grasshoppers.svg"
+                      },
+                      "4": {
+                        "path": "block/b/images/butterflies.svg"
+                      },
+                      "5": {
+                        "path": "block/b/images/beetles.svg"
+                      },
+                      "6": {
+                        "path": "block/b/images/voilet-block.svg"
+                      },
+                      "7": {
+                        "path": "block/b/images/yellow-block.svg"
+                      },
+                      "8": {
+                        "path": "block/b/images/green-block.svg"
+                      },
+                      "9": {
+                        "path": "block/b/images/blue-block.svg"
+                      },
+                      "10": {
+                        "path": "block/b/images/pink-block.svg"
+                      },
+                      "11": {
+                        "path": "block/b/images/orange-block.svg"
+                      },
+                      "animal": {
+                        "path": "images/menu/left-animal-icon.svg"
+                      },
+                      "fruit": {
+                        "path": "images/menu/left-fruit-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

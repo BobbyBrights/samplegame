@@ -1,0 +1,65 @@
+/* Sub game namespace */
+.fractions-page {
+  .halves-page {
+    // Game specific styles
+    .game-info{
+      position: absolute;
+      width: 26%;
+      height: 25%;
+      right: 2.3%;
+      top: -7%;
+    }
+    .one-half-icon{
+      position: absolute;
+      width: 6%;
+      left: 47.3%;
+    }
+    .butterfly {
+      width: 38.9vw;
+      height: 18vw;
+      left: 16%;
+      top: 16%;
+      position: absolute;
+    }
+
+    .flex-container {
+      height: 25vw;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-content: flex-start;
+      align-items: center;
+    }
+
+    .sub-title {
+      position: absolute;
+      font-size: 1.6vw;
+      color: #d96e4c;
+      cursor: default;
+      top: 12%;
+      text-align: center;
+      left: 38%;
+    }
+
+    .next-butterfly {
+      width: 14%;
+      left: 43%;
+      top: 50%;
+      position: absolute;
+    }
+
+    .question {
+      color: #1b4123;
+      background: #c0de94;
+      border-radius: 8px;
+      padding: 1%;
+      font-size: 2.7vw;
+      box-shadow: 3px 0 5px 0 rgba(0,0,0,.21);
+      height: 4.4vw;
+      width: 4.4vw;
+      line-height: 5.3vw;
+      text-align: center;
+    }
+  }
+}

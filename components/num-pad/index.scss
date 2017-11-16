@@ -1,0 +1,102 @@
+@mixin gray-gradient {
+  background: #441f03; /* Old browsers */
+  background: -moz-linear-gradient(top,  #441f03 1%, #632c00 36%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #441f03 1%,#632c00 36%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #441f03 1%,#632c00 36%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#441f03', endColorstr='#632c00',GradientType=0 ); /* IE6-9 */
+}
+
+.num-pad {
+  .action-buttons {
+    position: absolute;
+    width: 24.8vw;
+    height: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0.3%;
+    margin-top: 1%;
+
+    .action-btn{
+      height: 3.55vw;
+      line-height: 3.55vw;
+      font-size: 1.5vw;
+      width: 4.03vw;
+    }
+  }
+  &.gray-button-pad {
+    text-align: center;
+    color: white;
+    border-radius: 0;
+    margin: 0%;
+    cursor: pointer;
+
+
+  }
+
+  &.card-pad {
+    .action-buttons {
+     margin-top: 1.4%;
+      width: 24.4vw;    
+      height: 6.6vw;
+      margin-left: 0.4%;
+    }
+
+    .action-btn {
+      height: 2.4vw;
+      width: 2.4vw;
+      font-size: 1.5vw;
+      line-height: 2.7vw;
+      border-radius: .3vw;
+      background-color: #ce3319;
+      padding: 0.3vw 0.37vw;
+
+      .num-card {
+        height: 100%;
+        width: 100%;
+        border-radius: 0.5vw;
+        background-color: #ffd0b6;
+        color: #230c0c;
+        align-content: center;
+      }
+    }
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 24.4vw;
+    height: 8.5vw;
+    left: 0.35vw;
+    top: 0vw;
+    position: absolute;
+
+    .grid-content {
+      display: flex;
+      flex-direction: row;
+
+      .num-content {
+        width: 4.5vw;
+        height: 3.5vw;
+        font-size: 1.2vw;
+        line-height: 3.5vw;
+        background-color: #632C00;
+        border: 1px solid #894619;
+      }
+      .alpha-content {
+        width: 4.5vw;
+        height: 2.3vw;
+        font-size: 1.2vw;
+        line-height: 2.5vw;
+        background-color: #632C00;
+        border: 1px solid #894619;
+      }
+      .back-space {
+        width: 1.4vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "find": {
+                  "home": {
+                    "header": {
+                      "text": "Find 2D Shapes"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Select the shapes."
+                      },
+                      "shapes": {
+                        "red-square": {
+                          "path": "find/images/red-square.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "25%",
+                          "top": "13%",
+                          "left": "3%",
+                          "id": "red-squares"
+                        },
+                        "blue-circle": {
+                          "path": "find/images/blue-circle.svg",
+                          "cls": "shapes",
+                          "width": "8%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "16%",
+                          "id": "blue-circles"
+                        },
+                        "green-triangle": {
+                          "path": "find/images/green-triangle.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "27%",
+                          "id": "green-triangles"
+                        },
+                        "blue-rectangle": {
+                          "path": "find/images/blue-rectangle.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "40%",
+                          "id": "blue-rectangles"
+                        },
+                        "green-circle": {
+                          "path": "find/images/green-circle.svg",
+                          "cls": "shapes",
+                          "width": "8%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "53%",
+                          "id": "green-circles"
+                        },
+                        "pink-square": {
+                          "path": "find/images/pink-square.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "64%",
+                          "id": "pink-squares"
+                        },
+                        "red-circle": {
+                          "path": "find/images/red-circle.svg",
+                          "cls": "shapes",
+                          "width": "8%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "76%",
+                          "id": "red-circles"
+                        },
+                        "blue-square": {
+                          "path": "find/images/blue-square.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "13%",
+                          "left": "88%",
+                          "id": "blue-squares"
+                        },
+                        "blue-triangle": {
+                          "path": "find/images/blue-triangle.svg",
+                          "cls": "shapes",
+                          "width": "7%",
+                          "height": "16%",
+                          "top": "40%",
+                          "left": "3%",
+                          "id": "blue-triangles"
+                        },
+                        "yellow-square": {
+                          "path": "find/images/yellow-square.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "15%",
+                          "id": "yellow-squares"
+                        },
+                        "red-rectangle": {
+                          "path": "find/images/red-rectangle.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "27%",
+                          "id": "red-rectangles"
+                        },
+                        "orange-triangle": {
+                          "path": "find/images/orange-triangle.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "41%",
+                          "id": "orange-triangles"
+                        },
+                        "pink-circle": {
+                          "path": "find/images/pink-circle.svg",
+                          "cls": "shapes",
+                          "width": "8%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "53%",
+                          "id": "pink-circles"
+                        },
+                        "orange-rectangle": {
+                          "path": "find/images/orange-rectangle.svg",
+                          "cls": "shapes",
+                          "width": "8%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "65%",
+                          "id": "orange-rectangles"
+                        },
+                        "yellow-triangle": {
+                          "path": "find/images/yellow-triangle.svg",
+                          "cls": "shapes",
+                          "width": "9%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "76%",
+                          "id": "yellow-triangles"
+                        },
+                        "green-rectangle": {
+                          "path": "find/images/green-rectangle.svg",
+                          "cls": "shapes",
+                          "width": "10%",
+                          "height": "23%",
+                          "top": "40%",
+                          "left": "88%",
+                          "id": "green-rectangles"
+                        }
+                      },
+                      "shapes-name": [
+                        "Triangles",
+                        "Circles",
+                        "Squares",
+                        "Rectangles"
+                      ],
+                      "sign": {
+                        "tick": {
+                          "path": "find/images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "find/images/cross.svg",
+                          "name": "cross"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "match": {
+                          "path": "images/menu/match.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'match', level :  'a'}"
+                        }
+                          ,
+                        "trace": {
+                          "path": "images/menu/trace.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'trace', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "red-square": {
+                        "path": "find/images/red-square.svg"
+                      },
+                      "blue-circle": {
+                        "path": "find/images/blue-circle.svg"
+                      },
+                      "green-triangle": {
+                        "path": "find/images/green-triangle.svg"
+                      },
+                      "blue-rectangle": {
+                        "path": "find/images/blue-rectangle.svg"
+                      },
+                      "green-circle": {
+                        "path": "find/images/green-circle.svg"
+                      },
+                      "pink-square": {
+                        "path": "find/images/pink-square.svg"
+                      },
+                      "red-circle": {
+                        "path": "find/images/red-circle.svg"
+                      },
+                      "blue-square": {
+                        "path": "find/images/blue-square.svg"
+                      },
+                      "blue-triangle": {
+                        "path": "find/images/blue-triangle.svg"
+                      },
+                      "yellow-square": {
+                        "path": "find/images/yellow-square.svg"
+                      },
+                      "red-rectangle": {
+                        "path": "find/images/red-rectangle.svg"
+                      },
+                      "orange-triangle": {
+                        "path": "find/images/orange-triangle.svg"
+                      },
+                      "pink-circle": {
+                        "path": "find/images/pink-circle.svg"
+                      },
+                      "orange-rectangle": {
+                        "path": "find/images/orange-rectangle.svg"
+                      },
+                      "yellow-triangle": {
+                        "path": "find/images/yellow-triangle.svg"
+                      },
+                      "green-rectangle": {
+                        "path": "find/images/green-rectangle.svg"
+                      },
+                      "tick": {
+                        "path": "find/images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "find/images/cross.svg"
+                      },
+                      "match": {
+                        "path": "images/menu/match.svg"
+                      },
+                      "trace": {
+                        "path": "images/menu/trace.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

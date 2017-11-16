@@ -1,0 +1,312 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "chance-probability": {
+              "types": {
+                "chance": {
+                  "home": {
+                    "header": {
+                      "text": "<span>Possible or Impossible?</span>"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards to the boxes.",
+                        "cls": ""
+                      },
+                      "group":[[0, 1], [1,0], [0,1],[1,0], [0,1],[1,0], [1,0],[0,1], [0,1]],
+                      "left-positions":[15,20,10],
+                      "top-positions":[10,60,10],
+                      "button-text": [
+                        "Possible",
+                        "Impossible"
+                      ],
+                      "tick": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "width": "8%"
+                        }
+                      },
+                      "left-images":{
+                        "2":{
+                          "path": "chance/b/images/cassowary-left.svg",
+                          "cls":"pos-absolute",
+                          "width":"27%",
+                          "top":"3%",
+                          "left":"21.8%"
+                        },
+                        "4":{
+                          "path": "chance/b/images/tree-left.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"16.8%"
+                        },
+                        "8":{
+                          "path": "chance/b/images/day.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"16.8%"
+                        },
+                        "7":{
+                          "path": "chance/b/images/cloud-left.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"16.8%"
+                        },
+                        "6":{
+                          "path": "chance/b/images/kangaroo-left.svg",
+                          "cls":"pos-absolute",
+                          "width":"13%",
+                          "top":"25%",
+                          "left":"3%"
+                        },
+                        "0":{
+                          "path": "chance/b/images/empty-icon.svg",
+                          "cls":"pos-absolute water-left",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"17.8%"
+                        },
+                        "3":{
+                          "path": "chance/b/images/empty-icon.svg",
+                          "cls":"pos-absolute",
+                          "width":"17%",
+                          "top":"38%",
+                          "left":"16.8%"
+                        },
+                        "5":{
+                          "path": "chance/b/images/empty-icon.svg",
+                          "cls":"pos-absolute cicadas",
+                          "width":"31%",
+                          "top":"38%",
+                          "left":"16.8%"
+                        },
+                        "1":{
+                          "path": "chance/b/images/tree.svg",
+                          "cls":"pos-absolute",
+                          "width":"15.5%",
+                          "top":"3%",
+                          "left":"29.8%"
+                        }
+                      },
+                      "right-images":{
+                        "2":{
+                          "path": "chance/b/images/cassowary-right.svg",
+                          "cls":"pos-absolute",
+                          "width":"27%",
+                          "top":"3%",
+                          "left":"52%"
+                        },
+                        "4":{
+                          "path": "chance/b/images/tree-right.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"53%"
+                        },
+                        "8":{
+                          "path": "chance/b/images/night.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"53%"
+                        },
+                        "7":{
+                          "path": "chance/b/images/cloud-right.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"37%",
+                          "left":"53%"
+                        },
+                        "6":{
+                          "path": "chance/b/images/kangaroo-right.svg",
+                          "cls":"pos-absolute",
+                          "width":"13%",
+                          "top":"25%",
+                          "left":"50%"
+                        },
+                        "0":{
+                          "path": "chance/b/images/empty-right.svg",
+                          "cls":"pos-absolute water-right",
+                          "width":"31%",
+                          "top":"3%",
+                          "left":"57%"
+                        },
+                        "3":{
+                          "path": "chance/b/images/empty-right.svg",
+                          "cls":"pos-absolute",
+                          "width":"31%",
+                          "top":"38%",
+                          "left":"53%"
+                        },
+                        "5":{
+                          "path": "chance/b/images/empty-right.svg",
+                          "cls":"pos-absolute spider",
+                          "width":"31%",
+                          "top":"38%",
+                          "left":"53%"
+                        },
+                        "1":{
+                          "path": "chance/b/images/tree.svg",
+                          "cls":"pos-absolute",
+                          "width":"15.5%",
+                          "top":"3%",
+                          "left":"54.5%"
+                        }
+                      },
+                      "play-button":{
+                        "play-left":{
+                          "path": "chance/b/images/play-button.svg",
+                          "cls":"pos-absolute move-enable",
+                          "width":"4%",
+                          "top":"61%",
+                          "left":"35.8%"
+                        },
+                        "play-right":{
+                          "path": "chance/b/images/play-button.svg",
+                          "cls":"pos-absolute move-enable",
+                          "width":"4%",
+                          "top":"61%",
+                          "left":"60.3%"
+                        }
+                      },
+                      "other-images":{
+                        "lizard":{
+                          "path": "chance/b/images/lizard.svg",
+                          "cls":"pos-absolute",
+                          "width":"2.5%",
+                          "top":"37%",
+                          "left":"61%"
+                        },
+                        "cassowary":{
+                          "path": "chance/b/images/cassowary.svg",
+                          "cls":"pos-absolute",
+                          "width":"10%",
+                          "top":"34%",
+                          "left":"32%"
+                        },
+                        "frog":{
+                          "path": "chance/b/images/frog.svg",
+                          "cls":"pos-absolute",
+                          "width":"14%",
+                          "top":"38%",
+                          "left":"19.8%"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "bag": {
+                          "path": "images/menu/bag.svg",
+                          "state": "^.chance-probability-game",
+                          "params": "{category : 'space', game : 'bag', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right":true,
+                    "bottom": {
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "bag": {
+                        "path": "images/menu/bag.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "left-images-2":{
+                        "path": "chance/b/images/cassowary-left.svg"
+                      },
+                      "left-images-4":{
+                        "path": "chance/b/images/tree-left.svg"
+                      },
+                      "left-images-8":{
+                        "path": "chance/b/images/day.svg"
+                      },
+                      "left-images-7":{
+                        "path": "chance/b/images/cloud-left.svg"
+                      },
+                      "left-images-6":{
+                        "path": "chance/b/images/kangaroo-left.svg"
+                      },
+                      "left-images-0":{
+                        "path": "chance/b/images/empty-icon.svg"
+                      },
+                      "left-images-3":{
+                        "path": "chance/b/images/empty-icon.svg"
+                      },
+                      "left-images-5":{
+                        "path": "chance/b/images/empty-icon.svg"
+                      },
+                      "left-images-1":{
+                        "path": "chance/b/images/tree.svg"
+                      },
+                      "right-images-2":{
+                        "path": "chance/b/images/cassowary-right.svg"
+                      },
+                      "right-images-4":{
+                        "path": "chance/b/images/tree-right.svg"
+                      },
+                      "right-images-8":{
+                        "path": "chance/b/images/night.svg"
+                      },
+                      "right-images-7":{
+                        "path": "chance/b/images/cloud-right.svg"
+                      },
+                      "right-images-6":{
+                        "path": "chance/b/images/kangaroo-right.svg"
+                      },
+                      "right-images-0":{
+                        "path": "chance/b/images/empty-right.svg"
+                      },
+                      "right-images-3":{
+                        "path": "chance/b/images/empty-right.svg"
+                      },
+                      "right-images-5":{
+                        "path": "chance/b/images/empty-right.svg"
+                      },
+                      "right-images-1":{
+                        "path": "chance/b/images/tree.svg"
+                      },
+                      "play-left":{
+                        "path": "chance/b/images/play-button.svg"
+                      },
+                      "play-right":{
+                        "path": "chance/b/images/play-button.svg"
+                      },
+                      "lizard":{
+                        "path": "chance/b/images/lizard.svg"
+                      },
+                      "cassowary":{
+                        "path": "chance/b/images/cassowary.svg"
+                      },
+                      "frog":{
+                        "path": "chance/b/images/frog.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

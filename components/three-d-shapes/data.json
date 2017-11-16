@@ -1,0 +1,27 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "home": {
+                "header": {},
+                "footer": {},
+                "images": {
+                },
+                "question": {
+                  "hint": {}
+                },
+                "menu": {
+                  "left": null,
+                  "right": null
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

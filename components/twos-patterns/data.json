@@ -1,0 +1,112 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "algebra-patterns": {
+          "games": {
+            "twos-patterns": {
+              "home": {
+                "header": {
+                  "0": {
+                    "text": "2s Forward Pattern"
+                  },
+                  "1": {
+                    "text": "2s Backward Pattern"
+                  },
+                  "2": {
+                    "text": "2s Between Pattern"
+                  }
+                },
+                "footer": {
+                  "text": "<span>It is footer text</span>"
+                },
+                "images": {
+                  "even": {
+                    "path": "images/popUp.svg",
+                    "cls": "pos-absolute",
+                    "width": "10%",
+                    "height": "16%",
+                    "top": "-18%",
+                    "left": "87%"
+                  },
+                  "parrot": {
+                    "path": "images/parrot.svg",
+                    "cls": "pos-absolute",
+                    "width": "19%",
+                    "height": "45%",
+                    "top": "20%",
+                    "left": "75%"
+                  }
+                },
+                "question": {
+                  "chartHelp": "Use the 100 chart to count. Click numbers to highlight or clear.",
+                  "maxValue": 86,
+                  "minValue": 1,
+                  "numberLimit": 7,
+                  "numberPattern": [
+                    "even numbers",
+                    "odd numbers"
+                  ],
+                  "disability": [
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      true,
+                      true,
+                      true,
+                      false,
+                      false,
+                      false
+                    ],
+                    [
+                      true,
+                      false,
+                      true,
+                      false,
+                      true,
+                      false,
+                      true
+                    ]
+                  ],
+                  "hint": {
+                    "text": "Enter the missing numbers."
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "no-of-buttons": 10
+                  }
+                }
+              },
+              "preload": {
+                "images": {
+                  "even": {
+                    "path": "images/popUp.svg"
+                  },
+                  "parrot": {
+                    "path": "images/parrot.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

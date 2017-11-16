@@ -1,0 +1,40 @@
+<div class="bug-page {{level}}" >
+  <work-area menu="menu" next="next" check="check" header="header"  onnumberclick="onNumberClick" getscoreboard="getScoreboard">
+    <!-- Add images -->
+    <div class="flex-container">
+      <div  ng-repeat="col in firstNumber | range  track by $index" class="flex-item">
+        <img ng-src="{{bugImage.path}}" ng-repeat="row in secondNumber | range  track by $index" />
+      </div>
+    </div>
+
+    <!--display correct click count and input-->
+    <div class="question-container">
+
+      <input id="input-0" maxlength="2" class="input-box one" ng-model="inputs[0]"  ng-focus="inputClick(0)"
+             ng-disabled="inputDisabled">
+
+      <div class="col-xs-5 question-box left-box">
+        <span class="text">Rows of</span>
+      </div>
+
+      <input id="input-1" maxlength="2" class="input-box two" ng-model="inputs[1]" ng-focus="inputClick(1)"
+             ng-disabled="inputDisabled" >
+
+      <div class="col-xs-5 question-box right-box">
+        <span class="text">Equals</span>
+      </div>
+
+      <input id="input-2" maxlength="2" class="input-box three" ng-model="inputs[2]"  ng-focus="inputClick(2)"
+             ng-disabled="inputDisabled" >
+
+    </div>
+
+    <check-button class="check-btns" ng-click="check($event)" param="flag" >
+    </check-button>
+    <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+    </div>
+
+    <!-- Display hint text -->
+    <div class="hint-text" ng-bind-html="questionText"></div>
+  </work-area>
+</div>

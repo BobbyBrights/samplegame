@@ -1,0 +1,20 @@
+
+@import 'a/index';
+@import 'b/names/index';
+@import 'b/quiz/index';
+@import 'b/view/index';
+
+
+// Add background layout
+.app-home-level-menu-three-d-shapes-game-layout{
+  .banner{
+    //background-image: url('./../../assets/images/space/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.three-d-shapes-page{
+  .click-type-page{
+  }
+  // Game specific styles
+}

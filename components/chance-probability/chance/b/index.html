@@ -1,0 +1,73 @@
+<div class="chance-page">
+    <work-area menu="menu" next="next" header="header" getscoreboard="getScoreboard">
+
+        <!-- Game specific elements -->
+        <div ng-repeat="text in buttonText track by $index"
+             drag-item
+             id="drag-{{$index}}"
+             class="pos-absolute drag-btn move-enable"
+             group="{{$index}}"
+             ng-style="{left:(30.5+($index * 20.5))+'%',top:'112.5%'}">{{text}}
+        </div>
+
+        <div ng-repeat="dropValue in groups track by getUniqueId()"
+             drop-zone
+             id="drop-{{$index}}"
+             class="drop-btn"
+             group="{{dropValue}}"
+             ng-style="{left:(28.5+($index * 24.5))+'%',top:'72%'}">
+        </div>
+
+        <img id="leftImg" ng-src="{{leftImages.path}}" class="{{leftImages.cls}}"
+             ng-style="{left:leftImages.left,top:leftImages.top}" width="{{leftImages.width}}"/>
+
+        <img id="rightImg" ng-src="{{rightImages.path}}" class="{{rightImages.cls}}"
+             ng-style="{left:rightImages.left,top:rightImages.top}" width="{{rightImages.width}}"/>
+
+        <div ng-if="counter===1 || counter===3 || counter===6">
+            <img id="leftplay" ng-src="{{playButton.playLeft.path}}" class="{{playButton.playLeft.cls}}"
+                 ng-style="{left:playButton.playLeft.left,top:playButton.playLeft.top}"
+                 width="{{playButton.playLeft.width}}"
+                 ng-click="playClick('left')"/>
+
+            <img id="rightplay" ng-src="{{playButton.playRight.path}}" class="{{playButton.playRight.cls}}"
+                 ng-style="{left:playButton.playRight.left,top:playButton.playRight.top}"
+                 width="{{playButton.playRight.width}}"
+                 ng-click="playClick('right')"/>
+        </div>
+
+        <div ng-if="counter===1">
+            <img id="cassowary" ng-src="{{otherImages.cassowary.path}}" class="{{otherImages.cassowary.cls}}"
+                 ng-style="{left:otherImages.cassowary.left,top:otherImages.cassowary.top}"
+                 width="{{otherImages.cassowary.width}}"/>
+
+            <img id="lizard" ng-src="{{otherImages.lizard.path}}" class="{{otherImages.lizard.cls}}"
+                 ng-style="{left:otherImages.lizard.left,top:otherImages.lizard.top}"
+                 width="{{otherImages.lizard.width}}"/>
+        </div>
+
+        <img ng-if="counter===3" id="frogImg" ng-src="{{otherImages.frog.path}}" class="{{otherImages.frog.cls}}"
+             ng-style="{left:otherImages.frog.left,top:otherImages.frog.top}" width="{{otherImages.frog.width}}"/>
+
+        <div ng-if="counter===7" class="rain-left"></div>
+        <div ng-if="counter===7" class="rain-right"></div>
+
+        <div ng-if="counter===6" id="kangarooHop" position="84.5,25"></div>
+        <div ng-if="counter===6" id="kangarooHopFlip" position="36,25"></div>
+
+        <div ng-if="counter===3" id="butterfly-fly" class="invisible" position="52,38"></div>
+        <div ng-if="counter===3" id="frog" class="invisible" position="19.8,38"></div>
+        <div ng-if="counter===3" id="butterfly" class="butterfly-one" position="52,38"></div>
+
+        <div ng-if="counter===5" class="line" position="32,5"></div>
+        <div ng-if="counter===5" class="line" position="66,5"></div>
+
+        <img id="tick" ng-src="{{tickImage.tick.path}}" width="{{tickImage.tick.width}}" class="invisible"
+             position="76.3,65.1"/>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+    </work-area>
+
+</div>

@@ -1,0 +1,57 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "rounding-to": {
+              "types": {
+                "ten": {
+                  "home": {
+                    "header": {
+                      "text": "Rounding"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "top-text": {
+                        "text": "Rounding to 10."
+                      },
+                      "middle-text": {
+                        "text": "Drag the yellow circle</br>to round the number</br>UP or DOWN"
+                      },
+                      "ten-images": {
+                        "ten-image": {
+                          "path": "ten/c/images/double-arrow.svg",
+                          "cls":"pos-absolute",
+                          "width": "20.9%",
+                          "height": "79.7%",
+                          "top": "10.1%",
+                          "left": "54.2%"
+                        }
+                      },
+                      "drop-zones-top": [2.5, 82.5]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "hundred": {
+                          "path": "images/menu/hundred.svg",
+                          "state": "^.rounding-to-game",
+                          "params": "{category : 'number', game : 'hundred', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

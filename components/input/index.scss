@@ -1,0 +1,21 @@
+// css for input directive
+
+.input-field {
+  padding-top: 1.4%;
+  width: 11%;
+  height: 2.2vw;
+  font-size: 1.6vw;
+  border: .15vw solid #9e9a9a;
+  border-radius: .5vw;
+  background-color: #dbe0bc;
+  box-shadow: inset 0.1vw 0.1vw 0.3vw rgba(0, 0, 0, .35);
+  color: #1b4123;
+  font-family: poppins;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+  border: .15vw solid #707070;
+  color: #1b4123;
+}

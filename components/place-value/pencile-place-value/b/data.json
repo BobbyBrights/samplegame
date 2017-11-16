@@ -1,0 +1,157 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "place-value": {
+              "types": {
+                "pencile-place-value": {
+                  "home": {
+                    "header": {
+                      "text": "Place Value with Colour Pencils"
+                    },
+                    "footer": {
+                      "text": "<span>It is footer text</span>"
+                    },
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter numbers in the boxes, and then select check."
+                      },
+                      "tens-text": {
+                        "text": "Tens"
+                      },
+                      "ones-text":{
+                        "text": "Ones"
+                      },
+                      "pencileBunch": {
+                        "path": "pencile-place-value/images/pencil-box.svg",
+                        "cls": "pos-absolute",
+                        "width": "50%",
+                        "height": "50%"
+                      },
+                      "pencile": {
+                        "pencile0": {
+                          "path": "pencile-place-value/images/orange-pencil.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "pencile1": {
+                          "path": "pencile-place-value/images/blue-pencil.svg",
+                          "cls": "pos-absolute"
+                        },
+                        "pencile2": {
+                          "path": "pencile-place-value/images/black-pencil.svg"
+                        },
+                        "pencile3": {
+                          "path": "pencile-place-value/images/firebrick-pencil.svg"
+                        },
+                        "pencile4": {
+                          "path": "pencile-place-value/images/green-pencil.svg"
+                        },
+                        "pencile5": {
+                          "path": "pencile-place-value/images/hotpink-pencil.svg"
+                        },
+                        "pencile6": {
+                          "path": "pencile-place-value/images/mediumvoiletred-pencil.svg"
+                        },
+                        "pencile7": {
+                          "path": "pencile-place-value/images/midnightblue-pencil.svg"
+                        },
+                        "pencile8": {
+                          "path": "pencile-place-value/images/saddlebrown-pencil.svg"
+                        }
+                      },
+                      "sign": {
+                        "tick": {
+                          "path": "images/tick.svg",
+                          "name": "tick"
+                        },
+                        "cross": {
+                          "path": "images/cross.svg",
+                          "name": "cross"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "whitebox-place-value": {
+                          "path": "images/menu/left-blocks-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'whitebox-place-value', level :  'b'}"
+                        },
+                        "circlebox-place-value": {
+                          "path": "images/menu/left-grid-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'circlebox-place-value', level :  'b'}"
+                        },
+                        "circle-place-value": {
+                          "path": "images/menu/left-circle-icon.svg",
+                          "state": "^.place-value-game",
+                          "params": "{category : 'number', game : 'circle-place-value', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "pencileBunch": {
+                        "path": "pencile-place-value/images/pencil-box.svg"
+                      },
+                      "pencile0": {
+                        "path": "pencile-place-value/images/orange-pencil.svg"
+                      },
+                      "pencile1": {
+                        "path": "pencile-place-value/images/blue-pencil.svg"
+                      },
+                      "pencile2": {
+                        "path": "pencile-place-value/images/black-pencil.svg"
+                      },
+                      "pencile3": {
+                        "path": "pencile-place-value/images/firebrick-pencil.svg"
+                      },
+                      "pencile4": {
+                        "path": "pencile-place-value/images/green-pencil.svg"
+                      },
+                      "pencile5": {
+                        "path": "pencile-place-value/images/hotpink-pencil.svg"
+                      },
+                      "pencile6": {
+                        "path": "pencile-place-value/images/mediumvoiletred-pencil.svg"
+                      },
+                      "pencile7": {
+                        "path": "pencile-place-value/images/midnightblue-pencil.svg"
+                      },
+                      "pencile8": {
+                        "path": "pencile-place-value/images/saddlebrown-pencil.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      },
+                      "cross": {
+                        "path": "images/cross.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

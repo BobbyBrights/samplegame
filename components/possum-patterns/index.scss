@@ -1,0 +1,122 @@
+/* Game main namespace */
+.possum-patterns-page {
+
+  .header-text {
+    font-size: 1.6vw;
+    color: #d96e4c;
+    cursor: default;
+    bottom: initial;
+    text-align: center;
+    top: 0%;
+    height: 10%;
+  }
+
+  .circles {
+    margin-top: 1.5%;
+    .circle,
+    .star {
+      border-radius: 50%;
+      width: 7.8vw;
+      height: 7.8vw;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin: 0 1.2%;
+      overflow: hidden;
+    }
+
+    .star {
+      background: no-repeat center center;
+      background-size: 93%;
+      border-radius: 0;
+      margin-top: -5%;
+      margin-left: -0.2%;
+
+      &.green {
+        background-image: url('./../../components/possum-patterns/images/star-green.svg');
+      }
+
+      &.blue {
+        background-image: url('./../../components/possum-patterns/images/star-blue.svg');
+      }
+
+      &.pink {
+        background-image: url('./../../components/possum-patterns/images/star-pink.svg');
+      }
+
+      &.yellow {
+        background-image: url('./../../components/possum-patterns/images/star-yellow.svg');
+      }
+
+      &.orange {
+        background-image: url('./../../components/possum-patterns/images/star-orange.svg');
+      }
+
+      &.purple {
+        background-image: url('./../../components/possum-patterns/images/star-purple.svg');
+      }
+
+      &.drop-zone {
+        visibility: hidden;
+      }
+
+      &.drop-zone.occupied {
+        visibility: visible;
+      }
+    }
+  }
+
+  .tick {
+    position: absolute;
+    width: 28.8%;
+    top: 50.5%;
+    left: 68.7%;
+  }
+
+  .number {
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2.2vw;
+    margin-top: 5%;
+  }
+
+  .move-cursor {
+    cursor: default;
+  }
+
+  .drag-stars {
+    margin-top: 3.5%;
+
+    .drag-parent {
+      width: 9vw;
+      height: 9vw;
+    }
+
+    .drag-star {
+      background: url('./../../components/possum-patterns/images/star-purple-shadow.svg') no-repeat center center;
+      background-size: 158%;
+      border-radius: 0;
+      margin-top: -5%;
+      display: inline-block;
+      width: 8.3vw;
+      height: 8.3vw;
+      margin-left: 3%;
+
+      &.purple {
+        background-image: url('./../../components/possum-patterns/images/star-purple-shadow.svg');
+      }
+
+      &.yellow {
+        background-image: url('./../../components/possum-patterns/images/star-yellow-shadow.svg');
+      }
+
+      &.pink {
+        background-image: url('./../../components/possum-patterns/images/star-pink-shadow.svg');
+      }
+
+    }
+  }
+}

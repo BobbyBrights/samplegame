@@ -1,0 +1,61 @@
+<div class="drag-type-page">
+    <work-area menu="menu" next="next" header="header">
+
+        <img ng-if="count==0" src='../a/images/bucket-hand-right.svg' class="bucket-hand">
+
+        <!-- Left and right water container images -->
+        <div ng-repeat="params in imageBox track by $index" ng-if="$index==count"
+             svg-directive nodeName="{{fillImage[$index]}}" svg-size="{{imageBox[$index]}}"
+             size="{{imagesSize[$index]}}" position="{{leftImagesPosition[$index]}}">
+        </div>
+
+        <div ng-repeat="params in coverBox track by $index" ng-if="$index==count"
+             svg-directive nodeName="{{container[$index]}}" svg-size="{{coverBox[$index]}}"
+             size="{{coverSize[$index]}}" position="{{coverPosition[$index]}}">
+        </div>
+
+        <!-- Fill water images-->
+        <img ng-repeat="waterImage in fillWaterContainer"
+             class="{{waterImage.cls}}"
+             ng-src="{{waterImage.path}}"
+             ng-if="$index==count && rainState"
+             ng-style="{left:waterImage.left,top:waterImage.top}"
+             width="{{waterImage.width}}"
+             height="{{waterImage.height}}">
+
+        <div ng-repeat="params in coverBox track by $index" class="cover" ng-if="$index==count && rainState"
+             svg-directive nodeName="{{container[$index]}}" svg-size="{{coverBox[$index]}}"
+             size="{{coverSize[$index]}}" position="{{coverPosition[$index]}}">
+        </div>
+
+        <!-- Play button image -->
+        <game-images images="tickImage.playButtonImage" ng-click="playButton()"></game-images>
+
+        <!-- Rain drop area -->
+        <div class="rain" ng-style="{left:count%2==0?'18%':'58%'}" ng-show="rainState"></div>
+
+        <img ng-if="count==0" src='../a/images/bucket-hand.svg' class="bucket-hand">
+
+        <!--Drop zone-->
+        <div ng-repeat="drop in groups track by (groups + $index)"
+             id="drop-zone-{{$index}}"
+             class="pos-absolute drop-btn"
+             drop-zone group="{{$index}}"
+             position="{{(42.3 * $index ) + 19.5 }},75">
+        </div>
+
+        <!--Drag cards-->
+        <div ng-repeat="drag in groups track by (groups + $index)"
+             id="drag-item-{{$index}}"
+             class="pos-absolute drag-btn invisible"
+             position="{{dropZoneLeft[$index]}},112.4"
+             drag-item group="{{drag}}">{{dragCards[$index]}}
+        </div>
+
+        <!-- Tick image -->
+        <game-images id="tick" images="tickImage.tick"></game-images>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

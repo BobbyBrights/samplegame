@@ -1,0 +1,35 @@
+.info-panel{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .info-box{
+    color: #ffffff;
+  }
+  .contain-panel{
+    position: relative;
+    width: 57vw;
+    height: 35vw;
+    outline: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.91);
+
+    .title-text{
+      position: absolute;
+      font-size: 1.7vw;
+      top:30%;
+    }
+    .action-btn{
+      position: absolute;
+      top: 0;
+      background: #efefef;
+      right: 0;
+      color: #5982bf;
+    }
+  }
+}

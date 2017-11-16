@@ -1,0 +1,89 @@
+.time-page {
+  .month-page {
+    #drop-zone-0, #drop-zone-1, #drop-zone-11 {
+      border-color: #ff8f00
+    }
+
+    #drop-zone-5, #drop-zone-6, #drop-zone-7 {
+      border-color: #3e6ddf;
+    }
+
+    #drop-zone-2, #drop-zone-3, #drop-zone-4 {
+      border-color: #f5c400;
+    }
+
+    #drop-zone-8, #drop-zone-9, #drop-zone-10 {
+      border-color: #4eb300;
+    }
+
+    .common-style {
+      width: 16%;
+      position: absolute;
+      text-align: center;
+      color: #ffffff;
+      font-size: 1.2vw;
+      border-radius: 0.6vw;
+
+    }
+
+    .drag-items {
+      color: #000000;
+      width: 13.4%;
+      height: 10.6%;
+      line-height: 2.9vw;
+    }
+
+    .drop-zone-value {
+      text-align: left;
+      width: 12.6%;
+      color: #000000;
+    }
+
+    .drop-zones {
+      width: 12.8%;
+      height: 9.5%;
+      color: #da835d;
+      border: .2vw solid;
+      line-height: 2.5vw;
+    }
+
+    .common-buttons {
+      width: 10.2%;
+      height: 8.8%;
+      line-height: 2.2vw;
+    }
+
+    .yellow-gradient {
+      background-image: -webkit-gradient(linear, 0 0, 0 34, from(#f9c300), color-stop(0.058, #f8c702), color-stop(0.147, #f9c800), color-stop(0.176, #f8ca01), color-stop(0.382, #fccf01), color-stop(0.529, #fed301), to(#ffde01));
+      background-image: -webkit-linear-gradient(#f9c300, #f8c702 5.8%, #f9c800 14.7%, #f8ca01 17.6%, #fccf01 38.2%, #fed301 52.9%, #ffde01);
+      background-image: -moz-linear-gradient(#f9c300, #f8c702 5.8%, #f9c800 14.7%, #f8ca01 17.6%, #fccf01 38.2%, #fed301 52.9%, #ffde01);
+      background-image: -o-linear-gradient(#f9c300, #f8c702 5.8%, #f9c800 14.7%, #f8ca01 17.6%, #fccf01 38.2%, #fed301 52.9%, #ffde01);
+      background-image: linear-gradient(#f9c300, #f8c702 5.8%, #f9c800 14.7%, #f8ca01 17.6%, #fccf01 38.2%, #fed301 52.9%, #ffde01)
+    }
+
+    .greens-gradient {
+      background-image: -webkit-gradient(linear, 0 0, 0 37, from(#c6e39a), color-stop(0.054, #52b305), color-stop(0.702, #73ca36), color-stop(0.783, #76cf3c), color-stop(0.918, #7ed448), color-stop(0.945, #7ed748), color-stop(0.972, #84d44e));
+      background-image: -webkit-linear-gradient(#c6e39a, #52b305 5.4%, #73ca36 70.2%, #76cf3c 78.3%, #7ed448 91.8%, #7ed748 94.5%, #84d44e 97.2%);
+      background-image: -moz-linear-gradient(#c6e39a, #52b305 5.4%, #73ca36 70.2%, #76cf3c 78.3%, #7ed448 91.8%, #7ed748 94.5%, #84d44e 97.2%);
+      background-image: -o-linear-gradient(#c6e39a, #52b305 5.4%, #73ca36 70.2%, #76cf3c 78.3%, #7ed448 91.8%, #7ed748 94.5%, #84d44e 97.2%);
+      background-image: linear-gradient(#c6e39a, #52b305 5.4%, #73ca36 70.2%, #76cf3c 78.3%, #7ed448 91.8%, #7ed748 94.5%, #84d44e 97.2%)
+    }
+
+    .blue-gradient {
+      background-image: -webkit-gradient(linear, 0 0, 0 35, from(#406be4), color-stop(0.142, #4072e4), to(#458ff7));
+      background-image: -webkit-linear-gradient(#406be4, #4072e4 14.2%, #458ff7);
+      background-image: -moz-linear-gradient(#406be4, #4072e4 14.2%, #458ff7);
+      background-image: -o-linear-gradient(#406be4, #4072e4 14.2%, #458ff7);
+      background-image: linear-gradient(#406be4, #4072e4 14.2%, #458ff7)
+    }
+
+    .orange-gradient {
+      background-image: -webkit-gradient(linear, 0 0, 0 35, color-stop(0.057, #ff9208), color-stop(0.228, #ff9615), color-stop(0.257, #fe9818), color-stop(0.4, #ff9c21), color-stop(0.971, #ffaf46), color-stop(0.971, #feb34f));
+      background-image: -webkit-linear-gradient(#ff9208 5.7%, #ff9615 22.8%, #fe9818 25.7%, #ff9c21 40%, #ffaf46 97.1%, #feb34f 97.1%);
+      background-image: -moz-linear-gradient(#ff9208 5.7%, #ff9615 22.8%, #fe9818 25.7%, #ff9c21 40%, #ffaf46 97.1%, #feb34f 97.1%);
+      background-image: -o-linear-gradient(#ff9208 5.7%, #ff9615 22.8%, #fe9818 25.7%, #ff9c21 40%, #ffaf46 97.1%, #feb34f 97.1%);
+      background-image: linear-gradient(#ff9208 5.7%, #ff9615 22.8%, #fe9818 25.7%, #ff9c21 40%, #ffaf46 97.1%, #feb34f 97.1%)
+    }
+
+  }
+}

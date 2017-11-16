@@ -1,0 +1,23 @@
+<div class="names-page">
+    <work-area menu="menu" next="next" header="header">
+        <!-- Game specific elements -->
+        <div class="flex-container">
+            <img ng-src="{{images.path}}" style="width: {{images.width}}">
+        </div>
+
+        <div class="btn-panel">
+            <div ng-repeat="text in ButtonLabel track by $index" class="shapes red-gradient action-btn"
+                 ng-click="getAnswer(text)"> {{text}}
+            </div>
+            <div id="userInput" class="action-btn answer"> {{userInput}}
+            </div>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag" >
+        </check-button>
+        <div ng-if = "!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+    </work-area>
+</div>

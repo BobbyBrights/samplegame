@@ -1,0 +1,36 @@
+<div class="block-page">
+    <work-area menu="menu" next="next"
+               onnumberclick="onNumberClick"
+               getscoreboard="getScoreboard"
+               header="header">
+
+        <!--   Game specific elements -->
+        <div class="box-holder">
+            <div ng-repeat="id in numberOfInputs track by $index" class="input-item">
+                <img class="block-images" ng-src="{{blockImages[$index].path}}"/>
+                <input id="input{{id}}"
+                       class="input-box"
+                       ng-model="inputs[$index]"
+                       ng-focus="inputClick($index)"
+                       maxlength="2"/>
+                <span class="label">{{imageNames[$index]}}</span>
+            </div>
+        </div>
+
+        <div class="block-holder">
+            <div ng-repeat="image in iconImagesNumbers track by $index" class="image-item">
+                <img class="img-content" ng-repeat="block in image track by $index" ng-src="{{block.path}}"/>
+            </div>
+        </div>
+
+        <check-button class="check-btns" ng-click="check($event)" param="flag">
+        </check-button>
+        <div ng-if="!flag" class="redo-btns" ng-click="redo($event)">
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+        <div class="hint-text hint-pos" ng-bind-html="questionLabel"></div>
+
+    </work-area>
+</div>

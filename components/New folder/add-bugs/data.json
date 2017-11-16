@@ -1,0 +1,117 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "number": {
+          "games": {
+            "add-bugs": {
+              "home": {
+                "header": {
+                  "text": "How many Bugs?"
+                },
+                "footer": {
+                  "text": "Select a number card."
+                },
+                "question": {
+                  "bugs-images": {
+                    "leaf": {
+                      "path": "images/leaf.svg"
+                    },
+                    "leaf2": {
+                      "path": "images/leaf2.svg"
+                    }
+                  },
+                  "big-bug-image": {
+                    "big-bug": {
+                      "path": "images/big-bug.svg",
+                      "width": "25%"
+                    }
+                  },
+                  "rotate-degree": {
+                    "0": [
+                      0,
+                      21,
+                      0,
+                      -84,
+                      68
+                    ],
+                    "1": [
+                      0,
+                      -100,
+                      0,
+                      -84,
+                      68
+                    ]
+                  },
+                  "left-bugs-position": [
+                    "53,5",
+                    "30,9",
+                    "48,29",
+                    "20,31",
+                    "39,51"
+                  ],
+                  "right-bugs-position": [
+                    "40,5",
+                    "15,5",
+                    "48,25",
+                    "20,31",
+                    "39,51"
+                  ],
+                  "hint": {
+                    "text": "How many bugs?"
+                  },
+                  "sign": {
+                    "tick": {
+                      "path": "images/tick.svg",
+                      "name": "tick"
+                    },
+                    "cross": {
+                      "path": "images/cross.svg",
+                      "name": "cross"
+                    }
+                  }
+                }
+              },
+              "menu": {
+                "left": null,
+                "right": true,
+                "bottom": {
+                  "num-pad": {
+                    "pad-type": "card-pad",
+                    "no-of-buttons": []
+                  }
+                }
+              },
+              "help": {
+                "game-name": "add-bug-game",
+                "content ": "<h1>How to play?</h1><div>Add sample game instruction here....</div>"
+              },
+              "preload": {
+                "images": {
+                  "leaf": {
+                    "path": "images/leaf.svg"
+                  },
+                  "leaf2": {
+                    "path": "images/leaf2.svg"
+                  },
+                  "big-bug": {
+                    "path": "images/big-bug.svg"
+                  },
+                  "tick": {
+                    "path": "images/tick.svg"
+                  },
+                  "cross": {
+                    "path": "images/cross.svg"
+                  }
+                },
+                "ahead": {
+                  "next-path": "game"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

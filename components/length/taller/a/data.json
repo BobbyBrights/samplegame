@@ -1,0 +1,218 @@
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "taller": {
+                  "home": {
+                    "header": {
+                      "text": "Taller or Shorter?"
+                    },
+                    "images": {
+                      "middle": {
+                        "path": "taller/images/margin-box.svg"
+                      }
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Drag the cards."
+                      },
+                      "baseline": {
+                        "orientation": "horizontal"
+                      },
+                      "image-grass": {
+                        "path": "taller/images/grass-line.svg"
+                      },
+                      "random-Images": {
+                        "taller-0": {
+                          "path": "taller/images/cassowary-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top":"28.5%",
+                          "left":"18.3%"
+                        },
+                        "taller-1": {
+                          "path": "taller/images/cassowary-big.svg",
+                          "cls": "pos-absolute",
+                          "height":"20%",
+                          "width": "25%",
+                          "top":"3.8%",
+                          "left":"62.1%"
+                        },
+                        "taller-2": {
+                          "path": "taller/images/parrot-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "7%",
+                          "top":"32%",
+                          "left":"22.4%"
+                        },
+                        "taller-3": {
+                          "path": "taller/images/parrot-big.svg",
+                          "cls": "pos-absolute",
+                          "height":"20%",
+                          "width": "13%",
+                          "top":"4%",
+                          "left":"68.2%"
+                        },
+                        "taller-4": {
+                          "path": "taller/images/tree-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "13%",
+                          "top":"27%",
+                          "left":"19.3%"
+                        },
+                        "taller-5": {
+                          "path": "taller/images/tree-big.svg",
+                          "cls": "pos-absolute",
+                          "height":"20%",
+                          "width": "21%",
+                          "top":"4%",
+                          "left":"64.2%"
+                        },
+                        "taller-6": {
+                          "path": "taller/images/pineapple-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "7%",
+                          "top":"34%",
+                          "left":"71.2%"
+                        },
+                        "taller-7": {
+                          "path": "taller/images/pineapple-big.svg",
+                          "cls": "pos-absolute",
+                          "height":"20%",
+                          "width": "12%",
+                          "top":"10%",
+                          "left":"19.8%"
+                        },
+                        "taller-8": {
+                          "path": "taller/images/shoes-big.svg",
+                          "cls": "pos-absolute",
+                          "height":"20%",
+                          "width": "25%",
+                          "top":"27%",
+                          "left":"62.2%"
+                        },
+                        "taller-9": {
+                          "path": "taller/images/shoes-small.svg",
+                          "cls": "pos-absolute",
+                          "width": "15%",
+                          "top":"43%",
+                          "left":"18.3%"
+                        }
+                      },
+                      "drag-items": [
+                        "Taller",
+                        "Shorter"
+                      ],
+                      "drop-zone-positions": [
+                        [
+                          "65.4,75",
+                          "16.5,75"
+                        ],
+                        [
+                          "65.4,75",
+                          "16.5,75"
+
+                        ],
+                        [
+                          "65.4,75",
+                          "16.5,75"
+                        ],
+                        [
+                          "16.5,75",
+                          "65.4,75"
+                        ],
+                        [
+                          "65.4,75",
+                          "16.5,75"
+                        ]
+                      ],
+                      "sign-images": {
+                        "tick": {
+                          "path": "images/tick.svg"
+                        }
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "longer": {
+                          "path": "images/menu/longer.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'longer', level :  'a'}"
+                        },
+                        "closer": {
+                          "path": "images/menu/closer.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'closer', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": true
+                  },
+                  "preload": {
+                    "images": {
+                      "middle": {
+                        "path": "taller/images/margin-box.svg"
+                      },
+                      "taller-0": {
+                        "path": "taller/images/cassowary-small.svg"
+                      },
+                      "taller-1": {
+                        "path": "taller/images/cassowary-big.svg"
+                      },
+                      "image-grass": {
+                        "path": "taller/images/grass-line.svg"
+                      },
+                      "taller-2": {
+                        "path": "taller/images/parrot-small.svg"
+                      },
+                      "taller-3": {
+                        "path": "taller/images/parrot-big.svg"
+                      },
+                      "taller-4": {
+                        "path": "taller/images/tree-small.svg"
+                      },
+                      "taller-5": {
+                        "path": "taller/images/tree-big.svg"
+                      },
+                      "taller-6": {
+                        "path": "taller/images/pineapple-small.svg"
+                      },
+                      "taller-7": {
+                        "path": "taller/images/pineapple-big.svg"
+                      },
+                      "taller-8": {
+                        "path": "taller/images/shoes-big.svg"
+                      },
+                      "taller-9": {
+                        "path": "taller/images/shoes-small.svg"
+                      },
+                      "longer": {
+                        "path": "images/menu/longer.svg"
+                      },
+                      "closer": {
+                        "path": "images/menu/closer.svg"
+                      },
+                      "tick": {
+                        "path": "images/tick.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,609 @@
+
+{
+  "levels": {
+    "a": {
+      "categories": {
+        "space": {
+          "games": {
+            "three-d-shapes": {
+              "types": {
+                "drag-type": {
+                  "home": {
+                    "header": {
+                      "text": "Sort 3D Shapes"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "shapes": [
+                        {
+                          "name": "<span class='triangle-text'>Pointy</span><span class='circle-text'>Round</span>"
+                        },
+                        {
+                          "name": "<span class='square-text'>Flat</span><span class='curved-text'>Curved</span>"
+                        },
+                        {
+                          "name": "<span class='cube-text'>Cubes</span><span class='sphere-text'>Spheres</span>"
+                        },
+                        {
+                          "name": "<span class='cube-text'>Cones</span><span class='cylinder-text'>Cylinders</span>"
+                        }
+                      ],
+                      "images": {
+                        "image0": {
+                          "path": "drag-type/a/images/color-ball.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "22%",
+                          "top": "67%",
+                          "left": "3%",
+                          "group": 2,
+                          "id": 0
+                        },
+                        "image1": {
+                          "path": "drag-type/a/images/cross-blue-cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "15%",
+                          "group": 1,
+                          "id": 1
+                        },
+                        "image2": {
+                          "path": "drag-type/a/images/brown-cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "25%",
+                          "top": "66%",
+                          "left": "30%",
+                          "group": 1,
+                          "id": 2
+                        },
+                        "image3": {
+                          "path": "drag-type/a/images/pink-circle.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "43%",
+                          "group": 2,
+                          "id": 3
+                        },
+                        "image4": {
+                          "path": "drag-type/a/images/ice-cream.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "25%",
+                          "top": "63.5%",
+                          "left": "56%",
+                          "group": 1,
+                          "id": 4
+                        },
+                        "image5": {
+                          "path": "drag-type/a/images/red-ball.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "67%",
+                          "group": 2,
+                          "id": 5
+                        },
+                        "image6": {
+                          "path": "drag-type/a/images/green-cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "78%",
+                          "group": 1,
+                          "id": 6
+                        },
+                        "image7": {
+                          "path": "drag-type/a/images/football.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "22%",
+                          "top": "67%",
+                          "left": "88%",
+                          "group": 2,
+                          "id": 7
+                        },
+                        "image8": {
+                          "path": "drag-type/a/images/curve-lamp.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "3%",
+                          "group": 2,
+                          "id": 8
+                        },
+                        "image9": {
+                          "path": "drag-type/a/images/night-lamp.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "15%",
+                          "group": 1,
+                          "id": 9
+                        },
+                        "image10": {
+                          "path": "drag-type/a/images/square-sofa.svg",
+                          "cls": "pos-absolute",
+                          "width": "20%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "68%",
+                          "group": 1,
+                          "id": 14
+                        },
+                        "image11": {
+                          "path": "drag-type/a/images/curve-sofa.svg",
+                          "cls": "pos-absolute",
+                          "width": "20%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "32%",
+                          "group": 2,
+                          "id": 11
+                        },
+                        "image12": {
+                          "path": "drag-type/a/images/circle-pillow.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "6%",
+                          "top": "82%",
+                          "left": "52%",
+                          "group": 2,
+                          "id": 12
+                        },
+                        "image13": {
+                          "path": "drag-type/a/images/chair.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "59%",
+                          "group": 1,
+                          "id": 13
+                        },
+                        "image14": {
+                          "path": "drag-type/a/images/square-pillow.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "6%",
+                          "top": "82%",
+                          "left": "25%",
+                          "group": 1,
+                          "id": 10
+                        },
+                        "image15": {
+                          "path": "drag-type/a/images/curve-chair.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "88%",
+                          "group": 2,
+                          "id": 15
+                        },
+                        "image16": {
+                          "path": "drag-type/a/images/volleyball.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "3%",
+                          "group": 2,
+                          "id": 16
+                        },
+                        "image17": {
+                          "path": "drag-type/a/images/green-square.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "15%",
+                          "group": 1,
+                          "id": 17
+                        },
+                        "image18": {
+                          "path": "drag-type/a/images/pink-circle.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "18%",
+                          "top": "74%",
+                          "left": "30%",
+                          "group": 2,
+                          "id": 18
+                        },
+                        "image19": {
+                          "path": "drag-type/a/images/crayfish-square.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "43%",
+                          "group": 1,
+                          "id": 19
+                        },
+                        "image20": {
+                          "path": "drag-type/a/images/red-ball.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "18%",
+                          "top": "74%",
+                          "left": "56%",
+                          "group": 2,
+                          "id": 20
+                        },
+                        "image21": {
+                          "path": "drag-type/a/images/square-dic.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "67%",
+                          "group": 1,
+                          "id": 21
+                        },
+                        "image22": {
+                          "path": "drag-type/a/images/square-bird.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "78%",
+                          "group": 1,
+                          "id": 22
+                        },
+                        "image23": {
+                          "path": "drag-type/a/images/handball.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "88%",
+                          "group": 2,
+                          "id": 23
+                        },
+                        "image24": {
+                          "path": "drag-type/a/images/green-cylinder.svg",
+                          "cls": "pos-absolute",
+                          "width": "8%",
+                          "height": "18%",
+                          "top": "72%",
+                          "left": "3%",
+                          "group": 2,
+                          "id": 24
+                        },
+                        "image25": {
+                          "path": "drag-type/a/images/cross-ice-cream.svg",
+                          "cls": "pos-absolute",
+                          "width": "12%",
+                          "height": "22%",
+                          "top": "71%",
+                          "left": "15%",
+                          "group": 1,
+                          "id": 25
+                        },
+                        "image26": {
+                          "path": "drag-type/a/images/wheel.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "30%",
+                          "group": 2,
+                          "id": 26
+                        },
+                        "image27": {
+                          "path": "drag-type/a/images/yellow-cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "43%",
+                          "group": 1,
+                          "id": 27
+                        },
+                        "image28": {
+                          "path": "drag-type/a/images/frog-cylinder.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "56%",
+                          "group": 2,
+                          "id": 28
+                        },
+                        "image29": {
+                          "path": "drag-type/a/images/blue-cylinder.svg",
+                          "cls": "pos-absolute",
+                          "width": "6%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "69%",
+                          "group": 2,
+                          "id": 29
+                        },
+                        "image30": {
+                          "path": "drag-type/a/images/green-cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "78%",
+                          "group": 1,
+                          "id": 30
+                        },
+                        "image31": {
+                          "path": "drag-type/a/images/blue-cone.svg",
+                          "cls": "pos-absolute",
+                          "width": "10%",
+                          "height": "18%",
+                          "top": "71%",
+                          "left": "88%",
+                          "group": 1,
+                          "id": 31
+                        }
+                      },
+                      "drag-images": {
+                        "image0": {
+                          "path": "drag-type/a/images/pointy.svg",
+                          "cls": "pos-absolute",
+                          "top": "0%",
+                          "left": "16%",
+                          "width": "31%",
+                          "height": "65%"
+                        },
+                        "image1": {
+                          "path": "drag-type/a/images/round.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "58.7%",
+                          "width": "26%",
+                          "height": "55%"
+                        },
+                        "image2": {
+                          "path": "drag-type/a/images/flat.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "15.5%",
+                          "width": "26%",
+                          "height": "55%"
+                        },
+                        "image3": {
+                          "path": "drag-type/a/images/curved.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "58.7%",
+                          "width": "26%",
+                          "height": "55%"
+                        },
+                        "image4": {
+                          "path": "drag-type/a/images/cube.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "15.5%",
+                          "width": "26%",
+                          "height": "55%"
+                        },
+                        "image5": {
+                          "path": "drag-type/a/images/spheres.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "58.7%",
+                          "width": "26%",
+                          "height": "55%"
+                        },
+                        "image6": {
+                          "path": "drag-type/a/images/cones.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "15.5%",
+                          "width": "26%",
+                          "height": "55%"
+                        },
+                        "image7": {
+                          "path": "drag-type/a/images/round.svg",
+                          "cls": "pos-absolute",
+                          "top": "7%",
+                          "left": "58.7%",
+                          "width": "26%",
+                          "height": "55%"
+                        }
+                      },
+                      "positions": [
+                        "73,32",
+                        "20,36",
+                        "34,32",
+                        "64,13",
+                        "27,30",
+                        "74,13",
+                        "27.5,9",
+                        "63,32",
+                        "59,31",
+                        "19,34",
+                        "22,14",
+                        "61,10",
+                        "64,14",
+                        "31,32",
+                        "19,10",
+                        "75,29",
+                        "63,31",
+                        "19,10",
+                        "64,12",
+                        "19,34",
+                        "74,33",
+                        "31,34",
+                        "31,10",
+                        "73,14",
+                        "72,33",
+                        "30,10",
+                        "63,12",
+                        "18,10",
+                        "65,33",
+                        "73,12",
+                        "30,31",
+                        "18,34"
+                      ],
+                      "hint": {
+                        "text": "Drag the pictures."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "attributes": {
+                          "path": "images/menu/click-type-icon.svg",
+                          "state": "^.three-d-shapes-game",
+                          "params": "{category : 'space', game : 'click-type', level :  'a'}"
+                        }
+                      }
+                    },
+                    "right": true
+                  },
+                  "preload": {
+                    "images": {
+                      "image0": {
+                        "path": "drag-type/a/images/color-ball.svg"
+                      },
+                      "image1": {
+                        "path": "drag-type/a/images/cross-blue-cone.svg"
+                      },
+                      "image2": {
+                        "path": "drag-type/a/images/brown-cone.svg"
+                      },
+                      "image3": {
+                        "path": "drag-type/a/images/pink-circle.svg"
+                      },
+                      "image4": {
+                        "path": "drag-type/a/images/ice-cream.svg"
+                      },
+                      "image5": {
+                        "path": "drag-type/a/images/red-ball.svg"
+                      },
+                      "image6": {
+                        "path": "drag-type/a/images/green-cone.svg"
+                      },
+                      "image7": {
+                        "path": "drag-type/a/images/football.svg"
+                      },
+                      "image8": {
+                        "path": "drag-type/a/images/curve-lamp.svg"
+                      },
+                      "image9": {
+                        "path": "drag-type/a/images/night-lamp.svg"
+                      },
+                      "image10": {
+                        "path": "drag-type/a/images/square-sofa.svg"
+                      },
+                      "image11": {
+                        "path": "drag-type/a/images/curve-sofa.svg"
+                      },
+                      "image12": {
+                        "path": "drag-type/a/images/circle-pillow.svg"
+                      },
+                      "image13": {
+                        "path": "drag-type/a/images/chair.svg"
+                      },
+                      "image14": {
+                        "path": "drag-type/a/images/square-pillow.svg"
+                      },
+                      "image15": {
+                        "path": "drag-type/a/images/curve-chair.svg"
+                      },
+                      "image16": {
+                        "path": "drag-type/a/images/volleyball.svg"
+                      },
+                      "image17": {
+                        "path": "drag-type/a/images/green-square.svg"
+                      },
+                      "image18": {
+                        "path": "drag-type/a/images/pink-circle.svg"
+                      },
+                      "image19": {
+                        "path": "drag-type/a/images/crayfish-square.svg"
+                      },
+                      "image20": {
+                        "path": "drag-type/a/images/red-ball.svg"
+                      },
+                      "image21": {
+                        "path": "drag-type/a/images/square-dic.svg"
+                      },
+                      "image22": {
+                        "path": "drag-type/a/images/square-bird.svg"
+                      },
+                      "image23": {
+                        "path": "drag-type/a/images/handball.svg"
+                      },
+                      "image24": {
+                        "path": "drag-type/a/images/green-cylinder.svg"
+                      },
+                      "image25": {
+                        "path": "drag-type/a/images/cross-ice-cream.svg"
+                      },
+                      "image26": {
+                        "path": "drag-type/a/images/wheel.svg"
+                      },
+                      "image27": {
+                        "path": "drag-type/a/images/yellow-cone.svg"
+                      },
+                      "image28": {
+                        "path": "drag-type/a/images/frog-cylinder.svg"
+                      },
+                      "image29": {
+                        "path": "drag-type/a/images/blue-cylinder.svg"
+                      },
+                      "image30": {
+                        "path": "drag-type/a/images/green-cone.svg"
+                      },
+                      "image31": {
+                        "path": "drag-type/a/images/blue-cone.svg"
+                      },
+                      "image32": {
+                        "path": "drag-type/a/images/pointy.svg"
+                      },
+                      "image33": {
+                        "path": "drag-type/a/images/round.svg"
+                      },
+                      "image34": {
+                        "path": "drag-type/a/images/flat.svg"
+                      },
+                      "image35": {
+                        "path": "drag-type/a/images/curved.svg"
+                      },
+                      "image36": {
+                        "path": "drag-type/a/images/cube.svg"
+                      },
+                      "image37": {
+                        "path": "drag-type/a/images/spheres.svg"
+                      },
+                      "image38": {
+                        "path": "drag-type/a/images/cones.svg"
+                      },
+                      "image39": {
+                        "path": "drag-type/a/images/round.svg"
+                      },
+                      "attributes": {
+                        "path": "images/menu/click-type-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

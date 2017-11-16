@@ -1,0 +1,87 @@
+.number-line-page {
+  .data-content {
+    position: absolute;
+    top: 53%;
+    width: 67.3%;
+    height: 26%;
+    margin-left: 16.4%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.1%;
+    border-radius: 1vw;
+    background-color: #c0de94;
+    box-shadow: 0.3vw 0 0.5vw -0.2vw hsla(0, 0%, 53%, .67);
+    .input-box {
+      width: 14%;
+      height: 4.6vw;
+      font-size: 3vw;
+      text-align: center;
+      margin-left: 2.6%;
+      margin-right: 2.6%;
+      margin-top: 0.3%;
+    }
+    .plus-sign {
+      position: absolute;
+      left: 27.8%;
+      top: 69%;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+    .equal-sign {
+      position: absolute;
+      left: 65.8%;
+      top: 69%;
+      font-size: 1vw;
+      font-weight: bold;
+    }
+  }
+  .scale {
+    position: absolute;
+    width: 93.6%;
+    height: 20%;
+    top: 28%;
+    left: 3.5%;
+  }
+  .curves {
+    position: absolute;
+    top: 28%;
+    width: 93.6%;
+    height: 10%;
+    left: 3.5%;
+  }
+  .check {
+    width: 12%;
+    position: absolute;
+    bottom: 4%;
+    left: 74%;
+    line-height: 2.3;
+    z-index: 99;
+    height: 3.5vw;
+  }
+  .sign-box {
+    width: 14%;
+    height: 48%;
+    margin-top: 4.1%;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 22%;
+    font-size: 2vw;
+    font-weight: bold;
+    color: #000000;
+
+    .sign-text {
+      font-size: 1vw;
+      font-weight: bold;
+      margin-top: -6%;
+    }
+    .symbol {
+      margin-top: 1.7%;
+    }
+  }
+  .blue-box {
+    background-color: rgba(52, 152, 219, 0.83);
+  }
+  .red-box {
+    background-color: rgb(255, 101, 0);
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "number": {
+          "games": {
+            "division": {
+              "types": {
+                "dice": {
+                  "home": {
+                    "header": {
+                      "text": "Division ... sharing"
+                    },
+                    "footer": {
+                      "text": ""
+                    },
+                    "images": {
+                      "1": {
+                        "path": "images/dice-2.svg",
+                        "width": "10%"
+                      },
+                      "2": {
+                        "path": "images/dice-6.svg",
+                        "width": "10%"
+                      },
+                      "3": {
+                        "path": "images/dice-1.svg",
+                        "width": "10%"
+                      },
+                      "4": {
+                        "path": "images/dice-3.svg",
+                        "width": "10%"
+                      },
+                      "5": {
+                        "path": "images/dice-4.svg",
+                        "width": "10%"
+                      },
+                      "6": {
+                        "path": "images/dice-5.svg",
+                        "width": "10%"
+                      }
+                    },
+                    "question": {
+                      "dice-container": {
+                        "path": "images/dice-container.svg"
+                      },
+                      "hint": {
+                        "text": "Enter the missing number."
+                      }
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "beetal": {
+                          "path": "images/menu/dragon-icon.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'beetal', level :  'c'}"
+                        },
+                        "reverse-inverse": {
+                          "path": "images/menu/reverse-inverse.svg",
+                          "state": "^.division-game",
+                          "params": "{category : 'number', game : 'reverse-inverse', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": {
+                      "icon": {
+                        "path": "input-type/images/right-panel-icon.svg"
+                      }
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "1": {
+                        "path": "images/dice-2.svg"
+                      },
+                      "2": {
+                        "path": "images/dice-6.svg"
+                      },
+                      "3": {
+                        "path": "images/dice-1.svg"
+                      },
+                      "4": {
+                        "path": "images/dice-3.svg"
+                      },
+                      "5": {
+                        "path": "images/dice-4.svg"
+                      },
+                      "6": {
+                        "path": "images/dice-5.svg"
+                      },
+                      "dice-container": {
+                        "path": "images/dice-container.svg"
+                      },
+                      "beetal": {
+                        "path": "images/menu/dragon-icon.svg"
+                      },
+                      "reverse-inverse": {
+                        "path": "images/menu/reverse-inverse.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

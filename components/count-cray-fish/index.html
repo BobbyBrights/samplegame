@@ -1,0 +1,18 @@
+<div class="count-cray-fish-page">
+    <work-area menu="menu" plus="plus" minus="minus" header="header">
+
+        <!-- Game specific elements -->
+        <div class="fish-card" ng-repeat="fish in fishCount | range track by $index">
+            <div class="image-box">
+                <game-images images="buttonImages"></game-images>
+            </div>
+            <div class="count">
+                <span>{{$index+1}}</span>
+            </div>
+        </div>
+
+        <!--Display hint text-->
+        <div class="hint-text">{{questionText}}</div>
+    </work-area>
+</div>
+

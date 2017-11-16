@@ -1,0 +1,189 @@
+{
+  "levels": {
+    "c": {
+      "categories": {
+        "measurement": {
+          "games": {
+            "length": {
+              "types": {
+                "metres": {
+                  "home": {
+                    "header": {
+                      "text": "Metres"
+                    },
+                    "footer": {},
+                    "images": {
+
+                    },
+                    "question": {
+                      "question-label":{
+                        "0": {
+                          "text": "How many metres long?"
+                        },
+                        "1": {
+                          "text": "How many metres wide?"
+                        }
+                      },
+                      "hint": {
+                        "text": "Drag the metre tape measure to check."
+                      },
+                      "drag-image":{
+                        "scale":{
+                          "path":"metres/images/tape.svg"
+                        }
+                      },
+                      "display": {
+                        "path": "metres/images/display-board.svg"
+                      },
+                      "metres-images":{
+                        "metres-0": {
+                          "path": "metres/images/crocodile.svg",
+                          "width":"33.2%",
+                          "height":"50%",
+                          "left":"33%",
+                          "top":"9%"
+                        },
+                        "metres-1": {
+                          "path": "metres/images/leaf-background.svg",
+                          "width":"28%",
+                          "height":"30%",
+                          "left":"36%",
+                          "top":"16%"
+                        },
+                        "metres-2": {
+                          "path": "metres/images/snake.svg",
+                          "width":"37.5%",
+                          "height":"25%",
+                          "left":"31%",
+                          "top":"19%"
+                        },
+                        "metres-3": {
+                          "path": "metres/images/three-leafs.svg",
+                          "width":"42%",
+                          "height":"55%",
+                          "left":"30%",
+                          "top":"1%"
+                        },
+                        "metres-4": {
+                          "path": "metres/images/creek-tree-wide.svg",
+                          "width":"51.2%",
+                          "height":"40%",
+                          "left":"24%",
+                          "top":"12%"
+                        },
+                        "metres-5": {
+                          "path": "metres/images/plant-wide.svg",
+                          "width":"14.4%",
+                          "height":"40%",
+                          "left":"43%",
+                          "top":"13%"
+                        },
+                        "metres-6": {
+                          "path": "metres/images/small-tree-wide.svg",
+                          "width":"18.6%",
+                          "height":"40%",
+                          "left":"41%",
+                          "top":"14%"
+                        },
+                        "metres-7": {
+                          "path": "metres/images/trees-wide.svg",
+                          "width":"46.7%",
+                          "height":"40%",
+                          "left":"27%",
+                          "top":"10%"
+                        }
+                      },
+                      "correct-answer": [
+                        6,
+                        5,
+                        7,
+                        8,
+                        10,
+                        2,
+                        3,
+                        9
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "long": {
+                          "path": "images/menu/centimetres-icon-one.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'long', level :  'c'}"
+                        },
+                        "metre": {
+                          "path": "images/menu/one-metres-icon.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'metre', level :  'c'}"
+                        },
+                        "tall": {
+                          "path": "images/menu/centimetres-icon-two.svg",
+                          "state": "^.length-game",
+                          "params": "{category : 'measurement', game : 'tall', level :  'c'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "scale":{
+                        "path":"metres/images/tape.svg"
+                      },
+                      "display": {
+                        "path": "metres/images/display-board.svg"
+                      },
+                      "metres-0": {
+                        "path": "metres/images/crocodile.svg"
+                      },
+                      "metres-1": {
+                        "path": "metres/images/leaf-background.svg"
+                      },
+                      "metres-2": {
+                        "path": "metres/images/snake.svg"
+                      },
+                      "metres-3": {
+                        "path": "metres/images/three-leafs.svg"
+                      },
+                      "metres-4": {
+                        "path": "metres/images/creek-tree-wide.svg"
+                      },
+                      "metres-5": {
+                        "path": "metres/images/plant-wide.svg"
+                      },
+                      "metres-6": {
+                        "path": "metres/images/small-tree-wide.svg"
+                      },
+                      "metres-7": {
+                        "path": "metres/images/trees-wide.svg"
+                      },
+                      "tall": {
+                        "path": "images/menu/centimetres-icon-two.svg"
+                      },
+                      "long": {
+                        "path": "images/menu/centimetres-icon-one.svg"
+                      },
+                      "metre": {
+                        "path": "images/menu/one-metres-icon.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

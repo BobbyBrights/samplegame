@@ -1,0 +1,50 @@
+
+<div class="work-box" add-browser-type>
+  <div class="work-area">
+
+    <!-- left panel buttons -->
+    <left-panel menu="$ctrl.menu && $ctrl.menu.left"></left-panel>
+
+    <!-- right panel icon and buttons -->
+    <right-panel
+        menu="$ctrl.menu && $ctrl.menu.right"
+        next="$ctrl.next"
+        getscoreboard="$ctrl.getscoreboard"
+    ></right-panel>
+
+    <img class="mathletics-logo" src="../../assets/images/mathletics-logo.svg"/>
+
+    <!-- bottom panel and buttons -->
+    <bottom-panel
+        menu="$ctrl.menu && $ctrl.menu.bottom"
+        plus="$ctrl.plus"
+        minus="$ctrl.minus"
+        onnumberclick="$ctrl.onnumberclick"
+    ></bottom-panel>
+
+    <div class="content-shadow"></div>
+    <img class="work-area-content" src="../../assets/images/content.svg"/>
+    <img class="rainforest-logo" src="../../assets/images/rainforest-logo.svg"/>
+    <img class="work-area-bamboo" src="../../assets/images/bamboo.svg"/>
+    <img class="page-title-background " src="../../assets/images/title-backgroud.svg"/>
+    <a href="#" class="logo-click"></a>
+
+    <!--page title-->
+    <game-header header="$ctrl.header"></game-header>
+
+    <!-- Level and Game change button -->
+    <a class="menu-button hide-on-level-page" 
+        ng-click="stateChange('app.home.level.menu')"></a>
+
+    <a class="level-button hide-on-level-page" 
+        ng-click="stateChange('app.home')"></a>
+
+    <div class="game-body">
+      <div class="game-stage pos-relative" ng-transclude></div>
+    </div>
+
+    <!-- info panel components -->
+    <info-panel help="$ctrl.help" ng-if="$ctrl.help"></info-panel>
+
+  </div>
+</div>

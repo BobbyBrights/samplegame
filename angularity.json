@@ -1,0 +1,6 @@
+{
+  "name": "Rain Forest games",
+  "version": "1.0.0",
+  "port": 3000,
+  "unminified": true
+}

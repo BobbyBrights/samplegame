@@ -1,0 +1,30 @@
+<div class="match-page">
+    <work-area menu="menu" header="header">
+
+        <!-- Display drop-zone-shapes images -->
+        <div class="display-dropbox">
+            <img ng-repeat="shape in dropZoneShapes"
+                 drop-zone group="{{$index}}"
+                 class="{{shape.cls}}"
+                 ng-src="{{shape.path}}"
+                 height="{{shape.height}}"
+                 width="{{shape.width}}"/>
+        </div>
+
+        <!-- Display hint text -->
+        <div class="hint-text" ng-bind-html="questionText"></div>
+
+        <!-- Display drag-shape images -->
+        <div ng-repeat="item in dragShapes track by $index">
+            <img drag-item
+                 id="{{$index}}"
+                 group="{{item.group}}"
+                 class="pos-absolute {{item.cls}}"
+                 ng-src="{{item.path}}"
+                 ng-style="{top:item.top,left:item.left}"
+                 height="{{item.height}}"
+                 width="{{item.width}}">
+        </div>
+
+    </work-area>
+</div>

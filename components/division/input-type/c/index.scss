@@ -1,0 +1,230 @@
+/* @import './style'; */
+
+// Add background layout
+.app-home-level-menu-division-game-layout {
+  .banner {
+    background-image: url('./../../assets/images/number/background.jpg');
+  }
+}
+
+/* Sub game namespace */
+.division-page {
+  .input-type-page {
+  }
+  // Game specific styles
+
+  .check-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 14%;
+    width: 14%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .redo-btns {
+    position: absolute;
+    top: 84%;
+    left: 85.8%;
+    height: 13%;
+    width: 13%;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  .header-text {
+    position: absolute;
+    width: 51%;
+    height: 10%;
+    left: 24.7%;
+    top: 0;
+  }
+
+  .footer-text {
+    position: absolute;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    bottom: 11%
+  }
+
+  .dragon-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+    top: 34%;
+    width: 99%;
+    height: 20%;
+    justify-content: center;
+
+    .dragon {
+      width: 15%;
+      margin-left: 1%;
+    }
+
+    .flip-dragon {
+      width: 15%;
+      margin-left: 1%;
+      transform: scaleX(-1);
+    }
+  }
+
+  .beetal-outer-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    left: 0;
+    top: 2%;
+    width: 99%;
+    height: 31%;
+    justify-content: center;
+    .beetal-inner-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 15%;
+      height: 96%;
+      margin-left: 1%;
+      justify-content: center;
+      align-items: flex-end;
+      align-content: flex-end;
+      .beetal {
+        width: 37%;
+        height: 33%;
+      }
+    }
+
+    .flip-beetal-inner-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 15%;
+      height: 96%;
+      margin-left: 1%;
+      justify-content: center;
+      align-items: flex-end;
+      align-content: flex-end;
+      transform: scaleX(-1);
+      .beetal {
+        width: 37%;
+        height: 33%;
+      }
+    }
+  }
+  .horizontalLine {
+    position: absolute;
+    width: 94%;
+    left: 3%;
+    top: 50%;
+  }
+
+  .diceImage {
+    position: absolute;
+    width: 94%;
+    left: 3%;
+  }
+
+  .dice-container {
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 30%;
+    margin-left: 1%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    .dice-item {
+      width: 16%;
+      height: 87%;
+      z-index: 999;
+    }
+  }
+
+  .input-container {
+    position: absolute;
+    top: 52%;
+    width: 68%;
+    height: 29%;
+    margin-left: 16.4%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.1%;
+    border-radius: 1vw;
+    background-color: #c0de94;
+    box-shadow: 0.3vw 0 0.5vw -0.2vw hsla(0, 0%, 53%, .6);
+  }
+
+  .division-sign {
+    position: absolute;
+    width: 12%;
+    height: 21%;
+    left: 16%;
+    top: 50%;
+  }
+  .multi-sign {
+    position: absolute;
+    width: 12%;
+    height: 21%;
+    left: 16%;
+    top: 23%;
+  }
+
+  .middle-text {
+    position: absolute;
+    left: 53.5%;
+    top: 40%;
+    width: 5%;
+    height: 10%;
+  }
+
+  .number {
+    font-size: 3.5vw;
+    width: 10%;
+    text-align: center;
+    color: #1A4220;
+  }
+
+  .number-text {
+    width: 21%;
+    line-height: 1;
+  }
+
+  .symbol {
+    font-size: 6vw;
+    width: 10%;
+    text-align: center;
+    color: #D96E4E;
+  }
+
+   .input-box {
+     width: 12%;
+     height: 60%;
+     font-size: 3.5vw;
+     background-color: #dbe0bc;
+   }
+
+  .reverse-input-box{
+    position: absolute;
+    left: 83%;
+    top: 6%;
+    width: 15%;
+    height: 83%;
+    font-size: 3.5vw;
+  }
+
+  .reverse-input-container {
+    position: absolute;
+    top: 46%;
+    width: 56%;
+    height: 19%;
+    margin-left: 28.4%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.1%;
+    border-radius: 1vw;
+    background-color: #c0de94;
+  }
+}

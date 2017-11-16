@@ -1,0 +1,92 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "number": {
+          "games": {
+            "subtraction": {
+              "types": {
+                "butterfly": {
+                  "home": {
+                    "header": {
+                      "text":"Subtraction"
+                    },
+                    "footer": {},
+                    "images": {},
+                    "question": {
+                      "hint": {
+                        "text": "Enter answer in the box.",
+                        "cls": ""
+                      },
+                      "subhint": {
+                        "text": "Click butterflies to help.",
+                        "cls": ""
+                      },
+                      "minus": {
+                        "text": "Minus",
+                        "cls": ""
+                      },
+                      "equal": {
+                        "text": "Equals",
+                        "cls": ""
+                      },
+                      "leftPositions": ["13","21","29","36","43","50","57","64","71","78"]
+
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "circles": {
+                          "path": "images/menu/circles.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'circles', level :  'b'}"
+                        }
+                          ,
+                        "frog": {
+                          "path": "images/menu/frog.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'frog', level :  'b'}"
+                        }
+                          ,
+                        "plus-and-minus": {
+                          "path": "images/menu/plus-and-minus.svg",
+                          "state": "^.subtraction-game",
+                          "params": "{category : 'number', game : 'plus-and-minus', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": {
+
+                    },
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "circles": {
+                        "path": "images/menu/circles.svg"
+                      },
+                      "frog": {
+                        "path": "images/menu/frog.svg"
+                      },
+                      "plus-and-minus": {
+                        "path": "images/menu/plus-and-minus.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

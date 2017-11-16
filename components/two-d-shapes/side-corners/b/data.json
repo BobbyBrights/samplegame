@@ -1,0 +1,165 @@
+{
+  "levels": {
+    "b": {
+      "categories": {
+        "space": {
+          "games": {
+            "two-d-shapes": {
+              "types": {
+                "side-corners": {
+                  "home": {
+                    "header": {
+                      "text": "2D Shape Sides and Corners"
+                    },
+                    "footer": {},
+                    "images": {
+                    },
+                    "question": {
+                      "hint": {
+                        "text": "Enter the numbers in the boxes."
+                      },
+                      "images": {
+                        "0": {
+                          "path": "side-corners/images/rect-bug.svg",
+                          "width": "68%"
+                        },
+                        "1": {
+                          "path": "side-corners/images/square-bug.svg",
+                          "width": "48%"
+                        },
+                        "2": {
+                          "path": "side-corners/images/triangle-bug.svg",
+                          "width": "57%"
+                        },
+                        "3": {
+                          "path": "side-corners/images/hexagon-bug.svg",
+                          "width": "55%"
+                        },
+                        "4": {
+                          "path": "side-corners/images/rectangle-crayfish.svg",
+                          "width": "70%"
+                        },
+                        "5": {
+                          "path": "side-corners/images/square-crayfish.svg",
+                          "width": "48%"
+                        },
+                        "6": {
+                          "path": "side-corners/images/triangle-crayfish.svg",
+                          "width": "48%"
+                        },
+                        "7": {
+                          "path": "side-corners/images/hexagon-crayfish.svg",
+                          "width": "55%"
+                        },
+                        "8": {
+                          "path": "side-corners/images/rectangle-cassowary.svg",
+                          "width": "38%"
+                        },
+                        "9": {
+                          "path": "side-corners/images/square-cassowary.svg",
+                          "width": "48%"
+                        },
+                        "10": {
+                          "path": "side-corners/images/triangle-cassowary.svg",
+                          "width": "55%"
+                        },
+                        "11": {
+                          "path": "side-corners/images/hexagon-cassowary.svg",
+                          "width": "41%"
+                        }
+                      },
+                      "shapeSidesCorners": [
+                        "4",
+                        "4",
+                        "3",
+                        "6",
+                        "4",
+                        "4",
+                        "3",
+                        "6",
+                        "4",
+                        "4",
+                        "3",
+                        "6"
+                      ]
+                    }
+                  },
+                  "menu": {
+                    "left": {
+                      "buttons": {
+                        "flip-slide": {
+                          "path": "images/menu/flipSides.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'flip-slide', level :  'b'}"
+                        },
+                        "angles": {
+                          "path": "images/menu/angles.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'angles', level :  'b'}"
+                        },
+                        "names": {
+                          "path": "images/menu/names.svg",
+                          "state": "^.two-d-shapes-game",
+                          "params": "{category : 'space', game : 'names', level :  'b'}"
+                        }
+                      }
+                    },
+                    "right": true,
+                    "bottom": {
+                      "num-pad": {
+                        "no-of-buttons": 10
+                      }
+                    }
+                  },
+                  "preload": {
+                    "images": {
+                      "0": {
+                        "path": "side-corners/images/rect-bug.svg"
+                      },
+                      "1": {
+                        "path": "side-corners/images/square-bug.svg"
+                      },
+                      "2": {
+                        "path": "side-corners/images/triangle-bug.svg"
+                      },
+                      "3": {
+                        "path": "side-corners/images/hexagon-bug.svg"
+                      },
+                      "4": {
+                        "path": "side-corners/images/rectangle-crayfish.svg"
+                      },
+                      "5": {
+                        "path": "side-corners/images/square-crayfish.svg"
+                      },
+                      "6": {
+                        "path": "side-corners/images/triangle-crayfish.svg"
+                      },
+                      "7": {
+                        "path": "side-corners/images/hexagon-crayfish.svg"
+                      },
+                      "8": {
+                        "path": "side-corners/images/rectangle-cassowary.svg"
+                      },
+                      "9": {
+                        "path": "side-corners/images/square-cassowary.svg"
+                      },
+                      "10": {
+                        "path": "side-corners/images/triangle-cassowary.svg"
+                      },
+                      "11": {
+                        "path": "side-corners/images/hexagon-cassowary.svg"
+                      }
+                    },
+                    "ahead": {
+                      "next-path": "game"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
